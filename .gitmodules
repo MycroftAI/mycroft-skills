@@ -1,0 +1,3 @@
+[submodule "GoogleGmail-Skill"]
+	path = GoogleGmail-Skill
+	url = https://github.com/jcasoft/GoogleGmail-Skill
