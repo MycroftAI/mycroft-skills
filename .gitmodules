@@ -1,3 +1,6 @@
 [submodule "GoogleGmail-Skill"]
 	path = GoogleGmail-Skill
 	url = https://github.com/jcasoft/GoogleGmail-Skill
+[submodule "Wink"]
+	path = Wink
+	url = https://github.com/penrods/Wink.git
