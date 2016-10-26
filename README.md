@@ -7,13 +7,15 @@ writing as well as share best practices.
 
 **Status meaning**  
 :heavy_check_mark: good working order  
-:cloud:    still being developed and not ready for general use (for reference/collaboration)
+:construction:     still being developed and not ready for general use (for reference/collaboration)
+:question:         untested (by us)
 
 
 | Status              | Skill Name           | Description                           |  
 | ------------------- | -------------------- | ------------------------------------- |  
 | :heavy_check_mark:  | GoogleGMail-Skill    | Get emails from your Gmail Inbox      |  
-| :cloud:             | Wink                 | Interact with lights via a Wink-hub   |  
+| :question:          | Mopidy-Media-Players | Mopidy-based players for local MP3 library, Spotify and a Swedish radio station's stream |
+| :construction:      | Wink                 | Interact with lights via a Wink-hub   |  
 
 
 
