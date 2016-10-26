@@ -7,7 +7,7 @@ writing as well as share best practices.
 
 **Status meaning**  
 :heavy_check_mark: good working order  
-:construction:     still being developed and not ready for general use (for reference/collaboration)
+:construction:     still being developed and not ready for general use (for reference/collaboration)  
 :question:         untested (by us)
 
 
