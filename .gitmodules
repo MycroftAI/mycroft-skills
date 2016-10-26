@@ -4,3 +4,6 @@
 [submodule "Wink"]
 	path = Wink
 	url = https://github.com/penrods/Wink.git
+[submodule "Mopidy-Media-Players"]
+	path = Mopidy-Media-Players
+	url = https://github.com/forslund/mycroft-media-skills.git
