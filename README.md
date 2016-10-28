@@ -15,7 +15,7 @@ writing as well as share best practices.
 | ------------------- | -------------------- | ------------------------------------- |  
 | :heavy_check_mark:  | GoogleGMail-Skill    | Get emails from your Gmail Inbox      |  
 | :question:          | Mopidy-Media-Players | Mopidy-based players for local MP3 library, Spotify and a Swedish radio station's stream |
-| :heavy_check_mark:  | MP3DemoSkill         | Simple sample of playing local MP3s |
+| :heavy_check_mark:  | [MP3DemoSkill](https://github.com/MycroftAI/mycroft-skills/wiki/MP3-Demo-Skill)  | Simple sample of playing local MP3s |
 | :construction:      | Wink                 | Interact with lights via a Wink-hub   |  
 
 
