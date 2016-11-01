@@ -16,3 +16,6 @@
 [submodule "diagnostics"]
 	path = diagnostics
 	url = https://github.com/the7erm/mycroft-skill-diagnostics
+[submodule "milight"]
+	path = milight
+	url = https://github.com/maxppc/Mycroft-milight-skill
