@@ -15,11 +15,11 @@ writing as well as share best practices.
 | ------------------- | ------------------------------------------------------ | ------------------------------------- |  
 | :heavy_check_mark:  | [google-gmail](../../wiki/SKILL-google-gmail)          | Get emails from your Gmail Inbox      |  
 | :question:          | [diagnostics](../../wiki/SKILL-diagnostics)            | Diagnostic tools (CPU %age, free space, etc) |
-| :question:          | [jb-podcasts](../../wiki/SKILL-jb-podcasts)            | Play podcasts from Jupiter Broadcasting shows |
+| :question:          | [jb-podcasts](../../wiki/SKILL-Jupiter-Broadcasting-Podcasts)            | Play podcasts from Jupiter Broadcasting shows |
 | :construction:      | [milight](../../wiki/SKILL-milight)                    | Lighting control using MiLight |
-| :question:          | [mopidy-media-player](../../wiki/SKILL-mopidy-media-player) | Mopidy-based players for local MP3 library, Spotify and a Swedish radio station's stream |
+| :question:          | [mopidy-media-player](../../wiki/SKILL-Mopidy-Media-Players) | Mopidy-based players for local MP3 library, Spotify and a Swedish radio station's stream |
 | :heavy_check_mark:  | [mp3-demo](../../wiki/SKILL-mp3-demo)                  | Simple sample of playing local MP3s   |
 | :question:          | [ratp-timetables](../../wiki/SKILL-ratp-timetables)    | Access schedules for the RATP Network of trains and buses in Paris |
-| :construction:      | [wink-smart-home](../../wiki/SKILLL-wink-smart-home)   | Interact with lights via a Wink-hub   |  
+| :construction:      | [wink-smart-home](../../wiki/SKILLL-wink)   | Interact with lights via a Wink-hub   |  
 | :question:          | [cadair-kodi](../../wiki/SKILL-cadair-kodi)            | Kodi playback and search              |
 
