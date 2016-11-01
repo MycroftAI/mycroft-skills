@@ -1,11 +1,11 @@
 [submodule "GoogleGmail-Skill"]
-	path = GoogleGmail-Skill
+	path = google-gmail
 	url = https://github.com/jcasoft/GoogleGmail-Skill
 [submodule "Wink"]
-	path = Wink
+	path = wink-smart-home
 	url = https://github.com/penrods/Wink.git
 [submodule "Mopidy-Media-Players"]
-	path = Mopidy-Media-Players
+	path = mopidy-media-player
 	url = https://github.com/forslund/mycroft-media-skills.git
 [submodule "mp3-demo-skill"]
 	path = mp3-demo-skill
