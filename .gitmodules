@@ -25,3 +25,6 @@
 [submodule "cadair-kodi"]
 	path = cadair-kodi
 	url = https://github.com/Cadair/mycroft-kodi.git
+[submodule "cbenning-kodi"]
+	path = cbenning-kodi
+	url = https://github.com/cbenning/kodi-skill.git
