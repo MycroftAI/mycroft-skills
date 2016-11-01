@@ -19,3 +19,6 @@
 [submodule "milight"]
 	path = milight
 	url = https://github.com/maxppc/Mycroft-milight-skill
+[submodule "ratp-timetables"]
+	path = ratp-timetables
+	url = https://github.com/ldubost/mycroft-skills

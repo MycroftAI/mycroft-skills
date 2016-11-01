@@ -19,5 +19,6 @@ writing as well as share best practices.
 | :construction:      | [milight](../../wiki/SKILL-milight)                    | Lighting control using MiLight |
 | :question:          | [mopidy-media-player](../../wiki/SKILL-mopidy-media-player) | Mopidy-based players for local MP3 library, Spotify and a Swedish radio station's stream |
 | :heavy_check_mark:  | [mp3-demo](../../wiki/SKILL-mp3-demo)                  | Simple sample of playing local MP3s   |
+| :question:          | [ratp-timetables](../../wiki/SKILL-ratp-timetables)    | Access schedules for the RATP Network of trains and buses in Paris |
 | :construction:      | [wink-smart-home](../../wiki/SKILLL-wink-smart-home)   | Interact with lights via a Wink-hub   |  
 
