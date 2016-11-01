@@ -22,4 +22,5 @@ writing as well as share best practices.
 | :question:          | [ratp-timetables](../../wiki/SKILL-ratp-timetables)    | Access schedules for the RATP Network of trains and buses in Paris |
 | :construction:      | [wink-smart-home](../../wiki/SKILL-wink)   | Interact with lights via a Wink-hub   |  
 | :question:          | [cadair-kodi](../../wiki/SKILL-cadair-kodi)            | Kodi playback and search              |
+| :question:          | [cbenning-kodi](../../wiki/SKILL-cbenning-kodi)        | Control a local or remote Kodi instance              |
 
