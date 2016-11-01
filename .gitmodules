@@ -8,7 +8,7 @@
 	path = mopidy-media-player
 	url = https://github.com/forslund/mycroft-media-skills.git
 [submodule "mp3-demo-skill"]
-	path = mp3-demo-skill
+	path = mp3-demo
 	url = https://github.com/ethanaward/demo_skill.git
 [submodule "jb-podcasts"]
 	path = jb-podcasts
