@@ -13,3 +13,6 @@
 [submodule "jb-podcasts"]
 	path = jb-podcasts
 	url = https://github.com/the7erm/mycroft-skill-jupiter-broadcasting
+[submodule "diagnostics"]
+	path = diagnostics
+	url = https://github.com/the7erm/mycroft-skill-diagnostics
