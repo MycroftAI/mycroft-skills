@@ -10,3 +10,6 @@
 [submodule "mp3-demo-skill"]
 	path = mp3-demo-skill
 	url = https://github.com/ethanaward/demo_skill.git
+[submodule "jb-podcasts"]
+	path = jb-podcasts
+	url = https://github.com/the7erm/mycroft-skill-jupiter-broadcasting

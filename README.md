@@ -15,6 +15,7 @@ writing as well as share best practices.
 | ------------------- | -------------------- | ------------------------------------- |  
 | :heavy_check_mark:  | GoogleGMail-Skill    | Get emails from your Gmail Inbox      |  
 | :question:          | Mopidy-Media-Players | Mopidy-based players for local MP3 library, Spotify and a Swedish radio station's stream |
+| :question:          | [jb-podcasts](../../SKILL-jb-podcasts)  | Play podcasts from Jupiter Broadcasting shows |
 | :heavy_check_mark:  | [MP3DemoSkill](../../wiki/SKILL-MP3-Demo)  | Simple sample of playing local MP3s |
 | :construction:      | Wink                 | Interact with lights via a Wink-hub   |  
 
