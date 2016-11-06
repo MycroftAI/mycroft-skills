@@ -27,3 +27,4 @@ writing as well as share best practices.
 | :question:          | [google-calendar](../../wiki/SKILL-google-calendar)           | Check and add google calendar events                                                     |
 | :question:          | [bitcoin](../../wiki/SKILL-bitcoin)                           | Check the price of bitcoin                                                               |
 | :question:          | [fortune](../../wiki/SKILL-fortune)                           | Tells your fortune                                                                       |
+| :construction:      | [mopidy-and-bt-lights](../../wiki/SKILL-mopidy-and-bt-lights) | Remote control of BT lights and Mopidy music playback                                    |
