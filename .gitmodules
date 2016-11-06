@@ -43,3 +43,6 @@
 [submodule "mopidy-and-bt-lights"]
 	path = mopidy-and-bt-lights
 	url = https://github.com/swilso793/mycroft_third_party_skills.git
+[submodule "bitcoin-price"]
+	path = bitcoin-price
+	url = https://github.com/dmp1ce/mycroft-bitcoinprice-skill.git
