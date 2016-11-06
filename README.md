@@ -32,3 +32,4 @@ writing as well as share best practices.
 | :question:          | [spaceflight-schedule](../../wiki/SKILL-spaceflight-schedule)  | Check when the next space flight launch is                                               |
 | :question:          | [media-console-control](../../wiki/SKILL-media-console-control)| Adds media controls that are mapped to console commands                                  |
 | :question:          | [pushbullet](../../wiki/SKILL-pushbullet)                      | Send messsages and photos using Pushbullet                                               |
+| :question:          | [mpd-control](../../wiki/SKILL-mpd-control)                    | Controls the mpd program to play found local music                                       |

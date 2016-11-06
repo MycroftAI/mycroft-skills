@@ -55,3 +55,6 @@
 [submodule "pushbullet"]
 	path = pushbullet
 	url = https://github.com/jcasoft/PushbulletSkill.git
+[submodule "mpd-control"]
+	path = mpd-control
+	url = https://github.com/forslund/mpd_skill.git
