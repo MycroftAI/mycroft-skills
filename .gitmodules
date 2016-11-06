@@ -61,3 +61,6 @@
 [submodule "mopidy"]
 	path = mopidy
 	url = https://github.com/forslund/mopidy_skill.git
+[submodule "google-translate"]
+	path = google-translate
+	url = https://github.com/jcasoft/Translate-Skill.git
