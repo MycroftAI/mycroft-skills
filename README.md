@@ -30,4 +30,5 @@ writing as well as share best practices.
 | :construction:      | [mopidy-and-bt-lights](../../wiki/SKILL-mopidy-and-bt-lights)  | Remote control of BT lights and Mopidy music playback                                    |
 | :construction:      | [bitcoin-price](../../wiki/SKILL-bitcoin-price)                | Check the price of bitcoin                                                               |
 | :question:          | [spaceflight-schedule](../../wiki/SKILL-spaceflight-schedule)  | Check when the next space flight launch is                                               |
-| :question:          | [media-console-control](../../wiki/SKILL-media-console-control)| Check when the next space flight launch is                                               |
+| :question:          | [media-console-control](../../wiki/SKILL-media-console-control)| Adds media controls that are mapped to console commands                                  |
+| :question:          | [pushbullet](../../wiki/SKILL-pushbullet)                      | Send messsages and photos using Pushbullet                                               |

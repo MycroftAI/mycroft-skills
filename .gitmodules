@@ -52,3 +52,6 @@
 [submodule "media-console-control"]
 	path = media-console-control
 	url = https://github.com/the7erm/mycroft-skill-simple-media-controls.git
+[submodule "pushbullet"]
+	path = pushbullet
+	url = https://github.com/jcasoft/PushbulletSkill.git
