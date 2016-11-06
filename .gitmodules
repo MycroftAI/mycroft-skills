@@ -49,3 +49,6 @@
 [submodule "spaceflight-schedule"]
 	path = spaceflight-schedule
 	url = https://github.com/praxeo/mycroft_spaceflightnow_skill.git
+[submodule "media-console-control"]
+	path = media-console-control
+	url = https://github.com/the7erm/mycroft-skill-simple-media-controls.git
