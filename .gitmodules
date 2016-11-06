@@ -58,3 +58,6 @@
 [submodule "mpd-control"]
 	path = mpd-control
 	url = https://github.com/forslund/mpd_skill.git
+[submodule "mopidy"]
+	path = mopidy
+	url = https://github.com/forslund/mopidy_skill.git
