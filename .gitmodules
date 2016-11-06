@@ -34,3 +34,6 @@
 [submodule "google-calendar"]
 	path = google-calendar
 	url = https://github.com/jcasoft/GoogleCalendar-Skill.git
+[submodule "bitcoin"]
+	path = bitcoin
+	url = https://github.com/Red5d/mycroft_skills.git

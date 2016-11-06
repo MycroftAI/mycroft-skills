@@ -25,3 +25,4 @@ writing as well as share best practices.
 | :question:          | [kodi-cbenning](../../wiki/SKILL-cbenning-kodi)               | Control a local or remote Kodi instance              |
 | :question:          | [kodi-k3yb0ardn1nja](../../wiki/SKILL-kodi-k3yb0ardn1nja)     | Play or pause a Kodi video              |
 | :question:          | [google-calendar](../../wiki/SKILL-google-calendar)           | Check and add google calendar events              |
+| :question:          | [bitcoin](../../wiki/SKILL-bitcoin)                           | Check the price of bitcoin              |
