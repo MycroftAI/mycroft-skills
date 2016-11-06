@@ -28,3 +28,6 @@
 [submodule "kodi-cbenning"]
 	path = kodi-cbenning
 	url = https://github.com/cbenning/kodi-skill.git
+[submodule "kodi-k3yb0ardn1nja"]
+	path = kodi-k3yb0ardn1nja
+	url = https://github.com/k3yb0ardn1nja/mycroft-skill-kodi.git
