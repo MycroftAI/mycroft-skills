@@ -29,3 +29,4 @@ writing as well as share best practices.
 | :question:          | [fortune](../../wiki/SKILL-fortune)                           | Tells your fortune                                                                       |
 | :construction:      | [mopidy-and-bt-lights](../../wiki/SKILL-mopidy-and-bt-lights) | Remote control of BT lights and Mopidy music playback                                    |
 | :construction:      | [bitcoin-price](../../wiki/SKILL-bitcoin-price)               | Check the price of bitcoin                                                               |
+| :questio :          | [spaceflight-schedule](../../wiki/SKILL-spaceflight-schedule) | Check when the next space flight launch is                                               |

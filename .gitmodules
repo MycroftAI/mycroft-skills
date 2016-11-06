@@ -46,3 +46,6 @@
 [submodule "bitcoin-price"]
 	path = bitcoin-price
 	url = https://github.com/dmp1ce/mycroft-bitcoinprice-skill.git
+[submodule "spaceflight-schedule"]
+	path = spaceflight-schedule
+	url = https://github.com/praxeo/mycroft_spaceflightnow_skill.git
