@@ -31,3 +31,6 @@
 [submodule "kodi-k3yb0ardn1nja"]
 	path = kodi-k3yb0ardn1nja
 	url = https://github.com/k3yb0ardn1nja/mycroft-skill-kodi.git
+[submodule "google-calendar"]
+	path = google-calendar
+	url = https://github.com/jcasoft/GoogleCalendar-Skill.git
