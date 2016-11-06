@@ -37,3 +37,6 @@
 [submodule "bitcoin"]
 	path = bitcoin
 	url = https://github.com/Red5d/mycroft_skills.git
+[submodule "fortune"]
+	path = fortune
+	url = https://github.com/jaevans/mycroft-fortuneskill.git
