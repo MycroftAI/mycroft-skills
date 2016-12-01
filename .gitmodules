@@ -64,3 +64,6 @@
 [submodule "google-translate"]
 	path = google-translate
 	url = https://github.com/jcasoft/Translate-Skill.git
+[submodule "mqtt"]
+	path = mqtt
+	url = https://github.com/jamiehoward430/mycroft-mymqtt
