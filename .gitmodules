@@ -67,3 +67,6 @@
 [submodule "mqtt"]
 	path = mqtt
 	url = https://github.com/jamiehoward430/mycroft-mymqtt
+[submodule "hue"]
+	path = hue
+	url = https://github.com/ChristopherRogers1991/mycroft-hue
