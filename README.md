@@ -37,3 +37,4 @@ writing as well as share best practices.
 | :question:          | [ratp-timetables](../../wiki/SKILL-ratp-timetables)            | Access schedules for the RATP Network of trains and buses in Paris                       |  
 | :question:          | [spaceflight-schedule](../../wiki/SKILL-spaceflight-schedule)  | Check when the next space flight launch is                                               |  
 | :construction:      | [wink-smart-home](../../wiki/SKILL-wink)                       | Interact with lights via a Wink-hub                                                      |  
+| :heavy_check_mark:  | [youtube](../../wiki/SKILL-youtube)                            | Search and listen a youtube video                                                        |  
