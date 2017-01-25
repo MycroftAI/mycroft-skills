@@ -15,7 +15,8 @@ writing as well as share best practices.
 | ------------------- | -------------------------------------------------------------- | -------------------------------------                                                    |  
 | :question:          | [bitcoin](../../wiki/SKILL-bitcoin)                            | Check the price of bitcoin                                                               |  
 | :construction:      | [bitcoin-price](../../wiki/SKILL-bitcoin-price)                | Check the price of bitcoin                                                               |  
-| :question:          | [diagnostics](../../wiki/SKILL-diagnostics)                    | Diagnostic tools (CPU %age, free space, etc)                                             |  
+| :question:          | [diagnostics](../../wiki/SKILL-diagnostics)                    | Diagnostic tools (CPU %age, free space, etc)    |
+| :construction:	      | [facebook](../../wiki/SKILL-facebook)                  | Generates posts for Facebook                  |
 | :question:          | [fortune](../../wiki/SKILL-fortune)                            | Tells your fortune                                                                       |  
 | :question:          | [google-calendar](../../wiki/SKILL-google-calendar)            | Check and add google calendar events                                                     |  
 | :question:          | [google-translate](../../wiki/SKILL-google-translate)          | Translate English phrases into other languages                                           |  
@@ -38,4 +39,4 @@ writing as well as share best practices.
 | :question:          | [spaceflight-schedule](../../wiki/SKILL-spaceflight-schedule)  | Check when the next space flight launch is                                               |  
 | :construction:      | [wink-smart-home](../../wiki/SKILL-wink)                       | Interact with lights via a Wink-hub                                                      |  
 | :heavy_check_mark:  | [youtube](../../wiki/SKILL-youtube)                            | Search and listen a youtube video                                                        |  
-| :question:	      | [facebook](../../wiki/SKILL-facebook)                  | post things to facebook                          |
+
