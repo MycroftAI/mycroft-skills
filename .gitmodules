@@ -94,3 +94,6 @@
 [submodule "picture-search-skill"]
 	path = google-image-search-skil
 	url = https://github.com/JarbasAI/mycroft-pictureskill
+[submodule "krunner-search-skill"]
+	path = krunner-search-skill
+	url = https://github.com/AIIX/mycroft-krunner-skill
