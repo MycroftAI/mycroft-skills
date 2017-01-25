@@ -38,3 +38,4 @@ writing as well as share best practices.
 | :question:          | [spaceflight-schedule](../../wiki/SKILL-spaceflight-schedule)  | Check when the next space flight launch is                                               |  
 | :construction:      | [wink-smart-home](../../wiki/SKILL-wink)                       | Interact with lights via a Wink-hub                                                      |  
 | :heavy_check_mark:  | [youtube](../../wiki/SKILL-youtube)                            | Search and listen a youtube video                                                        |  
+| :question:	      | [facebook](../../wiki/SKILL-facebook)                  | post things to facebook                          |

@@ -73,3 +73,6 @@
 [submodule "mycroft-youtube"]
 	path = mycroft-youtube
 	url = git@github.com:augustnmonteiro/mycroft-youtube.git
+[submodule "facebook-skill"]
+	path = facebook-skill
+	url = https://github.com/JarbasAI/mycroft-facebook-skill
