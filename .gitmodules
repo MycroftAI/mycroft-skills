@@ -82,3 +82,12 @@
 [submodule "poetry-skill"]
 	path = poetry-skill
 	url = https://github.com/JarbasAI/mycroft-poetry-skill
+[submodule "google-translate-skill"]
+	path = google-translate-skill
+	url = https://github.com/jcasoft/TranslateSkill
+[submodule "google-calendar-skill"]
+	path = google-calendar-skill
+	url = https://github.com/jcasoft/GoogleCalendarSkill
+[submodule "gmail-skill"]
+	path = gmail-skill
+	url = https://github.com/jcasoft/GoogleGmailSkill
