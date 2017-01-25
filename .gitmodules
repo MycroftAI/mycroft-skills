@@ -1,5 +1,5 @@
 [submodule "GoogleGmail-Skill"]
-	path = google-gmail
+	path = google-gmail-oldapi
 	url = https://github.com/jcasoft/GoogleGmail-Skill
 [submodule "Wink"]
 	path = wink-smart-home
@@ -32,7 +32,7 @@
 	path = kodi-k3yb0ardn1nja
 	url = https://github.com/k3yb0ardn1nja/mycroft-skill-kodi.git
 [submodule "google-calendar"]
-	path = google-calendar
+	path = google-calendar-oldapi
 	url = https://github.com/jcasoft/GoogleCalendar-Skill.git
 [submodule "bitcoin"]
 	path = bitcoin
@@ -62,7 +62,7 @@
 	path = mopidy
 	url = https://github.com/forslund/mopidy_skill.git
 [submodule "google-translate"]
-	path = google-translate
+	path = google-translate-oldapi
 	url = https://github.com/jcasoft/Translate-Skill.git
 [submodule "mqtt"]
 	path = mqtt
