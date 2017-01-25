@@ -19,8 +19,9 @@ writing as well as share best practices.
 | :construction:	      | [facebook](../../wiki/SKILL-facebook)                  | Generates posts for Facebook                  |
 | :question:          | [fortune](../../wiki/SKILL-fortune)                            | Tells your fortune                                                                       |  
 | :question:          | [google-calendar](../../wiki/SKILL-google-calendar)            | Check and add google calendar events                                                     |  
+| :question:         | [google-gmail](../../wiki/SKILL-google-gmail)                  | Get emails from your Gmail Inbox                                                         |  
+| :question:         | [google-image-search](../../wiki/SKILl-google-image-search)              | Search google images for search term and display       |
 | :question:          | [google-translate](../../wiki/SKILL-google-translate)          | Translate English phrases into other languages                                           |  
-| :heavy_check_mark:  | [google-gmail](../../wiki/SKILL-google-gmail)                  | Get emails from your Gmail Inbox                                                         |  
 | :question:          | [hue](../../wiki/SKILL-hue)                                    | Control your Phillips Hue lights                                                         |  
 | :question:          | [jb-podcasts](../../wiki/SKILL-Jupiter-Broadcasting-Podcasts)  | Play podcasts from Jupiter Broadcasting shows                                            |  
 | :question:          | [kodi-cadair](../../wiki/SKILL-cadair-kodi)                    | Kodi playback and search                                                                 |  
@@ -34,7 +35,7 @@ writing as well as share best practices.
 | :heavy_check_mark:  | [mp3-demo](../../wiki/SKILL-mp3-demo)                          | Simple sample of playing local MP3s                                                      |  
 | :question:          | [mpd-control](../../wiki/SKILL-mpd-control)                    | Controls media players that use the MPD  protocol to play found local music           |  
 | :question:          | [mqtt](../../wiki/SKILL-mqtt)                        | Control IoT devices (home automation) using MQTT protocol     |  
-| :question:    | [poetry-skill](../../wiki/SKILL-poetry-skill)            | Reads poetry based on Hidden Markov Models     |
+| :question:    | [poetry-skill](../../wiki/SKILL-poetry)                      | Reads poetry based on Hidden Markov Models     |
 | :question:          | [pushbullet](../../wiki/SKILL-pushbullet)                      | Send messsages and photos using Pushbullet                                                  |  
 | :question:          | [ratp-timetables](../../wiki/SKILL-ratp-timetables)            | Access schedules for the RATP Network of trains and buses in Paris                       |  
 | :question:          | [spaceflight-schedule](../../wiki/SKILL-spaceflight-schedule)  | Check when the next space flight launch is                                               |  
