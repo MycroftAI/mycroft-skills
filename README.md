@@ -16,7 +16,7 @@ writing as well as share best practices.
 | :question:          | [bitcoin](../../wiki/SKILL-bitcoin)                            | Check the price of bitcoin                                                               |  
 | :construction:      | [bitcoin-price](../../wiki/SKILL-bitcoin-price)                | Check the price of bitcoin                                                               |  
 | :question:          | [diagnostics](../../wiki/SKILL-diagnostics)                    | Diagnostic tools (CPU %age, free space, etc)    |
-| :question:	      | [facebook](../../wiki/SKILL-facebook)                  | Generates posts for Facebook                  |
+| :construction:	      | [facebook](../../wiki/SKILL-facebook)                  | Generates posts for Facebook                  |
 | :question:          | [fortune](../../wiki/SKILL-fortune)                            | Tells your fortune                                                                       |  
 | :question:          | [google-calendar](../../wiki/SKILL-google-calendar)            | Check and add google calendar events                                                     |  
 | :question:          | [google-translate](../../wiki/SKILL-google-translate)          | Translate English phrases into other languages                                           |  
