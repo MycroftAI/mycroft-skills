@@ -91,3 +91,6 @@
 [submodule "gmail-skill"]
 	path = gmail-skill
 	url = https://github.com/jcasoft/GoogleGmailSkill
+[submodule "picture-search-skill"]
+	path = picture-search-skill
+	url = https://github.com/JarbasAI/mycroft-pictureskill
