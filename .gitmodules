@@ -76,3 +76,6 @@
 [submodule "facebook-skill"]
 	path = facebook-skill
 	url = https://github.com/JarbasAI/mycroft-facebook-skill
+[submodule "youtube-skill"]
+	path = youtube-skill
+	url = https://github.com/JarbasAI/mycroft-music-skill
