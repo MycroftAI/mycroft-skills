@@ -112,3 +112,6 @@
 [submodule "daily-meditation-skill"]
 	path = daily-meditation-skill
 	url = https://github.com/kfezer/daily_meditation
+[submodule "pandora-skill"]
+	path = pandora-skill
+	url = https://github.com/ethanaward/pianobar-skill
