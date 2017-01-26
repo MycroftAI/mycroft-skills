@@ -15,6 +15,7 @@ writing as well as share best practices.
 | ------------------- | -------------------------------------------------------------- | -------------------------------------                                                    |  
 | :question:          | [bitcoin](../../wiki/SKILL-bitcoin)                            | Check the price of bitcoin                                                               |  
 | :construction:      | [bitcoin-price](../../wiki/SKILL-bitcoin-price)                | Check the price of bitcoin                                                               |  
+| :question:  | [daily-meditation](../../wiki/SKILL-bitcoin-price)             |Plays your Daily Meditation from the  Meditation Podcast     |
 | :construction:          | [deepdream_skill](../../wiki/SKILL-deepdream)                  | Adds Deepdreaming image converstion to Mycroft       |
 | :question:          | [diagnostics](../../wiki/SKILL-diagnostics)                    | Diagnostic tools (CPU %age, free space, etc)    |
 | :construction:	      | [facebook](../../wiki/SKILL-facebook)                  | Generates posts for Facebook                  |
