@@ -97,3 +97,6 @@
 [submodule "krunner-search-skill"]
 	path = krunner-search-skill
 	url = https://github.com/AIIX/mycroft-krunner-skill
+[submodule "plasma-activities-skill"]
+	path = plasma-activities-skill
+	url = https://github.com/AIIX/mycroft-activities-plasma-skill
