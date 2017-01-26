@@ -106,3 +106,6 @@
 [submodule "deapdream-skill"]
 	path = deapdream-skill
 	url = https://github.com/JarbasAI/mycroft-deepdream-skill
+[submodule "random-quotes-skill"]
+	path = random-quotes-skill
+	url = https://github.com/JarbasAI/mycroft---quotes---skill
