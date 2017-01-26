@@ -100,3 +100,6 @@
 [submodule "plasma-activities-skill"]
 	path = plasma-activities-skill
 	url = https://github.com/AIIX/mycroft-activities-plasma-skill
+[submodule "plasma-user-control-skill"]
+	path = plasma-user-control-skill
+	url = https://github.com/AIIX/mycroft-internals-plasma-skill
