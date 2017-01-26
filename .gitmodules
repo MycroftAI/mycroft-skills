@@ -103,3 +103,6 @@
 [submodule "plasma-user-control-skill"]
 	path = plasma-user-control-skill
 	url = https://github.com/AIIX/mycroft-internals-plasma-skill
+[submodule "deapdream-skill"]
+	path = deapdream-skill
+	url = https://github.com/JarbasAI/mycroft-deepdream-skill
