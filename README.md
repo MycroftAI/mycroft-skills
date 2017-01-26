@@ -38,6 +38,7 @@ writing as well as share best practices.
 | :heavy_check_mark:  | [mp3-demo](../../wiki/SKILL-mp3-demo)                          | Simple sample of playing local MP3s                                                      |  
 | :question:          | [mpd-control](../../wiki/SKILL-mpd-control)                    | Controls media players that use the MPD  protocol to play found local music           |  
 | :question:          | [mqtt](../../wiki/SKILL-mqtt)                        | Control IoT devices (home automation) using MQTT protocol     |  
+| :question:          | [pandora-skill](../../wiki/SKILL-pandora)                   | Adds Pandora to microft via Pianobar  |
 | :question:          | [poetry-skill](../../wiki/SKILL-poetry)                      | Reads poetry based on Hidden Markov Models     |
 | :question:          | [plasma-activities-skill](../../wiki/SKILL-plasma-activities)  | This skill integrates Plasma 5 Activities with Mycroft|
 | :question:          | [plasma-user-control-skill](../../wiki/Skill-plasma-user-control)| This skills adds Plasma User control to Mycroft, allowing switch user, logout, and lock screen  |
