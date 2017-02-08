@@ -12,7 +12,8 @@ writing as well as share best practices.
 
 
 | Status              | Skill Name                                                     | Description                                                                              |  
-| ------------------- | -------------------------------------------------------------- | -------------------------------------                                                    |  
+| ------------------- | -------------------------------------------------------------- | -------------------------------------
+| :question:          |[bioinformatics](../../wiki/SKILL-bioinformatics)               | Adds Bio-Linux Commands to Mycroft   |  
 | :question:          | [bitcoin](../../wiki/SKILL-bitcoin)                            | Check the price of bitcoin                                                               |  
 | :construction:      | [bitcoin-price](../../wiki/SKILL-bitcoin-price)                | Check the price of bitcoin                                                               |  
 | :question:  | [daily-meditation](../../wiki/SKILL-bitcoin-price)             |Plays your Daily Meditation from the  Meditation Podcast     |
