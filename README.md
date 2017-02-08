@@ -39,6 +39,7 @@ writing as well as share best practices.
 | :question:          | [mpd-control](../../wiki/SKILL-mpd-control)                    | Controls media players that use the MPD  protocol to play found local music           |  
 | :question:          | [mqtt](../../wiki/SKILL-mqtt)                        | Control IoT devices (home automation) using MQTT protocol     |  
 | :question:          | [pandora-skill](../../wiki/SKILL-pandora)                   | Adds Pandora to microft via Pianobar  |
+| :question:          | [proxy-scrape-skill](../../wiki/SKILL-proxy-scrape)          | Scrape proxies from the internet    |
 | :question:          | [poetry-skill](../../wiki/SKILL-poetry)                      | Reads poetry based on Hidden Markov Models     |
 | :question:          | [plasma-activities-skill](../../wiki/SKILL-plasma-activities)  | This skill integrates Plasma 5 Activities with Mycroft|
 | :question:          | [plasma-user-control-skill](../../wiki/Skill-plasma-user-control)| This skills adds Plasma User control to Mycroft, allowing switch user, logout, and lock screen  |
