@@ -115,3 +115,6 @@
 [submodule "pandora-skill"]
 	path = pandora-skill
 	url = https://github.com/ethanaward/pianobar-skill
+[submodule "proxy-scrape-skill"]
+	path = proxy-scrape-skill
+	url = https://github.com/JarbasAI/mycroft--proxy-scrapping---skill.git
