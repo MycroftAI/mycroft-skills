@@ -118,3 +118,6 @@
 [submodule "proxy-scrape-skill"]
 	path = proxy-scrape-skill
 	url = https://github.com/JarbasAI/mycroft--proxy-scrapping---skill.git
+[submodule "mycroft-sendSMS-plasma-skill"]
+	path = mycroft-sendSMS-plasma-skill
+	url = https://github.com/AIIX/mycroft-sendSMS-plasma-skill.git
