@@ -121,3 +121,6 @@
 [submodule "mycroft-sendSMS-plasma-skill"]
 	path = plasma-sendsms-skill
 	url = https://github.com/AIIX/mycroft-sendSMS-plasma-skill.git
+[submodule "bioinformatics-skill"]
+	path = bioinformatics-skill
+	url = https://github.com/TicklishGiraffe/mycroft_genomics.git
