@@ -124,9 +124,6 @@
 [submodule "bioinformatics-skill"]
 	path = bioinformatics-skill
 	url = https://github.com/TicklishGiraffe/mycroft_genomics.git
-[submodule "article-reader-skill"]
-	path = read-article-skill/
-	url = https://github.com/JarbasAI/mycroft-articles-skill.git
 [submodule "read-article-skill"]
 	path = read-article-skill
 	url = https://github.com/JarbasAI/mycroft-articles-skill.git
