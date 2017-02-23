@@ -127,3 +127,27 @@
 [submodule "read-article-skill"]
 	path = read-article-skill
 	url = https://github.com/JarbasAI/mycroft-articles-skill.git
+[submodule "photolocation-skill"]
+	path = photolocation-skill
+	url = https://github.com/JarbasAI/mycroft-photolocation-skill.git
+[submodule "cleverbot-skill"]
+	path = cleverbot-skill
+	url = https://github.com/JarbasAI/mycroft---wolphram-alpha-chatbot---skill.git
+[submodule "spacelaunch-skill"]
+	path = spacelaunch-skill
+	url = https://github.com/marksev1/Mycroft-SpaceLaunch-Skill.git
+[submodule "sun-skill"]
+	path = sun-skill
+	url = https://github.com/marksev1/Mycroft-SunSkill.git
+[submodule "wallpaper-skill"]
+	path = wallpaper-skill
+	url = https://github.com/JarbasAI/mycroft---wallpaper---skill.git
+[submodule "pickup-line-skill"]
+	path = pickup-line-skill
+	url = https://github.com/JarbasAI/mycroft---pick-up-line---skill.git
+[submodule "wifi-management-skill"]
+	path = wifi-management-skill
+	url = https://github.com/JarbasAI/mycroft-wifi-skill.git
+[submodule "ping-skill"]
+	path = ping-skill
+	url = https://github.com/nogre/ping-skill.git
