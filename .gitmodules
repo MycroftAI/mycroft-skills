@@ -151,3 +151,6 @@
 [submodule "ping-skill"]
 	path = ping-skill
 	url = https://github.com/nogre/ping-skill.git
+[submodule "lisa"]
+	path = lisa
+	url = git remote add lisa-master https://github.com/apolloodilo/lisa  
