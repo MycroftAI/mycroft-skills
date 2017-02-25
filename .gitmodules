@@ -151,3 +151,6 @@
 [submodule "ping-skill"]
 	path = ping-skill
 	url = https://github.com/nogre/ping-skill.git
+[submodule "lisa"]
+	path = lisa
+	url = https://github.com/apolloodilo/mycroft-skill-lisa 
