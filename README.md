@@ -20,6 +20,7 @@ writing as well as share best practices.
 | :question:  | [daily-meditation](../../wiki/SKILL-bitcoin-price)             |Plays your Daily Meditation from the  Meditation Podcast     |
 | :construction:          | [deepdream_skill](../../wiki/SKILL-deepdream)                  | Adds Deepdreaming image converstion to Mycroft       |
 | :question:          | [diagnostics](../../wiki/SKILL-diagnostics)                    | Diagnostic tools (CPU %age, free space, etc)    |
+| :question:          | [drive_servos](../../wiki/SKILL-drive-servos)                    | Control Hacked-Servo-Engines to make your mycroft move around   |
 | :construction:	      | [facebook](../../wiki/SKILL-facebook)                  | Generates posts for Facebook                  |
 | :question:          | [fortune](../../wiki/SKILL-fortune)                            | Tells your fortune                                                                       |  
 | :question:          | [google-calendar](../../wiki/SKILL-google-calendar)            | Check and add google calendar events                                                     |  
