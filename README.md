@@ -56,7 +56,7 @@ writing as well as share best practices.
 | :question:          | [spaceflight-schedule](../../wiki/SKILL-spaceflight-schedule)  | Check when the next space flight launch is                                               |  
 | :question:          | [spacelaunch-skill](../../wiki/SKILL-spacelaunch)  | Check when the next space launch is                                               | 
 | :question:          | [sun-skill](../../wiki/SKILL-sun)  | Responds with sunrise and set times          |  
-| :question:          | [take-picture](../../wiki/SKILL-take-picture)  | Take Pictures using the Raspberry Pi Camera          |  
+| :question:          | [take_picture](../../wiki/SKILL-take-picture)  | Take Pictures using the Raspberry Pi Camera          |  
 | :question:          | [wallpaper-skill](../../wiki/SKILL-wallpaper)  | Downloads wallpapers from reddit and changes randomly         | 
 | :question:          | [wifi-management-skill](../../wiki/SKILL-wifi-management)  | Various options for interacting with WiFi        |  
 | :construction:      | [wink-smart-home](../../wiki/SKILL-wink)                       | Interact with lights via a Wink-hub                                                      |  
