@@ -151,3 +151,6 @@
 [submodule "ping-skill"]
 	path = ping-skill
 	url = https://github.com/nogre/ping-skill.git
+[submodule "domoticz_skill"]
+	path = domoticz_skill
+	url = https://github.com/matleses/domoticz_skill.git
