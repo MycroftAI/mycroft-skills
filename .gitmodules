@@ -148,6 +148,3 @@
 [submodule "wifi-management-skill"]
 	path = wifi-management-skill
 	url = https://github.com/JarbasAI/mycroft-wifi-skill.git
-[submodule "ping-skill"]
-	path = ping-skill
-	url = https://github.com/nogre/ping-skill.git
