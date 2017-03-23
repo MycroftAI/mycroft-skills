@@ -148,3 +148,36 @@
 [submodule "wifi-management-skill"]
 	path = wifi-management-skill
 	url = https://github.com/JarbasAI/mycroft-wifi-skill.git
+[submodule "ping-skill"]
+	path = ping-skill
+	url = https://github.com/nogre/ping-skill.git
+[submodule "metal-recommendation-skill"]
+	path = metal-recommendation-skill
+	url = https://github.com/JarbasAI/mycroft---metal-recomend---skill.git
+[submodule "euromillions-skill"]
+	path = euromillions-skill
+	url = https://github.com/JarbasAI/mycroft---euromillions-skill.git
+[submodule "movie-recomendation-skill"]
+	path = movie-recomendation-skill
+	url = https://github.com/JarbasAI/mycroft---movie-recommend-skill.git
+[submodule "wiki-random-fact-skill"]
+	path = wiki-random-fact-skill
+	url = https://github.com/JarbasAI/mycroft---knowledge-skill.git
+[submodule "mute-skill"]
+	path = mute-skill
+	url = https://github.com/JarbasAI/mycroft---mute-skill.git
+[submodule "pushetta-skill"]
+	path = pushetta-skill
+	url = https://github.com/marksev1/Mycroft-Pushetta-skill.git
+[submodule "sunspots-skill"]
+	path = sunspots-skill
+	url = https://github.com/BoatrightTBC/sunspots.git
+[submodule "nasa-picture-of-the-day-skill"]
+	path = nasa-picture-of-the-day-skill
+	url = https://github.com/JarbasAI/mycroft---astronomy-picture-of-teh-day.git
+[submodule "nasa-near-earth-tracker-skill"]
+	path = nasa-near-earth-tracker-skill
+	url = https://github.com/JarbasAI/mycroft---near-earth-object-tracker.git
+[submodule "earth-orbit-pic-skill"]
+	path = earth-orbit-pic-skill
+	url = https://github.com/JarbasAI/mycroft---near-earth-object-tracker.git
