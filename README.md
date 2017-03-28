@@ -22,7 +22,7 @@ create an issue and link to your repo.
 | :question:          | [bitcoin](../../wiki/SKILL-bitcoin)                            | Check the price of bitcoin                                                               |  
 | :construction:      | [bitcoin-price](../../wiki/SKILL-bitcoin-price)                |  Checks the price of bitcoin                             |  
 | :skull:          | [cleverbot-skill](../../wiki/SKILL-cleverbot)          | when wolpham alpha doesnt have an answer asks cleverbot   |
-| :question:  | [daily-meditation](../../wiki/SKILL-bitcoin-price)             |Plays your Daily Meditation from the  Meditation Podcast     |
+| :question:  | [daily-meditation](../../wiki/SKILL-daily-meditation)             |Plays your Daily Meditation from the  Meditation Podcast     |
 | :construction:          | [deepdream_skill](../../wiki/SKILL-deepdream)                  | Adds Deepdreaming image converstion to Mycroft       |
 | :question:          | [diagnostics](../../wiki/SKILL-diagnostics)                    | Diagnostic tools (CPU %age, free space, etc)    |
 | :question:          | [earth-orbit-pic-skill](../../wiki/SKILL-earth-orbit-pic)                    | Earth orbit picture skill   |
