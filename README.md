@@ -5,9 +5,8 @@ writing as well as share best practices.
 
 If you want to submit a skill, simply make a repo for it organized   
 as the template above.
-[Example Skill Template](https://github.com/MycroftAI/mycroft-skills/tree/master/00__skill_template) 
-Once you have your skill mostly functional,   
-create an issue and link to your repo.
+[Example Skill Template](https://github.com/MycroftAI/mycroft-skills/tree/master/00__skill_template)  
+Once you have your skill mostly functional, create an issue and link to your repo.
 
 ## Skill List
 
