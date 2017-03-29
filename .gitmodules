@@ -70,9 +70,6 @@
 [submodule "hue"]
 	path = hue
 	url = https://github.com/ChristopherRogers1991/mycroft-hue
-[submodule "mycroft-youtube"]
-	path = mycroft-youtube
-	url = https://github.com/augustnmonteiro/mycroft-youtube.git
 [submodule "facebook-skill"]
 	path = facebook-skill
 	url = https://github.com/JarbasAI/mycroft-facebook-skill
@@ -181,3 +178,6 @@
 [submodule "earth-orbit-pic-skill"]
 	path = earth-orbit-pic-skill
 	url = https://github.com/JarbasAI/mycroft---near-earth-object-tracker.git
+[submodule "youtube"]
+	path = youtube
+	url = https://github.com/augustnmonteiro/mycroft-youtube.git
