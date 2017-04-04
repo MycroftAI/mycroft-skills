@@ -56,7 +56,7 @@ Once you have your skill mostly functional, create an issue and link to your rep
 | :question:          | [pandora-skill](../../wiki/SKILL-pandora)                   | Adds Pandora to microft via Pianobar  |
 | :question:          | [photolocation-skill](../../wiki/SKILL-photolocation)          | Searches wikimedia for photos of location  |
 | :question:          | [pickup-line-skill](../../wiki/SKILL-pickup-line)  | Responds with random nerdy pick-up lines          | 
-| :question:          | [ping-skill](../../wiki/SKILL-ping)  | Pings websites and responds with latency time       |  
+| :heavy_check_mark:          | [ping-skill](../../wiki/SKILL-ping)  | Pings websites and responds with latency time       |  
 | :question:          | [plasma-activities-skill](../../wiki/SKILL-plasma-activities)  | This skill integrates Plasma 5 Activities with Mycroft|
 | :question:          | [plasma-sendsms-skill](../../wiki/SKILL-plasma-sendsms)         |Send SMS through KDE Plasma     |
 | :question:          | [plasma-user-control-skill](../../wiki/SILL-plasma-user-control)| This skills adds Plasma User control to Mycroft, allowing switch user, logout, and lock screen  |
