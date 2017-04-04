@@ -8,6 +8,26 @@ as the template above.
 [Example Skill Template](https://github.com/MycroftAI/mycroft-skills/tree/master/00__skill_template)  
 Once you have your skill mostly functional, create an issue and link to your repo.
 
+## Official Skill List
+| Status              | Skill Name                                                     | Description                                                                              |  
+| ------------------- | -------------------------------------------------------------- | ---------------------------------
+| :heavy_check_mark:          |[Alarm](../../wiki/SKILL-Alarm)                         | Alarm                            | 
+| :heavy_check_mark:          |[Audio Record](../../wiki/SKILL-Audio-Record)           | Record and Play Audio            | 
+| :heavy_check_mark:          |[Date Time](../../wiki/SKILL-Date-Time)                 | Inform date                      | 
+| :heavy_check_mark:          |[Desktop Launcher](../../wiki/SKILL-Desktop-Launcher)   | Open Applications on Desktop     | 
+| :heavy_check_mark:          |[IP](../../wiki/SKILL-IP)                               | Inform IP Address                | 
+| :heavy_check_mark:          |[Joke](../../wiki/SKILL-Joke)                           | Tell jokes                       | 
+| :heavy_check_mark:          |[Media](../../wiki/SKILL-Media)                         | Multimedia Control               | 
+| :heavy_check_mark:          |[NPR News](../../wiki/SKILL-NPR-News)                   | Tell the news from npr           | 
+| :heavy_check_mark:          |[Personal](../../wiki/SKILL-Personal)                   | Tell things about Mycroft        | 
+| :heavy_check_mark:          |[Reminder](../../wiki/SKILL-Reminder)                   | Remind to do something           | 
+| :heavy_check_mark:          |[Speak](../../wiki/SKILL-Speak)                         | Say something                    | 
+| :heavy_check_mark:          |[Spelling](../../wiki/SKILL-Spelling)                   | Spell a work                     | 
+| :heavy_check_mark:          |[Stock](../../wiki/SKILL-Stock)                         | Stock prices                     | 
+| :heavy_check_mark:          |[Weather](../../wiki/SKILL-Weather)                     | Weather                          | 
+| :heavy_check_mark:          |[Wiki](../../wiki/SKILL-Wiki)                           | Wikipedia                        | 
+| :heavy_check_mark:          |[Wolfran Alpha](../../wiki/SKILL-Wolfram-Alpha)         | Wolfram Alpha                    | 
+
 ## Skill List
 
 **Status meaning:**  
