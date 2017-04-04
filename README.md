@@ -8,6 +8,14 @@ as the template above.
 [Example Skill Template](https://github.com/MycroftAI/mycroft-skills/tree/master/00__skill_template)  
 Once you have your skill mostly functional, create an issue and link to your repo.
 
+
+**Status meaning:**  
+:heavy_check_mark: good working order  
+:construction:     still being developed and not ready for general use (for reference/collaboration)  
+:question:         untested (by us)  
+:skull:            Broken, but good for ideas!
+
+
 ## Official Skill List
 | Status              | Skill Name                                                     | Description                                                                              |  
 | ------------------- | -------------------------------------------------------------- | ---------------------------------
@@ -28,13 +36,7 @@ Once you have your skill mostly functional, create an issue and link to your rep
 | :heavy_check_mark:          |[Wiki](../../wiki/SKILL-Wiki)                           | Wikipedia                        | 
 | :heavy_check_mark:          |[Wolfran Alpha](../../wiki/SKILL-Wolfram-Alpha)         | Wolfram Alpha                    | 
 
-## Skill List
-
-**Status meaning:**  
-:heavy_check_mark: good working order  
-:construction:     still being developed and not ready for general use (for reference/collaboration)  
-:question:         untested (by us)  
-:skull:            Broken, but good for ideas!
+## Community Contributed Skill List
 
 
 | Status              | Skill Name                                                     | Description                                                                              |  
