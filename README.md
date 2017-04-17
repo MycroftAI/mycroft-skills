@@ -6,7 +6,11 @@ writing as well as share best practices.
 If you want to submit a skill, simply make a repo for it organized   
 as the template above.
 [Example Skill Template](https://github.com/MycroftAI/mycroft-skills/tree/master/00__skill_template)  
-Once you have your skill mostly functional, create an issue and link to your repo.
+Once you have your skill mostly functional, [create an issue](https://github.com/MycroftAI/mycroft-skills/issues/new) and we will  link to your repo.  In the issue be sure to provide
+* The URL of your repo
+* A short name for the skill
+* A one sentence description of what it does
+* The development status of the skill (under construction or working)
 
 
 **Status meaning:**  
@@ -21,20 +25,20 @@ Once you have your skill mostly functional, create an issue and link to your rep
 | ------------------- | -------------------------------------------------------------- | ---------------------------------
 | :heavy_check_mark:          |[Alarm](../../wiki/SKILL-Alarm)                         | Alarm                            | 
 | :heavy_check_mark:          |[Audio Record](../../wiki/SKILL-Audio-Record)           | Record and Play Audio            | 
-| :heavy_check_mark:          |[Date Time](../../wiki/SKILL-Date-Time)                 | Inform date                      | 
+| :heavy_check_mark:          |[Date Time](../../wiki/SKILL-Date-Time)                 | Tell the date or time            | 
 | :heavy_check_mark:          |[Desktop Launcher](../../wiki/SKILL-Desktop-Launcher)   | Open Applications on Desktop     | 
-| :heavy_check_mark:          |[IP](../../wiki/SKILL-IP)                               | Inform IP Address                | 
+| :heavy_check_mark:          |[IP](../../wiki/SKILL-IP)                               | Check the device's IP Address    | 
 | :heavy_check_mark:          |[Joke](../../wiki/SKILL-Joke)                           | Tell jokes                       | 
 | :heavy_check_mark:          |[Media](../../wiki/SKILL-Media)                         | Multimedia Control               | 
-| :heavy_check_mark:          |[NPR News](../../wiki/SKILL-NPR-News)                   | Tell the news from npr           | 
-| :heavy_check_mark:          |[Personal](../../wiki/SKILL-Personal)                   | Tell things about Mycroft        | 
-| :heavy_check_mark:          |[Reminder](../../wiki/SKILL-Reminder)                   | Remind to do something           | 
-| :heavy_check_mark:          |[Speak](../../wiki/SKILL-Speak)                         | Say something                    | 
-| :heavy_check_mark:          |[Spelling](../../wiki/SKILL-Spelling)                   | Spell a work                     | 
+| :heavy_check_mark:          |[NPR News](../../wiki/SKILL-NPR-News)                   | Listen to the news from NPR      | 
+| :heavy_check_mark:          |[Personal](../../wiki/SKILL-Personal)                   | Learn about Mycroft              | 
+| :heavy_check_mark:          |[Reminder](../../wiki/SKILL-Reminder)                   | Reminders to do something        | 
+| :heavy_check_mark:          |[Speak](../../wiki/SKILL-Speak)                         | Repeat anything                  | 
+| :heavy_check_mark:          |[Spelling](../../wiki/SKILL-Spelling)                   | Spell a word                     | 
 | :heavy_check_mark:          |[Stock](../../wiki/SKILL-Stock)                         | Stock prices                     | 
-| :heavy_check_mark:          |[Weather](../../wiki/SKILL-Weather)                     | Weather                          | 
-| :heavy_check_mark:          |[Wiki](../../wiki/SKILL-Wiki)                           | Wikipedia                        | 
-| :heavy_check_mark:          |[Wolfran Alpha](../../wiki/SKILL-Wolfram-Alpha)         | Wolfram Alpha                    | 
+| :heavy_check_mark:          |[Weather](../../wiki/SKILL-Weather)                     | Current Weather and Forecasts    | 
+| :heavy_check_mark:          |[Wiki](../../wiki/SKILL-Wiki)                           | Wikipedia queries                | 
+| :heavy_check_mark:          |[Wolfram Alpha](../../wiki/SKILL-Wolfram-Alpha)         | Wolfram Alpha                    | 
 
 ## Community Contributed Skill List
 
@@ -97,5 +101,5 @@ Once you have your skill mostly functional, create an issue and link to your rep
 | :question:          | [wifi-management-skill](../../wiki/SKILL-wifi-management)  | Various options for interacting with WiFi        |  
 | :construction:      | [wink-smart-home](../../wiki/SKILL-wink)                       | Interact with lights via a Wink-hub                                                      |  
 | :question:          | [wiki-fact-scraper-skill](../../wiki/SKILL-wiki-fact-scraper)                        | Scrapes for random facts from wikipedia and stores locally    |
-| :question:  | [youtube](../../wiki/SKILL-youtube)                            | Search and listen a youtube video                                                        |  
+| :question:  | [youtube](../../wiki/SKILL-youtube)                            | Search and listen to a youtube video                                                        |  
 
