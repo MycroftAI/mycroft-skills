@@ -3,14 +3,29 @@ A repository for sharing and collaboration for third-party Mycroft skills
 development.  This is a place to publish complete Skills and learn Skill  
 writing as well as share best practices.
 
+# UPDATE 04/24/2017 NEW WAY TO ADD SKILLS TO THIS REPO!
+
 If you want to submit a skill, simply make a repo for it organized   
 as the template above.
 [Example Skill Template](https://github.com/MycroftAI/mycroft-skills/tree/master/00__skill_template)  
-Once you have your skill mostly functional, [create an issue](https://github.com/MycroftAI/mycroft-skills/issues/new) and we will  link to your repo.  In the issue be sure to provide
+~~Once you have your skill mostly functional, [create an issue](https://github.com/MycroftAI/mycroft-skills/issues/new) and we will  link to your repo.~~   
+Once you've got your repo down, create a PR consisting of the following:
 * The URL of your repo
 * A short name for the skill
 * A one sentence description of what it does
-* The development status of the skill (under construction or working)
+* The development status of the skill (under construction or working)  
+
+To get the skill added, modify the two following files:
+* The .gitmodule file
+* The README.md  
+
+In the .gitmodule file, add a submodule for your repo, like so:
+```
++[submodule "NAME OF YOUR SKILL"]
+ +	path = name_of_your_skill_skill
+ +	url = URL.FOR.YOUR.SKILL.git
+```
+In the README, add a line (alphabettically, please!) describing your skill and linking to it in the wiki. Feel free to make a new wiki page for your skill! Also, indicate the status according to the guide below.
 
 
 **Status meaning:**  
@@ -19,6 +34,8 @@ Once you have your skill mostly functional, [create an issue](https://github.com
 :question:         untested (by us)  
 :skull:            Broken, but good for ideas!
 
+
+For an example of this, check out [this pr](https://github.com/MycroftAI/mycroft-skills/pull/37)
 
 ## Official Skill List
 | Status              | Skill Name                                                     | Description                                                                              |  
