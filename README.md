@@ -25,7 +25,7 @@ In the .gitmodule file, add a submodule for your repo, like so:
  +	path = name_of_your_skill_skill
  +	url = URL.FOR.YOUR.SKILL.git
 ```
-In the README, add a line (alphabettically, please!) describing your skill and linking to it in the wiki. Feel free to make a new wiki page for your skill! Also, indicate the status according to the guide below.
+In the README, add a line under "Community Contributed Skill List" (alphabettically, please!) describing your skill and linking to it in the wiki. Feel free to make a new wiki page for your skill! Also, indicate the status according to the guide below.
 
 
 **Status meaning:**  
