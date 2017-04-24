@@ -52,6 +52,7 @@ Once you have your skill mostly functional, [create an issue](https://github.com
 | :question:  | [daily-meditation](../../wiki/SKILL-daily-meditation)             |Plays your Daily Meditation from the  Meditation Podcast     |
 | :construction:          | [deepdream_skill](../../wiki/SKILL-deepdream)                  | Adds Deepdreaming image converstion to Mycroft       |
 | :question:          | [diagnostics](../../wiki/SKILL-diagnostics)                    | Diagnostic tools (CPU %age, free space, etc)    |
+| :question:          | [drive_servos](../../wiki/SKILL-drive-servos)                    | Control Hacked-Servo-Engines to make your mycroft move around   |
 | :question:          | [earth-orbit-pic-skill](../../wiki/SKILL-earth-orbit-pic)                    | Earth orbit picture skill   |
 | :construction:	      | [facebook](../../wiki/SKILL-facebook)                  | Generates posts for Facebook                  |
 | :skull:          | [fortune](../../wiki/SKILL-fortune)                            | Tells your fortune                                                                       |  

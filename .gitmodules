@@ -148,6 +148,9 @@
 [submodule "ping-skill"]
 	path = ping-skill
 	url = https://github.com/nogre/ping-skill.git
+[submodule "drive_servos"]
+	path = drive_servos
+	url = https://github.com/Nold360/mycroft_skill-drive_servos.git
 [submodule "domoticz_skill"]
 	path = domoticz_skill
 	url = https://github.com/matleses/domoticz_skill.git
@@ -238,4 +241,3 @@
 [submodule "skill-wolfram-alpha"]
 	path = skill-wolfram-alpha
 	url = https://github.com/MycroftAI/skill-wolfram-alpha.git
-
