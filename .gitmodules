@@ -247,3 +247,36 @@
 [submodule "skill-wolfram-alpha"]
 	path = skill-wolfram-alpha
 	url = https://github.com/MycroftAI/skill-wolfram-alpha.git
+[submodule "traffic_skill"]
+	path = traffic_skill
+	url = https://github.com/BongoEADGC6/mycroft-traffic.git
+[submodule "feedback_skill"]
+	path = feedback_skill
+	url = https://github.com/JarbasAI/mycroft-feedback-skill.git
+[submodule "objectives_skill"]
+	path = objectives_skill
+	url = https://github.com/JarbasAI/mycroft---objectives-skill.git
+[submodule "rss-skill"]
+	path = rss-skill
+	url = https://github.com/forslund/rss_skill.git
+[submodule "enhanced-bitcoin-skill"]
+	path = enhanced-bitcoin-skill
+	url = https://github.com/chrison999/mycroft-skill-bitcoin-enhanced.git
+[submodule "lets-talk-skill"]
+	path = lets-talk-skill
+	url = https://github.com/chrison999/mycroft-skill-lets-talk.git
+[submodule "fox-news-skill"]
+	path = fox-news-skill
+	url = https://github.com/chrison999/mycroft-skill-fox-news.git
+[submodule "cbc-news-skill"]
+	path = cbc-news-skill
+	url = https://github.com/chrison999/mycroft-skill-cbc-news.git
+[submodule "sentiment-analysis-skill"]
+	path = sentiment-analysis-skill
+	url = https://github.com/JarbasAI/mycroft---sentiment-analisys---skill.git
+[submodule "amarok-player-skill"]
+	path = amarok-player-skill
+	url = https://github.com/AIIX/mycroft-amarok-player-plasma-skill.git
+[submodule "system-skill"]
+	path = system-skill
+	url = https://github.com/CloneMMDDCVII/systemSkill-Mycroft-core-Skill-.git
