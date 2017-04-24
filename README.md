@@ -9,7 +9,7 @@ If you want to submit a skill, simply make a repo for it organized
 as the template above.
 [Example Skill Template](https://github.com/MycroftAI/mycroft-skills/tree/master/00__skill_template)  
 ~~Once you have your skill mostly functional, [create an issue](https://github.com/MycroftAI/mycroft-skills/issues/new) and we will  link to your repo.~~   
-Once you've got your repo down, create a PR consisting of the following:
+Once you've got your repo organized properly, create a PR consisting of the following:
 * The URL of your repo
 * A short name for the skill
 * A one sentence description of what it does
