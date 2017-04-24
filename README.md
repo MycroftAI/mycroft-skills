@@ -91,6 +91,7 @@ Once you have your skill mostly functional, [create an issue](https://github.com
 | :question:          | [proxy-scrape-skill](../../wiki/SKILL-proxy-scrape)          | Scrape proxies from the internet    |
 | :question:          | [pushbullet](../../wiki/SKILL-pushbullet)                      | Send messsages and photos using Pushbullet                                                  |  
 | :question:          | [pushetta-skill](../../wiki/SKILL-pushetta)                    | Adds push notifications|
+| :question:          | [quodlibet](../../wiki/SKILL-quodlibet)                        | Control Quod Libet music playback                                                        |  
 | :question:          | [random-quote-skill](../../wiki/SKILL-random-quote)            | Adds random quotes,random facts about numbers, and your time left to live          |
 | :question:          | [ratp-timetables](../../wiki/SKILL-ratp-timetables)            | Access schedules for the RATP Network of trains and buses in Paris                       |  
 | :question:          | [read-article-skill](../../wiki/SKILL-read-article)            | Scrapes text from online articles and reads them to you.   |
