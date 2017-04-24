@@ -70,9 +70,6 @@
 [submodule "hue"]
 	path = hue
 	url = https://github.com/ChristopherRogers1991/mycroft-hue
-[submodule "mycroft-youtube"]
-	path = mycroft-youtube
-	url = git@github.com:augustnmonteiro/mycroft-youtube.git
 [submodule "facebook-skill"]
 	path = facebook-skill
 	url = https://github.com/JarbasAI/mycroft-facebook-skill
@@ -154,3 +151,96 @@
 [submodule "quodlibet-skill"]
 	path = quodlibet-skill
 	url = https://github.com/kfarwell/mycroft-skill-quodlibet.git
+[submodule "drive_servos"]
+	path = drive_servos
+	url = https://github.com/Nold360/mycroft_skill-drive_servos.git
+[submodule "domoticz_skill"]
+	path = domoticz_skill
+	url = https://github.com/matleses/domoticz_skill.git
+[submodule "metal-recommendation-skill"]
+	path = metal-recommendation-skill
+	url = https://github.com/JarbasAI/mycroft---metal-recomend---skill.git
+[submodule "euromillions-skill"]
+	path = euromillions-skill
+	url = https://github.com/JarbasAI/mycroft---euromillions-skill.git
+[submodule "movie-recomendation-skill"]
+	path = movie-recomendation-skill
+	url = https://github.com/JarbasAI/mycroft---movie-recommend-skill.git
+[submodule "wiki-random-fact-skill"]
+	path = wiki-random-fact-skill
+	url = https://github.com/JarbasAI/mycroft---knowledge-skill.git
+[submodule "mute-skill"]
+	path = mute-skill
+	url = https://github.com/JarbasAI/mycroft---mute-skill.git
+[submodule "pushetta-skill"]
+	path = pushetta-skill
+	url = https://github.com/marksev1/Mycroft-Pushetta-skill.git
+[submodule "sunspots-skill"]
+	path = sunspots-skill
+	url = https://github.com/BoatrightTBC/sunspots.git
+[submodule "nasa-picture-of-the-day-skill"]
+	path = nasa-picture-of-the-day-skill
+	url = https://github.com/JarbasAI/mycroft---astronomy-picture-of-teh-day.git
+[submodule "nasa-near-earth-tracker-skill"]
+	path = nasa-near-earth-tracker-skill
+	url = https://github.com/JarbasAI/mycroft---near-earth-object-tracker.git
+[submodule "earth-orbit-pic-skill"]
+	path = earth-orbit-pic-skill
+	url = https://github.com/JarbasAI/mycroft---near-earth-object-tracker.git
+[submodule "youtube"]
+	path = youtube
+	url = https://github.com/augustnmonteiro/mycroft-youtube.git
+[submodule "skill-alarm"]
+	path = skill-alarm
+	url = https://github.com/MycroftAI/skill-alarm.git
+[submodule "skill-audio-record"]
+	path = skill-audio-record
+	url = https://github.com/MycroftAI/skill-audio-record.git
+[submodule "skill-date-time"]
+	path = skill-date-time
+	url = https://github.com/MycroftAI/skill-date-time.git
+[submodule "skill-desktop-launcher"]
+	path = skill-desktop-launcher
+	url = https://github.com/MycroftAI/skill-desktop-launcher.git
+[submodule "skill-dial-call"]
+	path = skill-dial-call
+	url = https://github.com/MycroftAI/skill-dial-call.git
+[submodule "skill-ip"]
+	path = skill-ip
+	url = https://github.com/MycroftAI/skill-ip.git
+[submodule "skill-joke"]
+	path = skill-joke
+	url = https://github.com/MycroftAI/skill-joke.git
+[submodule "skill-media"]
+	path = skill-media
+	url = https://github.com/MycroftAI/skill-media.git
+[submodule "skill-npr-news"]
+	path = skill-npr-news
+	url = https://github.com/MycroftAI/skill-npr-news.git
+[submodule "skill-personal"]
+	path = skill-personal
+	url = https://github.com/MycroftAI/skill-personal.git
+[submodule "skill-reminder"]
+	path = skill-reminder
+	url = https://github.com/MycroftAI/skill-reminder.git
+[submodule "skill-send-sms"]
+	path = skill-send-sms
+	url = https://github.com/MycroftAI/skill-send-sms.git
+[submodule "skill-speak"]
+	path = skill-speak
+	url = https://github.com/MycroftAI/skill-speak.git
+[submodule "skill-spelling"]
+	path = skill-spelling
+	url = https://github.com/MycroftAI/skill-spelling.git
+[submodule "skill-stock"]
+	path = skill-stock
+	url = https://github.com/MycroftAI/skill-stock.git
+[submodule "skill-weather"]
+	path = skill-weather
+	url = https://github.com/MycroftAI/skill-weather.git
+[submodule "skill-wiki"]
+	path = skill-wiki
+	url = https://github.com/MycroftAI/skill-wiki.git
+[submodule "skill-wolfram-alpha"]
+	path = skill-wolfram-alpha
+	url = https://github.com/MycroftAI/skill-wolfram-alpha.git
