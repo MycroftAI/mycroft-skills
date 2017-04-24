@@ -69,6 +69,7 @@ For an example of this, check out [this pr](https://github.com/MycroftAI/mycroft
 | :question:  | [daily-meditation](../../wiki/SKILL-daily-meditation)             |Plays your Daily Meditation from the  Meditation Podcast     |
 | :construction:          | [deepdream_skill](../../wiki/SKILL-deepdream)                  | Adds Deepdreaming image converstion to Mycroft       |
 | :question:          | [diagnostics](../../wiki/SKILL-diagnostics)                    | Diagnostic tools (CPU %age, free space, etc)    |
+| :question:          | [domoticz_skill](../../wiki/SKILL-domoticz)                    | Skill integrating Mycroft with Domoticz    |
 | :question:          | [drive_servos](../../wiki/SKILL-drive-servos)                    | Control Hacked-Servo-Engines to make your mycroft move around   |
 | :question:          | [earth-orbit-pic-skill](../../wiki/SKILL-earth-orbit-pic)                    | Earth orbit picture skill   |
 | :construction:	      | [facebook](../../wiki/SKILL-facebook)                  | Generates posts for Facebook                  |
