@@ -277,3 +277,6 @@
 [submodule "system-skill"]
 	path = system-skill
 	url = https://github.com/CloneMMDDCVII/systemSkill-Mycroft-core-Skill-.git
+[submodule "domoticz-skill"]
+	path = domoticz-skill
+	url = https://github.com/matleses/domoticz_skill.git
