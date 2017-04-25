@@ -22,10 +22,10 @@ To get the skill added, modify the two following files:
 In the .gitmodule file, add a submodule for your repo, like so:
 ```
 +[submodule "NAME OF YOUR SKILL"]
- +	path = name_of_your_skill_skill
+ +	path = name-of-your-skill-skill
  +	url = URL.FOR.YOUR.SKILL.git
 ```
-In the README, add a line under "Community Contributed Skill List" (alphabettically, please!) describing your skill and linking to it in the wiki. Feel free to make a new wiki page for your skill! Also, indicate the status according to the guide below.
+In the README, add a line under "Community Contributed Skill List" (alphabetically, please!) describing your skill and linking to it in the wiki. Feel free to make a new wiki page for your skill! Also, indicate the status according to the guide below.
 
 
 **Status meaning:**  
@@ -35,7 +35,7 @@ In the README, add a line under "Community Contributed Skill List" (alphabettica
 :skull:            Broken, but good for ideas!
 
 
-For an example of this, check out [this pr](https://github.com/MycroftAI/mycroft-skills/pull/37)
+For an example pull request , check out [this PR](https://github.com/MycroftAI/mycroft-skills/pull/37)
 
 ## Official Skill List
 | Status              | Skill Name                                                     | Description                                                                              |  
