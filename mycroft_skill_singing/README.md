@@ -1,0 +1,5 @@
+# Singing Skill
+
+## Usage:
+* `sing`
+
