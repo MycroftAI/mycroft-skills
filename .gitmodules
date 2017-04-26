@@ -280,3 +280,6 @@
 [submodule "domoticz-skill"]
 	path = domoticz-skill
 	url = https://github.com/matleses/domoticz_skill.git
+[submodule "skill-singing"]
+	path = skill-singing
+	url = https://github.com/MycroftAI/skill-singing.git
