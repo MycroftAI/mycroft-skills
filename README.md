@@ -68,6 +68,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [bitcoin](../../wiki/SKILL-bitcoin)                            | Check the price of bitcoin                                                               |  
 | :construction:      | [bitcoin-price](../../wiki/SKILL-bitcoin-price)                |  Checks the price of bitcoin                             | 
 | :question:          | [cbc-news-skill](../../wiki/SKILL-cbc-news)        | Fetches CBC News Podcast             |  
+| :question:          | [clementine-player-skill](../../wiki/SKILL-clementine-player)          | Controls your clementine-player localy. A fork from amarok-player.   |
 | :skull:          | [cleverbot-skill](../../wiki/SKILL-cleverbot)          | when wolpham alpha doesnt have an answer asks cleverbot   |
 | :question:  | [daily-meditation](../../wiki/SKILL-daily-meditation)             |Plays your Daily Meditation from the  Meditation Podcast     |
 | :construction:          | [deepdream_skill](../../wiki/SKILL-deepdream)                  | Adds Deepdreaming image converstion to Mycroft       |
