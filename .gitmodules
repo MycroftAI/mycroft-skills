@@ -274,6 +274,9 @@
 [submodule "amarok-player-skill"]
 	path = amarok-player-skill
 	url = https://github.com/AIIX/mycroft-amarok-player-plasma-skill.git
+[submodule "clementine-player-skill"]
+	path = clementine-player-skill
+	url = https://github.com/hersche/mycroft-clementine-skill.git
 [submodule "system-skill"]
 	path = system-skill
 	url = https://github.com/CloneMMDDCVII/systemSkill-Mycroft-core-Skill-.git
