@@ -37,6 +37,18 @@ Once you've got your repo organized properly, submit the PR consisting of the fo
 * A one sentence description of what it does
 * The development status of the skill (under construction or working)  
 
+### MSM Compliance
+To make your skill capable of being installed via MSM (the Mycroft Skill Manager) you need two additional files. 
+* requirements.txt
+* requirements.sh
+requirements.txt is a list of all pip libraries your skill needs (if any). 
+requirements.sh is a shell script that executes and installs package dependancies  your skill needs (if any). 
+So, if you need a specific pip library installed, like gensim, you can have it automatically installed in the correct vm using msm. 
+This requirements.txt file would look like this: 
+```
+gensim
+```
+That's it!  
 
 **Status meaning:**  
 :heavy_check_mark: good working order  
