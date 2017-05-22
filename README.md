@@ -3,29 +3,39 @@ A repository for sharing and collaboration for third-party Mycroft skills
 development.  This is a place to publish complete Skills and learn Skill  
 writing as well as share best practices.
 
-# UPDATE 04/24/2017 NEW WAY TO ADD SKILLS TO THIS REPO!
+## How to Add Skills to the Repo!
 
 If you want to submit a skill, simply make a repo for it organized   
 as the template above.
 [Example Skill Template](https://github.com/MycroftAI/mycroft-skills/tree/master/00__skill_template)  
-~~Once you have your skill mostly functional, [create an issue](https://github.com/MycroftAI/mycroft-skills/issues/new) and we will  link to your repo.~~   
-Once you've got your repo organized properly, create a PR consisting of the following:
-* The URL of your repo
-* A short name for the skill
-* A one sentence description of what it does
-* The development status of the skill (under construction or working)  
 
-To get the skill added, modify the two following files:
-* The .gitmodule file
+Clone the mycroft-skills repo to a local directory then:
+
+To get the skill added, modify the Readme file.
 * The README.md  
 
-In the .gitmodule file, add a submodule for your repo, like so:
+In the README, add a line under "Community Contributed Skill List" (alphabetically, please!) describing your skill and linking to it in the wiki. Feel free to make a new wiki page for your skill! Also, indicate the status according to the guide below.
+
+After that, you need to add the submodule for your skill. For more help, feel free to check out [this guide](https://github.com/blog/2104-working-with-submodules)
+
+Or, type the following in the terminal of your clone of the Skills-repo.
+```
+git add submodule $remote $name-your-skill
+```
+Where $remote is the git address for your repo and $name-your-skill is what you want to name it. In general, we normally use BLANK-skill as a format for skill names.
+
+This should have edited the .gitmodule file and added something similar to the bottom of the file:
 ```
 +[submodule "NAME OF YOUR SKILL"]
  +	path = name-of-your-skill-skill
  +	url = URL.FOR.YOUR.SKILL.git
 ```
-In the README, add a line under "Community Contributed Skill List" (alphabetically, please!) describing your skill and linking to it in the wiki. Feel free to make a new wiki page for your skill! Also, indicate the status according to the guide below.
+
+Once you've got your repo organized properly, submit the PR consisting of the following:
+* The URL of your repo
+* A short name for the skill
+* A one sentence description of what it does
+* The development status of the skill (under construction or working)  
 
 
 **Status meaning:**  
