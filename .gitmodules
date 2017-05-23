@@ -72,7 +72,7 @@
 	url = https://github.com/ChristopherRogers1991/mycroft-hue
 [submodule "facebook-skill"]
 	path = facebook-skill
-	url = https://github.com/JarbasAI/mycroft-facebook-skill
+	url = https://github.com/JarbasAI/mycroft-facebook-skill.git
 [submodule "youtube-skill"]
 	path = youtube-skill
 	url = https://github.com/JarbasAI/mycroft-music-skill
