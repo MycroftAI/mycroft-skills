@@ -283,3 +283,6 @@
 [submodule "skill-singing"]
 	path = skill-singing
 	url = https://github.com/MycroftAI/skill-singing.git
+[submodule "facebook-skill"]
+	path = facebook-skill
+	url = https://github.com/JarbasAI/mycroft-facebook-skill.git
