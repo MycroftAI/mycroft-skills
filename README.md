@@ -129,7 +129,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [nasa-picture-of-the-day](../../wiki/SKILL-nasa-pic-of-the-day)                    | Nasa picture of the day from the NASA API |
 | :question:          | [near-earth-orbit-skill](../../wiki/SKILL-near-earth-orbit)                    | Near Earth orbit alert skill via the NASA API   |
 | :construction:	      | [objective-skill](../../wiki/SKILL-objective)                  | skills can now register objectives almost the same has an intent would be registered with ObjectiveBuilder class              |
-| :question:          | [pandora-skill](../../wiki/SKILL-pandora)                   | Adds Pandora to microft via Pianobar  |
+| :question:          | [pandora-skill](../../wiki/SKILL-pandora)                   | Adds Pandora to mycroft via Pianobar  |
 | :question:          | [photolocation-skill](../../wiki/SKILL-photolocation)          | Searches wikimedia for photos of location  |
 | :question:          | [pickup-line-skill](../../wiki/SKILL-pickup-line)  | Responds with random nerdy pick-up lines          | 
 | :heavy_check_mark:          | [ping-skill](../../wiki/SKILL-ping)  | Pings websites and responds with latency time       |  
@@ -148,7 +148,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [sentiment-analysis-skill](../../wiki/SKILL-sentiment-analysis)  | Sentiment analysis              |  
 | :question:          | [spaceflight-schedule](../../wiki/SKILL-spaceflight-schedule)  | Check when the next space flight launch is                                               |  
 | :question:          | [spacelaunch-skill](../../wiki/SKILL-spacelaunch)  | Check when the next space launch is                                               | 
-| :question:          | [sunspot-skill](../../wiki/SKILL-sunspot-skill)                    | Answers questions on daily sunpsots |
+| :question:          | [sunspot-skill](../../wiki/SKILL-sunspot-skill)                    | Answers questions on daily sunspots |
 | :question:          | [sun-skill](../../wiki/SKILL-sun)  | Responds with sunrise and set times          |  
 | :question:          |[system-skill](../../wiki/SKILL-system)               | Adds system controls like shutdown and reboot   | 
 | :question:          | [take_picture](../../wiki/SKILL-take-picture)  | Take Pictures using the Raspberry Pi Camera          |  
