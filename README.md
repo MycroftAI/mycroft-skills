@@ -89,33 +89,34 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [bitcoin](../../wiki/SKILL-bitcoin)                            | Check the price of bitcoin                                                               |  
 | :construction:      | [bitcoin-price](../../wiki/SKILL-bitcoin-price)                |  Checks the price of bitcoin                             | 
 | :question:          | [cbc-news-skill](../../wiki/SKILL-cbc-news)        | Fetches CBC News Podcast             |  
-| :question:          | [clementine-player-skill](../../wiki/SKILL-clementine-player)          | Controls your clementine-player localy. A fork from amarok-player.   |
-| :skull:          | [cleverbot-skill](../../wiki/SKILL-cleverbot)          | when wolpham alpha doesnt have an answer asks cleverbot   |
-| :question:  | [daily-meditation](../../wiki/SKILL-daily-meditation)             |Plays your Daily Meditation from the  Meditation Podcast     |
-| :construction:          | [deepdream_skill](../../wiki/SKILL-deepdream)                  | Adds Deepdreaming image converstion to Mycroft       |
+| :question:          | [clementine-player-skill](../../wiki/SKILL-clementine-player)  | Controls your clementine-player localy. A fork from amarok-player.   |
+| :skull:             | [cleverbot-skill](../../wiki/SKILL-cleverbot)                  | when wolpham alpha doesnt have an answer asks cleverbot   |
+| :question:          | [daily-meditation](../../wiki/SKILL-daily-meditation)          |Plays your Daily Meditation from the  Meditation Podcast     |
+| :construction:      | [deepdream_skill](../../wiki/SKILL-deepdream)                  | Adds Deepdreaming image converstion to Mycroft       |
 | :question:          | [diagnostics](../../wiki/SKILL-diagnostics)                    | Diagnostic tools (CPU %age, free space, etc)    |
 | :question:          | [domoticz_skill](../../wiki/SKILL-domoticz)                    | Skill integrating Mycroft with Domoticz    |
-| :question:          | [drive_servos](../../wiki/SKILL-drive-servos)                    | Control Hacked-Servo-Engines to make your mycroft move around   |
-| :question:          | [earth-orbit-pic-skill](../../wiki/SKILL-earth-orbit-pic)                    | Earth orbit picture skill   |
-| :question:          | [enhanced-bitcoin-skill](../../wiki/SKILL-enhanced-bitcoin)  | Enhanced bitcoin skill from api.bitcoinaverage.com        |  
-| :construction:	      | [facebook](../../wiki/SKILL-facebook)                  | Generates posts for Facebook                  |
-| :question:          | [feedback-skill](../../wiki/SKILL-feedback)        | triggers positive feedback intent -> calls feedback method on last active skill             |  
-| :question:          | [fox-news-skill](../../wiki/SKILL-fox-news)        | Fetches Fox News Podcast             |  
+| :question:          | [drive_servos](../../wiki/SKILL-drive-servos)                  | Control Hacked-Servo-Engines to make your mycroft move around   |
+| :question:          | [earth-orbit-pic-skill](../../wiki/SKILL-earth-orbit-pic)      | Earth orbit picture skill   |
+| :question:          | [enhanced-bitcoin-skill](../../wiki/SKILL-enhanced-bitcoin)    | Enhanced bitcoin skill from api.bitcoinaverage.com        |  
+| :construction:      | [facebook](../../wiki/SKILL-facebook)                          | Generates posts for Facebook                  |
+| :construction:      | [facebook-marketing](../../wiki/SKILL-facebook-marketing)      | Works with Facebook Marketing API                                                        |
+| :question:          | [feedback-skill](../../wiki/SKILL-feedback)                    | triggers positive feedback intent -> calls feedback method on last active skill          |  
+| :question:          | [fox-news-skill](../../wiki/SKILL-fox-news)                    | Fetches Fox News Podcast                                                                 | 
 | :question:          | [google-calendar](../../wiki/SKILL-google-calendar)            | Check and add google calendar events                                                     |  
-| :question:         | [google-gmail](../../wiki/SKILL-google-gmail)                  | Get emails from your Gmail Inbox                                                         |  
-| :question:         | [google-image-search](../../wiki/SKILl-google-image-search)              | Search google images for search term and display       |
+| :question:          | [google-gmail](../../wiki/SKILL-google-gmail)                  | Get emails from your Gmail Inbox                                                         |  
+| :question:          | [google-image-search](../../wiki/SKILl-google-image-search)    | Search google images for search term and display                                         |
 | :question:          | [google-translate](../../wiki/SKILL-google-translate)          | Translate English phrases into other languages                                           |  
 | :question:          | [hue](../../wiki/SKILL-hue)                                    | Control your Phillips Hue lights                                                         |  
-| :heavy_check_mark:  | [home-assistant](../../wiki/SKILL-home-assistant)              | Control your devices in home-assistant                                                         |  
+| :heavy_check_mark:  | [home-assistant](../../wiki/SKILL-home-assistant)              | Control your devices in home-assistant                                                   |  
 | :question:          | [jb-podcasts](../../wiki/SKILL-Jupiter-Broadcasting-Podcasts)  | Play podcasts from Jupiter Broadcasting shows                                            |  
-| :question:          | [krunner-search](../../wiki/SKILL-krunner-search)              | Search local KDE desktop for files, images, recent documents, bookmarks |
+| :question:          | [krunner-search](../../wiki/SKILL-krunner-search)              | Search local KDE desktop for files, images, recent documents, bookmarks                  |
 | :question:          | [kodi-cadair](../../wiki/SKILL-cadair-kodi)                    | Kodi playback and search                                                                 |  
 | :question:          | [kodi-cbenning](../../wiki/SKILL-cbenning-kodi)                | Control a local or remote Kodi instance                                                  |  
 | :question:          | [kodi-k3yb0ardn1nja](../../wiki/SKILL-kodi-k3yb0ardn1nja)      | Play or pause a Kodi video                                                               |  
-| :question:          | [let's-talk-skill](../../wiki/SKILL-lets-talk)                        | More salutations |
-| :question:          | [lottery-skill](../../wiki/SKILL-lottery)                        | Reads Euromillion Lottery Numbers     |
+| :question:          | [let's-talk-skill](../../wiki/SKILL-lets-talk)                 | More salutations |
+| :question:          | [lottery-skill](../../wiki/SKILL-lottery)                      | Reads Euromillion Lottery Numbers     |
 | :question:          | [media-console-control](../../wiki/SKILL-media-console-control)| Adds media controls that are mapped to console commands                                  |  
-| :question:          | [metal-band-skill](../../wiki/SKILL-metal-band)                        | Recommends a metal band and gives basic information    |
+| :question:          | [metal-band-skill](../../wiki/SKILL-metal-band)                | Recommends a metal band and gives basic information    |
 | :construction:      | [milight](../../wiki/SKILL-milight)                            | Lighting control using MiLight                                                           |  
 | :question:          | [mopidy](../../wiki/SKILL-mopidy)                              | Mopidy-based players for local music, Google Music, and Spotify                          |  
 | :construction:      | [mopidy-and-bt-lights](../../wiki/SKILL-mopidy-and-bt-lights)  | Remote control of BT lights and Mopidy music playback                                    |  
