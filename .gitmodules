@@ -286,3 +286,6 @@
 [submodule "facebook-skill"]
 	path = facebook-skill
 	url = https://github.com/JarbasAI/mycroft-facebook-skill.git
+[submodule "facebook-marketing"]
+	path = facebook-marketing
+	url = https://github.com/ProsperousHeart/mycroft-facebook-marketing.git
