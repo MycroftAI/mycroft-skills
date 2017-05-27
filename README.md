@@ -20,7 +20,7 @@ After that, you need to add the submodule for your skill. For more help, feel fr
 
 Or, type the following in the terminal of your clone of the Skills-repo.
 ```
-git add submodule $remote $name-your-skill
+git submodule add $remote $name-your-skill
 ```
 Where $remote is the git address for your repo and $name-your-skill is what you want to name it. In general, we normally use BLANK-skill as a format for skill names.
 
