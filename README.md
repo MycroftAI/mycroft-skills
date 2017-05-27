@@ -38,13 +38,13 @@ Once you've got your repo organized properly, submit the PR consisting of the fo
 * The development status of the skill (under construction or working)  
 
 ### MSM Compliance
-To make your skill capable of being installed via MSM (the Mycroft Skill Manager) you need two additional files. 
+To make your skill capable of being installed via MSM (the Mycroft Skill Manager) you need two additional files.
 * requirements.txt
 * requirements.sh
-requirements.txt is a list of all pip libraries your skill needs (if any). 
-requirements.sh is a shell script that executes and installs package dependancies  your skill needs (if any). 
-So, if you need a specific pip library installed, like gensim, you can have it automatically installed in the correct vm using msm. 
-This requirements.txt file would look like this: 
+requirements.txt is a list of all pip libraries your skill needs (if any).
+requirements.sh is a shell script that executes and installs package dependancies  your skill needs (if any).
+So, if you need a specific pip library installed, like gensim, you can have it automatically installed in the correct vm using msm.
+This requirements.txt file would look like this:
 ```
 gensim
 ```
@@ -62,32 +62,32 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 ## Official Skill List
 | Status              | Skill Name                                                     | Description                                                                              |  
 | ------------------- | -------------------------------------------------------------- | ---------------------------------
-| :heavy_check_mark:          |[Alarm](../../wiki/SKILL-Alarm)                         | Alarm                            | 
-| :heavy_check_mark:          |[Audio Record](../../wiki/SKILL-Audio-Record)           | Record and Play Audio            | 
-| :heavy_check_mark:          |[Date Time](../../wiki/SKILL-Date-Time)                 | Tell the date or time            | 
-| :heavy_check_mark:          |[Desktop Launcher](../../wiki/SKILL-Desktop-Launcher)   | Open Applications on Desktop     | 
-| :heavy_check_mark:          |[IP](../../wiki/SKILL-IP)                               | Check the device's IP Address    | 
-| :heavy_check_mark:          |[Joke](../../wiki/SKILL-Joke)                           | Tell jokes                       | 
-| :heavy_check_mark:          |[Media](../../wiki/SKILL-Media)                         | Multimedia Control               | 
-| :heavy_check_mark:          |[NPR News](../../wiki/SKILL-NPR-News)                   | Listen to the news from NPR      | 
-| :heavy_check_mark:          |[Personal](../../wiki/SKILL-Personal)                   | Learn about Mycroft              | 
-| :heavy_check_mark:          |[Reminder](../../wiki/SKILL-Reminder)                   | Reminders to do something        | 
-| :heavy_check_mark:          |[Speak](../../wiki/SKILL-Speak)                         | Repeat anything                  | 
-| :heavy_check_mark:          |[Singing](../../wiki/SKILL-Singing)                     | Sing some Songs                  | 
-| :heavy_check_mark:          |[Stock](../../wiki/SKILL-Stock)                         | Stock prices                     | 
-| :heavy_check_mark:          |[Weather](../../wiki/SKILL-Weather)                     | Current Weather and Forecasts    | 
-| :heavy_check_mark:          |[Wiki](../../wiki/SKILL-Wiki)                           | Wikipedia queries                | 
-| :heavy_check_mark:          |[Wolfram Alpha](../../wiki/SKILL-Wolfram-Alpha)         | Wolfram Alpha                    | 
+| :heavy_check_mark:          |[Alarm](../../wiki/SKILL-Alarm)                         | Alarm                            |
+| :heavy_check_mark:          |[Audio Record](../../wiki/SKILL-Audio-Record)           | Record and Play Audio            |
+| :heavy_check_mark:          |[Date Time](../../wiki/SKILL-Date-Time)                 | Tell the date or time            |
+| :heavy_check_mark:          |[Desktop Launcher](../../wiki/SKILL-Desktop-Launcher)   | Open Applications on Desktop     |
+| :heavy_check_mark:          |[IP](../../wiki/SKILL-IP)                               | Check the device's IP Address    |
+| :heavy_check_mark:          |[Joke](../../wiki/SKILL-Joke)                           | Tell jokes                       |
+| :heavy_check_mark:          |[Media](../../wiki/SKILL-Media)                         | Multimedia Control               |
+| :heavy_check_mark:          |[NPR News](../../wiki/SKILL-NPR-News)                   | Listen to the news from NPR      |
+| :heavy_check_mark:          |[Personal](../../wiki/SKILL-Personal)                   | Learn about Mycroft              |
+| :heavy_check_mark:          |[Reminder](../../wiki/SKILL-Reminder)                   | Reminders to do something        |
+| :heavy_check_mark:          |[Speak](../../wiki/SKILL-Speak)                         | Repeat anything                  |
+| :heavy_check_mark:          |[Singing](../../wiki/SKILL-Singing)                     | Sing some Songs                  |
+| :heavy_check_mark:          |[Stock](../../wiki/SKILL-Stock)                         | Stock prices                     |
+| :heavy_check_mark:          |[Weather](../../wiki/SKILL-Weather)                     | Current Weather and Forecasts    |
+| :heavy_check_mark:          |[Wiki](../../wiki/SKILL-Wiki)                           | Wikipedia queries                |
+| :heavy_check_mark:          |[Wolfram Alpha](../../wiki/SKILL-Wolfram-Alpha)         | Wolfram Alpha                    |
 
 ## Community Contributed Skill List
 
 
 | Status              | Skill Name                                                     | Description                                                                              |  
 | ------------------- | -------------------------------------------------------------- | -------------------------------------
-| :question:          |[amarok-media-player-skill](../../wiki/SKILL-amarok-media-player)               | Player controls for the Amarok Media Player   | 
+| :question:          |[amarok-media-player-skill](../../wiki/SKILL-amarok-media-player)               | Player controls for the Amarok Media Player   |
 | :question:          |[bioinformatics](../../wiki/SKILL-bioinformatics)               | Adds Bio-Linux Commands to Mycroft   |  
 | :question:          | [bitcoin](../../wiki/SKILL-bitcoin)                            | Check the price of bitcoin                                                               |  
-| :construction:      | [bitcoin-price](../../wiki/SKILL-bitcoin-price)                |  Checks the price of bitcoin                             | 
+| :construction:      | [bitcoin-price](../../wiki/SKILL-bitcoin-price)                |  Checks the price of bitcoin                             |
 | :question:          | [cbc-news-skill](../../wiki/SKILL-cbc-news)        | Fetches CBC News Podcast             |  
 | :question:          | [clementine-player-skill](../../wiki/SKILL-clementine-player)  | Controls your clementine-player localy. A fork from amarok-player.   |
 | :skull:             | [cleverbot-skill](../../wiki/SKILL-cleverbot)                  | when wolpham alpha doesnt have an answer asks cleverbot   |
@@ -101,7 +101,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :construction:      | [facebook](../../wiki/SKILL-facebook)                          | Generates posts for Facebook                  |
 | :construction:      | [facebook-marketing](../../wiki/SKILL-facebook-marketing)      | Works with Facebook Marketing API                                                        |
 | :question:          | [feedback-skill](../../wiki/SKILL-feedback)                    | triggers positive feedback intent -> calls feedback method on last active skill          |  
-| :question:          | [fox-news-skill](../../wiki/SKILL-fox-news)                    | Fetches Fox News Podcast                                                                 | 
+| :question:          | [fox-news-skill](../../wiki/SKILL-fox-news)                    | Fetches Fox News Podcast                                                                 |
 | :question:          | [google-calendar](../../wiki/SKILL-google-calendar)            | Check and add google calendar events                                                     |  
 | :question:          | [google-gmail](../../wiki/SKILL-google-gmail)                  | Get emails from your Gmail Inbox                                                         |  
 | :question:          | [google-image-search](../../wiki/SKILl-google-image-search)    | Search google images for search term and display                                         |
@@ -120,7 +120,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :construction:      | [milight](../../wiki/SKILL-milight)                            | Lighting control using MiLight                                                           |  
 | :question:          | [mopidy](../../wiki/SKILL-mopidy)                              | Mopidy-based players for local music, Google Music, and Spotify                          |  
 | :construction:      | [mopidy-and-bt-lights](../../wiki/SKILL-mopidy-and-bt-lights)  | Remote control of BT lights and Mopidy music playback                                    |  
-| :question:          | [mopidy-media-player](../../wiki/SKILL-Mopidy-Media-Players)   | Mopidy-based players for local MP3 library, Spotify and a Swedish radio station's stream | 
+| :question:          | [mopidy-media-player](../../wiki/SKILL-Mopidy-Media-Players)   | Mopidy-based players for local MP3 library, Spotify and a Swedish radio station's stream |
 | :question:          | [movie-recommendation-skill](../../wiki/SKILL-movie-recomentation)                        | Recomends a movie  |
 | :heavy_check_mark:  | [mp3-demo](../../wiki/SKILL-mp3-demo)                          | Simple sample of playing local MP3s                                                      |  
 | :question:          | [mpd-control](../../wiki/SKILL-mpd-control)                    | Controls media players that use the MPD  protocol to play found local music           |  
@@ -131,7 +131,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :construction:	      | [objective-skill](../../wiki/SKILL-objective)                  | skills can now register objectives almost the same has an intent would be registered with ObjectiveBuilder class              |
 | :question:          | [pandora-skill](../../wiki/SKILL-pandora)                   | Adds Pandora to mycroft via Pianobar  |
 | :question:          | [photolocation-skill](../../wiki/SKILL-photolocation)          | Searches wikimedia for photos of location  |
-| :question:          | [pickup-line-skill](../../wiki/SKILL-pickup-line)  | Responds with random nerdy pick-up lines          | 
+| :question:          | [pickup-line-skill](../../wiki/SKILL-pickup-line)  | Responds with random nerdy pick-up lines          |
 | :heavy_check_mark:          | [ping-skill](../../wiki/SKILL-ping)  | Pings websites and responds with latency time       |  
 | :question:          | [plasma-activities-skill](../../wiki/SKILL-plasma-activities)  | This skill integrates Plasma 5 Activities with Mycroft|
 | :question:          | [plasma-sendsms-skill](../../wiki/SKILL-plasma-sendsms)         |Send SMS through KDE Plasma     |
@@ -147,15 +147,15 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [rss-skill](../../wiki/SKILL-rss)            | Fetches from RSS feed   |
 | :question:          | [sentiment-analysis-skill](../../wiki/SKILL-sentiment-analysis)  | Sentiment analysis              |  
 | :question:          | [spaceflight-schedule](../../wiki/SKILL-spaceflight-schedule)  | Check when the next space flight launch is                                               |  
-| :question:          | [spacelaunch-skill](../../wiki/SKILL-spacelaunch)  | Check when the next space launch is                                               | 
+| :question:          | [spacelaunch-skill](../../wiki/SKILL-spacelaunch)  | Check when the next space launch is                                               |
 | :question:          | [sunspot-skill](../../wiki/SKILL-sunspot-skill)                    | Answers questions on daily sunspots |
 | :question:          | [sun-skill](../../wiki/SKILL-sun)  | Responds with sunrise and set times          |  
-| :question:          |[system-skill](../../wiki/SKILL-system)               | Adds system controls like shutdown and reboot   | 
+| :question:          |[system-skill](../../wiki/SKILL-system)               | Adds system controls like shutdown and reboot   |
 | :question:          | [take_picture](../../wiki/SKILL-take-picture)  | Take Pictures using the Raspberry Pi Camera          |  
 | :question:          | [traffic-skill](../../wiki/SKILL-traffic)  | Gets the commute time from Google distance matrix api         |  
-| :question:          | [wallpaper-skill](../../wiki/SKILL-wallpaper)  | Downloads wallpapers from reddit and changes randomly         | 
+| :heavy_check_mark:  | [twitter-skill](../../wiki/SKILL-twitter)              | Control twitter with mycroft
+| :question:          | [wallpaper-skill](../../wiki/SKILL-wallpaper)  | Downloads wallpapers from reddit and changes randomly         |
 | :question:          | [wifi-management-skill](../../wiki/SKILL-wifi-management)  | Various options for interacting with WiFi        |  
 | :construction:      | [wink-smart-home](../../wiki/SKILL-wink)                       | Interact with lights via a Wink-hub                                                      |  
 | :question:          | [wiki-fact-scraper-skill](../../wiki/SKILL-wiki-fact-scraper)                        | Scrapes for random facts from wikipedia and stores locally    |
 | :question:  | [youtube](../../wiki/SKILL-youtube)                            | Search and listen to a youtube video                                                        |  
-
