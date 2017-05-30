@@ -292,6 +292,3 @@
 [submodule "homeassistant-skill"]
 	path = homeassistant-skill
 	url = https://github.com/btotharye/mycroft-homeassistant
-[submodule "TWITTER-skill"]
-	path = TWITTER-skill
-	url = https://github.com/btotharye/mycroft-twitter-skill
