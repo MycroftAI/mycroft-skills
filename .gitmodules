@@ -289,6 +289,3 @@
 [submodule "facebook-marketing"]
 	path = facebook-marketing
 	url = https://github.com/ProsperousHeart/mycroft-facebook-marketing.git
-[submodule "homeassistant-skill"]
-	path = homeassistant-skill
-	url = https://github.com/btotharye/mycroft-homeassistant
