@@ -289,12 +289,9 @@
 [submodule "facebook-marketing"]
 	path = facebook-marketing
 	url = https://github.com/ProsperousHeart/mycroft-facebook-marketing.git
-[submodule "homeassistant-skill"]
-	path = homeassistant-skill
-	url = https://github.com/btotharye/mycroft-homeassistant
 [submodule "TWITTER-skill"]
-	path = TWITTER-skill
+	path = twitter-skill
 	url = https://github.com/btotharye/mycroft-twitter-skill
 [submodule "HomeAssistant-skill"]
-	path = HomeAssistant-skill
+	path = homeassistant-skill
 	url = https://github.com/btotharye/mycroft-homeassistant.git
