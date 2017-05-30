@@ -77,7 +77,6 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :heavy_check_mark:          |[Stock](../../wiki/SKILL-Stock)                         | Stock prices                     | 
 | :heavy_check_mark:          |[Weather](../../wiki/SKILL-Weather)                     | Current Weather and Forecasts    | 
 | :heavy_check_mark:          |[Wiki](../../wiki/SKILL-Wiki)                           | Wikipedia queries                | 
-| :heavy_check_mark:          |[Wolfram Alpha](../../wiki/SKILL-Wolfram-Alpha)         | Wolfram Alpha                    | 
 
 ## Community Contributed Skill List
 
