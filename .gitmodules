@@ -293,8 +293,8 @@
 	path = homeassistant-skill
 	url = https://github.com/btotharye/mycroft-homeassistant
 [submodule "TWITTER-skill"]
-	path = TWITTER-skill
+	path = twitter-skill/TWITTER-skill
 	url = https://github.com/btotharye/mycroft-twitter-skill
 [submodule "HomeAssistant-skill"]
-	path = HomeAssistant-skill
+	path = homeassistant-skill
 	url = https://github.com/btotharye/mycroft-homeassistant.git
