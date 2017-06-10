@@ -298,3 +298,6 @@
 [submodule "twitter-skill"]
 	path = twitter-skill
 	url = https://github.com/btotharye/mycroft-twitter-skill.git
+[submodule "skill-hello-world"]
+	path = skill-hello-world
+	url = https://github.com/mycroftai/skill-hello-world
