@@ -64,6 +64,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | ------------------- | -------------------------------------------------------------- | ---------------------------------
 | :heavy_check_mark:          |[Alarm](../../wiki/SKILL-Alarm)                         | Alarm                            |
 | :heavy_check_mark:          |[Audio Record](../../wiki/SKILL-Audio-Record)           | Record and Play Audio            |
+| :heavy_check_mark:          |[Configuration](../../wiki/SKILL-Configuration)         | Update Mycroft configuration     |
 | :heavy_check_mark:          |[Date Time](../../wiki/SKILL-Date-Time)                 | Tell the date or time            |
 | :heavy_check_mark:          |[Desktop Launcher](../../wiki/SKILL-Desktop-Launcher)   | Open Applications on Desktop     |
 | :heavy_check_mark:          |[IP](../../wiki/SKILL-IP)                               | Check the device's IP Address    |
