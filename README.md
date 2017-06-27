@@ -71,6 +71,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :heavy_check_mark:          |[IP](../../wiki/SKILL-IP)                               | Check the device's IP Address    |
 | :heavy_check_mark:          |[Joke](../../wiki/SKILL-Joke)                           | Tell jokes                       |
 | :heavy_check_mark:          |[Media](../../wiki/SKILL-Media)                         | Multimedia Control               |
+| :heavy_check_mark:          |[Naptime](../../wiki/SKILL-Naptime)                     | Put Mycroft to sleep             |
 | :heavy_check_mark:          |[NPR News](../../wiki/SKILL-NPR-News)                   | Listen to the news from NPR      |
 | :heavy_check_mark:          |[Personal](../../wiki/SKILL-Personal)                   | Learn about Mycroft              |
 | :heavy_check_mark:          |[Reminder](../../wiki/SKILL-Reminder)                   | Reminders to do something        |
