@@ -298,6 +298,9 @@
 [submodule "twitter-skill"]
 	path = twitter-skill
 	url = https://github.com/btotharye/mycroft-twitter-skill.git
+[submodule "skill-pairing"]
+	path = skill-pairing
+	url = https://github.com/mycroftai/skill-pairing
 [submodule "skill-naptime"]
 	path = skill-naptime
 	url = https://github.com/mycroftai/skill-naptime
