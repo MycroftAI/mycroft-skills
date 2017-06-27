@@ -301,3 +301,18 @@
 [submodule "skill-installer"]
 	path = skill-installer
 	url = https://github.com/mycroftai/skill-installer
+[submodule "skill-pairing"]
+	path = skill-pairing
+	url = https://github.com/mycroftai/skill-pairing
+[submodule "skill-naptime"]
+	path = skill-naptime
+	url = https://github.com/mycroftai/skill-naptime
+[submodule "skill-hello-world"]
+	path = skill-hello-world
+	url = https://github.com/mycroftai/skill-hello-world
+[submodule "skill-configuration"]
+	path = skill-configuration
+	url = https://github.com/mycroftai/skill-configuration
+[submodule "skill-dice"]
+	path = skill-dice
+	url = https://github.com/Friday811/skill-dice
