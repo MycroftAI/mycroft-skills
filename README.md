@@ -64,6 +64,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | ------------------- | -------------------------------------------------------------- | ---------------------------------
 | :heavy_check_mark:          |[Alarm](../../wiki/SKILL-Alarm)                         | Alarm                            |
 | :heavy_check_mark:          |[Audio Record](../../wiki/SKILL-Audio-Record)           | Record and Play Audio            |
+| :heavy_check_mark:          |[Configuration](../../wiki/SKILL-Configuration)         | Update Mycroft configuration     |
 | :heavy_check_mark:          |[Date Time](../../wiki/SKILL-Date-Time)                 | Tell the date or time            |
 | :heavy_check_mark:          |[Desktop Launcher](../../wiki/SKILL-Desktop-Launcher)   | Open Applications on Desktop     |
 | :heavy_check_mark:          |[Hello World](../../wiki/SKILL-Hello-World)             | Hello world and Mycroft manners  |
@@ -95,6 +96,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [daily-meditation](../../wiki/SKILL-daily-meditation)          |Plays your Daily Meditation from the  Meditation Podcast     |
 | :construction:      | [deepdream_skill](../../wiki/SKILL-deepdream)                  | Adds Deepdreaming image converstion to Mycroft       |
 | :question:          | [diagnostics](../../wiki/SKILL-diagnostics)                    | Diagnostic tools (CPU %age, free space, etc)    |
+| :construction:      | [dice-roll](../../wiki/SKILL-dice)                             | Rolls dice spoken in RPG notation.                                                       |
 | :question:          | [domoticz_skill](../../wiki/SKILL-domoticz)                    | Skill integrating Mycroft with Domoticz    |
 | :question:          | [drive_servos](../../wiki/SKILL-drive-servos)                  | Control Hacked-Servo-Engines to make your mycroft move around   |
 | :question:          | [earth-orbit-pic-skill](../../wiki/SKILL-earth-orbit-pic)      | Earth orbit picture skill   |
