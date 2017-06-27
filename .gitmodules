@@ -301,3 +301,7 @@
 [submodule "skill-configuration"]
 	path = skill-configuration
 	url = https://github.com/mycroftai/skill-configuration
+[submodule "skill-dice"]
+	path = skill-dice
+	url = https://github.com/Friday811/skill-dice
+
