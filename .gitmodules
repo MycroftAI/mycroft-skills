@@ -316,3 +316,12 @@
 [submodule "skill-dice"]
 	path = skill-dice
 	url = https://github.com/Friday811/skill-dice
+[submodule "skill-stop"]
+	path = skill-stop
+	url = https://github.com/mycroftai/skill-stop.git
+[submodule "skill-volume"]
+	path = skill-volume
+	url = https://github.com/mycroftai/skill-volume.git
+[submodule "skill-mark1-demo"]
+	path = skill-mark1-demo
+	url = https://github.com/mycroftai/skill-mark1-demo.git
