@@ -325,3 +325,6 @@
 [submodule "skill-mark1-demo"]
 	path = skill-mark1-demo
 	url = https://github.com/mycroftai/skill-mark1-demo.git
+[submodule "skill-platform-patch"]
+	path = skill-platform-patch
+	url = https://github.com/MycroftAI/skill-platform-patch.git
