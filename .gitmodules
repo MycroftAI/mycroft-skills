@@ -329,3 +329,6 @@
 [submodule "platform-patch"]
 	path = platform-patch
 	url = https://github.com/MycroftAI/skill-platform-patch
+[submodule "skill-playback-control"]
+	path = skill-playback-control
+	url = https://github.com/mycroftai/skill-playback-control
