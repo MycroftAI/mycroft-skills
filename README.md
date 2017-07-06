@@ -77,6 +77,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :heavy_check_mark:          |[NPR News](../../wiki/SKILL-NPR-News)                   | Listen to the news from NPR      |
 | :heavy_check_mark:          |[Pairing](../../wiki/SKILL-Pairing)                     | Pair Mycroft with home.mycroft.ai|
 | :heavy_check_mark:          |[Personal](../../wiki/SKILL-Personal)                   | Learn about Mycroft              |
+| :heavy_check_mark:          |[Playback Control](../../wiki/SKILL-Playback-Control)   | Control audio subsystem          |
 | :heavy_check_mark:          |[Reminder](../../wiki/SKILL-Reminder)                   | Reminders to do something        |
 | :heavy_check_mark:          |[Speak](../../wiki/SKILL-Speak)                         | Repeat anything                  |
 | :heavy_check_mark:          |[Singing](../../wiki/SKILL-Singing)                     | Sing some Songs                  |
