@@ -329,3 +329,6 @@
 [submodule "platform-patch"]
 	path = platform-patch
 	url = https://github.com/MycroftAI/skill-platform-patch
+[submodule "gpio-example-skill"]
+	path = gpio-example-skill
+	url = https://github.com/amcgee7/picroft_example_skill_gpio.git
