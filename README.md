@@ -77,6 +77,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :heavy_check_mark:          |[NPR News](../../wiki/SKILL-NPR-News)                   | Listen to the news from NPR      |
 | :heavy_check_mark:          |[Pairing](../../wiki/SKILL-Pairing)                     | Pair Mycroft with home.mycroft.ai|
 | :heavy_check_mark:          |[Personal](../../wiki/SKILL-Personal)                   | Learn about Mycroft              |
+| :heavy_check_mark:          |[Playback Control](../../wiki/SKILL-Playback-Control)   | Control audio subsystem          |
 | :heavy_check_mark:          |[Reminder](../../wiki/SKILL-Reminder)                   | Reminders to do something        |
 | :heavy_check_mark:          |[Speak](../../wiki/SKILL-Speak)                         | Repeat anything                  |
 | :heavy_check_mark:          |[Singing](../../wiki/SKILL-Singing)                     | Sing some Songs                  |
@@ -115,7 +116,8 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [google-calendar](../../wiki/SKILL-google-calendar)            | Check and add google calendar events                                                     |  
 | :question:          | [google-gmail](../../wiki/SKILL-google-gmail)                  | Get emails from your Gmail Inbox                                                         |  
 | :question:          | [google-image-search](../../wiki/SKILl-google-image-search)    | Search google images for search term and display                                         |
-| :question:          | [google-translate](../../wiki/SKILL-google-translate)          | Translate English phrases into other languages                                           |  
+| :question:          | [google-translate](../../wiki/SKILL-google-translate)          | Translate English phrases into other languages                                           |
+| :construction:  | [gpio-example](../../wiki/SKILL-gpio-example)                            | Example skill using the GPIO pins on the Raspberry Pi to blink an LED                                         |    
 | :question:          | [hue](../../wiki/SKILL-hue)                                    | Control your Phillips Hue lights                                                         |  
 | :heavy_check_mark:  | [home-assistant](../../wiki/SKILL-home-assistant)              | Control your devices in home-assistant                                                   |  
 | :question:          | [irsend](../../wiki/SKILL-irsend)                              | Control devices via [lirc's](http://www.lirc.org/) [irsend](http://www.lirc.org/html/irsend.html)                                                         |
