@@ -329,3 +329,6 @@
 [submodule "platform-patch"]
 	path = platform-patch
 	url = https://github.com/MycroftAI/skill-platform-patch
+[submodule "irsend"]
+	path = irsend
+	url = https://github.com/ChristopherRogers1991/mycroft-irsend.git
