@@ -336,4 +336,4 @@
 	url = https://github.com/mycroftai/skill-playback-control
 [submodule "gpio-example-skill"]
 	path = gpio-example-skill
-	url = https://github.com/amcgee7/picroft_example_skill_gpio.git
+	url = https://github.com/MycroftAI/picroft_example_skill_gpio.git
