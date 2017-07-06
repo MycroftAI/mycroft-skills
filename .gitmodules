@@ -328,10 +328,12 @@
 [submodule "platform-patch"]
 	path = platform-patch
 	url = https://github.com/MycroftAI/skill-platform-patch
+[submodule "irsend"]
+	path = irsend
+	url = https://github.com/ChristopherRogers1991/mycroft-irsend.git
 [submodule "skill-playback-control"]
 	path = skill-playback-control
 	url = https://github.com/mycroftai/skill-playback-control
 [submodule "gpio-example-skill"]
 	path = gpio-example-skill
 	url = https://github.com/amcgee7/picroft_example_skill_gpio.git
-
