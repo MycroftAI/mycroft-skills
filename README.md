@@ -115,7 +115,8 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [google-calendar](../../wiki/SKILL-google-calendar)            | Check and add google calendar events                                                     |  
 | :question:          | [google-gmail](../../wiki/SKILL-google-gmail)                  | Get emails from your Gmail Inbox                                                         |  
 | :question:          | [google-image-search](../../wiki/SKILl-google-image-search)    | Search google images for search term and display                                         |
-| :question:          | [google-translate](../../wiki/SKILL-google-translate)          | Translate English phrases into other languages                                           |  
+| :question:          | [google-translate](../../wiki/SKILL-google-translate)          | Translate English phrases into other languages                                           |
+| :construction:  | [gpio-example](../../wiki/SKILL-gpio-example)                            | Example skill using the GPIO pins on the Raspberry Pi to blink an LED                                         |    
 | :question:          | [hue](../../wiki/SKILL-hue)                                    | Control your Phillips Hue lights                                                         |  
 | :heavy_check_mark:  | [home-assistant](../../wiki/SKILL-home-assistant)              | Control your devices in home-assistant                                                   |  
 | :question:          | [jb-podcasts](../../wiki/SKILL-Jupiter-Broadcasting-Podcasts)  | Play podcasts from Jupiter Broadcasting shows                                            |  
