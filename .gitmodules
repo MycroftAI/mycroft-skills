@@ -337,3 +337,6 @@
 [submodule "gpio-example-skill"]
 	path = gpio-example-skill
 	url = https://github.com/MycroftAI/picroft_example_skill_gpio.git
+[submodule "speedtest"]
+	path = speedtest
+	url = https://github.com/ChristopherRogers1991/mycroft-speedtest.git
