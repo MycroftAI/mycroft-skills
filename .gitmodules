@@ -337,3 +337,9 @@
 [submodule "gpio-example-skill"]
 	path = gpio-example-skill
 	url = https://github.com/MycroftAI/picroft_example_skill_gpio.git
+[submodule "unsplash-wallpaper-plasma-skill"]
+	path = unsplash-wallpaper-plasma-skill
+	url = https://github.com/AIIX/unsplash-wallpaper-plasma-skill
+[submodule "clarifai-image-recognition-skill"]
+	path = clarifai-image-recognition-skill
+	url = https://github.com/AIIX/clarifai-image-recognition-skill
