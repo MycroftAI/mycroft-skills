@@ -352,3 +352,6 @@
 [submodule "skill-wemo"]
 	path = skill-wemo
 	url = https://github.com/martymulligan/skill-wemo.git
+[submodule "skill-Release-test"]
+	path = skill-Release-test
+	url = https://github.com/Harika-kothuru/SkillReleaseTest.git
