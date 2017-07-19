@@ -352,3 +352,6 @@
 [submodule "release-test-skill"]
 	path = release-test-skill
 	url = https://github.com/Harika-kothuru/SkillReleaseTest.git
+[submodule "skill-autogui"]
+	path = skill-autogui
+	url = https://github.com/eClarity/skill-autogui.git
