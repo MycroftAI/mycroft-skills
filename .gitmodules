@@ -340,3 +340,7 @@
 [submodule "slack-skill"]
 	path = slack-skill
 	url = https://github.com/EngelOfChipolata/Mycroft-Slack-skill
+[submodule "skill-wemo"]
+	path = skill-wemo
+	url = https://github.com/martymulligan/skill-wemo.git
+  
