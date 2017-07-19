@@ -99,6 +99,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [bitcoin](../../wiki/SKILL-bitcoin)                            | Check the price of bitcoin                                                               |  
 | :construction:      | [bitcoin-price](../../wiki/SKILL-bitcoin-price)                |  Checks the price of bitcoin                             |
 | :question:          | [cbc-news-skill](../../wiki/SKILL-cbc-news)        | Fetches CBC News Podcast             |  
+| :question:          | [clarifai-image-recognition-skill](../../wiki/SKILL-clarifai-image-recognition)      | Image recognition skill based on clarifai   |
 | :question:          | [clementine-player-skill](../../wiki/SKILL-clementine-player)  | Controls your clementine-player localy. A fork from amarok-player.   |
 | :skull:             | [cleverbot-skill](../../wiki/SKILL-cleverbot)                  | when wolpham alpha doesnt have an answer asks cleverbot   |
 | :question:          | [daily-meditation](../../wiki/SKILL-daily-meditation)          |Plays your Daily Meditation from the  Meditation Podcast     |
@@ -168,6 +169,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [take_picture](../../wiki/SKILL-take-picture)  | Take Pictures using the Raspberry Pi Camera          |  
 | :question:          | [traffic-skill](../../wiki/SKILL-traffic)  | Gets the commute time from Google distance matrix api         |  
 | :heavy_check_mark:  | [twitter-skill](../../wiki/SKILL-twitter)              | Control twitter with mycroft                                                   |
+| :question:          | [unsplash-wallpaper-plasma-skill](../../wiki/SKILL-unsplash-wallpaper-plasma)  | Change KDE Desktop wallpaper by category type from unsplash |
 | :question:          | [wallpaper-skill](../../wiki/SKILL-wallpaper)  | Downloads wallpapers from reddit and changes randomly         |
 | :question:  	      | [wemo-skill](../../wiki/SKILL-wemo)              | Control Wemo devices with mycroft                                                   |
 | :question:          | [wifi-management-skill](../../wiki/SKILL-wifi-management)  | Various options for interacting with WiFi        |  
