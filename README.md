@@ -162,6 +162,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [sentiment-analysis-skill](../../wiki/SKILL-sentiment-analysis)  | Sentiment analysis              |  
 | :question:          | [spaceflight-schedule](../../wiki/SKILL-spaceflight-schedule)  | Check when the next space flight launch is                                               |  
 | :question:          | [spacelaunch-skill](../../wiki/SKILL-spacelaunch)  | Check when the next space launch is                                               |
+| :question:          | [slack-skill](../../wiki/SKILL-slack)                          | Allows to post and listen to Slack messages.  |
 | :question:          | [sunspot-skill](../../wiki/SKILL-sunspot-skill)                    | Answers questions on daily sunspots |
 | :question:          | [sun-skill](../../wiki/SKILL-sun)  | Responds with sunrise and set times          |  
 | :question:          |[system-skill](../../wiki/SKILL-system)               | Adds system controls like shutdown and reboot   |
@@ -170,6 +171,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :heavy_check_mark:  | [twitter-skill](../../wiki/SKILL-twitter)              | Control twitter with mycroft                                                   |
 | :question:          | [unsplash-wallpaper-plasma-skill](../../wiki/SKILL-unsplash-wallpaper-plasma)  | Change KDE Desktop wallpaper by category type from unsplash |
 | :question:          | [wallpaper-skill](../../wiki/SKILL-wallpaper)  | Downloads wallpapers from reddit and changes randomly         |
+| :question:  	      | [wemo-skill](../../wiki/SKILL-wemo)              | Control Wemo devices with mycroft                                                   |
 | :question:          | [wifi-management-skill](../../wiki/SKILL-wifi-management)  | Various options for interacting with WiFi        |  
 | :construction:      | [wink-smart-home](../../wiki/SKILL-wink)                       | Interact with lights via a Wink-hub                                                      |  
 | :question:          | [wiki-fact-scraper-skill](../../wiki/SKILL-wiki-fact-scraper)                        | Scrapes for random facts from wikipedia and stores locally    |
