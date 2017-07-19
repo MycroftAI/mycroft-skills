@@ -337,6 +337,10 @@
 [submodule "gpio-example-skill"]
 	path = gpio-example-skill
 	url = https://github.com/MycroftAI/picroft_example_skill_gpio.git
+[submodule "slack-skill"]
+	path = slack-skill
+	url = https://github.com/EngelOfChipolata/Mycroft-Slack-skill
 [submodule "skill-wemo"]
 	path = skill-wemo
 	url = https://github.com/martymulligan/skill-wemo.git
+  
