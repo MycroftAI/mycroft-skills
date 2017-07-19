@@ -177,3 +177,4 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :construction:      | [wink-smart-home](../../wiki/SKILL-wink)                       | Interact with lights via a Wink-hub                                                      |  
 | :question:          | [wiki-fact-scraper-skill](../../wiki/SKILL-wiki-fact-scraper)                        | Scrapes for random facts from wikipedia and stores locally    |
 | :question:  | [youtube](../../wiki/SKILL-youtube)                            | Search and listen to a youtube video                                                        |  
+| :question:  | [release-test](../../wiki/SKILL-release-test)                            | test mycroft release                                                        |  
