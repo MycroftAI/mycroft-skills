@@ -337,6 +337,9 @@
 [submodule "gpio-example-skill"]
 	path = gpio-example-skill
 	url = https://github.com/MycroftAI/picroft_example_skill_gpio.git
+[submodule "skill-radio-rne"]
+	path = skill-radio-rne
+	url = git@github.com:ChrisFernandez/skill-radio-rne.git
 [submodule "unsplash-wallpaper-plasma-skill"]
 	path = unsplash-wallpaper-plasma-skill
 	url = https://github.com/AIIX/unsplash-wallpaper-plasma-skill
