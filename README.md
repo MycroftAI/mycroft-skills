@@ -95,6 +95,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | Status              | Skill Name                                                     | Description                                                                              |  
 | ------------------- | -------------------------------------------------------------- | -------------------------------------
 | :question:          |[amarok-media-player-skill](../../wiki/SKILL-amarok-media-player)               | Player controls for the Amarok Media Player   |
+| :heavy_check_mark:  | [autogui-skill](../../wiki/SKILL-Autogui)              | Manipulate your mouse and keyboard with Mycroft                                                   |  
 | :question:          |[bioinformatics](../../wiki/SKILL-bioinformatics)               | Adds Bio-Linux Commands to Mycroft   |  
 | :question:          | [bitcoin](../../wiki/SKILL-bitcoin)                            | Check the price of bitcoin                                                               |  
 | :construction:      | [bitcoin-price](../../wiki/SKILL-bitcoin-price)                |  Checks the price of bitcoin                             |
