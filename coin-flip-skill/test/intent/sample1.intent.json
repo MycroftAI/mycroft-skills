@@ -1,0 +1,7 @@
+{
+  "utterance": "Flip a coin",
+  "intent_type": "CoinFlipIntent",
+  "intent": {
+    "ThankYouKeyword": "flip a coin"
+  }
+}
