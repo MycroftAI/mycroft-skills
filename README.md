@@ -164,6 +164,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [spaceflight-schedule](../../wiki/SKILL-spaceflight-schedule)  | Check when the next space flight launch is                                               |
 | :heavy_check_mark:  | [skill-radio-rne](../..wiki/SKILL-radio-rne)       | Spanish news radio Radio Nacional de Espa?a RNE. | 
 | :question:          | [spacelaunch-skill](../../wiki/SKILL-spacelaunch)  | Check when the next space launch is                                               |
+| :question:          | [speedtest](../../wiki/SKILL-speedtest)  | Run a speedtest                                               |
 | :question:          | [slack-skill](../../wiki/SKILL-slack)                          | Allows to post and listen to Slack messages.  |
 | :question:          | [sunspot-skill](../../wiki/SKILL-sunspot-skill)                    | Answers questions on daily sunspots |
 | :question:          | [sun-skill](../../wiki/SKILL-sun)  | Responds with sunrise and set times          |  
