@@ -358,3 +358,6 @@
 [submodule "skill-autogui"]
 	path = skill-autogui
 	url = https://github.com/eClarity/skill-autogui.git
+[submodule "openhab-skill"]
+	path = openhab-skill
+	url = https://github.com/mortommy/skill-openhab
