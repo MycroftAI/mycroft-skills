@@ -361,3 +361,6 @@
 [submodule "openhab-skill"]
 	path = openhab-skill
 	url = https://github.com/mortommy/skill-openhab
+[submodule "fallback-wolfram-alpha"]
+	path = fallback-wolfram-alpha
+	url = https://github.com/mycroftai/fallback-wolfram-alpha.git
