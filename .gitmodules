@@ -362,5 +362,5 @@
 	path = fallback-wolfram-alpha
 	url = https://github.com/mycroftai/fallback-wolfram-alpha.git
 [submodule "skill-release-test"]
-	path = skill-release-test
+	path = release-test
 	url = https://github.com/MycroftAI/skill-release-test.git
