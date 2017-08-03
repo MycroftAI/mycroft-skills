@@ -352,9 +352,6 @@
 [submodule "skill-wemo"]
 	path = skill-wemo
 	url = https://github.com/martymulligan/skill-wemo.git
-[submodule "release-test-skill"]
-	path = release-test-skill
-	url = https://github.com/Harika-kothuru/SkillReleaseTest.git
 [submodule "skill-autogui"]
 	path = skill-autogui
 	url = https://github.com/eClarity/skill-autogui.git
@@ -364,3 +361,6 @@
 [submodule "fallback-wolfram-alpha"]
 	path = fallback-wolfram-alpha
 	url = https://github.com/mycroftai/fallback-wolfram-alpha.git
+[submodule "skill-release-test"]
+	path = skill-release-test
+	url = https://github.com/MycroftAI/skill-release-test.git
