@@ -62,6 +62,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 ## Official Skill List
 | Status              | Skill Name                                                     | Description                                                                              |  
 | ------------------- | -------------------------------------------------------------- | ---------------------------------
+| :heavy_check_mark:          |[AIML Fallback](../../wiki/FALLBACK-AIML)               | AIML skill by JarbasAI           |
 | :heavy_check_mark:          |[Alarm](../../wiki/SKILL-Alarm)                         | Alarm                            |
 | :heavy_check_mark:          |[Audio Record](../../wiki/SKILL-Audio-Record)           | Record and Play Audio            |
 | :heavy_check_mark:          |[Configuration](../../wiki/SKILL-Configuration)         | Update Mycroft configuration     |

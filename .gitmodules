@@ -364,3 +364,6 @@
 [submodule "skill-release-test"]
 	path = release-test
 	url = https://github.com/MycroftAI/skill-release-test.git
+[submodule "fallback-aiml"]
+	path = fallback-aiml
+	url = https://github.com/forslund/fallback-aiml.git
