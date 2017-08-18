@@ -103,7 +103,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [cbc-news-skill](../../wiki/SKILL-cbc-news)        | Fetches CBC News Podcast             |  
 | :question:          | [clarifai-image-recognition-skill](../../wiki/SKILL-clarifai-image-recognition)      | Image recognition skill based on clarifai   |
 | :question:          | [clementine-player-skill](../../wiki/SKILL-clementine-player)  | Controls your clementine-player localy. A fork from amarok-player.   |
-| :skull:             | [cleverbot-skill](../../wiki/SKILL-cleverbot)                  | when wolpham alpha doesnt have an answer asks cleverbot   |
+| :question:          | [cleverbot-skill](../../wiki/SKILL-cleverbot)        | cleverbot api fallback skill   |
 | :question:          | [daily-meditation](../../wiki/SKILL-daily-meditation)          |Plays your Daily Meditation from the  Meditation Podcast     |
 | :construction:      | [deepdream_skill](../../wiki/SKILL-deepdream)                  | Adds Deepdreaming image converstion to Mycroft       |
 | :question:          | [diagnostics](../../wiki/SKILL-diagnostics)                    | Diagnostic tools (CPU %age, free space, etc)    |
@@ -111,7 +111,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [domoticz_skill](../../wiki/SKILL-domoticz)                    | Skill integrating Mycroft with Domoticz    |
 | :question:          | [drive_servos](../../wiki/SKILL-drive-servos)                  | Control Hacked-Servo-Engines to make your mycroft move around   |
 | :question:          | [earth-orbit-pic-skill](../../wiki/SKILL-earth-orbit-pic)      | Earth orbit picture skill   |
-| :question:          | [enhanced-bitcoin-skill](../../wiki/SKILL-enhanced-bitcoin)    | Enhanced bitcoin skill from api.bitcoinaverage.com        |  
+| :skull:             | [enhanced-bitcoin-skill](../../wiki/SKILL-enhanced-bitcoin)  | Enhanced bitcoin skill from api.bitcoinaverage.com        |
 | :construction:      | [facebook](../../wiki/SKILL-facebook)                          | Generates posts for Facebook                  |
 | :construction:      | [facebook-marketing](../../wiki/SKILL-facebook-marketing)      | Works with Facebook Marketing API                                                        |
 | :question:          | [feedback-skill](../../wiki/SKILL-feedback)                    | triggers positive feedback intent -> calls feedback method on last active skill          |  
@@ -144,7 +144,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [mute-skill](../../wiki/SKILL-mute)            | Mutes Mycroft until re-enabled |
 | :question:          | [nasa-picture-of-the-day](../../wiki/SKILL-nasa-pic-of-the-day)                    | Nasa picture of the day from the NASA API |
 | :question:          | [near-earth-orbit-skill](../../wiki/SKILL-near-earth-orbit)                    | Near Earth orbit alert skill via the NASA API   |
-| :construction:	      | [objective-skill](../../wiki/SKILL-objective)                  | skills can now register objectives almost the same has an intent would be registered with ObjectiveBuilder class              |
+| :construction:	  | [objective-skill](../../wiki/SKILL-objective)                  | skills can now register objectives almost the same has an intent would be registered with ObjectiveBuilder class              |
 | :construction:	  |	[openhab-skill](../../wiki/SKILL-Openhab)					| This skill adds Openhab support to Mycroft |
 | :question:          | [pandora-skill](../../wiki/SKILL-pandora)                   | Adds Pandora to mycroft via Pianobar  |
 | :question:          | [photolocation-skill](../../wiki/SKILL-photolocation)          | Searches wikimedia for photos of location  |
@@ -160,9 +160,9 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [quodlibet](../../wiki/SKILL-quodlibet)                        | Control Quod Libet music playback                                                        |  
 | :question:          | [random-quote-skill](../../wiki/SKILL-random-quote)            | Adds random quotes,random facts about numbers, and your time left to live          |
 | :question:          | [ratp-timetables](../../wiki/SKILL-ratp-timetables)            | Access schedules for the RATP Network of trains and buses in Paris                       |  
-| :question:          | [read-article-skill](../../wiki/SKILL-read-article)            | Scrapes text from online articles and reads them to you.   |
+| :construction:      | [read-article-skill](../../wiki/SKILL-read-article)            | Scrapes text from online articles and reads them to you.   |
 | :question:          | [rss-skill](../../wiki/SKILL-rss)            | Fetches from RSS feed   |
-| :question:          | [sentiment-analysis-skill](../../wiki/SKILL-sentiment-analysis)  | Sentiment analysis              |  
+| :construction:      | [sentiment-analysis-skill](../../wiki/SKILL-sentiment-analysis)  | Sentiment analysis              |
 | :question:          | [spaceflight-schedule](../../wiki/SKILL-spaceflight-schedule)  | Check when the next space flight launch is                                               |
 | :heavy_check_mark:  | [skill-radio-rne](../..wiki/SKILL-radio-rne)       | Spanish news radio Radio Nacional de Espa?a RNE. | 
 | :question:          | [spacelaunch-skill](../../wiki/SKILL-spacelaunch)  | Check when the next space launch is                                               |
@@ -175,9 +175,9 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [traffic-skill](../../wiki/SKILL-traffic)  | Gets the commute time from Google distance matrix api         |  
 | :heavy_check_mark:  | [twitter-skill](../../wiki/SKILL-twitter)              | Control twitter with mycroft                                                   |
 | :question:          | [unsplash-wallpaper-plasma-skill](../../wiki/SKILL-unsplash-wallpaper-plasma)  | Change KDE Desktop wallpaper by category type from unsplash |
-| :question:          | [wallpaper-skill](../../wiki/SKILL-wallpaper)  | Downloads wallpapers from reddit and changes randomly         |
+| :construction:      | [wallpaper-skill](../../wiki/SKILL-wallpaper)  | Downloads wallpapers from reddit and changes randomly         |
 | :question:  	      | [wemo-skill](../../wiki/SKILL-wemo)              | Control Wemo devices with mycroft                                                   |
-| :question:          | [wifi-management-skill](../../wiki/SKILL-wifi-management)  | Various options for interacting with WiFi        |  
+| :construction:      | [wifi-management-skill](../../wiki/SKILL-wifi-management)  | Various options for interacting with WiFi        |
 | :construction:      | [wink-smart-home](../../wiki/SKILL-wink)                       | Interact with lights via a Wink-hub                                                      |  
 | :question:          | [wiki-fact-scraper-skill](../../wiki/SKILL-wiki-fact-scraper)                        | Scrapes for random facts from wikipedia and stores locally    |
 | :question:  | [youtube](../../wiki/SKILL-youtube)                            | Search and listen to a youtube video                                                        |  
