@@ -1,5 +1,7 @@
 <html>
+<!-- Copyright Mycroft AI, Inc. 2017. All Rights Reserved. -->
 <!-- Thanks to https://www.sanwebe.com/2014/08/css-html-forms-designs for the basis of this -->
+
 <style type="text/css">
 
 #output { 
@@ -13,14 +15,20 @@
     padding:20px;
     font-family: Georgia, "Times New Roman", Times, serif;
 }
-.entry-form h1{
+h1{
     display: block;
     text-align: center;
     padding: 0;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 0px 0px;
     color: #5C5C5C;
     font-variant: small-caps;
     font-size:2em;
+}
+.instructions{
+    max-width:90%;
+    margin: 10px auto;
+    padding: 0px;
+	
 }
 .entry-form ul{
     list-style:none;
@@ -130,6 +138,10 @@
     padding: 0px 4px 0px 4px;
 }
 
+tt {
+    color: #094;
+}
+
 </style>
 <script type="text/javascript">
 //auto expand textarea
@@ -165,7 +177,7 @@ function generate()
 	if (!ex)
 		break;
 	if (ex.value != "")
-		elem.value += ex.value + "\n";
+		elem.value += '* "' + ex.value + '"\n';
     }
    
     elem.value += "\n## Credits \n";
@@ -257,8 +269,21 @@ function addNextAuthor(input)
 </script>
 
 <body>
-<form class="entry-form">
+
 <h1>Mycroft Skill Description Tool</h1>
+<div class="instructions">
+<h2>Usage Instructions:</h2>
+<ol>
+<li>Fill in the appropriate information below</li>
+<li>Click the Generate button</li>
+<li>Copy the output into a README.md file for your Skill's repo.</li>
+</ol>
+You can extend the contents with a custom section (such as <tt>## Notes</tt>, but please do not change the
+format of the sections. Today, this will explain your skill to users in a standardized, easy to read
+format.  In the future it will be machine-parsed to fill the store, perform searches, etc.
+</div>
+
+<form class="entry-form">
 <ul>
 <li>
     <label for="name">Name</label>
@@ -317,11 +342,10 @@ function addNextAuthor(input)
 
 <li>
     <label for="output">Output</label>
-    <textarea id="output">...fill the above area and hit Generate...</textarea>
+    <textarea id="output" placeholder="...fill the above area and hit Generate..."></textarea>
 </li>
-
-
 </ul>
 </form>
+
 </body>
 </html>
