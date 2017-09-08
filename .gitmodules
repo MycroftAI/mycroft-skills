@@ -126,7 +126,7 @@
 	url = https://github.com/JarbasAI/mycroft-photolocation-skill.git
 [submodule "cleverbot-skill"]
 	path = cleverbot-skill
-	url = https://github.com/JarbasAI/mycroft---wolphram-alpha-chatbot---skill.git
+	url = https://github.com/JarbasAI/skill_cleverbot.git
 [submodule "spacelaunch-skill"]
 	path = spacelaunch-skill
 	url = https://github.com/marksev1/Mycroft-SpaceLaunch-Skill.git
