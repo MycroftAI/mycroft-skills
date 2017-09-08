@@ -1,0 +1,15 @@
+language: python
+python:
+  - "2.7"
+
+install:
+  - pip install -q err pytest pytest-pep8 --use-wheel
+  - pip install -q coverage coveralls --use-wheel
+
+# command to run tests
+script:
+ - pep8 --statistics --show-source mycroft.py
+ - coverage run --source mycroft -m py.test
+
+after_success:
+  coveralls
