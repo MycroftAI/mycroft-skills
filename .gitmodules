@@ -357,7 +357,7 @@
 	url = https://github.com/eClarity/skill-autogui.git
 [submodule "openhab-skill"]
 	path = openhab-skill
-	url = https://github.com/mortommy/skill-openhab
+	url = https://github.com/openhab/openhab-mycroft.git
 [submodule "fallback-wolfram-alpha"]
 	path = fallback-wolfram-alpha
 	url = https://github.com/mycroftai/fallback-wolfram-alpha.git
@@ -367,3 +367,6 @@
 [submodule "fallback-aiml"]
 	path = fallback-aiml
 	url = https://github.com/forslund/fallback-aiml.git
+[submodule "brain-skill"]
+	path = brain-skill
+	url = https://github.com/skeledrew/brain-skill.git
