@@ -105,6 +105,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [clarifai-image-recognition-skill](../../wiki/SKILL-clarifai-image-recognition)      | Image recognition skill based on clarifai   |
 | :question:          | [clementine-player-skill](../../wiki/SKILL-clementine-player)  | Controls your clementine-player localy. A fork from amarok-player.   |
 | :question:          | [cleverbot-skill](../../wiki/SKILL-cleverbot)        | cleverbot api fallback skill   |
+| :heavy_check_mark:          | [coin-flip-skill](../../wiki/SKILL-coin-flip)        | Flip a virtual coin   |
 | :question:          | [daily-meditation](../../wiki/SKILL-daily-meditation)          |Plays your Daily Meditation from the  Meditation Podcast     |
 | :construction:      | [deepdream_skill](../../wiki/SKILL-deepdream)                  | Adds Deepdreaming image converstion to Mycroft       |
 | :question:          | [diagnostics](../../wiki/SKILL-diagnostics)                    | Diagnostic tools (CPU %age, free space, etc)    |
