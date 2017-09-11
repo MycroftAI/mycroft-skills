@@ -7,4 +7,4 @@ install:
 
 # command to run tests
 script:
- - pep8 mycroft-skills
+ - pep8
