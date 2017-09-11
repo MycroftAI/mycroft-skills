@@ -339,7 +339,7 @@
 	url = https://github.com/ChristopherRogers1991/mycroft-speedtest.git
 [submodule "skill-radio-rne"]
 	path = skill-radio-rne
-	url = git@github.com:ChrisFernandez/skill-radio-rne.git
+	url = https://github.com/ChrisFernandez/skill-radio-rne
 [submodule "unsplash-wallpaper-plasma-skill"]
 	path = unsplash-wallpaper-plasma-skill
 	url = https://github.com/AIIX/unsplash-wallpaper-plasma-skill
