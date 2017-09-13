@@ -7,4 +7,3 @@ install:
 
 # command to run tests
 script:
- - pep8 .
