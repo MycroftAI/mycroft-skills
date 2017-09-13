@@ -5,5 +5,3 @@ python:
 install:
  - pip install -r test-requirements.txt
 
-# command to run tests
-script:
