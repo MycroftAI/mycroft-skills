@@ -6,4 +6,4 @@ install:
  - pip install -r test-requirements.txt
 
 script:
- - pep8 --max-line-length=100 mycroft-skills
+ - pep8 --max-line-length=100 .
