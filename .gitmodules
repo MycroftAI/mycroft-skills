@@ -370,3 +370,6 @@
 [submodule "brain-skill"]
 	path = brain-skill
 	url = https://github.com/skeledrew/brain-skill.git
+[submodule "basichelp-skill"]
+	path = basichelp-skill
+	url = https://github.com/btotharye/mycroft-skill-basichelp.git
