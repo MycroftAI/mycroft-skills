@@ -373,3 +373,9 @@
 [submodule "easter-eggs"]
 	path = easter-eggs
 	url = https://github.com/JarbasAI/skill_easter_eggs.git
+[submodule "coin-flip-skill"]
+	path = coin-flip-skill
+	url = https://github.com/wligtenberg/coin-flip-skill
+[submodule "basichelp-skill"]
+	path = basichelp-skill
+	url = https://github.com/btotharye/mycroft-skill-basichelp.git
