@@ -32,6 +32,7 @@ This should have edited the .gitmodule file and added something similar to the b
 ```
 
 Once you've got your repo organized properly, submit the PR consisting of the following:
+* Ensure you use http://rawgit.com/MycroftAI/mycroft-skills/master/meta_editor.html to create your standardized README.md file
 * The URL of your repo
 * A short name for the skill
 * A one sentence description of what it does
@@ -95,12 +96,13 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 
 | Status              | Skill Name                                                     | Description                                                                              |  
 | ------------------- | -------------------------------------------------------------- | -------------------------------------
-| :question:          |[amarok-media-player-skill](../../wiki/SKILL-amarok-media-player)               | Player controls for the Amarok Media Player   |
-| :heavy_check_mark:  | [autogui-skill](../../wiki/SKILL-Autogui)              | Manipulate your mouse and keyboard with Mycroft                                                   |  
+| :question:          |[amarok-media-player-skill](../../wiki/SKILL-amarok-media-player)               | Player controls for the Amarok Media Player |
+| :heavy_check_mark:  | [autogui-skill](../../wiki/SKILL-Autogui)                      | Manipulate your mouse and keyboard with Mycroft                                                  |
+| :heavy_check_mark:  | [basichelp](../../wiki/SKILL-basichelp)                        | Get basic mycroft questions and help answered                                            |
 | :question:          |[bioinformatics](../../wiki/SKILL-bioinformatics)               | Adds Bio-Linux Commands to Mycroft   |  
 | :question:          | [bitcoin](../../wiki/SKILL-bitcoin)                            | Check the price of bitcoin                                                               |  
 | :construction:      | [bitcoin-price](../../wiki/SKILL-bitcoin-price)                |  Checks the price of bitcoin                             |
-| :construction:          | [brain-skill](../../wiki/SKILL-brain)                |  Chain intents and provide some services                             |
+| :construction:      | [brain-skill](../../wiki/SKILL-brain)                          |  Chain intents and provide some services                                                 |
 | :question:          | [cbc-news-skill](../../wiki/SKILL-cbc-news)        | Fetches CBC News Podcast             |  
 | :question:          | [clarifai-image-recognition-skill](../../wiki/SKILL-clarifai-image-recognition)      | Image recognition skill based on clarifai   |
 | :question:          | [clementine-player-skill](../../wiki/SKILL-clementine-player)  | Controls your clementine-player localy. A fork from amarok-player.   |

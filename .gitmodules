@@ -339,7 +339,7 @@
 	url = https://github.com/ChristopherRogers1991/mycroft-speedtest.git
 [submodule "skill-radio-rne"]
 	path = skill-radio-rne
-	url = git@github.com:ChrisFernandez/skill-radio-rne.git
+	url = https://github.com/ChrisFernandez/skill-radio-rne
 [submodule "unsplash-wallpaper-plasma-skill"]
 	path = unsplash-wallpaper-plasma-skill
 	url = https://github.com/AIIX/unsplash-wallpaper-plasma-skill
@@ -362,8 +362,8 @@
 	path = fallback-wolfram-alpha
 	url = https://github.com/mycroftai/fallback-wolfram-alpha.git
 [submodule "skill-release-test"]
-	path = release-test
-	url = https://github.com/MycroftAI/skill-release-test.git
+ 	path = skill-release-test
+ 	url = https://github.com/MycroftAI/skill-release-test.git
 [submodule "fallback-aiml"]
 	path = fallback-aiml
 	url = https://github.com/forslund/fallback-aiml.git
@@ -373,3 +373,6 @@
 [submodule "coin-flip-skill"]
 	path = coin-flip-skill
 	url = https://github.com/wligtenberg/coin-flip-skill
+[submodule "basichelp-skill"]
+	path = basichelp-skill
+	url = https://github.com/btotharye/mycroft-skill-basichelp.git
