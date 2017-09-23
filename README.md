@@ -112,6 +112,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :construction:      | [dice-roll](../../wiki/SKILL-dice)                             | Rolls dice spoken in RPG notation.                                                       |
 | :question:          | [domoticz_skill](../../wiki/SKILL-domoticz)                    | Skill integrating Mycroft with Domoticz    |
 | :question:          | [drive_servos](../../wiki/SKILL-drive-servos)                  | Control Hacked-Servo-Engines to make your mycroft move around   |
+| :heavy_check_mark:  | [easter-eggs](../../wiki/SKILL-easter-eggs)                    | Pop culture references and other easter eggs  |
 | :question:          | [earth-orbit-pic-skill](../../wiki/SKILL-earth-orbit-pic)      | Earth orbit picture skill   |
 | :skull:             | [enhanced-bitcoin-skill](../../wiki/SKILL-enhanced-bitcoin)  | Enhanced bitcoin skill from api.bitcoinaverage.com        |
 | :construction:      | [facebook](../../wiki/SKILL-facebook)                          | Generates posts for Facebook                  |

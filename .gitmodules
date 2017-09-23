@@ -370,3 +370,6 @@
 [submodule "brain-skill"]
 	path = brain-skill
 	url = https://github.com/skeledrew/brain-skill.git
+[submodule "easter-eggs"]
+	path = easter-eggs
+	url = https://github.com/JarbasAI/skill_easter_eggs.git
