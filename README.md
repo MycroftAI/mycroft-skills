@@ -18,12 +18,12 @@ writing as well as share best practices.
 |[Hello World](../../wiki/SKILL-Hello-World)             | Hello world and Mycroft manners<br> ```"how are you"```                    |
 |[IP](../../wiki/SKILL-IP)                               | Check the device's IP Address<br> ```"what is your ip address"```          |
 |[Joke](../../wiki/SKILL-Joke)                           | Tell jokes<br> ```"tell me a joke"```                                      |
-|[Installer](../../wiki/SKILL-Installer)                 | Install skills                   |
+|[Installer](../../wiki/SKILL-Installer)                 | Install skills<br> ```install```<br>```uninstall skill```                  |
 |[Mark-1 Demo](../../wiki/SKILL-Mark-1-Demo)             | Demonstration of Mark 1          |
 |[Media](../../wiki/SKILL-Media)                         | Multimedia Control               |
 |[Naptime](../../wiki/SKILL-Naptime)                     | Put Mycroft to sleep             |
 |[NPR News](../../wiki/SKILL-NPR-News)                   | Listen to the news from NPR      |
-|[Pairing](../../wiki/SKILL-Pairing)                     | Pair Mycroft with home.mycroft.ai|
+|[Pairing](../../wiki/SKILL-Pairing)                     | Pair Mycroft with home.mycroft.ai<br>```pair my device```                  |
 |[Personal](../../wiki/SKILL-Personal)                   | Learn about Mycroft              |
 |[Playback Control](../../wiki/SKILL-Playback-Control)   | Control audio subsystem          |
 |[Reminder](../../wiki/SKILL-Reminder)                   | Reminders to do something        |
@@ -31,7 +31,7 @@ writing as well as share best practices.
 |[Singing](../../wiki/SKILL-Singing)                     | Sing some Songs                  |
 |[Stock](../../wiki/SKILL-Stock)                         | Stock prices                     |
 |[Stop](../../wiki/SKILL-Stop)                           | Stop running skills              |
-|[Volume](../../wiki/SKILL-Volume)                       | Current Weather and Forecasts    |
+|[Volume](../../wiki/SKILL-Volume)                       | Increases or Decreases/Mutes Volume<br>```reduce volume```                 |
 |[Weather](../../wiki/SKILL-Weather)                     | Current Weather and Forecasts    |
 |[Wiki](../../wiki/SKILL-Wiki)                           | Wikipedia queries                |
 |[Platform Patch](../../wiki/SKILL-Platform-Patch)       | Patching for official platforms  |
