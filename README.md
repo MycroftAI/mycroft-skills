@@ -3,6 +3,39 @@ A repository for sharing and collaboration for third-party Mycroft skills
 development.  This is a place to publish complete Skills and learn Skill  
 writing as well as share best practices.
 
+## Welcome
+
+## Default Skills and Triggering Them
+
+| Phrase              | Skill Name                                                     | Description                                                                              |  
+| ------------------- | -------------------------------------------------------------- | ---------------------------------
+|                             |[AIML Fallback](../../wiki/FALLBACK-AIML)               | AIML skill by JarbasAI           |
+|                             |[Alarm](../../wiki/SKILL-Alarm)                         | Alarm                            |
+|                             |[Audio Record](../../wiki/SKILL-Audio-Record)           | Record and Play Audio            |
+|                             |[Configuration](../../wiki/SKILL-Configuration)         | Update Mycroft configuration     |
+| what time is it             |[Date Time](../../wiki/SKILL-Date-Time)                 | Tell the date or time            |
+|                             |[Desktop Launcher](../../wiki/SKILL-Desktop-Launcher)   | Open Applications on Desktop     |
+| how are you                 |[Hello World](../../wiki/SKILL-Hello-World)             | Hello world and Mycroft manners  |
+| what is your ip address          |[IP](../../wiki/SKILL-IP)                          | Check the device's IP Address    |
+| tell me a joke              |[Joke](../../wiki/SKILL-Joke)                           | Tell jokes                       |
+|                             |[Installer](../../wiki/SKILL-Installer)                 | Install skills                   |
+|                             |[Mark-1 Demo](../../wiki/SKILL-Mark-1-Demo)             | Demonstration of Mark 1          |
+|                             |[Media](../../wiki/SKILL-Media)                         | Multimedia Control               |
+|                             |[Naptime](../../wiki/SKILL-Naptime)                     | Put Mycroft to sleep             |
+|                             |[NPR News](../../wiki/SKILL-NPR-News)                   | Listen to the news from NPR      |
+| pair my device              |[Pairing](../../wiki/SKILL-Pairing)                     | Pair Mycroft with home.mycroft.ai|
+| what are you, who made you  |[Personal](../../wiki/SKILL-Personal)                   | Learn about Mycroft              |
+| :heavy_check_mark:          |[Playback Control](../../wiki/SKILL-Playback-Control)   | Control audio subsystem          |
+|                             |[Reminder](../../wiki/SKILL-Reminder)                   | Reminders to do something        |
+|                             |[Speak](../../wiki/SKILL-Speak)                         | Repeat anything                  |
+|                             |[Singing](../../wiki/SKILL-Singing)                     | Sing some Songs                  |
+| what is the stock price of Google |[Stock](../../wiki/SKILL-Stock)                   | Stock prices                     |
+| :heavy_check_mark:          |[Stop](../../wiki/SKILL-Stop)                           | Stop running skills              |
+| :heavy_check_mark:          |[Volume](../../wiki/SKILL-Volume)                       | Current Weather and Forecasts    |
+| :heavy_check_mark:          |[Weather](../../wiki/SKILL-Weather)                     | Current Weather and Forecasts    |
+| tell me about physics             |[Wiki](../../wiki/SKILL-Wiki)                     | Wikipedia queries                |
+|                             |[Platform Patch](../../wiki/SKILL-Platform-Patch)       | Patching for official platforms  |
+
 ## How to Add Skills to the Repo!
 
 If you want to submit a skill, simply make a repo for it organized   
