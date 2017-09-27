@@ -7,17 +7,17 @@ writing as well as share best practices.
 
 ## Default Skills and Triggering Them
 
-|      Skill Name                                        | Description<br>"handled phrases"                                                                              
-| -------------------------------------------------------| ---------------------------------|
-|[AIML Fallback](../../wiki/FALLBACK-AIML)               | AIML skill by JarbasAI           |
-|[Alarm](../../wiki/SKILL-Alarm)                         | Alarm                            |
-|[Audio Record](../../wiki/SKILL-Audio-Record)           | Record and Play Audio            |
-|[Configuration](../../wiki/SKILL-Configuration)         | Update Mycroft configuration     |
-|[Date Time](../../wiki/SKILL-Date-Time)                 | Tell the date or time            |
-|[Desktop Launcher](../../wiki/SKILL-Desktop-Launcher)   | Open Applications on Desktop     |
-|[Hello World](../../wiki/SKILL-Hello-World)             | Hello world and Mycroft manners  |
-|[IP](../../wiki/SKILL-IP)                               | Check the device's IP Address    |
-|[Joke](../../wiki/SKILL-Joke)                           | Tell jokes                       |
+|      Skill Name                                        |                Description<br>"handled phrases"                    |                                           
+| -------------------------------------------------------| ---------------------------------------------------------------------------|
+|[AIML Fallback](../../wiki/FALLBACK-AIML)               | AIML skill by JarbasAI                                                     |
+|[Alarm](../../wiki/SKILL-Alarm)                         | Alarm                                                                      |
+|[Audio Record](../../wiki/SKILL-Audio-Record)           | Record and Play Audio                                                      |
+|[Configuration](../../wiki/SKILL-Configuration)         | Update Mycroft configuration                                               |
+|[Date Time](../../wiki/SKILL-Date-Time)                 | Tell the date or time<br><mark>"what time is it"</mark>                    |
+|[Desktop Launcher](../../wiki/SKILL-Desktop-Launcher)   | Open Applications on Desktop                                               |
+|[Hello World](../../wiki/SKILL-Hello-World)             | Hello world and Mycroft manners<br><mark>"how are you"</mark>              |
+|[IP](../../wiki/SKILL-IP)                               | Check the device's IP Address<br><mark>"what is your ip address"</mark>    |
+|[Joke](../../wiki/SKILL-Joke)                           | Tell jokes<br><mark>"tell me a joke"</mark>                                |
 |[Installer](../../wiki/SKILL-Installer)                 | Install skills                   |
 |[Mark-1 Demo](../../wiki/SKILL-Mark-1-Demo)             | Demonstration of Mark 1          |
 |[Media](../../wiki/SKILL-Media)                         | Multimedia Control               |
