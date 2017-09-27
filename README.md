@@ -25,14 +25,14 @@ writing as well as share best practices.
 |                             |[NPR News](../../wiki/SKILL-NPR-News)                   | Listen to the news from NPR      |
 | pair my device              |[Pairing](../../wiki/SKILL-Pairing)                     | Pair Mycroft with home.mycroft.ai|
 | what are you, who made you  |[Personal](../../wiki/SKILL-Personal)                   | Learn about Mycroft              |
-| :heavy_check_mark:          |[Playback Control](../../wiki/SKILL-Playback-Control)   | Control audio subsystem          |
+|                             |[Playback Control](../../wiki/SKILL-Playback-Control)   | Control audio subsystem          |
 |                             |[Reminder](../../wiki/SKILL-Reminder)                   | Reminders to do something        |
 |                             |[Speak](../../wiki/SKILL-Speak)                         | Repeat anything                  |
 |                             |[Singing](../../wiki/SKILL-Singing)                     | Sing some Songs                  |
 | what is the stock price of Google |[Stock](../../wiki/SKILL-Stock)                   | Stock prices                     |
-| :heavy_check_mark:          |[Stop](../../wiki/SKILL-Stop)                           | Stop running skills              |
-| :heavy_check_mark:          |[Volume](../../wiki/SKILL-Volume)                       | Current Weather and Forecasts    |
-| :heavy_check_mark:          |[Weather](../../wiki/SKILL-Weather)                     | Current Weather and Forecasts    |
+| stop                        |[Stop](../../wiki/SKILL-Stop)                           | Stop running skills              |
+|                             |[Volume](../../wiki/SKILL-Volume)                       | Current Weather and Forecasts    |
+| what is the weather today, what is the weather in NC          |[Weather](../../wiki/SKILL-Weather)                     | Current Weather and Forecasts    |
 | tell me about physics             |[Wiki](../../wiki/SKILL-Wiki)                     | Wikipedia queries                |
 |                             |[Platform Patch](../../wiki/SKILL-Platform-Patch)       | Patching for official platforms  |
 
