@@ -6,34 +6,34 @@ writing as well as share best practices.
 
 ## Default Skills and Triggering Them
 
-|      Skill Name                                        |                Description<br>"handled phrases"                    |                                           
-| -------------------------------------------------------| ---------------------------------------------------------------------------|
-|[AIML Fallback](../../wiki/FALLBACK-AIML)               | AIML skill by JarbasAI                                                     |
-|[Alarm](../../wiki/SKILL-Alarm)                         | Alarm                                                                      |
-|[Audio Record](../../wiki/SKILL-Audio-Record)           | Record and Play Audio                                                      |
-|[Configuration](../../wiki/SKILL-Configuration)         | Update Mycroft configuration                                               |
-|[Date Time](../../wiki/SKILL-Date-Time)                 | Tell the date or time<br> ```"what time is it"```                          |
-|[Desktop Launcher](../../wiki/SKILL-Desktop-Launcher)   | Open Applications on Desktop                                               |
-|[Hello World](../../wiki/SKILL-Hello-World)             | Hello world and Mycroft manners<br> ```"how are you"```                    |
-|[IP](../../wiki/SKILL-IP)                               | Check the device's IP Address<br> ```"what is your ip address"```          |
-|[Joke](../../wiki/SKILL-Joke)                           | Tell jokes<br> ```"tell me a joke"```                                      |
-|[Installer](../../wiki/SKILL-Installer)                 | Install skills<br> ```install```<br>```uninstall skill```                  |
-|[Mark-1 Demo](../../wiki/SKILL-Mark-1-Demo)             | Demonstration of Mark 1          |
-|[Media](../../wiki/SKILL-Media)                         | Multimedia Control               |
-|[Naptime](../../wiki/SKILL-Naptime)                     | Put Mycroft to sleep             |
-|[NPR News](../../wiki/SKILL-NPR-News)                   | Listen to the news from NPR      |
-|[Pairing](../../wiki/SKILL-Pairing)                     | Pair Mycroft with home.mycroft.ai<br>```pair my device```                  |
-|[Personal](../../wiki/SKILL-Personal)                   | Learn about Mycroft              |
-|[Playback Control](../../wiki/SKILL-Playback-Control)   | Control audio subsystem          |
-|[Reminder](../../wiki/SKILL-Reminder)                   | Reminders to do something        |
-|[Speak](../../wiki/SKILL-Speak)                         | Repeat anything                  |
-|[Singing](../../wiki/SKILL-Singing)                     | Sing some Songs                  |
-|[Stock](../../wiki/SKILL-Stock)                         | Stock prices                     |
-|[Stop](../../wiki/SKILL-Stop)                           | Stop running skills              |
-|[Volume](../../wiki/SKILL-Volume)                       | Increases or Decreases/Mutes Volume<br>```reduce volume```                 |
-|[Weather](../../wiki/SKILL-Weather)                     | Current Weather and Forecasts    |
-|[Wiki](../../wiki/SKILL-Wiki)                           | Wikipedia queries                |
-|[Platform Patch](../../wiki/SKILL-Platform-Patch)       | Patching for official platforms  |
+|      Skill Name                                              |                Description<br>"handled phrases"                      |                                           
+| -------------------------------------------------------------| ---------------------------------------------------------------------|
+|[AIML Fallback](https://github.com/forslund/fallback-aiml)    |          AIML skill by JarbasAI                                      |
+|[Alarm](https://github.com/MycroftAI/skill-alarm)             |          Alarm                                                       |
+|[Audio Record](https://github.com/MycroftAI/skill-audio-record)|         Record and Play Audio                                       |
+|[Configuration](https://github.com/mycroftai/skill-configuration)|       Update Mycroft configuration                                |
+|[Date Time](https://github.com/MycroftAI/skill-date-time)     |          Tell the date or time<br> ```what time is it```             |
+|[Desktop Launcher](https://github.com/MycroftAI/skill-desktop-launcher)| Open Applications on Desktop<br>```open firefox```          |
+|[Hello World](https://github.com/mycroftai/skill-hello-world) | Hello world and Mycroft manners<br> ```how are you```                |
+|[IP](https://github.com/MycroftAI/skill-ip)                   | Check the device's IP Address<br> ```what is your ip address```      |
+|[Joke](https://github.com/MycroftAI/skill-joke)               | Tell jokes<br> ```tell me a joke```                                  |
+|[Installer](https://github.com/mycroftai/skill-installer)     | Install skills<br> ```install daily meditation```<br>```uninstall skill```                                                                                                                              |
+|[Mark-1 Demo]https://github.com/MycroftAI/skill-mark1-demo)   | Demonstration of Mark 1                                              |
+|[Media](https://github.com/MycroftAI/skill-media)             | Multimedia Control<br>```play, pause, next track```                  |
+|[Naptime](https://github.com/mycroftai/skill-naptime)         | Put Mycroft to sleep<br>```go to sleep```                            |
+|[NPR News](https://github.com/MycroftAI/skill-npr-news)       | Listen to the news from NPR<br>```news```<br>```stop news```         |
+|[Pairing](https://github.com/mycroftai/skill-pairing)         | Pair Mycroft with home.mycroft.ai<br>```pair my device```            |
+|[Personal]https://github.com/MycroftAI/skill-personal)        | Learn about Mycroft<br>```what are you```                            |
+|[Playback Control](https://github.com/mycroftai/skill-playback-control)| Control audio subsystem<br>```play```                       |
+|[Reminder](https://github.com/MycroftAI/skill-reminder)       | Reminders to do something<br>```remind me to turn off the oven in 5 minutes```                                                                                                                            |
+|[Speak](https://github.com/MycroftAI/skill-speak)             | Repeat anything<br>```sya open source AI```                          |
+|[Singing](https://github.com/MycroftAI/skill-singing)         | Sing some Songs<br>```sing a song```                                 |
+|[Stock](https://github.com/MycroftAI/skill-stock)             | Stock prices<br>```stock price of google```                          |
+|[Stop](https://github.com/mycroftai/skill-stop)               | Stop running skills<br>```stop```                                    |
+|[Volume](https://github.com/mycroftai/skill-volume)           | Increases or Decreases/Mutes Volume<br>```reduce volume```           |
+|[Weather](https://github.com/MycroftAI/skill-weather)         | Current Weather and Forecasts<br>```what is the weather```           |
+|[Wiki](https://github.com/MycroftAI/skill-wiki)               | Wikipedia queries<br>```tell me about AI```                          |
+|[Platform Patch](https://github.com/MycroftAI/skill-platform-patch)| Patching for official platforms<br>```platform patch```         |
 
 ## How to Add Skills to the Repo!
 
