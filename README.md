@@ -4,10 +4,16 @@ development.  This is a place to publish complete Skills and learn Skill
 writing as well as share best practices.
 
 ## Table of Contents
-- [Mycroft Skills :package:](#mycroft-skills-package)
+- [Welcome :package:](#welcome-package)
+  - [Table of Contents](#table-of-contents)
+  - [Default Skills and Triggering Them](#default-skills-and-triggering-them)
   - [How to Add Skills to the Repo!](#how-to-add-skills-to-the-repo)
+    - [Step 1 Make a Repo](#step-1-make-a-repo)
+    - [Step 2 Clone Repo](#step-2-clone-repo)
+    - [Step 3 Generate Readme](#step-3-generate-readme)
+    - [Step 4 Add Submodule](#step-4-add-submodule)
+    - [Step 5 Submit PR (Pull Request)](#step-5-submit-pr-pull-request)
     - [MSM Compliance](#msm-compliance)
-  - [Official Skill List](#official-skill-list)
   - [Community Contributed Skill List](#community-contributed-skill-list)
 
 ## Default Skills and Triggering Them
