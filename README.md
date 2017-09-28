@@ -18,12 +18,12 @@ writing as well as share best practices.
 |[IP](https://github.com/MycroftAI/skill-ip)                   | Check the device's IP Address<br> ```what is your ip address```      |
 |[Joke](https://github.com/MycroftAI/skill-joke)               | Tell jokes<br> ```tell me a joke```                                  |
 |[Installer](https://github.com/mycroftai/skill-installer)     | Install skills<br> ```install daily meditation```<br>```uninstall skill```                                                                                                                              |
-|[Mark-1 Demo](https://github.com/MycroftAI/skill-mark1-demo)   | Demonstration of Mark 1                                              |
+|[Mark-1 Demo](https://github.com/MycroftAI/skill-mark1-demo)   | Demonstration of Mark 1                                             |
 |[Media](https://github.com/MycroftAI/skill-media)             | Multimedia Control<br>```play, pause, next track```                  |
 |[Naptime](https://github.com/mycroftai/skill-naptime)         | Put Mycroft to sleep<br>```go to sleep```                            |
 |[NPR News](https://github.com/MycroftAI/skill-npr-news)       | Listen to the news from NPR<br>```news```<br>```stop news```         |
 |[Pairing](https://github.com/mycroftai/skill-pairing)         | Pair Mycroft with home.mycroft.ai<br>```pair my device```            |
-|[Personal]https://github.com/MycroftAI/skill-personal)        | Learn about Mycroft<br>```what are you```                            |
+|[Personal](https://github.com/MycroftAI/skill-personal)       | Learn about Mycroft<br>```what are you```                            |
 |[Playback Control](https://github.com/mycroftai/skill-playback-control)| Control audio subsystem<br>```play```                       |
 |[Reminder](https://github.com/MycroftAI/skill-reminder)       | Reminders to do something<br>```remind me to turn off the oven in 5 minutes```                                                                                                                            |
 |[Speak](https://github.com/MycroftAI/skill-speak)             | Repeat anything<br>```sya open source AI```                          |
