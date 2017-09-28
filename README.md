@@ -95,37 +95,6 @@ That's it!
 
 For an example pull request , check out [this PR](https://github.com/MycroftAI/mycroft-skills/pull/37)
 
-## Official Skill List
-| Status              | Skill Name                                                     | Description                                                                              |  
-| ------------------- | -------------------------------------------------------------- | ---------------------------------
-| :heavy_check_mark:          |[AIML Fallback](../../wiki/FALLBACK-AIML)               | AIML skill by JarbasAI           |
-| :heavy_check_mark:          |[Alarm](../../wiki/SKILL-Alarm)                         | Alarm                            |
-| :heavy_check_mark:          |[Audio Record](../../wiki/SKILL-Audio-Record)           | Record and Play Audio            |
-| :heavy_check_mark:          |[Configuration](../../wiki/SKILL-Configuration)         | Update Mycroft configuration     |
-| :heavy_check_mark:          |[Date Time](../../wiki/SKILL-Date-Time)                 | Tell the date or time            |
-| :heavy_check_mark:          |[Desktop Launcher](../../wiki/SKILL-Desktop-Launcher)   | Open Applications on Desktop     |
-| :heavy_check_mark:          |[Hello World](../../wiki/SKILL-Hello-World)             | Hello world and Mycroft manners  |
-| :heavy_check_mark:          |[IP](../../wiki/SKILL-IP)                               | Check the device's IP Address    |
-| :heavy_check_mark:          |[Joke](../../wiki/SKILL-Joke)                           | Tell jokes                       |
-| :heavy_check_mark:          |[Installer](../../wiki/SKILL-Installer)                 | Install skills                   |
-| :heavy_check_mark:          |[Mark-1 Demo](../../wiki/SKILL-Mark-1-Demo)             | Demonstration of Mark 1          |
-| :heavy_check_mark:          |[Media](../../wiki/SKILL-Media)                         | Multimedia Control               |
-| :heavy_check_mark:          |[Naptime](../../wiki/SKILL-Naptime)                     | Put Mycroft to sleep             |
-| :heavy_check_mark:          |[NPR News](../../wiki/SKILL-NPR-News)                   | Listen to the news from NPR      |
-| :heavy_check_mark:          |[Pairing](../../wiki/SKILL-Pairing)                     | Pair Mycroft with home.mycroft.ai|
-| :heavy_check_mark:          |[Personal](../../wiki/SKILL-Personal)                   | Learn about Mycroft              |
-| :heavy_check_mark:          |[Playback Control](../../wiki/SKILL-Playback-Control)   | Control audio subsystem          |
-| :heavy_check_mark:          |[Reminder](../../wiki/SKILL-Reminder)                   | Reminders to do something        |
-| :heavy_check_mark:          |[Speak](../../wiki/SKILL-Speak)                         | Repeat anything                  |
-| :heavy_check_mark:          |[Singing](../../wiki/SKILL-Singing)                     | Sing some Songs                  |
-| :heavy_check_mark:          |[Stock](../../wiki/SKILL-Stock)                         | Stock prices                     |
-| :heavy_check_mark:          |[Stop](../../wiki/SKILL-Stop)                           | Stop running skills              |
-| :heavy_check_mark:          |[Volume](../../wiki/SKILL-Volume)                       | Current Weather and Forecasts    |
-| :heavy_check_mark:          |[Weather](../../wiki/SKILL-Weather)                     | Current Weather and Forecasts    |
-| :heavy_check_mark:          |[Wiki](../../wiki/SKILL-Wiki)                           | Wikipedia queries                |
-| :heavy_check_mark:          |[Wolfram Alpha](../../wiki/SKILL-Wolfram-Alpha)         | Wolfram Alpha                    |
-| :heavy_check_mark:          |[Platform Patch](../../wiki/SKILL-Platform-Patch)       | Patching for official platforms  |
-
 ## Community Contributed Skill List
 
 
