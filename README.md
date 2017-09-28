@@ -37,24 +37,26 @@ writing as well as share best practices.
 
 ## How to Add Skills to the Repo!
 
+### Step 1 Make a Repo
 If you want to submit a skill, simply make a repo for it organized   
-as the template above.
+as the template above. [How To Make a Repo](https://help.github.com/articles/create-a-repo/)
+
 [Example Skill Template](https://github.com/MycroftAI/mycroft-skills/tree/master/00__skill_template)  
 
-Clone the mycroft-skills repo to a local directory then:
+### Step 2 Clone Repo
+Clone the mycroft-skills repo to a local directory, [How To Clone](https://help.github.com/articles/cloning-a-repository) if you are unfamiliar with the process.
 
-To get the skill added, modify the Readme file.
-* The README.md  
+### Step 3 Generate Readme
+To get the skill added, generate the Readme file using the [Meta Editor](http://rawgit.com/MycroftAI/mycroft-skills/master/meta_editor.html) You will fill out all the relative fields and it will give you the Markdown to put into your README.md file.
 
-In the README, add a line under "Community Contributed Skill List" (alphabetically, please!) describing your skill and linking to it in the wiki. Feel free to make a new wiki page for your skill! Also, indicate the status according to the guide below.
-
-After that, you need to add the submodule for your skill. For more help, feel free to check out [this guide](https://github.com/blog/2104-working-with-submodules)
+### Step 4 Add Submodule
+Next we need to add the submodule for your skill. For more help, feel free to check out [this guide](https://github.com/blog/2104-working-with-submodules)
 
 Or, type the following in the terminal of your clone of the Skills-repo.
 ```
 git submodule add $remote $name-your-skill
 ```
-Where $remote is the git address for your repo and $name-your-skill is what you want to name it. In general, we normally use BLANK-skill as a format for skill names.
+Where $remote is the git address for your repo (example https://github.com/mycroftai/skill-configuration) and $name-your-skill is what you want to name it. In general, we normally use BLANK-skill as a format for skill names.
 
 This should have edited the .gitmodule file and added something similar to the bottom of the file:
 ```
@@ -63,6 +65,7 @@ This should have edited the .gitmodule file and added something similar to the b
  +	url = URL.FOR.YOUR.SKILL.git
 ```
 
+### Step 5 Submit PR (Pull Request)
 Once you've got your repo organized properly, submit the PR consisting of the following:
 * Ensure you use http://rawgit.com/MycroftAI/mycroft-skills/master/meta_editor.html to create your standardized README.md file
 * The URL of your repo
