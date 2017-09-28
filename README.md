@@ -111,8 +111,8 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 ## Community Contributed Skill List
 
 
-| Status              | Skill Name                                                     | Description                                                                              |  
-| ------------------- | -------------------------------------------------------------- | -------------------------------------
+| Status              | Skill Name                                                     | Description<br>```phrase to trigger```      |  
+| ------------------- | -------------------------------------------------------------- | --------------------------------------------|
 | :question:          |[amarok-media-player-skill](../../wiki/SKILL-amarok-media-player)               | Player controls for the Amarok Media Player |
 | :heavy_check_mark:  | [autogui-skill](../../wiki/SKILL-Autogui)                      | Manipulate your mouse and keyboard with Mycroft                                                  |
 | :heavy_check_mark:  | [basichelp](../../wiki/SKILL-basichelp)                        | Get basic mycroft questions and help answered                                            |
@@ -144,7 +144,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [google-translate](../../wiki/SKILL-google-translate)          | Translate English phrases into other languages                                           |
 | :construction:  | [gpio-example](../../wiki/SKILL-gpio-example)                            | Example skill using the GPIO pins on the Raspberry Pi to blink an LED                                         |    
 | :question:          | [hue](../../wiki/SKILL-hue)                                    | Control your Phillips Hue lights                                                         |  
-| :heavy_check_mark:  | [home-assistant](../../wiki/SKILL-home-assistant)              | Control your devices in home-assistant                                                   |  
+| :heavy_check_mark:  | [home-assistant](https://github.com/btotharye/mycroft-homeassistant)| Control your devices in home-assistant<br>```turn on office```                                                      |  
 | :question:          | [irsend](../../wiki/SKILL-irsend)                              | Control devices via [lirc's](http://www.lirc.org/) [irsend](http://www.lirc.org/html/irsend.html)                                                         |
 | :question:          | [jb-podcasts](../../wiki/SKILL-Jupiter-Broadcasting-Podcasts)  | Play podcasts from Jupiter Broadcasting shows                                            |  
 | :question:          | [krunner-search](../../wiki/SKILL-krunner-search)              | Search local KDE desktop for files, images, recent documents, bookmarks                  |
@@ -195,7 +195,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          |[system-skill](../../wiki/SKILL-system)               | Adds system controls like shutdown and reboot   |
 | :question:          | [take_picture](../../wiki/SKILL-take-picture)  | Take Pictures using the Raspberry Pi Camera          |  
 | :question:          | [traffic-skill](../../wiki/SKILL-traffic)  | Gets the commute time from Google distance matrix api         |  
-| :heavy_check_mark:  | [twitter-skill](../../wiki/SKILL-twitter)              | Control twitter with mycroft                                                   |
+| :heavy_check_mark:  | [twitter-skill](https://github.com/btotharye/mycroft-twitter-skill)| Control twitter with mycroft<br>```How many twitter followers do I have```                                                                                                         |
 | :question:          | [unsplash-wallpaper-plasma-skill](../../wiki/SKILL-unsplash-wallpaper-plasma)  | Change KDE Desktop wallpaper by category type from unsplash |
 | :construction:      | [wallpaper-skill](../../wiki/SKILL-wallpaper)  | Downloads wallpapers from reddit and changes randomly         |
 | :question:  	      | [wemo-skill](../../wiki/SKILL-wemo)              | Control Wemo devices with mycroft                                                   |
