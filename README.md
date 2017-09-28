@@ -13,7 +13,7 @@
   - [Community Contributed Skill List](#community-contributed-skill-list)
 
 
-# Welcome :package:
+# Welcome
 A repository for sharing and collaboration for third-party Mycroft skills  
 development.  This is a place to publish complete Skills and learn Skill  
 writing as well as share best practices.
