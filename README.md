@@ -67,7 +67,7 @@ This should have edited the .gitmodule file and added something similar to the b
 
 ### Step 5 Submit PR (Pull Request)
 Once you've got your repo organized properly, submit the PR consisting of the following:
-* Ensure you use http://rawgit.com/MycroftAI/mycroft-skills/master/meta_editor.html to create your standardized README.md file
+* Ensure you use [Meta Editor](http://rawgit.com/MycroftAI/mycroft-skills/master/meta_editor.html) to create your standardized README.md file
 * The URL of your repo
 * A short name for the skill
 * A one sentence description of what it does
