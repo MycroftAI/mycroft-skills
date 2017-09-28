@@ -22,30 +22,30 @@ A repository for sharing and collaboration for third-party Mycroft skills develo
 | -------------------------------------------------------------| ---------------------------------------------------------------------|
 |[AIML Fallback](https://github.com/forslund/fallback-aiml)    |          AIML skill by JarbasAI                                      |
 |[Alarm](https://github.com/MycroftAI/skill-alarm)             |          Alarm                                                       |
-|[Audio Record](https://github.com/MycroftAI/skill-audio-record)|         Record and Play Audio<br>```record```                       |
-|[Configuration](https://github.com/mycroftai/skill-configuration)|       Update Mycroft configuration<br>```configuration update```  |
-|[Date Time](https://github.com/MycroftAI/skill-date-time)     |          Tell the date or time<br> ```what time is it```             |
-|[Desktop Launcher](https://github.com/MycroftAI/skill-desktop-launcher)| Open Applications on Desktop<br>```open firefox```          |
-|[Hello World](https://github.com/mycroftai/skill-hello-world) | Hello world and Mycroft manners<br> ```how are you```                |
-|[IP](https://github.com/MycroftAI/skill-ip)                   | Check the device's IP Address<br> ```what is your ip address```      |
-|[Joke](https://github.com/MycroftAI/skill-joke)               | Tell jokes<br> ```tell me a joke```                                  |
-|[Installer](https://github.com/mycroftai/skill-installer)     | Install skills<br> ```install daily meditation```<br>```uninstall skill```                                                                                                                              |
-|[Mark-1 Demo](https://github.com/MycroftAI/skill-mark1-demo)   | Demonstration of Mark 1                                             |
-|[Media](https://github.com/MycroftAI/skill-media)             | Multimedia Control<br>```play, pause, next track```                  |
-|[Naptime](https://github.com/mycroftai/skill-naptime)         | Put Mycroft to sleep<br>```go to sleep```                            |
-|[NPR News](https://github.com/MycroftAI/skill-npr-news)       | Listen to the news from NPR<br>```news```<br>```stop news```         |
-|[Pairing](https://github.com/mycroftai/skill-pairing)         | Pair Mycroft with home.mycroft.ai<br>```pair my device```            |
-|[Personal](https://github.com/MycroftAI/skill-personal)       | Learn about Mycroft<br>```what are you```                            |
-|[Playback Control](https://github.com/mycroftai/skill-playback-control)| Control audio subsystem<br>```play```                       |
-|[Reminder](https://github.com/MycroftAI/skill-reminder)       | Reminders to do something<br>```remind me to turn off the oven in 5 minutes```                                                                                                                            |
-|[Speak](https://github.com/MycroftAI/skill-speak)             | Repeat anything<br>```sya open source AI```                          |
-|[Singing](https://github.com/MycroftAI/skill-singing)         | Sing some Songs<br>```sing a song```                                 |
-|[Stock](https://github.com/MycroftAI/skill-stock)             | Stock prices<br>```stock price of google```                          |
-|[Stop](https://github.com/mycroftai/skill-stop)               | Stop running skills<br>```stop```                                    |
-|[Volume](https://github.com/mycroftai/skill-volume)           | Increases or Decreases/Mutes Volume<br>```reduce volume```           |
-|[Weather](https://github.com/MycroftAI/skill-weather)         | Current Weather and Forecasts<br>```what is the weather```           |
-|[Wiki](https://github.com/MycroftAI/skill-wiki)               | Wikipedia queries<br>```tell me about AI```                          |
-|[Platform Patch](https://github.com/MycroftAI/skill-platform-patch)| Patching for official platforms<br>```platform patch```         |
+|[Audio Record](https://github.com/MycroftAI/skill-audio-record)|         Record and Play Audio<br>```"record"```                       |
+|[Configuration](https://github.com/mycroftai/skill-configuration)|       Update Mycroft configuration<br>```"configuration update"```  |
+|[Date Time](https://github.com/MycroftAI/skill-date-time)     |          Tell the date or time<br> ```"what time is it"```             |
+|[Desktop Launcher](https://github.com/MycroftAI/skill-desktop-launcher)| Open Applications on Desktop<br>```"open firefox"```          |
+|[Hello World](https://github.com/mycroftai/skill-hello-world) | Hello world and Mycroft manners<br> ```"how are you"```                |
+|[IP](https://github.com/MycroftAI/skill-ip)                   | Check the device's IP Address<br> ```"what is your ip address"```      |
+|[Joke](https://github.com/MycroftAI/skill-joke)               | Tell jokes<br> ```"tell me a joke"```                                  |
+|[Installer](https://github.com/mycroftai/skill-installer)     | Install skills<br> ```"install daily meditation"```<br>```"uninstall skill"```                                                                                                                             |
+|[Mark-1 Demo](https://github.com/MycroftAI/skill-mark1-demo)  | Demonstration of Mark 1                                              |
+|[Media](https://github.com/MycroftAI/skill-media)             | Multimedia Control<br>```"play", "pause", "next track"```            |
+|[Naptime](https://github.com/mycroftai/skill-naptime)         | Put Mycroft to sleep<br>```"go to sleep"```                          |
+|[NPR News](https://github.com/MycroftAI/skill-npr-news)       | Listen to the news from NPR<br>```"news"```<br>```"stop news"```     |
+|[Pairing](https://github.com/mycroftai/skill-pairing)         | Pair Mycroft with home.mycroft.ai<br>```"pair my device"```          |
+|[Personal](https://github.com/MycroftAI/skill-personal)       | Learn about Mycroft<br>```"what are you"```                          |
+|[Playback Control](https://github.com/mycroftai/skill-playback-control)| Control audio subsystem<br>```"play"```                     |
+|[Reminder](https://github.com/MycroftAI/skill-reminder)       | Reminders to do something<br>```"remind me to turn off the oven in 5 minutes"```                                                                                                                           |
+|[Speak](https://github.com/MycroftAI/skill-speak)             | Repeat anything<br>```"say open source AI"```                        |
+|[Singing](https://github.com/MycroftAI/skill-singing)         | Sing some Songs<br>```"sing a song"```                               |
+|[Stock](https://github.com/MycroftAI/skill-stock)             | Stock prices<br>```"stock price of google"```                        |
+|[Stop](https://github.com/mycroftai/skill-stop)               | Stop running skills<br>```"stop"```                                  |
+|[Volume](https://github.com/mycroftai/skill-volume)           | Increases or Decreases/Mutes Volume<br>```"reduce volume"```         |
+|[Weather](https://github.com/MycroftAI/skill-weather)         | Current Weather and Forecasts<br>```"what is the weather"```         |
+|[Wiki](https://github.com/MycroftAI/skill-wiki)               | Wikipedia queries<br>```"tell me about AI"```                        |
+|[Platform Patch](https://github.com/MycroftAI/skill-platform-patch)| Patching for official platforms<br>```"platform patch"```       |
 
 ## How to Add Skills to the Repo!
 
@@ -125,7 +125,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 ## Community Contributed Skill List
 
 
-| Status              | Skill Name                                                     | Description<br>```phrase to trigger```      |  
+| Status              | Skill Name                                                     | Description<br>```"phrase to trigger"```    | 
 | ------------------- | -------------------------------------------------------------- | --------------------------------------------|
 | :question:          |[amarok-media-player-skill](../../wiki/SKILL-amarok-media-player)               | Player controls for the Amarok Media Player |
 | :heavy_check_mark:  | [autogui-skill](../../wiki/SKILL-Autogui)                      | Manipulate your mouse and keyboard with Mycroft                                                  |
@@ -158,7 +158,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [google-translate](../../wiki/SKILL-google-translate)          | Translate English phrases into other languages                                           |
 | :construction:  | [gpio-example](../../wiki/SKILL-gpio-example)                            | Example skill using the GPIO pins on the Raspberry Pi to blink an LED                                         |    
 | :question:          | [hue](../../wiki/SKILL-hue)                                    | Control your Phillips Hue lights                                                         |  
-| :heavy_check_mark:  | [home-assistant](https://github.com/btotharye/mycroft-homeassistant)| Control your devices in home-assistant<br>```turn on office```                                                      |  
+| :heavy_check_mark:  | [home-assistant](https://github.com/btotharye/mycroft-homeassistant)| Control your devices in home-assistant<br>```"turn on office"```                                                      |  
 | :question:          | [irsend](../../wiki/SKILL-irsend)                              | Control devices via [lirc's](http://www.lirc.org/) [irsend](http://www.lirc.org/html/irsend.html)                                                         |
 | :question:          | [jb-podcasts](../../wiki/SKILL-Jupiter-Broadcasting-Podcasts)  | Play podcasts from Jupiter Broadcasting shows                                            |  
 | :question:          | [krunner-search](../../wiki/SKILL-krunner-search)              | Search local KDE desktop for files, images, recent documents, bookmarks                  |
@@ -209,7 +209,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          |[system-skill](../../wiki/SKILL-system)               | Adds system controls like shutdown and reboot   |
 | :question:          | [take_picture](../../wiki/SKILL-take-picture)  | Take Pictures using the Raspberry Pi Camera          |  
 | :question:          | [traffic-skill](../../wiki/SKILL-traffic)  | Gets the commute time from Google distance matrix api         |  
-| :heavy_check_mark:  | [twitter-skill](https://github.com/btotharye/mycroft-twitter-skill)| Control twitter with mycroft<br>```How many twitter followers do I have```                                                                                                         |
+| :heavy_check_mark:  | [twitter-skill](https://github.com/btotharye/mycroft-twitter-skill)| Control twitter with mycroft<br>```"How many twitter followers do I have"```                                                                                                         |
 | :question:          | [unsplash-wallpaper-plasma-skill](../../wiki/SKILL-unsplash-wallpaper-plasma)  | Change KDE Desktop wallpaper by category type from unsplash |
 | :construction:      | [wallpaper-skill](../../wiki/SKILL-wallpaper)  | Downloads wallpapers from reddit and changes randomly         |
 | :question:  	      | [wemo-skill](../../wiki/SKILL-wemo)              | Control Wemo devices with mycroft                                                   |
