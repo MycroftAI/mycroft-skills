@@ -1,9 +1,4 @@
-# Welcome :package:
-A repository for sharing and collaboration for third-party Mycroft skills  
-development.  This is a place to publish complete Skills and learn Skill  
-writing as well as share best practices.
-
-## Table of Contents
+# Table of Contents
 - [Welcome :package:](#welcome-package)
   - [Table of Contents](#table-of-contents)
   - [Default Skills and Triggering Them](#default-skills-and-triggering-them)
@@ -15,6 +10,11 @@ writing as well as share best practices.
     - [Step 5 Submit PR (Pull Request)](#step-5-submit-pr-pull-request)
     - [MSM Compliance](#msm-compliance)
   - [Community Contributed Skill List](#community-contributed-skill-list)
+
+# Welcome :package:
+A repository for sharing and collaboration for third-party Mycroft skills  
+development.  This is a place to publish complete Skills and learn Skill  
+writing as well as share best practices.
 
 ## Default Skills and Triggering Them
 
