@@ -3,7 +3,7 @@ A repository for sharing and collaboration for third-party Mycroft skills
 development.  This is a place to publish complete Skills and learn Skill  
 writing as well as share best practices.
 
-**[Table of Contents]**
+## Table of Contents
 - [Mycroft Skills :package:](#mycroft-skills-package)
   - [How to Add Skills to the Repo!](#how-to-add-skills-to-the-repo)
     - [MSM Compliance](#msm-compliance)
