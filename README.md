@@ -10,15 +10,15 @@ writing as well as share best practices.
 | -------------------------------------------------------------| ---------------------------------------------------------------------|
 |[AIML Fallback](https://github.com/forslund/fallback-aiml)    |          AIML skill by JarbasAI                                      |
 |[Alarm](https://github.com/MycroftAI/skill-alarm)             |          Alarm                                                       |
-|[Audio Record](https://github.com/MycroftAI/skill-audio-record)|         Record and Play Audio                                       |
-|[Configuration](https://github.com/mycroftai/skill-configuration)|       Update Mycroft configuration                                |
+|[Audio Record](https://github.com/MycroftAI/skill-audio-record)|         Record and Play Audio<br>```record```                       |
+|[Configuration](https://github.com/mycroftai/skill-configuration)|       Update Mycroft configuration<br>```configuration update```  |
 |[Date Time](https://github.com/MycroftAI/skill-date-time)     |          Tell the date or time<br> ```what time is it```             |
 |[Desktop Launcher](https://github.com/MycroftAI/skill-desktop-launcher)| Open Applications on Desktop<br>```open firefox```          |
 |[Hello World](https://github.com/mycroftai/skill-hello-world) | Hello world and Mycroft manners<br> ```how are you```                |
 |[IP](https://github.com/MycroftAI/skill-ip)                   | Check the device's IP Address<br> ```what is your ip address```      |
 |[Joke](https://github.com/MycroftAI/skill-joke)               | Tell jokes<br> ```tell me a joke```                                  |
 |[Installer](https://github.com/mycroftai/skill-installer)     | Install skills<br> ```install daily meditation```<br>```uninstall skill```                                                                                                                              |
-|[Mark-1 Demo]https://github.com/MycroftAI/skill-mark1-demo)   | Demonstration of Mark 1                                              |
+|[Mark-1 Demo](https://github.com/MycroftAI/skill-mark1-demo)   | Demonstration of Mark 1                                              |
 |[Media](https://github.com/MycroftAI/skill-media)             | Multimedia Control<br>```play, pause, next track```                  |
 |[Naptime](https://github.com/mycroftai/skill-naptime)         | Put Mycroft to sleep<br>```go to sleep```                            |
 |[NPR News](https://github.com/MycroftAI/skill-npr-news)       | Listen to the news from NPR<br>```news```<br>```stop news```         |
