@@ -126,6 +126,7 @@ That's it!
 For an example pull request , check out [this PR](https://github.com/MycroftAI/mycroft-skills/pull/37)
 
 ## Community Contributed Skill List
+**When submitting a skill make sure skill name links to the location of the skill, we are doing away with the wiki pages.  Also please include the phrase to trigger on as well for your skill.**
 
 
 | Status              | Skill Name                                                     | Description<br>```"phrase to trigger"```    | 
