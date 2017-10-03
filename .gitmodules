@@ -90,13 +90,13 @@
 	url = https://github.com/JarbasAI/mycroft-pictureskill
 [submodule "krunner-search-skill"]
 	path = krunner-search-skill
-	url = https://github.com/AIIX/mycroft-krunner-skill
+	url = https://github.com/AIIX/krunner-search-skill
 [submodule "plasma-activities-skill"]
 	path = plasma-activities-skill
-	url = https://github.com/AIIX/mycroft-activities-plasma-skill
+	url = https://github.com/AIIX/plasma-activities-skill
 [submodule "plasma-user-control-skill"]
 	path = plasma-user-control-skill
-	url = https://github.com/AIIX/mycroft-internals-plasma-skill
+	url = https://github.com/AIIX/plasma-user-control-skill
 [submodule "deapdream-skill"]
 	path = deapdream-skill
 	url = https://github.com/JarbasAI/mycroft-deepdream-skill
@@ -114,7 +114,7 @@
 	url = https://github.com/JarbasAI/mycroft--proxy-scrapping---skill.git
 [submodule "mycroft-sendSMS-plasma-skill"]
 	path = plasma-sendsms-skill
-	url = https://github.com/AIIX/mycroft-sendSMS-plasma-skill.git
+	url = https://github.com/AIIX/plasma-sendsms-skill.git
 [submodule "bioinformatics-skill"]
 	path = bioinformatics-skill
 	url = https://github.com/TicklishGiraffe/mycroft_genomics.git
@@ -126,7 +126,7 @@
 	url = https://github.com/JarbasAI/mycroft-photolocation-skill.git
 [submodule "cleverbot-skill"]
 	path = cleverbot-skill
-	url = https://github.com/JarbasAI/mycroft---wolphram-alpha-chatbot---skill.git
+	url = https://github.com/JarbasAI/skill_cleverbot.git
 [submodule "spacelaunch-skill"]
 	path = spacelaunch-skill
 	url = https://github.com/marksev1/Mycroft-SpaceLaunch-Skill.git
@@ -270,7 +270,7 @@
 	url = https://github.com/JarbasAI/mycroft---sentiment-analisys---skill.git
 [submodule "amarok-player-skill"]
 	path = amarok-player-skill
-	url = https://github.com/AIIX/mycroft-amarok-player-plasma-skill.git
+	url = https://github.com/AIIX/amarok-player-skill.git
 [submodule "clementine-player-skill"]
 	path = clementine-player-skill
 	url = https://github.com/hersche/mycroft-clementine-skill.git
@@ -289,9 +289,6 @@
 [submodule "facebook-marketing"]
 	path = facebook-marketing
 	url = https://github.com/ProsperousHeart/mycroft-facebook-marketing.git
-[submodule "homeassistant-skill"]
-	path = homeassistant-skill
-	url = https://github.com/btotharye/mycroft-homeassistant
 [submodule "HomeAssistant-skill"]
 	path = homeassistant-skill
 	url = https://github.com/btotharye/mycroft-homeassistant.git
@@ -337,6 +334,12 @@
 [submodule "gpio-example-skill"]
 	path = gpio-example-skill
 	url = https://github.com/MycroftAI/picroft_example_skill_gpio.git
+[submodule "speedtest"]
+	path = speedtest
+	url = https://github.com/ChristopherRogers1991/mycroft-speedtest.git
+[submodule "skill-radio-rne"]
+	path = skill-radio-rne
+	url = https://github.com/ChrisFernandez/skill-radio-rne
 [submodule "unsplash-wallpaper-plasma-skill"]
 	path = unsplash-wallpaper-plasma-skill
 	url = https://github.com/AIIX/unsplash-wallpaper-plasma-skill
@@ -349,3 +352,30 @@
 [submodule "skill-wemo"]
 	path = skill-wemo
 	url = https://github.com/martymulligan/skill-wemo.git
+[submodule "skill-autogui"]
+	path = skill-autogui
+	url = https://github.com/eClarity/skill-autogui.git
+[submodule "openhab-skill"]
+	path = openhab-skill
+	url = https://github.com/openhab/openhab-mycroft.git
+[submodule "fallback-wolfram-alpha"]
+	path = fallback-wolfram-alpha
+	url = https://github.com/mycroftai/fallback-wolfram-alpha.git
+[submodule "skill-release-test"]
+ 	path = skill-release-test
+ 	url = https://github.com/MycroftAI/skill-release-test.git
+[submodule "fallback-aiml"]
+	path = fallback-aiml
+	url = https://github.com/forslund/fallback-aiml.git
+[submodule "brain-skill"]
+	path = brain-skill
+	url = https://github.com/skeledrew/brain-skill.git
+[submodule "coin-flip-skill"]
+	path = coin-flip-skill
+	url = https://github.com/wligtenberg/coin-flip-skill
+[submodule "basichelp-skill"]
+	path = basichelp-skill
+	url = https://github.com/btotharye/mycroft-skill-basichelp.git
+[submodule "easter-eggs"]
+	path = easter-eggs
+	url = https://github.com/JarbasAI/skill_easter_eggs.git
