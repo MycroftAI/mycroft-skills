@@ -131,7 +131,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 
 | Status              | Skill Name                                                     | Description<br>```"phrase to trigger"```    | 
 | ------------------- | -------------------------------------------------------------- | --------------------------------------------|
-| :question:          |[amarok-media-player-skill](../../wiki/SKILL-amarok-media-player)               | Player controls for the Amarok Media Player |
+| :question:          |[amarok-media-player-skill](https://github.com/AIIX/amarok-player-skill)               | Player controls for the Amarok Media Player<br>```"amarok play/stop/next/previous music"``` |
 | :heavy_check_mark:  | [autogui-skill](../../wiki/SKILL-Autogui)                      | Manipulate your mouse and keyboard with Mycroft                                                  |
 | :heavy_check_mark:  | [basichelp](../../wiki/SKILL-basichelp)                        | Get basic mycroft questions and help answered                                            |
 | :question:          |[bioinformatics](../../wiki/SKILL-bioinformatics)               | Adds Bio-Linux Commands to Mycroft   |  
@@ -139,7 +139,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :construction:      | [bitcoin-price](../../wiki/SKILL-bitcoin-price)                |  Checks the price of bitcoin                             |
 | :construction:      | [brain-skill](../../wiki/SKILL-brain)                          |  Chain intents and provide some services                                                 |
 | :question:          | [cbc-news-skill](../../wiki/SKILL-cbc-news)        | Fetches CBC News Podcast             |  
-| :question:          | [clarifai-image-recognition-skill](../../wiki/SKILL-clarifai-image-recognition)      | Image recognition skill based on clarifai   |
+| :question:          | [clarifai-image-recognition-skill](https://github.com/AIIX/clarifai-image-recognition-skill)      | Image recognition skill based on clarifai<br> ```"search image url [imagelocation]"```   | 
 | :question:          | [clementine-player-skill](../../wiki/SKILL-clementine-player)  | Controls your clementine-player localy. A fork from amarok-player.   |
 | :question:          | [cleverbot-skill](../../wiki/SKILL-cleverbot)        | cleverbot api fallback skill   |
 | :heavy_check_mark:          | [coin-flip-skill](../../wiki/SKILL-coin-flip)        | Flip a virtual coin   |
@@ -165,7 +165,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :heavy_check_mark:  | [home-assistant](https://github.com/btotharye/mycroft-homeassistant)| Control your devices in home-assistant<br>```"turn on office"```                                                      |  
 | :question:          | [irsend](../../wiki/SKILL-irsend)                              | Control devices via [lirc's](http://www.lirc.org/) [irsend](http://www.lirc.org/html/irsend.html)                                                         |
 | :question:          | [jb-podcasts](../../wiki/SKILL-Jupiter-Broadcasting-Podcasts)  | Play podcasts from Jupiter Broadcasting shows                                            |  
-| :question:          | [krunner-search](../../wiki/SKILL-krunner-search)              | Search local KDE desktop for files, images, recent documents, bookmarks                  |
+| :question:          | [krunner-search](https://github.com/AIIX/krunner-search-skill) | Search local KDE desktop for files, images, recent documents, bookmarks<br>```"search this computer for [any keyword]"```                  |
 | :question:          | [kodi-cadair](../../wiki/SKILL-cadair-kodi)                    | Kodi playback and search                                                                 |  
 | :question:          | [kodi-cbenning](../../wiki/SKILL-cbenning-kodi)                | Control a local or remote Kodi instance                                                  |  
 | :question:          | [kodi-k3yb0ardn1nja](../../wiki/SKILL-kodi-k3yb0ardn1nja)      | Play or pause a Kodi video                                                               |  
@@ -190,9 +190,9 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [photolocation-skill](../../wiki/SKILL-photolocation)          | Searches wikimedia for photos of location  |
 | :question:          | [pickup-line-skill](../../wiki/SKILL-pickup-line)  | Responds with random nerdy pick-up lines          |
 | :heavy_check_mark:          | [ping-skill](../../wiki/SKILL-ping)  | Pings websites and responds with latency time       |  
-| :question:          | [plasma-activities-skill](../../wiki/SKILL-plasma-activities)  | This skill integrates Plasma 5 Activities with Mycroft|
-| :question:          | [plasma-sendsms-skill](../../wiki/SKILL-plasma-sendsms)         |Send SMS through KDE Plasma     |
-| :question:          | [plasma-user-control-skill](../../wiki/SILL-plasma-user-control)| This skills adds Plasma User control to Mycroft, allowing switch user, logout, and lock screen  |
+| :question:          | [plasma-activities-skill](https://github.com/AIIX/plasma-activities-skill)  | This skill integrates Plasma 5 Activities with Mycroft<br>```"show activities / switch activity [name]"```|
+| :question:          | [plasma-sendsms-skill](https://github.com/AIIX/plasma-sendsms-skill)         |Send SMS through KDE Plasma<br>```"send a sms"```     |
+| :question:          | [plasma-user-control-skill](https://github.com/AIIX/plasma-user-control-skill) | This skills adds Plasma User control to Mycroft, allowing switch user, logout, and lock screen<br>```"switch user/logout/lock screen"```  |
 | :question:          | [poetry-skill](../../wiki/SKILL-poetry)                      | Reads poetry based on Hidden Markov Models     |
 | :question:          | [proxy-scrape-skill](../../wiki/SKILL-proxy-scrape)          | Scrape proxies from the internet    |
 | :question:          | [pushbullet](../../wiki/SKILL-pushbullet)                      | Send messsages and photos using Pushbullet                                                  |  
@@ -214,7 +214,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [take_picture](../../wiki/SKILL-take-picture)  | Take Pictures using the Raspberry Pi Camera          |  
 | :question:          | [traffic-skill](../../wiki/SKILL-traffic)  | Gets the commute time from Google distance matrix api         |  
 | :heavy_check_mark:  | [twitter-skill](https://github.com/btotharye/mycroft-twitter-skill)| Control twitter with mycroft<br>```"How many twitter followers do I have"```                                                                                                         |
-| :question:          | [unsplash-wallpaper-plasma-skill](../../wiki/SKILL-unsplash-wallpaper-plasma)  | Change KDE Desktop wallpaper by category type from unsplash |
+| :question:          | [unsplash-wallpaper-plasma-skill](https://github.com/AIIX/unsplash-wallpaper-plasma-skill)  | Change KDE Desktop wallpaper by category type from unsplash<br>```"change wallpaper type [nature\abstract\any]"``` |
 | :construction:      | [wallpaper-skill](../../wiki/SKILL-wallpaper)  | Downloads wallpapers from reddit and changes randomly         |
 | :question:  	      | [wemo-skill](../../wiki/SKILL-wemo)              | Control Wemo devices with mycroft                                                   |
 | :construction:      | [wifi-management-skill](../../wiki/SKILL-wifi-management)  | Various options for interacting with WiFi        |
