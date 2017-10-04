@@ -31,6 +31,7 @@ A repository for sharing and collaboration for third-party Mycroft skills develo
 |[Configuration](https://github.com/mycroftai/skill-configuration#readme)|       Update Mycroft configuration<br>```"configuration update"```  |
 |[Date Time](https://github.com/MycroftAI/skill-date-time#readme)     |          Tell the date or time<br> ```"what time is it"```             |
 |[Desktop Launcher](https://github.com/MycroftAI/skill-desktop-launcher#readme)| Open Applications on Desktop<br>```"open firefox"```          |
+|[DuckDuckGo](https://github.com/MycroftAI/fallback-duckduckgo)       | Query DuckDuckGo for general questions<br> ```what is frankenstein```  |
 |[Hello World](https://github.com/mycroftai/skill-hello-world#readme) | Hello world and Mycroft manners<br> ```"how are you"```                |
 |[IP](https://github.com/MycroftAI/skill-ip#readme)                   | Check the device's IP Address<br> ```"what is your ip address"```      |
 |[Joke](https://github.com/MycroftAI/skill-joke#readme)               | Tell jokes<br> ```"tell me a joke"```                                  |
