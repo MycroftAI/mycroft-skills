@@ -31,7 +31,7 @@ A repository for sharing and collaboration for third-party Mycroft skills develo
 |[Configuration](https://github.com/mycroftai/skill-configuration#readme)|       Update Mycroft configuration<br>```"configuration update"```  |
 |[Date Time](https://github.com/MycroftAI/skill-date-time#readme)     |          Tell the date or time<br> ```"what time is it"```             |
 |[Desktop Launcher](https://github.com/MycroftAI/skill-desktop-launcher#readme)| Open Applications on Desktop<br>```"open firefox"```          |
-|[DuckDuckGo](https://github.com/MycroftAI/fallback-duckduckgo#readme)       | Query DuckDuckGo for general questions<br> ```what is frankenstein```  |
+|[DuckDuckGo](https://github.com/MycroftAI/fallback-duckduckgo#readme)| Query DuckDuckGo for general questions<br> ```"what is frankenstein"```|
 |[Hello World](https://github.com/mycroftai/skill-hello-world#readme) | Hello world and Mycroft manners<br> ```"how are you"```                |
 |[IP](https://github.com/MycroftAI/skill-ip#readme)                   | Check the device's IP Address<br> ```"what is your ip address"```      |
 |[Joke](https://github.com/MycroftAI/skill-joke#readme)               | Tell jokes<br> ```"tell me a joke"```                                  |
@@ -48,6 +48,7 @@ A repository for sharing and collaboration for third-party Mycroft skills develo
 |[Singing](https://github.com/MycroftAI/skill-singing#readme)         | Sing some Songs<br>```"sing a song"```                               |
 |[Stock](https://github.com/MycroftAI/skill-stock#readme)             | Stock prices<br>```"stock price of google"```                        |
 |[Stop](https://github.com/mycroftai/skill-stop#readme)               | Stop running skills<br>```"stop"```                                  |
+|[Version Checker](https://github.com/MycroftAI/skill-version-checker#readme)| Find the version of mycroft-core<br>```"check version"```     |
 |[Volume](https://github.com/mycroftai/skill-volume#readme)           | Increases or Decreases/Mutes Volume<br>```"reduce volume"```         |
 |[Weather](https://github.com/MycroftAI/skill-weather#readme)         | Current Weather and Forecasts<br>```"what is the weather"```         |
 |[Wiki](https://github.com/MycroftAI/skill-wiki#readme)               | Wikipedia queries<br>```"tell me about AI"```                        |
