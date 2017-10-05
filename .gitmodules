@@ -379,3 +379,6 @@
 [submodule "easter-eggs"]
 	path = easter-eggs
 	url = https://github.com/JarbasAI/skill_easter_eggs.git
+[submodule "duckduckgo-skill"]
+	path = duckduckgo-skill
+	url = https://github.com/MycroftAI/fallback-duckduckgo.git
