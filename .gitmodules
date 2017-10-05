@@ -382,3 +382,6 @@
 [submodule "duckduckgo-skill"]
 	path = duckduckgo-skill
 	url = https://github.com/MycroftAI/fallback-duckduckgo.git
+[submodule "audio-control-plasma"]
+	path = audio-control-plasma
+	url = https://github.com/AIIX/audio-control-plasma
