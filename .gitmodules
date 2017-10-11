@@ -388,3 +388,6 @@
 [submodule "skill-version-checker"]
 	path = skill-version-checker
 	url = https://github.com/MycroftAI/skill-version-checker.git
+[submodule "mycroft-angrybeanie"]
+	path = mycroft-angrybeanie
+	url = https://github.com/purserj/mycroft-angrybeanie
