@@ -148,7 +148,6 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [clarifai-image-recognition-skill](https://github.com/AIIX/clarifai-image-recognition-skill#readme)      | Image recognition skill based on clarifai<br> ```"search image url [imagelocation]"```   | 
 | :question:          | [clementine-player-skill](../../wiki/SKILL-clementine-player)  | Controls your clementine-player localy. A fork from amarok-player.   |
 | :question:          | [cleverbot-skill](../../wiki/SKILL-cleverbot)        | cleverbot api fallback skill   |
-| :heavy_check_mark:  | [cryptonator-skill](https://github.com/JarbasAI/cryptocoin_skill#readme) | cryptocurrency prices, volume and past hour change |
 | :heavy_check_mark:  | [coin-flip-skill](../../wiki/SKILL-coin-flip)                  | Flip a virtual coin   |
 | :question:          | [daily-meditation](../../wiki/SKILL-daily-meditation)          |Plays your Daily Meditation from the  Meditation Podcast     |
 | :construction:      | [deepdream_skill](../../wiki/SKILL-deepdream)                  | Adds Deepdreaming image converstion to Mycroft       |
