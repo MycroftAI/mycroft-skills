@@ -159,6 +159,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :heavy_check_mark:  | [easter-eggs](../../wiki/SKILL-easter-eggs)                    | Pop culture references and other easter eggs  |
 | :question:          | [earth-orbit-pic-skill](../../wiki/SKILL-earth-orbit-pic)      | Earth orbit picture skill   |
 | :skull:             | [enhanced-bitcoin-skill](../../wiki/SKILL-enhanced-bitcoin)  | Enhanced bitcoin skill from api.bitcoinaverage.com        |
+| :heavy_check_mark:  | [evil-skill](https://github.com/JarbasAI/evil_skill)| not evil things for mycroft <br>```are you evil``` |
 | :construction:      | [facebook](../../wiki/SKILL-facebook)                          | Generates posts for Facebook                  |
 | :construction:      | [facebook-marketing](../../wiki/SKILL-facebook-marketing)      | Works with Facebook Marketing API                                                        |
 | :question:          | [feedback-skill](../../wiki/SKILL-feedback)                    | triggers positive feedback intent -> calls feedback method on last active skill          |  
