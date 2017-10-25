@@ -1,0 +1,27 @@
+# core
+skill-configuration
+skill-installer
+skill-naptime
+skill-pairing
+skill-playback-control
+skill-speak
+skill-stop
+skill-volume
+
+# common
+duckduckgo-skill
+fallback-aiml
+skill-alarm
+skill-audio-record
+skill-date-time
+skill-hello-world
+skill-ip
+skill-joke
+skill-npr-news
+skill-personal
+skill-reminder
+skill-singing
+skill-spelling
+skill-stock
+skill-weather
+skill-wiki
