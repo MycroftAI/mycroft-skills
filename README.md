@@ -31,7 +31,7 @@ A repository for sharing and collaboration for third-party Mycroft skills develo
 |[Configuration](https://github.com/mycroftai/skill-configuration#readme)|       Update Mycroft configuration<br>```"configuration update"```  |
 |[Date Time](https://github.com/MycroftAI/skill-date-time#readme)     |          Tell the date or time<br> ```"what time is it"```             |
 |[Desktop Launcher](https://github.com/MycroftAI/skill-desktop-launcher#readme)| Open Applications on Desktop<br>```"open firefox"```          |
-|[DuckDuckGo](https://github.com/MycroftAI/fallback-duckduckgo#readme)       | Query DuckDuckGo for general questions<br> ```what is frankenstein```  |
+|[DuckDuckGo](https://github.com/MycroftAI/fallback-duckduckgo#readme)| Query DuckDuckGo for general questions<br> ```"what is frankenstein"```|
 |[Hello World](https://github.com/mycroftai/skill-hello-world#readme) | Hello world and Mycroft manners<br> ```"how are you"```                |
 |[IP](https://github.com/MycroftAI/skill-ip#readme)                   | Check the device's IP Address<br> ```"what is your ip address"```      |
 |[Joke](https://github.com/MycroftAI/skill-joke#readme)               | Tell jokes<br> ```"tell me a joke"```                                  |
@@ -48,6 +48,7 @@ A repository for sharing and collaboration for third-party Mycroft skills develo
 |[Singing](https://github.com/MycroftAI/skill-singing#readme)         | Sing some Songs<br>```"sing a song"```                               |
 |[Stock](https://github.com/MycroftAI/skill-stock#readme)             | Stock prices<br>```"stock price of google"```                        |
 |[Stop](https://github.com/mycroftai/skill-stop#readme)               | Stop running skills<br>```"stop"```                                  |
+|[Version Checker](https://github.com/MycroftAI/skill-version-checker#readme)| Find the version of mycroft-core<br>```"check version"```     |
 |[Volume](https://github.com/mycroftai/skill-volume#readme)           | Increases or Decreases/Mutes Volume<br>```"reduce volume"```         |
 |[Weather](https://github.com/MycroftAI/skill-weather#readme)         | Current Weather and Forecasts<br>```"what is the weather"```         |
 |[Wiki](https://github.com/MycroftAI/skill-wiki#readme)               | Wikipedia queries<br>```"tell me about AI"```                        |
@@ -135,6 +136,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | Status              | Skill Name                                                     | Description<br>```"phrase to trigger"```    | 
 | ------------------- | -------------------------------------------------------------- | --------------------------------------------|
 | :question:          |[amarok-media-player-skill](https://github.com/AIIX/amarok-player-skill#readme)               | Player controls for the Amarok Media Player<br>```"amarok play/stop/next/previous music"``` |
+| :question:         | [angry-beanie-podcast-player](https://github.com/purserj/mycroft-angrybeanie#readme)         | Skill for querying and playing Angry Beanie Podcasts<br />```"Get Angry Beanie shows"``` |
 | :heavy_check_mark:  | [autogui-skill](../../wiki/SKILL-Autogui)                      | Manipulate your mouse and keyboard with Mycroft                                                  |
 | :question:  | [audio-control-plasma](https://github.com/AIIX/audio-control-plasma#readme)| Audio control for Plasma Desktop<br>```"increase volume to maximum", "decrease microphone to minimum volume"```         |
 | :heavy_check_mark:  | [basichelp](https://github.com/btotharye/mycroft-skill-basichelp#readme)| Get basic mycroft questions and help answered<br>```"where is the documentation", "how do I install from source"```         |
@@ -226,3 +228,5 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [wiki-fact-scraper-skill](../../wiki/SKILL-wiki-fact-scraper)                        | Scrapes for random facts from wikipedia and stores locally    |
 | :question:  | [youtube](../../wiki/SKILL-youtube)                            | Search and listen to a youtube video                                                        |  
 | :question:  | [release-test](../../wiki/SKILL-release-test)                            | test mycroft release                                                        |  
+| :heavy_check_mark:  | [skill-caffeinewiz](https://github.com/reginaneon/skill-caffeinewiz.git)| Provides the caffeine content of various drinks on request.<br>```what's caffeine content of *drink*?``` 
+| :construction:  | [skill-calculator](https://github.com/TREE-Edu/calculator-skill.git)| Calculator skill that can perform conversational and running calculations. <br>```square root of 64?```
