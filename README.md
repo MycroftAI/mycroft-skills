@@ -229,4 +229,4 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:  | [youtube](../../wiki/SKILL-youtube)                            | Search and listen to a youtube video                                                        |  
 | :question:  | [release-test](../../wiki/SKILL-release-test)                            | test mycroft release                                                        |  
 | :heavy_check_mark:  | [skill-caffeinewiz](https://github.com/reginaneon/skill-caffeinewiz.git)| Provides the caffeine content of various drinks on request.<br>```what's caffeine content of *drink*?``` 
-
+| :construction:  | [skill-calculator](https://github.com/TREE-Edu/calculator-skill.git)| Calculator skill that can perform conversational and running calculations. <br>```square root of 64?```
