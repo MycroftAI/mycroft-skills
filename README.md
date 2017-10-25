@@ -144,6 +144,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [bitcoin](../../wiki/SKILL-bitcoin)                            | Check the price of bitcoin                                                               |  
 | :construction:      | [bitcoin-price](../../wiki/SKILL-bitcoin-price)                |  Checks the price of bitcoin                             |
 | :construction:      | [brain-skill](../../wiki/SKILL-brain)                          |  Chain intents and provide some services                                                 |
+| :construction:  | [skill-calculator](https://github.com/TREE-Edu/calculator-skill.git)| Provides a conversational based calculator.<br>```Do some math```
 | :question:          | [cbc-news-skill](../../wiki/SKILL-cbc-news)        | Fetches CBC News Podcast             |  
 | :question:          | [clarifai-image-recognition-skill](https://github.com/AIIX/clarifai-image-recognition-skill#readme)      | Image recognition skill based on clarifai<br> ```"search image url [imagelocation]"```   | 
 | :question:          | [clementine-player-skill](../../wiki/SKILL-clementine-player)  | Controls your clementine-player localy. A fork from amarok-player.   |
