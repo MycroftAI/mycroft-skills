@@ -394,3 +394,6 @@
 [submodule "skill-caffeinewiz"]
 	path = skill-caffeinewiz
 	url = https://github.com/reginaneon/skill-caffeinewiz.git
+[submodule "calculator-skill"]
+	path = calculator-skill
+	url = https://github.com/TREE-Edu/calculator-skill.git
