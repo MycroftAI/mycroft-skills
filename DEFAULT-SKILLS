@@ -1,11 +1,11 @@
 # core
+skill-pairing
 skill-configuration
 skill-installer
+skill-stop
 skill-naptime
-skill-pairing
 skill-playback-control
 skill-speak
-skill-stop
 skill-volume
 
 # common
