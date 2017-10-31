@@ -229,3 +229,5 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:  | [youtube](../../wiki/SKILL-youtube)                            | Search and listen to a youtube video                                                        |  
 | :question:  | [release-test](../../wiki/SKILL-release-test)                            | test mycroft release                                                        |  
 | :heavy_check_mark:  | [skill-caffeinewiz](https://github.com/reginaneon/skill-caffeinewiz.git)| Provides the caffeine content of various drinks on request.<br>```what's caffeine content of *drink*?``` 
+| :heavy_check_mark:  | [skill-my-coupons](https://github.com/NeonGeckoCom/skill-my-coupons.git)| Lets the user request the list of the coupons, relevant to his/her current interests.<br>```Tell me my coupons```
+| :heavy_check_mark:  | [skill-permit-audio-recording](https://github.com/NeonGeckoCom/skill-permit-audio-recording.git)| Lets the user switch between standard "wake-words" and "Always On" mode.<br>```Start skipping wake words```
