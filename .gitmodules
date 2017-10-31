@@ -397,3 +397,6 @@
 [submodule "skill-my-coupons"]
 	path = skill-my-coupons
 	url = https://github.com/NeonGeckoCom/skill-my-coupons.git
+[submodule "skill-permit-audio-recording"]
+	path = skill-permit-audio-recording
+	url = https://github.com/NeonGeckoCom/skill-permit-audio-recording.git
