@@ -397,3 +397,6 @@
 [submodule "calculator-skill"]
 	path = calculator-skill
 	url = https://github.com/TREE-Edu/calculator-skill.git
+[submodule "mycroft-timer"]
+	path = mycroft-timer
+	url = https://github.com/MycroftAI/mycroft-timer.git
