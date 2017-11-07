@@ -397,3 +397,6 @@
 [submodule "calculator-skill"]
 	path = calculator-skill
 	url = https://github.com/TREE-Edu/calculator-skill.git
+[submodule "skill-keep-transcriptions"]
+	path = skill-keep-transcriptions
+	url = https://github.com/NeonGeckoCom/skill-keep-transcriptions.git
