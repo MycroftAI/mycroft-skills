@@ -397,3 +397,6 @@
 [submodule "calculator-skill"]
 	path = calculator-skill
 	url = https://github.com/TREE-Edu/calculator-skill.git
+[submodule "skill-australian-news"]
+	path = skill-australian-news
+	url = https://github.com/KathyReid/skill-australian-news
