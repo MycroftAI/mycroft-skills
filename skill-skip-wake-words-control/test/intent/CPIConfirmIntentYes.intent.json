@@ -1,0 +1,7 @@
+{
+  "utterance": "yes",
+  "intent_type": "ConfirmationIntentYes",
+  "intent": {
+    "Confirm": "yes"
+}
+}
