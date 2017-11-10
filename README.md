@@ -231,3 +231,4 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:  | [release-test](../../wiki/SKILL-release-test)                            | test mycroft release                                                        |  
 | :heavy_check_mark:  | [skill-caffeinewiz](https://github.com/reginaneon/skill-caffeinewiz.git)| Provides the caffeine content of various drinks on request.<br>```what's caffeine content of *drink*?```
 | :heavy_check_mark:  | [audio recording/transcription](https://github.com/NeonGeckoCom/skill-keep-transcriptions#readme)|Start/stop audio recordings and transcriptions. <br>```Start audio transcriptions```
+| :heavy_check_mark:  | [continuous recording/skip wake words](https://github.com/NeonGeckoCom/skill-skip-wake-words-control#readme)|Start/stop the skipping of wake words. <br>```Start skipping wake words```
