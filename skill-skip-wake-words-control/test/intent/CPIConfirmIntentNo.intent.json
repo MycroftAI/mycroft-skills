@@ -1,7 +1,0 @@
-{
-  "utterance": "no",
-  "intent_type": "ConfirmationIntentNo",
-  "intent": {
-    "Confirm": "no"
-}
-}
