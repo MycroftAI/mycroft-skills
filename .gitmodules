@@ -400,6 +400,7 @@
 [submodule "skill-keep-transcriptions"]
 	path = skill-keep-transcriptions
 	url = https://github.com/NeonGeckoCom/skill-keep-transcriptions.git
+
 [submodule "skill-skip-wake-words-control"]
 	path = skill-skip-wake-words-control
 	url = https://github.com/NeonGeckoCom/skill-skip-wake-words-control.git
