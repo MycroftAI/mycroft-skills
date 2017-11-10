@@ -230,5 +230,6 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:  | [youtube](../../wiki/SKILL-youtube)                            | Search and listen to a youtube video                                                        |  
 | :question:  | [release-test](../../wiki/SKILL-release-test)                            | test mycroft release                                                        |  
 | :heavy_check_mark:  | [skill-caffeinewiz](https://github.com/reginaneon/skill-caffeinewiz.git)| Provides the caffeine content of various drinks on request.<br>```what's caffeine content of *drink*?```
+| :heavy_check_mark:  | [mycroft-timer](https://github.com/MycroftAI/mycroft-timer.git)| Set a timer on your device<br>```set a timer for 30 minutes```
 | :heavy_check_mark:  | [audio recording/transcription](https://github.com/NeonGeckoCom/skill-keep-transcriptions#readme)|Start/stop audio recordings and transcriptions. <br>```Start audio transcriptions```
 | :heavy_check_mark:  | [continuous recording/skip wake words](https://github.com/NeonGeckoCom/skill-skip-wake-words-control#readme)|Start/stop the skipping of wake words. <br>```Start skipping wake words```
