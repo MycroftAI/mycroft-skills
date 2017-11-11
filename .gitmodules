@@ -400,3 +400,6 @@
 [submodule "mycroft-timer"]
 	path = mycroft-timer
 	url = https://github.com/MycroftAI/mycroft-timer.git
+[submodule "deutschlandfunk-skill"]
+	path = deutschlandfunk-skill
+	url = https://github.com/ofosos/deutschlandfunk-skill.git
