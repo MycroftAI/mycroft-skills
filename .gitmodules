@@ -403,3 +403,6 @@
 [submodule "skill-australian-news"]
 	path = skill-australian-news
 	url = https://github.com/KathyReid/skill-australian-news
+[submodule "skill-skip-wake-words-control"]
+	path = skill-skip-wake-words-control
+	url = https://github.com/NeonGeckoCom/skill-skip-wake-words-control.git
