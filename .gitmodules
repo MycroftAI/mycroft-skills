@@ -400,3 +400,6 @@
 [submodule "mycroft-timer"]
 	path = mycroft-timer
 	url = https://github.com/MycroftAI/mycroft-timer.git
+[submodule "skill-australian-news"]
+	path = skill-australian-news
+	url = https://github.com/KathyReid/skill-australian-news
