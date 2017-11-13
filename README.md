@@ -232,3 +232,4 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:  | [release-test](../../wiki/SKILL-release-test)                            | test mycroft release                                                        |  
 | :heavy_check_mark:  | [skill-caffeinewiz](https://github.com/reginaneon/skill-caffeinewiz.git)| Provides the caffeine content of various drinks on request.<br>```what's caffeine content of *drink*?``` 
 | :heavy_check_mark:  | [mycroft-timer](https://github.com/MycroftAI/mycroft-timer.git)| Set a timer on your device<br>```set a timer for 30 minutes``` 
+| :heavy_check_mark:  | [skip-wake-words](https://github.com/NeonGeckoCom/skill-skip-wake-words-control.git)| Turn on/off skipping of wake words. Note: depends on skip-wake-word PR<br>```Start [stop] skipping wake words.``` 
