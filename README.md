@@ -232,3 +232,4 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:  | [release-test](../../wiki/SKILL-release-test)                            | test mycroft release                                                        |  
 | :heavy_check_mark:  | [skill-caffeinewiz](https://github.com/reginaneon/skill-caffeinewiz.git)| Provides the caffeine content of various drinks on request.<br>```what's caffeine content of *drink*?``` 
 | :heavy_check_mark:  | [mycroft-timer](https://github.com/MycroftAI/mycroft-timer.git)| Set a timer on your device<br>```set a timer for 30 minutes``` 
+| :heavy_check_mark:  | [STT-control](https://github.com/NeonGeckoCom/skill-STT-control.git)| Switch between local/internet STT. Note: depends on local pocketsphinx STT PR<br>```Start local speech.```
