@@ -403,3 +403,6 @@
 [submodule "skill-australian-news"]
 	path = skill-australian-news
 	url = https://github.com/KathyReid/skill-australian-news
+[submodule "plasma-mycroftplasmoid-control"]
+	path = plasma-mycroftplasmoid-control
+	url = https://github.com/AIIX/plasma-mycroftplasmoid-control.git
