@@ -406,3 +406,6 @@
 [submodule "play-some-music"]
 	path = play-some-music
 	url = https://github.com/normandmickey/play-some-music-skill
+[submodule "internet-radio"]
+	path = internet-radio
+	url = https://github.com/normandmickey/skill-internet-radio
