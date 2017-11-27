@@ -137,6 +137,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | ------------------- | -------------------------------------------------------------- | --------------------------------------------|
 | :question:          |[amarok-media-player-skill](https://github.com/AIIX/amarok-player-skill#readme)               | Player controls for the Amarok Media Player<br>```"amarok play/stop/next/previous music"``` |
 | :question:         | [angry-beanie-podcast-player](https://github.com/purserj/mycroft-angrybeanie#readme)         | Skill for querying and playing Angry Beanie Podcasts<br />```"Get Angry Beanie shows"``` |
+| :heavy_check_mark:  | [skill-australian-news](https://github.com/KathyReid/skill-australian-news/README.md)	| Skill for playing ABC news from Australia<br />```"Play Australian news"```|
 | :heavy_check_mark:  | [autogui-skill](../../wiki/SKILL-Autogui)                      | Manipulate your mouse and keyboard with Mycroft                                                  |
 | :question:  | [audio-control-plasma](https://github.com/AIIX/audio-control-plasma#readme)| Audio control for Plasma Desktop<br>```"increase volume to maximum", "decrease microphone to minimum volume"```         |
 | :heavy_check_mark:  | [basichelp](https://github.com/btotharye/mycroft-skill-basichelp#readme)| Get basic mycroft questions and help answered<br>```"where is the documentation", "how do I install from source"```         |
@@ -199,6 +200,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [pickup-line-skill](../../wiki/SKILL-pickup-line)  | Responds with random nerdy pick-up lines          |
 | :heavy_check_mark:          | [ping-skill](../../wiki/SKILL-ping)  | Pings websites and responds with latency time       |  
 | :question:          | [plasma-activities-skill](https://github.com/AIIX/plasma-activities-skill#readme)  | This skill integrates Plasma 5 Activities with Mycroft<br>```"show activities / switch activity [name]"```|
+| :question:          | [plasma-mycroftplasmoid-control](https://github.com/AIIX/plasma-mycroftplasmoid-control#readme)  | This skill lets you control the Mycroft Plasmoid<br>```"show mycroft applet / display skills page"```|
 | :question:          | [plasma-sendsms-skill](https://github.com/AIIX/plasma-sendsms-skill#readme)         |Send SMS through KDE Plasma<br>```"send a sms"```     |
 | :question:          | [plasma-user-control-skill](https://github.com/AIIX/plasma-user-control-skill#readme) | This skills adds Plasma User control to Mycroft, allowing switch user, logout, and lock screen<br>```"switch user/logout/lock screen"```  |
 | :question:          | [poetry-skill](../../wiki/SKILL-poetry)                      | Reads poetry based on Hidden Markov Models     |
@@ -232,3 +234,4 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:  | [release-test](../../wiki/SKILL-release-test)                            | test mycroft release                                                        |  
 | :heavy_check_mark:  | [skill-caffeinewiz](https://github.com/reginaneon/skill-caffeinewiz.git)| Provides the caffeine content of various drinks on request.<br>```what's caffeine content of *drink*?``` 
 | :heavy_check_mark:  | [mycroft-timer](https://github.com/MycroftAI/mycroft-timer.git)| Set a timer on your device<br>```set a timer for 30 minutes``` 
+| :heavy_check_mark:  | [play-some-music](https://github.com/normandmickey/play-some-music-skill#readme)| Listen to internet radio station<br>```play some music``` 

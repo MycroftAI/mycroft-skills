@@ -385,11 +385,11 @@
 [submodule "audio-control-plasma"]
 	path = audio-control-plasma
 	url = https://github.com/AIIX/audio-control-plasma
-[submodule "skill-version-checker"]
-	path = skill-version-checker
+[submodule "mycroft-version-checker"]
+	path = mycroft-version-checker
 	url = https://github.com/MycroftAI/skill-version-checker.git
-[submodule "mycroft-angrybeanie"]
-	path = mycroft-angrybeanie
+[submodule "angrybeanie"]
+	path = angrybeanie
 	url = https://github.com/purserj/mycroft-angrybeanie
 [submodule "skill-caffeinewiz"]
 	path = skill-caffeinewiz
@@ -403,3 +403,13 @@
 [submodule "deutschlandfunk-skill"]
 	path = deutschlandfunk-skill
 	url = https://github.com/ofosos/deutschlandfunk-skill.git
+[submodule "skill-australian-news"]
+	path = skill-australian-news
+	url = https://github.com/KathyReid/skill-australian-news
+[submodule "plasma-mycroftplasmoid-control"]
+	path = plasma-mycroftplasmoid-control
+	url = https://github.com/AIIX/plasma-mycroftplasmoid-control.git
+[submodule "play-some-music"]
+	path = play-some-music
+	url = https://github.com/normandmickey/play-some-music-skill
+
