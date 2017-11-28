@@ -400,6 +400,9 @@
 [submodule "mycroft-timer"]
 	path = mycroft-timer
 	url = https://github.com/MycroftAI/mycroft-timer.git
+[submodule "deutschlandfunk-skill"]
+	path = deutschlandfunk-skill
+	url = https://github.com/ofosos/deutschlandfunk-skill.git
 [submodule "skill-australian-news"]
 	path = skill-australian-news
 	url = https://github.com/KathyReid/skill-australian-news
@@ -409,3 +412,4 @@
 [submodule "play-some-music"]
 	path = play-some-music
 	url = https://github.com/normandmickey/play-some-music-skill
+
