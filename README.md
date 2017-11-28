@@ -48,6 +48,7 @@ A repository for sharing and collaboration for third-party Mycroft skills develo
 |[Singing](https://github.com/MycroftAI/skill-singing#readme)         | Sing some Songs<br>```"sing a song"```                               |
 |[Stock](https://github.com/MycroftAI/skill-stock#readme)             | Stock prices<br>```"stock price of google"```                        |
 |[Stop](https://github.com/mycroftai/skill-stop#readme)               | Stop running skills<br>```"stop"```                                  |
+|[Unknown Fallback](https://github.com/mycroftai/fallback-unknown#readme)| When Mycroft doesn't know an answer<br>```"green jelly wood"```   |
 |[Version Checker](https://github.com/MycroftAI/skill-version-checker#readme)| Find the version of mycroft-core<br>```"check version"```     |
 |[Volume](https://github.com/mycroftai/skill-volume#readme)           | Increases or Decreases/Mutes Volume<br>```"reduce volume"```         |
 |[Weather](https://github.com/MycroftAI/skill-weather#readme)         | Current Weather and Forecasts<br>```"what is the weather"```         |
@@ -153,7 +154,8 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :heavy_check_mark:          | [coin-flip-skill](../../wiki/SKILL-coin-flip)        | Flip a virtual coin   |
 | :question:          | [daily-meditation](../../wiki/SKILL-daily-meditation)          |Plays your Daily Meditation from the  Meditation Podcast     |
 | :construction:      | [deepdream_skill](../../wiki/SKILL-deepdream)                  | Adds Deepdreaming image converstion to Mycroft       |
-| :question:          | [diagnostics](../../wiki/SKILL-diagnostics)                    | Diagnostic tools (CPU %age, free space, etc)    |
+| :heavy_check_mark:  | [deutschlandfunk-skill](https://github.com/ofosos/deutschlandfunk-skill)| Listen to Deutschlandfunk and query schedule
+| :question:         | [diagnostics](../../wiki/SKILL-diagnostics)                    | Diagnostic tools (CPU %age, free space, etc)    |
 | :construction:      | [dice-roll](../../wiki/SKILL-dice)                             | Rolls dice spoken in RPG notation.                                                       |
 | :question:          | [domoticz_skill](../../wiki/SKILL-domoticz)                    | Skill integrating Mycroft with Domoticz    |
 | :question:          | [drive_servos](../../wiki/SKILL-drive-servos)                  | Control Hacked-Servo-Engines to make your mycroft move around   |
@@ -199,6 +201,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [pickup-line-skill](../../wiki/SKILL-pickup-line)  | Responds with random nerdy pick-up lines          |
 | :heavy_check_mark:          | [ping-skill](../../wiki/SKILL-ping)  | Pings websites and responds with latency time       |  
 | :question:          | [plasma-activities-skill](https://github.com/AIIX/plasma-activities-skill#readme)  | This skill integrates Plasma 5 Activities with Mycroft<br>```"show activities / switch activity [name]"```|
+| :question:          | [plasma-mycroftplasmoid-control](https://github.com/AIIX/plasma-mycroftplasmoid-control#readme)  | This skill lets you control the Mycroft Plasmoid<br>```"show mycroft applet / display skills page"```|
 | :question:          | [plasma-sendsms-skill](https://github.com/AIIX/plasma-sendsms-skill#readme)         |Send SMS through KDE Plasma<br>```"send a sms"```     |
 | :question:          | [plasma-user-control-skill](https://github.com/AIIX/plasma-user-control-skill#readme) | This skills adds Plasma User control to Mycroft, allowing switch user, logout, and lock screen<br>```"switch user/logout/lock screen"```  |
 | :question:          | [poetry-skill](../../wiki/SKILL-poetry)                      | Reads poetry based on Hidden Markov Models     |
