@@ -48,6 +48,7 @@ A repository for sharing and collaboration for third-party Mycroft skills develo
 |[Singing](https://github.com/MycroftAI/skill-singing#readme)         | Sing some Songs<br>```"sing a song"```                               |
 |[Stock](https://github.com/MycroftAI/skill-stock#readme)             | Stock prices<br>```"stock price of google"```                        |
 |[Stop](https://github.com/mycroftai/skill-stop#readme)               | Stop running skills<br>```"stop"```                                  |
+|[Unknown Fallback](https://github.com/mycroftai/fallback-unknown#readme)| When Mycroft doesn't know an answer<br>```"green jelly wood"```   |
 |[Version Checker](https://github.com/MycroftAI/skill-version-checker#readme)| Find the version of mycroft-core<br>```"check version"```     |
 |[Volume](https://github.com/mycroftai/skill-volume#readme)           | Increases or Decreases/Mutes Volume<br>```"reduce volume"```         |
 |[Weather](https://github.com/MycroftAI/skill-weather#readme)         | Current Weather and Forecasts<br>```"what is the weather"```         |
@@ -153,7 +154,8 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :heavy_check_mark:          | [coin-flip-skill](../../wiki/SKILL-coin-flip)        | Flip a virtual coin   |
 | :question:          | [daily-meditation](../../wiki/SKILL-daily-meditation)          |Plays your Daily Meditation from the  Meditation Podcast     |
 | :construction:      | [deepdream_skill](../../wiki/SKILL-deepdream)                  | Adds Deepdreaming image converstion to Mycroft       |
-| :question:          | [diagnostics](../../wiki/SKILL-diagnostics)                    | Diagnostic tools (CPU %age, free space, etc)    |
+| :heavy_check_mark:  | [deutschlandfunk-skill](https://github.com/ofosos/deutschlandfunk-skill)| Listen to Deutschlandfunk and query schedule
+| :question:         | [diagnostics](../../wiki/SKILL-diagnostics)                    | Diagnostic tools (CPU %age, free space, etc)    |
 | :construction:      | [dice-roll](../../wiki/SKILL-dice)                             | Rolls dice spoken in RPG notation.                                                       |
 | :question:          | [domoticz_skill](../../wiki/SKILL-domoticz)                    | Skill integrating Mycroft with Domoticz    |
 | :question:          | [drive_servos](../../wiki/SKILL-drive-servos)                  | Control Hacked-Servo-Engines to make your mycroft move around   |
@@ -234,4 +236,4 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:  | [release-test](../../wiki/SKILL-release-test)                            | test mycroft release                                                        |  
 | :heavy_check_mark:  | [skill-caffeinewiz](https://github.com/reginaneon/skill-caffeinewiz.git)| Provides the caffeine content of various drinks on request.<br>```what's caffeine content of *drink*?```
 | :heavy_check_mark:  | [mycroft-timer](https://github.com/MycroftAI/mycroft-timer.git)| Set a timer on your device<br>```set a timer for 30 minutes```
-| :heavy_check_mark:  | [play-some-music](https://github.com/normandmickey/play-some-music-skill#readme)| Listen to internet radio station<br>```play some music```
+| :heavy_check_mark:  | [internet-radio](https://github.com/normandmickey/skill-internet-radio#readme)| Listen to Internet Radio<br>```internet radio``` 
