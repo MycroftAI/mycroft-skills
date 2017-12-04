@@ -236,3 +236,5 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :heavy_check_mark:  | [skill-caffeinewiz](https://github.com/reginaneon/skill-caffeinewiz.git)| Provides the caffeine content of various drinks on request.<br>```what's caffeine content of *drink*?``` 
 | :heavy_check_mark:  | [mycroft-timer](https://github.com/MycroftAI/mycroft-timer.git)| Set a timer on your device<br>```set a timer for 30 minutes``` 
 | :heavy_check_mark:  | [internet-radio](https://github.com/normandmickey/skill-internet-radio#readme)| Listen to Internet Radio<br>```internet radio``` 
+| :heavy_check_mark:  | [mycroft-mark-1](https://github.com/MycroftAI/mycroft-mark-1)| Control your Mark 1 enclosure<br>```change eye color to red``` 
+

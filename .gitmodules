@@ -415,6 +415,9 @@
 [submodule "plasma-mycroftplasmoid-control"]
 	path = plasma-mycroftplasmoid-control
 	url = https://github.com/AIIX/plasma-mycroftplasmoid-control.git
+[submodule "mycroft-mark-1"]
+	path = mycroft-mark-1
+	url = https://github.com/MycroftAI/mycroft-mark-1.git
 [submodule "play-some-music"]		
 	path = play-some-music		
 	url = https://github.com/normandmickey/play-some-music-skill.git
