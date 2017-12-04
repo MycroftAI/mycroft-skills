@@ -385,8 +385,8 @@
 [submodule "audio-control-plasma"]
 	path = audio-control-plasma
 	url = https://github.com/AIIX/audio-control-plasma
-[submodule "mycroft-version-checker"]
-	path = mycroft-version-checker
+[submodule "skill-version-checker"]
+	path = skill-version-checker
 	url = https://github.com/MycroftAI/skill-version-checker.git
 [submodule "mycroft-angrybeanie"]
 	path = mycroft-angrybeanie
