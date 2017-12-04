@@ -1,4 +1,4 @@
-# Mycroft Skills Repo 
+# Mycroft Skills Repo
 ![logo](https://avatars1.githubusercontent.com/u/14171097?v=4&s=200 "Logo")
 
 # Content
@@ -89,7 +89,7 @@ This should have edited the .gitmodule file and added something similar to the b
 Modify the table section to include the direct link to your repo like the following example including the break tag and the phrase to trigger your skill:
 
 ```
-| :heavy_check_mark:  | [home-assistant](https://github.com/btotharye/mycroft-homeassistant#readme)| Control your devices in home-assistant<br>```turn on office``` 
+| :heavy_check_mark:  | [home-assistant](https://github.com/btotharye/mycroft-homeassistant#readme)| Control your devices in home-assistant<br>```turn on office```
 
 ``````
 Ensure to put a proper status as well from the list below:
@@ -134,7 +134,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 **When submitting a skill make sure skill name links to the location of the skill, we are doing away with the wiki pages.  Also please include the phrase to trigger on as well for your skill.**
 
 
-| Status              | Skill Name                                                     | Description<br>```"phrase to trigger"```    | 
+| Status              | Skill Name                                                     | Description<br>```"phrase to trigger"```    |
 | ------------------- | -------------------------------------------------------------- | --------------------------------------------|
 | :question:          |[amarok-media-player-skill](https://github.com/AIIX/amarok-player-skill#readme)               | Player controls for the Amarok Media Player<br>```"amarok play/stop/next/previous music"``` |
 | :question:         | [angry-beanie-podcast-player](https://github.com/purserj/mycroft-angrybeanie#readme)         | Skill for querying and playing Angry Beanie Podcasts<br />```"Get Angry Beanie shows"``` |
@@ -148,7 +148,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :construction:      | [brain-skill](../../wiki/SKILL-brain)                          |  Chain intents and provide some services                                                 |
 | :construction:  | [skill-calculator](https://github.com/TREE-Edu/calculator-skill.git)| Provides a conversational based calculator.<br>```Do some math```
 | :question:          | [cbc-news-skill](../../wiki/SKILL-cbc-news)        | Fetches CBC News Podcast             |  
-| :question:          | [clarifai-image-recognition-skill](https://github.com/AIIX/clarifai-image-recognition-skill#readme)      | Image recognition skill based on clarifai<br> ```"search image url [imagelocation]"```   | 
+| :question:          | [clarifai-image-recognition-skill](https://github.com/AIIX/clarifai-image-recognition-skill#readme)      | Image recognition skill based on clarifai<br> ```"search image url [imagelocation]"```   |
 | :question:          | [clementine-player-skill](../../wiki/SKILL-clementine-player)  | Controls your clementine-player localy. A fork from amarok-player.   |
 | :question:          | [cleverbot-skill](../../wiki/SKILL-cleverbot)        | cleverbot api fallback skill   |
 | :heavy_check_mark:          | [coin-flip-skill](../../wiki/SKILL-coin-flip)        | Flip a virtual coin   |
@@ -216,7 +216,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [rss-skill](../../wiki/SKILL-rss)            | Fetches from RSS feed   |
 | :construction:      | [sentiment-analysis-skill](../../wiki/SKILL-sentiment-analysis)  | Sentiment analysis              |
 | :question:          | [spaceflight-schedule](../../wiki/SKILL-spaceflight-schedule)  | Check when the next space flight launch is                                               |
-| :heavy_check_mark:  | [skill-radio-rne](../..wiki/SKILL-radio-rne)       | Spanish news radio Radio Nacional de Espa?a RNE. | 
+| :heavy_check_mark:  | [skill-radio-rne](../..wiki/SKILL-radio-rne)       | Spanish news radio Radio Nacional de Espa?a RNE. |
 | :question:          | [spacelaunch-skill](../../wiki/SKILL-spacelaunch)  | Check when the next space launch is                                               |
 | :question:          | [speedtest](../../wiki/SKILL-speedtest)  | Run a speedtest                                               |
 | :question:          | [slack-skill](../../wiki/SKILL-slack)                          | Allows to post and listen to Slack messages.  |
@@ -224,6 +224,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [sun-skill](../../wiki/SKILL-sun)  | Responds with sunrise and set times          |  
 | :question:          |[system-skill](../../wiki/SKILL-system)               | Adds system controls like shutdown and reboot   |
 | :question:          | [take_picture](../../wiki/SKILL-take-picture)  | Take Pictures using the Raspberry Pi Camera          |  
+| :construction:      | [the-cows-lists-skill](https://github.com/CarstenAgerskov/skill-the-cows-lists#readme)  | This skill adds "Remember The Milk" support to Mycroft.<br>```"add milk to my grocery list"```    |
 | :question:          | [traffic-skill](../../wiki/SKILL-traffic)  | Gets the commute time from Google distance matrix api         |  
 | :heavy_check_mark:  | [twitter-skill](https://github.com/btotharye/mycroft-twitter-skill#readme)| Control twitter with mycroft<br>```"How many twitter followers do I have"```                                                                                                         |
 | :question:          | [unsplash-wallpaper-plasma-skill](https://github.com/AIIX/unsplash-wallpaper-plasma-skill#readme)  | Change KDE Desktop wallpaper by category type from unsplash<br>```"change wallpaper type [nature\abstract\any]"``` |
@@ -234,8 +235,8 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [wiki-fact-scraper-skill](../../wiki/SKILL-wiki-fact-scraper)                        | Scrapes for random facts from wikipedia and stores locally    |
 | :question:  | [youtube](../../wiki/SKILL-youtube)                            | Search and listen to a youtube video                                                        |  
 | :question:  | [release-test](../../wiki/SKILL-release-test)                            | test mycroft release                                                        |  
-| :heavy_check_mark:  | [skill-caffeinewiz](https://github.com/reginaneon/skill-caffeinewiz.git)| Provides the caffeine content of various drinks on request.<br>```what's caffeine content of *drink*?``` 
-| :heavy_check_mark:  | [mycroft-timer](https://github.com/MycroftAI/mycroft-timer.git)| Set a timer on your device<br>```set a timer for 30 minutes``` 
+| :heavy_check_mark:  | [skill-caffeinewiz](https://github.com/reginaneon/skill-caffeinewiz.git)| Provides the caffeine content of various drinks on request.<br>```what's caffeine content of *drink*?```
+| :heavy_check_mark:  | [mycroft-timer](https://github.com/MycroftAI/mycroft-timer.git)| Set a timer on your device<br>```set a timer for 30 minutes```
 | :heavy_check_mark:  | [internet-radio](https://github.com/normandmickey/skill-internet-radio#readme)| Listen to Internet Radio<br>```internet radio``` 
 | :heavy_check_mark:  | [mycroft-mark-1](https://github.com/MycroftAI/mycroft-mark-1)| Control your Mark 1 enclosure<br>```change eye color to red``` 
 
