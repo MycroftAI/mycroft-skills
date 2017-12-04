@@ -415,6 +415,6 @@
 [submodule "plasma-mycroftplasmoid-control"]
 	path = plasma-mycroftplasmoid-control
 	url = https://github.com/AIIX/plasma-mycroftplasmoid-control.git
-[submodule "skill-remember-the-milk"]
-	path = skill-remember-the-milk
-	url = https://github.com/CarstenAgerskov/skill-remember-the-milk.git
+[submodule "skill-the-cows-lists"]
+	path = skill-the-cows-lists
+	url = https://github.com/CarstenAgerskov/skill-the-cows-lists.git
