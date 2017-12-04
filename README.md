@@ -175,6 +175,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :heavy_check_mark:  | [home-assistant](https://github.com/btotharye/mycroft-homeassistant#readme)| Control your devices in home-assistant<br>```"turn on office"```                                                      |  
 | :question:          | [irsend](../../wiki/SKILL-irsend)                              | Control devices via [lirc's](http://www.lirc.org/) [irsend](http://www.lirc.org/html/irsend.html)                                                         |
 | :question:          | [jb-podcasts](../../wiki/SKILL-Jupiter-Broadcasting-Podcasts)  | Play podcasts from Jupiter Broadcasting shows                                            |  
+| :question:          | [kde-kate-control](https://github.com/AIIX/kde-kate-control#readme) | Kate Editor control skill <br>```"new document, close document, goto next/previous tabs/views"```                  |
 | :question:          | [krunner-search](https://github.com/AIIX/krunner-search-skill#readme) | Search local KDE desktop for files, images, recent documents, bookmarks<br>```"search this computer for [any keyword]"```                  |
 | :question:          | [kodi-cadair](../../wiki/SKILL-cadair-kodi)                    | Kodi playback and search                                                                 |  
 | :question:          | [kodi-cbenning](../../wiki/SKILL-cbenning-kodi)                | Control a local or remote Kodi instance                                                  |  
@@ -237,3 +238,5 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :heavy_check_mark:  | [skill-caffeinewiz](https://github.com/reginaneon/skill-caffeinewiz.git)| Provides the caffeine content of various drinks on request.<br>```what's caffeine content of *drink*?```
 | :heavy_check_mark:  | [mycroft-timer](https://github.com/MycroftAI/mycroft-timer.git)| Set a timer on your device<br>```set a timer for 30 minutes```
 | :heavy_check_mark:  | [internet-radio](https://github.com/normandmickey/skill-internet-radio#readme)| Listen to Internet Radio<br>```internet radio``` 
+| :heavy_check_mark:  | [mycroft-mark-1](https://github.com/MycroftAI/mycroft-mark-1)| Control your Mark 1 enclosure<br>```change eye color to red``` 
+
