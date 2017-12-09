@@ -12,6 +12,7 @@ skill-volume
 duckduckgo-skill
 fallback-aiml
 skill-alarm
+mycroft-timer
 skill-audio-record
 skill-date-time
 skill-hello-world
