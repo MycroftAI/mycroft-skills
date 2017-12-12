@@ -1,7 +1,7 @@
 [submodule "GoogleGmail-Skill"]
 	path = google-gmail-oldapi
 	url = https://github.com/jcasoft/GoogleGmail-Skill
-[submodule "Wink"]
+[submodule "Winkie"]
 	path = wink-smart-home
 	url = https://github.com/penrods/Wink.git
 [submodule "Mopidy-Media-Players"]
