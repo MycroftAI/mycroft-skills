@@ -1,117 +1,114 @@
-[submodule "Mycroft-alarm"]
+[submodule "mycroft-alarm"]
 	path = skill-alarm
 	url = https://github.com/MycroftAI/skill-alarm.git
-[submodule "Mycroft-audio-record"]
+[submodule "mycroft-audio-record"]
 	path = skill-audio-record
 	url = https://github.com/MycroftAI/skill-audio-record.git
-[submodule "Mycroft-configuration"]
+[submodule "mycroft-configuration"]
 	path = skill-configuration
 	url = https://github.com/mycroftai/skill-configuration
-[submodule "Mycroft-date-time"]
+[submodule "mycroft-date-time"]
 	path = skill-date-time
 	url = https://github.com/MycroftAI/skill-date-time.git
-[submodule "Mycroft-desktop-launcher"]
+[submodule "mycroft-desktop-launcher"]
 	path = skill-desktop-launcher
 	url = https://github.com/MycroftAI/skill-desktop-launcher.git
-[submodule "Mycroft-dial-call"]
+[submodule "mycroft-dial-call"]
 	path = skill-dial-call
 	url = https://github.com/MycroftAI/skill-dial-call.git
-[submodule "Mycroft-fallback-Duck-Duck-Go"]
+[submodule "mycroft-fallback-duck-duck-go"]
 	path = duckduckgo-skill
 	url = https://github.com/MycroftAI/fallback-duckduckgo.git
-[submodule "Mycroft-fallback-Unknown"]
+[submodule "mycroft-fallback-unknown"]
 	path = fallback-unknown
 	url = https://github.com/MycroftAI/fallback-unknown.git
-[submodule "Mycroft-fallback-Wolfram-Alpha"]
+[submodule "mycroft-fallback-wolfram-alpha"]
 	path = fallback-wolfram-alpha
 	url = https://github.com/mycroftai/fallback-wolfram-alpha.git
-[submodule "Mycroft-hello-world"]
+[submodule "mycroft-hello-world"]
 	path = skill-hello-world
 	url = https://github.com/mycroftai/skill-hello-world
-[submodule "Mycroft-installer"]
+[submodule "mycroft-installer"]
 	path = skill-installer
 	url = https://github.com/mycroftai/skill-installer
-[submodule "Mycroft-IP"]
+[submodule "mycroft-ip"]
 	path = skill-ip
 	url = https://github.com/MycroftAI/skill-ip.git
-[submodule "Mycroft-Joke"]
+[submodule "mycroft-joke"]
 	path = skill-joke
 	url = https://github.com/MycroftAI/skill-joke.git
-[submodule "Mycroft-Mark-1"]
+[submodule "mycroft-mark-1"]
 	path = mycroft-mark-1
 	url = https://github.com/MycroftAI/mycroft-mark-1.git
-[submodule "Mycroft-Mark-1-demo"]
+[submodule "mycroft-mark-1-demo"]
 	path = skill-mark1-demo
 	url = https://github.com/mycroftai/skill-mark1-demo.git
-[submodule "Mycroft-media"]
+[submodule "mycroft-media"]
 	path = skill-media
 	url = https://github.com/MycroftAI/skill-media.git
-[submodule "Mycroft-naptime"]
+[submodule "mycroft-naptime"]
 	path = skill-naptime
 	url = https://github.com/mycroftai/skill-naptime
-[submodule "Mycroft-NPR-news"]
+[submodule "mycroft-npr-news"]
 	path = skill-npr-news
 	url = https://github.com/MycroftAI/skill-npr-news.git
-[submodule "Mycroft-pairing"]
+[submodule "mycroft-pairing"]
 	path = skill-pairing
 	url = https://github.com/mycroftai/skill-pairing
-[submodule "Mycroft-personal"]
+[submodule "mycroft-personal"]
 	path = skill-personal
 	url = https://github.com/MycroftAI/skill-personal.git
-[submodule "Mycroft-platform-patch"]
+[submodule "mycroft-platform-patch"]
 	path = platform-patch
 	url = https://github.com/MycroftAI/skill-platform-patch
-[submodule "Mycroft-playback-control"]
+[submodule "mycroft-playback-control"]
 	path = skill-playback-control
 	url = https://github.com/mycroftai/skill-playback-control
-[submodule "Mycroft-Raspberry-Pi-GPIO-example"]
+[submodule "mycroft-raspberry-pi-gpio-example"]
 	path = gpio-example-skill
 	url = https://github.com/MycroftAI/picroft_example_skill_gpio.git
-[submodule "Mycroft-release-test"]
+[submodule "mycroft-release-test"]
 	path = skill-release-test
 	url = https://github.com/MycroftAI/skill-release-test.git
-[submodule "Mycroft-reminder"]
+[submodule "mycroft-reminder"]
 	path = skill-reminder
 	url = https://github.com/MycroftAI/skill-reminder.git
-[submodule "Mycroft-send-sms"]
+[submodule "mycroft-send-sms"]
 	path = skill-send-sms
 	url = https://github.com/MycroftAI/skill-send-sms.git
-[submodule "Mycroft-singing"]
+[submodule "mycroft-singing"]
 	path = skill-singing
 	url = https://github.com/MycroftAI/skill-singing.git
-[submodule "Mycroft-speak"]
+[submodule "mycroft-speak"]
 	path = skill-speak
 	url = https://github.com/MycroftAI/skill-speak.git
-[submodule "Mycroft-spelling"]
+[submodule "mycroft-spelling"]
 	path = skill-spelling
 	url = https://github.com/MycroftAI/skill-spelling.git
-[submodule "Mycroft-stock"]
+[submodule "mycroft-stock"]
 	path = skill-stock
 	url = https://github.com/MycroftAI/skill-stock.git
-[submodule "Mycroft-stop"]
+[submodule "mycroft-stop"]
 	path = skill-stop
 	url = https://github.com/mycroftai/skill-stop.git
-[submodule "Mycroft-timer"]
+[submodule "mycroft-timer"]
 	path = mycroft-timer
 	url = https://github.com/MycroftAI/mycroft-timer.git
-[submodule "Mycroft-version-checker"]
+[submodule "mycroft-version-checker"]
 	path = skill-version-checker
 	url = https://github.com/MycroftAI/skill-version-checker.git
-[submodule "Mycroft-volume"]
+[submodule "mycroft-volume"]
 	path = skill-volume
 	url = https://github.com/mycroftai/skill-volume.git
-[submodule "Mycroft-weather"]
+[submodule "mycroft-weather"]
 	path = skill-weather
 	url = https://github.com/MycroftAI/skill-weather.git
-[submodule "Mycroft-wiki"]
+[submodule "mycroft-wiki"]
 	path = skill-wiki
 	url = https://github.com/MycroftAI/skill-wiki.git
 [submodule "GoogleGmail-Skill"]
 	path = google-gmail-oldapi
 	url = https://github.com/jcasoft/GoogleGmail-Skill
-[submodule "Winkie"]
-	path = wink-smart-home
-	url = https://github.com/penrods/Wink.git
 [submodule "Mopidy-Media-Players"]
 	path = mopidy-media-player
 	url = https://github.com/forslund/mycroft-media-skills.git
@@ -289,15 +286,9 @@
 [submodule "nasa-near-earth-tracker-skill"]
 	path = nasa-near-earth-tracker-skill
 	url = https://github.com/JarbasAI/mycroft---near-earth-object-tracker.git
-[submodule "earth-orbit-pic-skill"]
-	path = earth-orbit-pic-skill
-	url = https://github.com/JarbasAI/mycroft---near-earth-object-tracker.git
 [submodule "youtube"]
 	path = youtube
 	url = https://github.com/augustnmonteiro/mycroft-youtube.git
-[submodule "skill-wolfram-alpha"]
-	path = skill-wolfram-alpha
-	url = https://github.com/MycroftAI/skill-wolfram-alpha.git
 [submodule "traffic_skill"]
 	path = traffic_skill
 	url = https://github.com/BongoEADGC6/mycroft-traffic.git
@@ -424,6 +415,3 @@
 [submodule "kde-kate-control"]
 	path = kde-kate-control
 	url = https://github.com/AIIX/kde-kate-control.git
-[submodule "play-some-music"]		
-	path = play-some-music		
-	url = https://github.com/normandmickey/play-some-music-skill.git
