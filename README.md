@@ -224,7 +224,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [sun-skill](../../wiki/SKILL-sun)  | Responds with sunrise and set times          |  
 | :question:          |[system-skill](../../wiki/SKILL-system)               | Adds system controls like shutdown and reboot   |
 | :question:          | [take_picture](../../wiki/SKILL-take-picture)  | Take Pictures using the Raspberry Pi Camera          |  
-| :construction:      | [the-cows-lists-skill](https://github.com/CarstenAgerskov/skill-the-cows-lists#readme)  | This skill adds "Remember The Milk" support to Mycroft.<br>```"add milk to my grocery list"```    |
+| :question:          | [the-cows-lists-skill](https://github.com/CarstenAgerskov/skill-the-cows-lists#readme)  | This skill adds "Remember The Milk" support to Mycroft.<br>```"add milk to my grocery list"```    |
 | :question:          | [traffic-skill](../../wiki/SKILL-traffic)  | Gets the commute time from Google distance matrix api         |  
 | :heavy_check_mark:  | [twitter-skill](https://github.com/btotharye/mycroft-twitter-skill#readme)| Control twitter with mycroft<br>```"How many twitter followers do I have"```                                                                                                         |
 | :question:          | [unsplash-wallpaper-plasma-skill](https://github.com/AIIX/unsplash-wallpaper-plasma-skill#readme)  | Change KDE Desktop wallpaper by category type from unsplash<br>```"change wallpaper type [nature\abstract\any]"``` |
