@@ -18,9 +18,7 @@
 # Welcome
 
 The official home of skills for the Mycroft ecosystem.  These skills are written by both the MycroftAI team and others within the Community.
-
-
-**You can visit the new HTML version of this document at https://mycroftai.github.io/mycroft-skills/**
+**[HTML version of this document](https://mycroftai.github.io/mycroft-skills)**
 
 ## Available Skills
 
@@ -96,9 +94,9 @@ We recommend starting your name with a name or organization name that makes it u
 Modify the table section to include the direct link to your repo like the following example including the break tag and the phrase to trigger your skill:
 
 ```
-| :heavy_check_mark:  | [home-assistant](https://github.com/btotharye/mycroft-homeassistant#readme)| Control your devices in home-assistant<br>```turn on office```
+| :heavy_check_mark:  | [home-assistant](https://github.com/btotharye/mycroft-homeassistant#readme)| Control your devices in home-assistant<br>```turn on office``` |
 
-``````
+```
 Ensure to put a proper status as well from the list below:
 
 **Status meaning:**  
@@ -113,10 +111,10 @@ Once you've got your local version of the repo organized properly, submit a PR.
 ### MSM Compliance
 To make your skill capable of being installed via MSM (the Mycroft Skill Manager) you can include two additional files.
 
-> requirements.txt
+##### requirements.txt
 A list of Python modules to be installed via the Python PIP utility
 
-> requirements.sh
+##### requirements.sh
 A script to run that will perform any additional steps needed by your skill.  This can include package installations.
 
 
@@ -126,11 +124,13 @@ A script to run that will perform any additional steps needed by your skill.  Th
 :question:         untested (by us)  
 :skull:            Broken, but good for ideas!
 
-
 For an example pull request , check out [this PR](https://github.com/MycroftAI/mycroft-skills/pull/37)
 
+
 ## Community Contributed Skill List
-**When submitting a skill make sure skill name links to the location of the skill, we are doing away with the wiki pages.  Also please include the phrase to trigger on as well for your skill.**
+
+**When submitting a skill make sure skill name links to main repo for the skill, we are doing away with
+wiki pages.  Also please include the phrase to trigger on as well for your skill.**
 
 
 | Status              | Skill Name                                                                      | Description<br>```"phrase to trigger"```    |
