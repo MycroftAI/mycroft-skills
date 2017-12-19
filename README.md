@@ -185,7 +185,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :question:          | [media-console-control](../../wiki/SKILL-media-console-control)| Adds media controls that are mapped to console commands                                  |  
 | :question:          | [metal-band-skill](../../wiki/SKILL-metal-band)                | Recommends a metal band and gives basic information    |
 | :construction:      | [milight](../../wiki/SKILL-milight)                            | Lighting control using MiLight                                                           |  
-| :question:          | [mopidy](../../wiki/SKILL-mopidy)                              | Mopidy-based players for local music, Google Music, and Spotify                          |  
+| :question:          | [mopidy](https://github.com/forslund/mopidy_skill#readme)                              | Mopidy-based players for local music, Google Music, and Spotify                          |  
 | :construction:      | [mopidy-and-bt-lights](../../wiki/SKILL-mopidy-and-bt-lights)  | Remote control of BT lights and Mopidy music playback                                    |  
 | :question:          | [mopidy-media-player](../../wiki/SKILL-Mopidy-Media-Players)   | Mopidy-based players for local MP3 library, Spotify and a Swedish radio station's stream |
 | :question:          | [movie-recommendation-skill](../../wiki/SKILL-movie-recomentation)                        | Recomends a movie  |
@@ -233,7 +233,7 @@ For an example pull request , check out [this PR](https://github.com/MycroftAI/m
 | :construction:      | [wifi-management-skill](../../wiki/SKILL-wifi-management)  | Various options for interacting with WiFi        |
 | :construction:      | [wink-smart-home](../../wiki/SKILL-wink)                       | Interact with lights via a Wink-hub                                                      |  
 | :question:          | [wiki-fact-scraper-skill](../../wiki/SKILL-wiki-fact-scraper)                        | Scrapes for random facts from wikipedia and stores locally    |
-| :question:  | [youtube](../../wiki/SKILL-youtube)                            | Search and listen to a youtube video                                                        |  
+| :question:  | [youtube](https://github.com/augustnmonteiro/mycroft-youtube#readme)                            | Search and listen to a youtube video                                                        |  
 | :question:  | [release-test](../../wiki/SKILL-release-test)                            | test mycroft release                                                        |  
 | :heavy_check_mark:  | [skill-caffeinewiz](https://github.com/reginaneon/skill-caffeinewiz.git)| Provides the caffeine content of various drinks on request.<br>```what's caffeine content of *drink*?```
 | :heavy_check_mark:  | [mycroft-timer](https://github.com/MycroftAI/mycroft-timer.git)| Set a timer on your device<br>```set a timer for 30 minutes```
