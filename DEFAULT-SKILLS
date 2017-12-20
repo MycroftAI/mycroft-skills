@@ -11,6 +11,8 @@ mycroft-volume
 # common
 mycroft-fallback-duck-duck-go
 fallback-aiml
+fallback-wolfram-alpha
+fallback-unknown
 mycroft-alarm
 mycroft-audio-record
 mycroft-date-time
@@ -23,5 +25,9 @@ mycroft-reminder
 mycroft-singing
 mycroft-spelling
 mycroft-stock
+mycroft-support-helper
+mycroft-timer
 mycroft-weather
 mycroft-wiki
+mycroft-version-checker
+

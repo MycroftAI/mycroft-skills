@@ -79,6 +79,9 @@
 [submodule "mycroft-singing"]
 	path = skill-singing
 	url = https://github.com/MycroftAI/skill-singing.git
+[submodule "mycroft-support-helper"]
+	path = mycroft-support-helper
+	url = https://github.com/MycroftAI/skill-support.git
 [submodule "mycroft-speak"]
 	path = skill-speak
 	url = https://github.com/MycroftAI/skill-speak.git
