@@ -69,37 +69,40 @@ Clone the mycroft-skills repo to a local directory, [How To Clone](https://help.
 All skills must have a standard README.md.  You can use the [Meta Editor](http://rawgit.com/MycroftAI/mycroft-skills/master/meta_editor.html) to create it.
 
 ### 4) Add your Skill as a submodule
-Add the your skill to this repo as a submodule. For more help, feel free to check out [this guide](https://github.com/blog/2104-working-with-submodules)
-
-Or, type the following in the terminal of your clone of the Skills-repo.
+Add the your skill to this repo as a submodule.  You can type the following in the terminal of within your clone of
+the mycroft-skills repo.
 ```
 git submodule add $remote $name-of-your-skill
 ```
-Where $remote is the git address for your repo (example https://github.com/mycroftai/skill-configuration) and $name-your-skill is what you want to name it. In general, we normally use BLANK-skill as a format for skill names.
+Where ```$remote``` is the git address for your repo (for example "https://github.com/MycroftAI/skill-configuration") and
+```$name-your-skill``` is the name used to install it via MSM or "Hey Mycroft, install ...".  The recommended format for skill names is "publisher-descriptive-name", where 'publisher' is a unique name for you or your organization.  For example, "penrod-nautical-speed-translator".
 
-This should have edited the .gitmodule file and added something similar to the bottom of the file:
+When picking a name keep in mind that the installer will match by whole words between the dashes.  So if a user says
+"install speed translator" it will look for all skills in the repo with the words 'speed' AND 'translator'.  That
+means it will find "penrod-nautical-speed-translator" but would not find "abc-nautical-speeds-translator".  Make
+sure the pieces of the name are 'speakable' to allow verbal installs.  That means "fubar-v2timer" would be a bad
+name since you can't speak "v2timer" as a word.  A better name would be "fubar-timer-v2" or "fubar-timer-version-2".
+
+The above command should have modified the .gitmodules file and added something similar to the bottom of the file:
 ```
 +[submodule "NAME-OF-YOUR-SKILL"]
- +	path = YOUR-SKILL-REPO (or any path unique to this repo)
+ +	path = YOUR-SKILL-REPO (or any unique path withing the mycroft-skills repo)
  +	url = https://github.com/USERNAME/YOUR-SKILL-REPO.git
 ```
 
-```NAME-OF-YOUR-SKILL```
+For more help, feel free to check out this [guide to working with submodules](https://github.com/blog/2104-working-with-submodules)
 
-This name is used to install via MSM and verbally.  Users install by speaking sufficient portions of this name to be unique.  For example "mycroft-mark-1-demo" would install if a user only said "install mark 1 demo" -- assuming there is no other skill that matches this queury, such as "another mark 1 demo".
-
-We recommend starting your name with a name or organization name that makes it unique.
-
-### 5) Modify Skills Repo README.md
-Modify the table section to include the direct link to your repo like the following example including the break tag and the phrase to trigger your skill:
+### 5) Modify this README.md
+Modify the table section below to include the direct link to your repo.  Including the break HTML tag and an example phrase
+or two that trigger your skill:
 
 ```
 | :heavy_check_mark:  | [home-assistant](https://github.com/btotharye/mycroft-homeassistant#readme)| Control your devices in home-assistant<br>```turn on office``` |
 
 ```
-Ensure to put a proper status as well from the list below:
+Chose an appropriate status icon from the list below:
 
-**Status meaning:**  
+**Status:**  
 :heavy_check_mark: good working order  
 :construction:     still being developed and not ready for general use (for reference/collaboration)  
 :question:         untested (by us)  
@@ -112,10 +115,10 @@ Once you've got your local version of the repo organized properly, submit a PR.
 To make your skill capable of being installed via MSM (the Mycroft Skill Manager) you can include two additional files.
 
 ##### requirements.txt
-A list of Python modules to be installed via the Python PIP utility
+A list of all Python modules which must be installed for it to work.  These will be installed via the Python PIP utility
 
 ##### requirements.sh
-A script to run that will perform any additional steps needed by your skill.  This can include package installations.
+A script to run that will perform any additional steps needed to prepare the system for your skill.  This can include package installations.
 
 
 **Status meaning:**  
