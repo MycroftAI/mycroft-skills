@@ -109,6 +109,9 @@
 [submodule "mycroft-wiki"]
 	path = skill-wiki
 	url = https://github.com/MycroftAI/skill-wiki.git
+[submodule "mycroft-wink-iot"]
+	path = mycroft-wink-iot
+	url = https://github.com/MycroftAI/skill-wink-iot
 [submodule "GoogleGmail-Skill"]
 	path = google-gmail-oldapi
 	url = https://github.com/jcasoft/GoogleGmail-Skill
