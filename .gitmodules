@@ -115,9 +115,6 @@
 [submodule "GoogleGmail-Skill"]
 	path = google-gmail-oldapi
 	url = https://github.com/jcasoft/GoogleGmail-Skill
-[submodule "Mopidy-Media-Players"]
-	path = mopidy-media-player
-	url = https://github.com/forslund/mycroft-media-skills.git
 [submodule "mp3-demo-skill"]
 	path = mp3-demo
 	url = https://github.com/ethanaward/demo_skill.git

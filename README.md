@@ -201,7 +201,6 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [Media console control](../../wiki/SKILL-media-console-control)                 | Add media controls that are mapped to console commands                                  |  
 | :question:          | [Metal band](../../wiki/SKILL-metal-band)                                       | Recommend a metal band and gives basic information    |
 | :question:          | [Mopidy](https://github.com/forslund/mopidy_skill#readme)                       | Mopidy-based players for local music, Google Music, and Spotify                          |  
-| :question:          | [Mopidy media player](../../wiki/SKILL-Mopidy-Media-Players)                    | Mopidy-based players for local MP3 library, Spotify and a Swedish radio station's stream |
 | :question:          | [Movie recommendation-skill](../../wiki/SKILL-movie-recomentation)              | Recomend a movie  |
 | :question:          | [MPD control](../../wiki/SKILL-mpd-control)                                     | Control media players that use the MPD protocol to play found local music           |  
 | :question:          | [MQTT](../../wiki/SKILL-mqtt)                                                   | Control IoT devices (home automation) using MQTT protocol     |  
