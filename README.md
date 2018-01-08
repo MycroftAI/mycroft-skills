@@ -168,6 +168,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :construction:      | [The Cows Lists](https://github.com/CarstenAgerskov/skill-the-cows-lists#readme)| "Remember The Milk" support for Mycroft.<br>```"add milk to my grocery list"```    |
 | :construction:      | [Wallpaper](../../wiki/SKILL-wallpaper)                                         | Download wallpapers from reddit and changes randomly         |
 | :construction:      | [Wifi management](../../wiki/SKILL-wifi-management)                             | Various options for interacting with WiFi        |
+| :construction:      | [Gimlet Podcasts](https://github.com/JamesPoole/skill-gimlet-podcasts)          | Listen to the latest episodes of podcasts from the Gimlet network. <br> ```"play the latest episode of the reply all podcast"```|
 | :question:          | [Amarok media player control](https://github.com/AIIX/amarok-player-skill#readme) | Player controls for the Amarok Media Player<br>```"amarok play/stop/next/previous music"``` |
 | :question:          | [Angry Beanie podcast](https://github.com/purserj/mycroft-angrybeanie#readme)   | Query and play Angry Beanie Podcasts<br />```"Get Angry Beanie shows"``` |
 | :question:          | [Plasma audio control](https://github.com/AIIX/audio-control-plasma#readme)     | Audio control for Plasma Desktop<br>```"increase volume to maximum", "decrease microphone to minimum volume"```         |
