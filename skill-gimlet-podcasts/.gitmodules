@@ -1,0 +1,3 @@
+[submodule "skill-gimlet-podcasts"]
+	path = skill-gimlet-podcasts
+	url = https://github.com/JamesPoole/skill-gimlet-podcasts
