@@ -421,3 +421,7 @@
 [submodule "kde-kate-control"]
 	path = kde-kate-control
 	url = https://github.com/AIIX/kde-kate-control.git
+[submodule "AVmusic-skill"]
+	path = AVmusic-skill
+	url = https://github.com/NeonGeckoCom/AVmusic-skill.git
+
