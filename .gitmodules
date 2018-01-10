@@ -421,3 +421,6 @@
 [submodule "kde-kate-control"]
 	path = kde-kate-control
 	url = https://github.com/AIIX/kde-kate-control.git
+[submodule "carstena-mosquito-speak"]
+	path = carstena-mosquito-speak
+	url = https://github.com/CarstenAgerskov/skill-mosquito-speak
