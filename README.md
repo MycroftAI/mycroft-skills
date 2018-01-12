@@ -231,6 +231,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [System](../../wiki/SKILL-system)                                               | System controls like shutdown and reboot   |
 | :question:          | [Take picture](../../wiki/SKILL-take-picture)                                   | Take pictures using the Raspberry Pi Camera          |  
 | :question:          | [Traffic](../../wiki/SKILL-traffic)                                             | Commute time from Google distance matrix api         |  
+| :question:          | [White House Adventure](../../wiki/SKILL-white-house-adventure)                 | Play the old text adventure Zork 1                   |
 | :question:          | [Unsplash wallpaper-plasma-skill](https://github.com/AIIX/unsplash-wallpaper-plasma-skill#readme)  | Change KDE Desktop wallpaper by category type from unsplash<br>```"change wallpaper type [nature\abstract\any]"``` |
 | :question:	      | [WEMO](../../wiki/SKILL-wemo)                                                   | Control WEMO devices with Mycroft                                                   |
 | :question:          | [Wiki fact scraper](../../wiki/SKILL-wiki-fact-scraper)                         | Scrape random facts from Wikipedia and store locally    |
