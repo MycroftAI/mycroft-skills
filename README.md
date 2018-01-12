@@ -207,6 +207,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [MQTT](../../wiki/SKILL-mqtt)                                                   | Control IoT devices (home automation) using MQTT protocol     |  
 | :question:          | [Mute skill](../../wiki/SKILL-mute)                                             | Mute Mycroft until re-enabled |
 | :question:          | [NASA picture of the day](../../wiki/SKILL-nasa-pic-of-the-day)                 | NASA picture of the day from the NASA API |
+| :question:          | [Nature Sounds](https://github.com/Hasinator7/nature-sound-skill#readme)        | Play relaxing nature sounds recorded at various locations<br>```play [river/thunderstorm/songbird]``` |  
 | :question:          | [Near Earth orbit](../../wiki/SKILL-near-earth-orbit)                           | Near Earth orbit alert skill via the NASA API   |
 | :question:          | [Photolocation](../../wiki/SKILL-photolocation)                                 | Searches wikimedia for photos of location  |
 | :question:          | [Pickup line](../../wiki/SKILL-pickup-line)                                     | Responds with random nerdy pick-up lines          |
@@ -235,6 +236,6 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:	      | [WEMO](../../wiki/SKILL-wemo)                                                   | Control WEMO devices with Mycroft                                                   |
 | :question:          | [Wiki fact scraper](../../wiki/SKILL-wiki-fact-scraper)                         | Scrape random facts from Wikipedia and store locally    |
 | :question:          | [Youtube](https://github.com/augustnmonteiro/mycroft-youtube#readme)            | Search and listen to a Youtube video                                                        |  
-| :question:          | [Release test](../../wiki/SKILL-release-test)                                   | Test a mycroft release                                                        |  
+| :question:          | [Release test](../../wiki/SKILL-release-test)                                   | Test a mycroft release                                                        |
 | :skull:             | [Enhanced Bitcoin](../../wiki/SKILL-enhanced-bitcoin)                           | Enhanced bitcoin from api.bitcoinaverage.com        |
 
