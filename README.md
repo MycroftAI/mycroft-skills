@@ -238,4 +238,4 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [Youtube](https://github.com/augustnmonteiro/mycroft-youtube#readme)            | Search and listen to a Youtube video                                                        |  
 | :question:          | [Release test](../../wiki/SKILL-release-test)                                   | Test a mycroft release                                                        |  
 | :skull:             | [Enhanced Bitcoin](../../wiki/SKILL-enhanced-bitcoin)                           | Enhanced bitcoin from api.bitcoinaverage.com        |
--
+
