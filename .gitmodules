@@ -421,3 +421,6 @@
 [submodule "kde-kate-control"]
 	path = kde-kate-control
 	url = https://github.com/AIIX/kde-kate-control.git
+[submodule "nature-sounds-skill"]
+	path = nature-sounds-skill
+	url = https://github.com/Hasinator7/nature-sound-skill
