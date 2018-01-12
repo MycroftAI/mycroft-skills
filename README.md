@@ -236,6 +236,5 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:	      | [WEMO](../../wiki/SKILL-wemo)                                                   | Control WEMO devices with Mycroft                                                   |
 | :question:          | [Wiki fact scraper](../../wiki/SKILL-wiki-fact-scraper)                         | Scrape random facts from Wikipedia and store locally    |
 | :question:          | [Youtube](https://github.com/augustnmonteiro/mycroft-youtube#readme)            | Search and listen to a Youtube video                                                        |  
-| :question:          | [Release test](../../wiki/SKILL-release-test)                                   | Test a mycroft release                                                        |
+| :question:          | [Release test](../../wiki/SKILL-release-test)                                   | Test a mycroft release                                                        |  
 | :skull:             | [Enhanced Bitcoin](../../wiki/SKILL-enhanced-bitcoin)                           | Enhanced bitcoin from api.bitcoinaverage.com        |
-
