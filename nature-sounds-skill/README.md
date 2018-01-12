@@ -7,7 +7,6 @@ This skill plays a small variety of relaxing nature sounds
 :construction: Under construction
 
 Working features:
- - It's untested, but in theory:
  - Say 'Play ...
         ...Songbirds' or 'Dawn' for lovely birdsong
         ...Stream' or 'Creek' for the sound of a rainy stream
