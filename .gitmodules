@@ -421,3 +421,6 @@
 [submodule "white-house-adventure"]
 	path = white-house-adventure
 	url = https://github.com/forslund/white-house-adventure.git
+[submodule "number-generator"]
+	path = number-generator
+	url = https://github.com/angry-frog/number-generator-skill.git
