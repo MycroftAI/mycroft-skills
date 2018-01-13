@@ -1,23 +1,13 @@
-# Nature Sound skill
+## Nature sound skill
+Plays relaxing nature soundscapes
 
-This skill plays a small variety of relaxing nature sounds
+## Description 
+Plays some soundscapes for relaxation, atmosphere or meditation
 
-## Current state
+## Examples 
+* "..."play Dawn" for Birdsong in the morning"
+* "..."play Ocean" for a waving ocean"
+* "..."play River" for a rainy river"
 
-:construction: Under construction
-
-Working features:
- - Say 'Play ...
-        ...Songbirds' or 'Dawn' for lovely birdsong
-        ...Stream' or 'Creek' for the sound of a rainy stream
-        ...Ocean' for waves
-        ...Thunderstorm' for a thunderstorm
-        ...Gale' for a tropical storm
-        ...Rainforest' for tropical rainforest
-
-Known issues:
- - So far none
-
-TODO:
- - Acquire more Creative-Commons or similar licensed soundscapes
- - Loop audio
+## Credits 
+Hasinator7
