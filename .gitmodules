@@ -424,6 +424,3 @@
 [submodule "nature-sounds-skill"]
 	path = nature-sounds-skill
 	url = https://github.com/Hasinator7/nature-sound-skill.git
-[submodule "nature-sound-skill"]
-	path = nature-sound-skill
-	url = https://github.com/Hasinator7/nature-sound-skill.git
