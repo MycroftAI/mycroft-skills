@@ -166,7 +166,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :construction:      |	[OpenHAB](../../wiki/SKILL-Openhab)			                        | Add Openhab support to Mycroft |
 | :construction:      | [Read article](../../wiki/SKILL-read-article)                                   | Scrapes text from online articles and reads them to you.   |
 | :construction:      | [Sentiment analysis](../../wiki/SKILL-sentiment-analysis)                       | Sentiment analysis              |
-| :construction:      | [The Cows Lists](https://github.com/CarstenAgerskov/skill-the-cows-lists#readme)| "Remember The Milk" support for Mycroft.<br>```"add milk to my grocery list"```    |
+| :construction:      | [The Cows Lists](https://github.com/CarstenAgerskov/skill-the-cows-lists#readme)| Interact with "Remember The Milk" list and task management ecosystem.<br>```"add milk to my grocery list"```    |
 | :construction:      | [Wallpaper](../../wiki/SKILL-wallpaper)                                         | Download wallpapers from reddit and changes randomly         |
 | :construction:      | [Wifi management](../../wiki/SKILL-wifi-management)                             | Various options for interacting with WiFi        |
 | :question:          | [Amarok media player control](https://github.com/AIIX/amarok-player-skill#readme) | Player controls for the Amarok Media Player<br>```"amarok play/stop/next/previous music"``` |
@@ -202,7 +202,6 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [Media console control](../../wiki/SKILL-media-console-control)                 | Add media controls that are mapped to console commands                                  |  
 | :question:          | [Metal band](../../wiki/SKILL-metal-band)                                       | Recommend a metal band and gives basic information    |
 | :question:          | [Mopidy](https://github.com/forslund/mopidy_skill#readme)                       | Mopidy-based players for local music, Google Music, and Spotify                          |  
-| :question:          | [Mopidy media player](../../wiki/SKILL-Mopidy-Media-Players)                    | Mopidy-based players for local MP3 library, Spotify and a Swedish radio station's stream |
 | :question:          | [Movie recommendation-skill](../../wiki/SKILL-movie-recomentation)              | Recomend a movie  |
 | :question:          | [MPD control](../../wiki/SKILL-mpd-control)                                     | Control media players that use the MPD protocol to play found local music           |  
 | :question:          | [MQTT](../../wiki/SKILL-mqtt)                                                   | Control IoT devices (home automation) using MQTT protocol     |  
@@ -232,6 +231,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [System](../../wiki/SKILL-system)                                               | System controls like shutdown and reboot   |
 | :question:          | [Take picture](../../wiki/SKILL-take-picture)                                   | Take pictures using the Raspberry Pi Camera          |  
 | :question:          | [Traffic](../../wiki/SKILL-traffic)                                             | Commute time from Google distance matrix api         |  
+| :question:          | [White House Adventure](../../wiki/SKILL-white-house-adventure)                 | Play the old text adventure Zork 1                   |
 | :question:          | [Unsplash wallpaper-plasma-skill](https://github.com/AIIX/unsplash-wallpaper-plasma-skill#readme)  | Change KDE Desktop wallpaper by category type from unsplash<br>```"change wallpaper type [nature\abstract\any]"``` |
 | :question:	      | [WEMO](../../wiki/SKILL-wemo)                                                   | Control WEMO devices with Mycroft                                                   |
 | :question:          | [Wiki fact scraper](../../wiki/SKILL-wiki-fact-scraper)                         | Scrape random facts from Wikipedia and store locally    |
