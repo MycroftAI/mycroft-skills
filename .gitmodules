@@ -115,9 +115,6 @@
 [submodule "GoogleGmail-Skill"]
 	path = google-gmail-oldapi
 	url = https://github.com/jcasoft/GoogleGmail-Skill
-[submodule "Mopidy-Media-Players"]
-	path = mopidy-media-player
-	url = https://github.com/forslund/mycroft-media-skills.git
 [submodule "mp3-demo-skill"]
 	path = mp3-demo
 	url = https://github.com/ethanaward/demo_skill.git
@@ -424,4 +421,18 @@
 [submodule "AVmusic-skill"]
 	path = AVmusic-skill
 	url = https://github.com/NeonGeckoCom/AVmusic-skill.git
-
+[submodule "esp8266-skill"]
+	path = esp8266-skill
+	url = https://github.com/Dark5ide/esp8266-skill.git
+[submodule "white-house-adventure"]
+	path = white-house-adventure
+	url = https://github.com/forslund/white-house-adventure.git
+[submodule "whats-nearby"]
+	path = whats-nearby
+	url = https://github.com/AIIX/whats-nearby
+[submodule "skill-farting"]
+	path = skill-farting
+	url = https://github.com/aussieW/skill-farting.git
+[submodule "carstena-mosquito-speak"]
+	path = carstena-mosquito-speak
+	url = https://github.com/CarstenAgerskov/skill-mosquito-speak
