@@ -152,6 +152,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :heavy_check_mark:  | [Timer](https://github.com/MycroftAI/mycroft-timer.git)                         | Set a timer on your device<br>```set a timer for 30 minutes```
 | :heavy_check_mark:  | [Internet Radio](https://github.com/normandmickey/skill-internet-radio#readme)  | Listen to Internet Radio<br>```internet radio``` |
 | :heavy_check_mark:  | [Bitcoin price](https://github.com/dmp1ce/mycroft-bitcoinprice-skill#readme)    | Check the price of bitcoin<br>```what is the bitcoin price?``` |
+| :heavy_check_mark:  | [ESP8266](https://github.com/Dark5ide/esp8266-skill.git#readme)                 | Communicate with an ESP8266 in the context of home automation.<br>```Turn on the lamp``` |
 | :construction:      | [Brain](../../wiki/SKILL-brain)                                                 | Chain intents and provide some services                                                 |
 | :construction:      | [Calculator](https://github.com/TREE-Edu/calculator-skill.git)                  | Conversation-based calculator.<br>```Do some math```
 | :construction:      | [DeepDream](../../wiki/SKILL-deepdream)                                         | Add Deepdreaming image converstion to Mycroft       |
@@ -161,6 +162,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :construction:      | [GPIO example](../../wiki/SKILL-gpio-example)                                   | Example of using the GPIO pins on the Raspberry Pi to blink an LED                                         |    
 | :construction:      | [MiLight](../../wiki/SKILL-milight)                                             | Lighting control using MiLight                                                           |  
 | :construction:      | [Mopidy and BT lights](../../wiki/SKILL-mopidy-and-bt-lights)                   | Remote control of BT lights and Mopidy music playback                                    |  
+| :construction:      | [Mosquito speak](https://github.com/CarstenAgerskov/skill-mosquito-speak)       | Allow Mycroft to notify you on events, by speaking text received on a mqtt bus.                                    |  
 | :construction:      | [Objective](../../wiki/SKILL-objective)                                         | Register objectives almost the same has an intent would be registered with ObjectiveBuilder class              |
 | :construction:      |	[OpenHAB](../../wiki/SKILL-Openhab)			                        | Add Openhab support to Mycroft |
 | :construction:      | [Read article](../../wiki/SKILL-read-article)                                   | Scrapes text from online articles and reads them to you.   |
