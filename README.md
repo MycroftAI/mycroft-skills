@@ -139,6 +139,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 
 | Status              | Skill Name                                                                      | Description<br>```"phrase to trigger"```    |
 | ------------------- | ------------------------------------------------------------------------------- | --------------------------------------------|
+| :heavy_check_mark:  | [AVmusic](https://github.com/NeonGeckoCom/AVmusic-skill#readme)| Lets the user request playback of any music or video available. Version 1.0 <br>```"AVmusic play chopin"``` |
 | :heavy_check_mark:  | [Australian news](https://github.com/KathyReid/skill-australian-news/README.md)	| Play ABC news from Australia<br />```"Play Australian news"```|
 | :heavy_check_mark:  | [AutoGUI](../../wiki/SKILL-Autogui)                                             | Manipulate your mouse and keyboard with Mycroft                                                  |
 | :heavy_check_mark:  | [Basic help](https://github.com/btotharye/mycroft-skill-basichelp#readme)       | Get basic Mycroft questions and help answered<br>```"where is the documentation", "how do I install from source"```         |
@@ -151,7 +152,8 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :heavy_check_mark:  | [Radio RNE](../..wiki/SKILL-radio-rne)                                          | Spanish news radio Radio Nacional de Espa?a RNE. |
 | :heavy_check_mark:  | [Timer](https://github.com/MycroftAI/mycroft-timer.git)                         | Set a timer on your device<br>```set a timer for 30 minutes```
 | :heavy_check_mark:  | [Internet Radio](https://github.com/normandmickey/skill-internet-radio#readme)  | Listen to Internet Radio<br>```internet radio``` |
-| :construction:      | [Bitcoin price](../../wiki/SKILL-bitcoin-price)                                 | Check the price of bitcoin                             |
+| :heavy_check_mark:  | [Bitcoin price](https://github.com/dmp1ce/mycroft-bitcoinprice-skill#readme)    | Check the price of bitcoin<br>```what is the bitcoin price?``` |
+| :heavy_check_mark:  | [ESP8266](https://github.com/Dark5ide/esp8266-skill.git#readme)                 | Communicate with an ESP8266 in the context of home automation.<br>```Turn on the lamp``` |
 | :construction:      | [Brain](../../wiki/SKILL-brain)                                                 | Chain intents and provide some services                                                 |
 | :construction:      | [Calculator](https://github.com/TREE-Edu/calculator-skill.git)                  | Conversation-based calculator.<br>```Do some math```
 | :construction:      | [DeepDream](../../wiki/SKILL-deepdream)                                         | Add Deepdreaming image converstion to Mycroft       |
@@ -161,12 +163,14 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :construction:      | [GPIO example](../../wiki/SKILL-gpio-example)                                   | Example of using the GPIO pins on the Raspberry Pi to blink an LED                                         |    
 | :construction:      | [MiLight](../../wiki/SKILL-milight)                                             | Lighting control using MiLight                                                           |  
 | :construction:      | [Mopidy and BT lights](../../wiki/SKILL-mopidy-and-bt-lights)                   | Remote control of BT lights and Mopidy music playback                                    |  
+| :construction:      | [Mosquito speak](https://github.com/CarstenAgerskov/skill-mosquito-speak)       | Allow Mycroft to notify you on events, by speaking text received on a mqtt bus.                                    |  
 | :construction:      | [Objective](../../wiki/SKILL-objective)                                         | Register objectives almost the same has an intent would be registered with ObjectiveBuilder class              |
 | :construction:      |	[OpenHAB](../../wiki/SKILL-Openhab)			                        | Add Openhab support to Mycroft |
 | :construction:      | [Read article](../../wiki/SKILL-read-article)                                   | Scrapes text from online articles and reads them to you.   |
 | :construction:      | [Sentiment analysis](../../wiki/SKILL-sentiment-analysis)                       | Sentiment analysis              |
 | :construction:      | [The Cows Lists](https://github.com/CarstenAgerskov/skill-the-cows-lists#readme)| Interact with "Remember The Milk" list and task management ecosystem.<br>```"add milk to my grocery list"```    |
 | :construction:      | [Wallpaper](../../wiki/SKILL-wallpaper)                                         | Download wallpapers from reddit and changes randomly         |
+| :construction:      | [Whats Nearby](https://github.com/AIIX/whats-nearby#readme) | Search for nearby Places for Mycroft on Plasma (Search For Resturants, Hotels, Parks etc)<br>```"search for nearby bars/pubs/parks/hospitals/etc"``` |
 | :construction:      | [Wifi management](../../wiki/SKILL-wifi-management)                             | Various options for interacting with WiFi        |
 | :question:          | [Amarok media player control](https://github.com/AIIX/amarok-player-skill#readme) | Player controls for the Amarok Media Player<br>```"amarok play/stop/next/previous music"``` |
 | :question:          | [Angry Beanie podcast](https://github.com/purserj/mycroft-angrybeanie#readme)   | Query and play Angry Beanie Podcasts<br />```"Get Angry Beanie shows"``` |
