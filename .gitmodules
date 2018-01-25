@@ -423,4 +423,4 @@
 	url = https://github.com/forslund/white-house-adventure.git
 [submodule "number-generator"]
 	path = number-generator
-	url = https://github.com/angry-frog/number-generator-skill
+	url = https://github.com/angry-frog/number-generator-skill.git
