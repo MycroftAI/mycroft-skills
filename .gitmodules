@@ -421,6 +421,9 @@
 [submodule "white-house-adventure"]
 	path = white-house-adventure
 	url = https://github.com/forslund/white-house-adventure.git
+[submodule "skill-farting"]
+	path = skill-farting
+	url = https://github.com/aussieW/skill-farting.git
 [submodule "carstena-mosquito-speak"]
 	path = carstena-mosquito-speak
 	url = https://github.com/CarstenAgerskov/skill-mosquito-speak
