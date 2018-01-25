@@ -418,9 +418,18 @@
 [submodule "kde-kate-control"]
 	path = kde-kate-control
 	url = https://github.com/AIIX/kde-kate-control.git
+[submodule "esp8266-skill"]
+	path = esp8266-skill
+	url = https://github.com/Dark5ide/esp8266-skill.git
 [submodule "white-house-adventure"]
 	path = white-house-adventure
 	url = https://github.com/forslund/white-house-adventure.git
 [submodule "whats-nearby"]
 	path = whats-nearby
 	url = https://github.com/AIIX/whats-nearby
+[submodule "skill-farting"]
+	path = skill-farting
+	url = https://github.com/aussieW/skill-farting.git
+[submodule "carstena-mosquito-speak"]
+	path = carstena-mosquito-speak
+	url = https://github.com/CarstenAgerskov/skill-mosquito-speak
