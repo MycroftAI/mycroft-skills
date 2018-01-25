@@ -424,3 +424,6 @@
 [submodule "skill-farting"]
 	path = skill-farting
 	url = https://github.com/aussieW/mycroft-skills
+[submodule "carstena-mosquito-speak"]
+	path = carstena-mosquito-speak
+	url = https://github.com/CarstenAgerskov/skill-mosquito-speak
