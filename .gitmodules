@@ -442,3 +442,6 @@
 [submodule "carstena-mosquito-speak"]
 	path = carstena-mosquito-speak
 	url = https://github.com/CarstenAgerskov/skill-mosquito-speak
+[submodule "podcast-skill"]
+	path = podcast-skill
+	url = https://github.com/JamesPoole/podcast-skill
