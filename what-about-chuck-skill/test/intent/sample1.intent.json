@@ -1,0 +1,7 @@
+{
+  "utterance": "Do you like Chuck",
+  "intent_type": "WhatAboutChuckIntent",
+  "intent": {
+    "WhatAboutChuckKeyword": "do you like chuck"
+  }
+}
