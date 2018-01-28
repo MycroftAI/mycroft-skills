@@ -146,6 +146,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :heavy_check_mark:  | [Caffeine Wiz](https://github.com/reginaneon/skill-caffeinewiz.git)             | Provides the caffeine content of various drinks on request.<br>```what's caffeine content of *drink*?``` |
 | :heavy_check_mark:  | [Coin flip](../../wiki/SKILL-coin-flip)                                         | Flip a virtual coin   |
 | :heavy_check_mark:  | [Deutschland Funk](https://github.com/ofosos/deutschlandfunk-skill)             | Listen to Deutschlandfunk and query schedule
+| :heavy_check_mark:  | [Federal Closings](https://github.com/mason88/skill-federal-closings)         | List Federal Government Closings
 | :heavy_check_mark:  | [Home Assistant](https://github.com/btotharye/mycroft-homeassistant#readme)     | Control your devices in home-assistant<br>```"turn on office"```                                                      |  
 | :heavy_check_mark:  | [Pandora](../../wiki/SKILL-pandora)                                             | Play Pandora stations via Pianobar  |
 | :heavy_check_mark:  | [Ping](../../wiki/SKILL-ping)                                                   | Pings websites and responds with latency time       |  
