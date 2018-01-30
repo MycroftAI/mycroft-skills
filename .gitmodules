@@ -445,3 +445,6 @@
 [submodule "skill-federal-closings"]
 	path = skill-federal-closings
 	url = https://github.com/mason88/skill-federal-closings
+[submodule "matthew-kickstarter-tracker"]
+	path = matthew-kickstarter-tracker
+	url = https://github.com/MatthewScholefield/skill-kickstarter-tracker
