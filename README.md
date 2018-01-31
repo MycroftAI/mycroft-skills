@@ -161,6 +161,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :construction:      | [Dice roll](../../wiki/SKILL-dice)                                              | Roll dice spoken in RPG notation.                                                       |
 | :construction:      | [Facebook](../../wiki/SKILL-facebook)                                           | Generate posts for Facebook                  |
 | :construction:      | [Facebook marketing](../../wiki/SKILL-facebook-marketing)                       | Work with Facebook Marketing API                                                        |
+| :construction:      | [FlightGear Copilot](https://github.com/merspieler/flight-gear-copilot/#readme) | This skillacts as an copilot for flight gear that assists you by following your voice commands.      |
 | :construction:      | [GPIO example](../../wiki/SKILL-gpio-example)                                   | Example of using the GPIO pins on the Raspberry Pi to blink an LED                                         |    
 | :construction:      | [MiLight](../../wiki/SKILL-milight)                                             | Lighting control using MiLight                                                           |  
 | :construction:      | [Mopidy and BT lights](../../wiki/SKILL-mopidy-and-bt-lights)                   | Remote control of BT lights and Mopidy music playback                                    |  
