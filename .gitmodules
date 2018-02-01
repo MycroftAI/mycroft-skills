@@ -445,3 +445,12 @@
 [submodule "matthew-kickstarter-tracker"]
 	path = matthew-kickstarter-tracker
 	url = https://github.com/MatthewScholefield/skill-kickstarter-tracker
+[submodule "PFE1718-skill-listener"]
+	path = PFE1718-skill-listener
+	url = https://github.com/PFE1718/mycroft-skill-listener.git
+[submodule "PFE1718-habit-miner"]
+	path = PFE1718-habit-miner
+	url = https://github.com/PFE1718/mycroft-habit-miner-skill.git
+[submodule "PFE1718-automation-handler"]
+	path = PFE1718-automation-handler
+	url = https://github.com/PFE1718/mycroft-automation-handler.git

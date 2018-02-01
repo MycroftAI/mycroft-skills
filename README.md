@@ -176,6 +176,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :construction:      | [Wifi management](../../wiki/SKILL-wifi-management)                             | Various options for interacting with WiFi        |
 | :question:          | [Amarok media player control](https://github.com/AIIX/amarok-player-skill#readme) | Player controls for the Amarok Media Player<br>```"amarok play/stop/next/previous music"``` |
 | :question:          | [Angry Beanie podcast](https://github.com/purserj/mycroft-angrybeanie#readme)   | Query and play Angry Beanie Podcasts<br />```"Get Angry Beanie shows"``` |
+| :question:          | [Automation handler](https://github.com/PFE1718/mycroft-automation-handler#readme)| Automate user habits within the [Habit automation system](https://github.com/PFE1718/mycroft-habits-automation#readme) |
 | :question:          | [Plasma audio control](https://github.com/AIIX/audio-control-plasma#readme)     | Audio control for Plasma Desktop<br>```"increase volume to maximum", "decrease microphone to minimum volume"```         |
 | :question:          | [Bioinformatics](../../wiki/SKILL-bioinformatics)                               | Add Bio-Linux Commands to Mycroft   |  
 | :question:          | [Bitcoin](../../wiki/SKILL-bitcoin)                                             | Check the price of bitcoin                                                               |  
@@ -194,6 +195,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [Gmail](../../wiki/SKILL-google-gmail)                                          | Get email from your Gmail Inbox                                                         |  
 | :question:          | [Google image search](../../wiki/SKILl-google-image-search)                     | Search Google images and display                                         |
 | :question:          | [Google translate](../../wiki/SKILL-google-translate)                           | Translate English phrases into other languages                                           |
+| :question:          | [Habit miner](https://github.com/PFE1718/mycroft-habit-miner-skill#readme)| Detect user habits for the [Habit automation system](https://github.com/PFE1718/mycroft-habits-automation#readme) |
 | :question:          | [Hue](../../wiki/SKILL-hue)                                                     | Control your Phillips Hue lights                                                         |  
 | :question:          | [IR Send](../../wiki/SKILL-irsend)                                              | Control devices via [lirc's](http://www.lirc.org/) [irsend](http://www.lirc.org/html/irsend.html)                                                         |
 | :question:          | [JB podcasts](../../wiki/SKILL-Jupiter-Broadcasting-Podcasts)                   | Play podcasts from Jupiter Broadcasting shows                                            |  
@@ -228,6 +230,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [Random quote](../../wiki/SKILL-random-quote)                                   | Random quotes,random facts about numbers, and your time left to live          |
 | :question:          | [RATP timetables](../../wiki/SKILL-ratp-timetables)                             | Access schedules for the RATP Network of trains and buses in Paris                       |  
 | :question:          | [RSS](../../wiki/SKILL-rss)                                                     | Fetch from RSS feed   |
+| :question:          | [Skill listener](https://github.com/PFE1718/mycroft-skill-listener#readme)| Log user activity locally for the [Habit automation system](https://github.com/PFE1718/mycroft-habits-automation#readme) |
 | :question:          | [Spaceflight schedule](../../wiki/SKILL-spaceflight-schedule)                   | Check when the next space flight launch is scheduled                                              |
 | :question:          | [Spacelaunch](../../wiki/SKILL-spacelaunch)                                     | Check when the next space launch is scheduled                                              |
 | :question:          | [Speedtest](../../wiki/SKILL-speedtest)                                         | Run a speedtest                                               |
