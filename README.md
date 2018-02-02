@@ -143,6 +143,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :heavy_check_mark:  | [Australian news](https://github.com/KathyReid/skill-australian-news/README.md)	| Play ABC news from Australia<br />```"Play Australian news"```|
 | :heavy_check_mark:  | [AutoGUI](../../wiki/SKILL-Autogui)                                             | Manipulate your mouse and keyboard with Mycroft                                                  |
 | :heavy_check_mark:  | [Basic help](https://github.com/btotharye/mycroft-skill-basichelp#readme)       | Get basic Mycroft questions and help answered<br>```"where is the documentation", "how do I install from source"```         |
+| :heavy_check_mark:  | [Better jokes](https://github.com/tjoen/skill-better-jokes#readme)              | Get mycroft to make better jokes<br>```be funny``` |
 | :heavy_check_mark:  | [Caffeine Wiz](https://github.com/reginaneon/skill-caffeinewiz.git)             | Provides the caffeine content of various drinks on request.<br>```what's caffeine content of *drink*?``` |
 | :heavy_check_mark:  | [Coin flip](../../wiki/SKILL-coin-flip)                                         | Flip a virtual coin   |
 | :heavy_check_mark:  | [Deutschland Funk](https://github.com/ofosos/deutschlandfunk-skill)             | Listen to Deutschlandfunk and query schedule
@@ -157,7 +158,6 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :heavy_check_mark:  | [Bitcoin price](https://github.com/dmp1ce/mycroft-bitcoinprice-skill#readme)    | Check the price of bitcoin<br>```what is the bitcoin price?``` |
 | :heavy_check_mark:  | [ESP8266](https://github.com/Dark5ide/esp8266-skill.git#readme)                 | Communicate with an ESP8266 in the context of home automation.<br>```Turn on the lamp``` |
 | :construction:      | [Brain](../../wiki/SKILL-brain)                                                 | Chain intents and provide some services                                                 |
-| :heavy_check_mark:  | [Better jokes](https://github.com/tjoen/skill-better-jokes#readme)              | Get mycroft to make better jokes<br>```be funny``` |
 | :construction:      | [Calculator](https://github.com/TREE-Edu/calculator-skill.git)                  | Conversation-based calculator.<br>```Do some math```
 | :construction:      | [DeepDream](../../wiki/SKILL-deepdream)                                         | Add Deepdreaming image converstion to Mycroft       |
 | :construction:      | [Dice roll](../../wiki/SKILL-dice)                                              | Roll dice spoken in RPG notation.                                                       |
