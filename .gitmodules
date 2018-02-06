@@ -451,6 +451,6 @@
 [submodule "tjoen-better-jokes"]
 	path = tjoen-better-jokes
 	url = https://github.com/tjoen/skill-better-jokes
-[submodule "CryptoSkill"]
-	path = CryptoSkill
+[submodule "skill-CryptoSkill"]
+	path = skill-CryptoSkill
 	url = https://github.com/Gobbenobber/skill-CryptoSkill
