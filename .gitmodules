@@ -448,6 +448,9 @@
 [submodule "matthew-kickstarter-tracker"]
 	path = matthew-kickstarter-tracker
 	url = https://github.com/MatthewScholefield/skill-kickstarter-tracker
+[submodule "tjoen-better-jokes"]
+	path = tjoen-better-jokes
+	url = https://github.com/tjoen/skill-better-jokes
 [submodule "CryptoSkill"]
 	path = CryptoSkill
 	url = https://github.com/Gobbenobber/skill-CryptoSkill
