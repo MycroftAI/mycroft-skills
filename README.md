@@ -139,19 +139,24 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 
 | Status              | Skill Name                                                                      | Description<br>```"phrase to trigger"```    |
 | ------------------- | ------------------------------------------------------------------------------- | --------------------------------------------|
+| :heavy_check_mark:  | [AVmusic](https://github.com/NeonGeckoCom/AVmusic-skill#readme)| Lets the user request playback of any music or video available. Version 1.0 <br>```"AVmusic play chopin"``` |
 | :heavy_check_mark:  | [Australian news](https://github.com/KathyReid/skill-australian-news/README.md)	| Play ABC news from Australia<br />```"Play Australian news"```|
 | :heavy_check_mark:  | [AutoGUI](../../wiki/SKILL-Autogui)                                             | Manipulate your mouse and keyboard with Mycroft                                                  |
 | :heavy_check_mark:  | [Basic help](https://github.com/btotharye/mycroft-skill-basichelp#readme)       | Get basic Mycroft questions and help answered<br>```"where is the documentation", "how do I install from source"```         |
+| :heavy_check_mark:  | [Better jokes](https://github.com/tjoen/skill-better-jokes#readme)              | Get mycroft to make better jokes<br>```be funny``` |
 | :heavy_check_mark:  | [Caffeine Wiz](https://github.com/reginaneon/skill-caffeinewiz.git)             | Provides the caffeine content of various drinks on request.<br>```what's caffeine content of *drink*?``` |
 | :heavy_check_mark:  | [Coin flip](../../wiki/SKILL-coin-flip)                                         | Flip a virtual coin   |
 | :heavy_check_mark:  | [Deutschland Funk](https://github.com/ofosos/deutschlandfunk-skill)             | Listen to Deutschlandfunk and query schedule
+| :heavy_check_mark:  | [Federal Closings](https://github.com/mason88/skill-federal-closings)         | List Federal Government Closings<br>```"are there federal closings?"```
 | :heavy_check_mark:  | [Home Assistant](https://github.com/btotharye/mycroft-homeassistant#readme)     | Control your devices in home-assistant<br>```"turn on office"```                                                      |  
 | :heavy_check_mark:  | [Pandora](../../wiki/SKILL-pandora)                                             | Play Pandora stations via Pianobar  |
 | :heavy_check_mark:  | [Ping](../../wiki/SKILL-ping)                                                   | Pings websites and responds with latency time       |  
 | :heavy_check_mark:  | [Radio RNE](../..wiki/SKILL-radio-rne)                                          | Spanish news radio Radio Nacional de Espa?a RNE. |
 | :heavy_check_mark:  | [Timer](https://github.com/MycroftAI/mycroft-timer.git)                         | Set a timer on your device<br>```set a timer for 30 minutes```
 | :heavy_check_mark:  | [Internet Radio](https://github.com/normandmickey/skill-internet-radio#readme)  | Listen to Internet Radio<br>```internet radio``` |
-| :construction:      | [Bitcoin price](../../wiki/SKILL-bitcoin-price)                                 | Check the price of bitcoin                             |
+| :heavy_check_mark:  | [Number Generator](https://github.com/angry-frog/number-generator-skill#readme) | Mycroft will pick a random number<br>```pick a number``` |
+| :heavy_check_mark:  | [Bitcoin price](https://github.com/dmp1ce/mycroft-bitcoinprice-skill#readme)    | Check the price of bitcoin<br>```what is the bitcoin price?``` |
+| :heavy_check_mark:  | [ESP8266](https://github.com/Dark5ide/esp8266-skill.git#readme)                 | Communicate with an ESP8266 in the context of home automation.<br>```Turn on the lamp``` |
 | :construction:      | [Brain](../../wiki/SKILL-brain)                                                 | Chain intents and provide some services                                                 |
 | :construction:      | [Calculator](https://github.com/TREE-Edu/calculator-skill.git)                  | Conversation-based calculator.<br>```Do some math```
 | :construction:      | [Dice roll](../../wiki/SKILL-dice)                                              | Roll dice spoken in RPG notation.                                                       |
@@ -159,8 +164,11 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :construction:      | [GPIO example](../../wiki/SKILL-gpio-example)                                   | Example of using the GPIO pins on the Raspberry Pi to blink an LED                                         |    
 | :construction:      | [MiLight](../../wiki/SKILL-milight)                                             | Lighting control using MiLight                                                           |  
 | :construction:      | [Mopidy and BT lights](../../wiki/SKILL-mopidy-and-bt-lights)                   | Remote control of BT lights and Mopidy music playback                                    |  
+| :construction:      | [Mosquito speak](https://github.com/CarstenAgerskov/skill-mosquito-speak)       | Allow Mycroft to notify you on events, by speaking text received on a mqtt bus.                                    |  
 | :construction:      |	[OpenHAB](../../wiki/SKILL-Openhab)			                        | Add Openhab support to Mycroft |
 | :construction:      | [The Cows Lists](https://github.com/CarstenAgerskov/skill-the-cows-lists#readme)| Interact with "Remember The Milk" list and task management ecosystem.<br>```"add milk to my grocery list"```    |
+| :construction:      | [Whats Nearby](https://github.com/AIIX/whats-nearby#readme) | Search for nearby Places for Mycroft on Plasma (Search For Resturants, Hotels, Parks etc)<br>```"search for nearby bars/pubs/parks/hospitals/etc"``` |
+| :construction:      | [Kickstarter Tracker](https://github.com/MatthewScholefield/skill-kickstarter-tracker#readme) | Track the pledge amount of a project on Kickstarter<br>```"track mycroft on kickstarter"``` |
 | :question:          | [Amarok media player control](https://github.com/AIIX/amarok-player-skill#readme) | Player controls for the Amarok Media Player<br>```"amarok play/stop/next/previous music"``` |
 | :question:          | [Angry Beanie podcast](https://github.com/purserj/mycroft-angrybeanie#readme)   | Query and play Angry Beanie Podcasts<br />```"Get Angry Beanie shows"``` |
 | :question:          | [Plasma audio control](https://github.com/AIIX/audio-control-plasma#readme)     | Audio control for Plasma Desktop<br>```"increase volume to maximum", "decrease microphone to minimum volume"```         |
@@ -193,6 +201,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [Mopidy](https://github.com/forslund/mopidy_skill#readme)                       | Mopidy-based players for local music, Google Music, and Spotify                          |  
 | :question:          | [MPD control](../../wiki/SKILL-mpd-control)                                     | Control media players that use the MPD protocol to play found local music           |
 | :question:          | [MQTT](../../wiki/SKILL-mqtt)                                                   | Control IoT devices (home automation) using MQTT protocol     |  
+| :question:          | [Nature Sounds](https://github.com/Hasinator7/nature-sound-skill#readme)        | Play relaxing nature sounds recorded at various locations<br>```play [river/thunderstorm/songbird]``` |  
 | :question:          | [Pickup line](../../wiki/SKILL-pickup-line)                                     | Responds with random nerdy pick-up lines          |
 | :question:          | [Plasma activities](https://github.com/AIIX/plasma-activities-skill#readme)     | Integrate Plasma 5 Activities with Mycroft<br>```"show activities / switch activity [name]"```|
 | :question:          | [Plasma Mycroft plasmoid control](https://github.com/AIIX/plasma-mycroftplasmoid-control#readme)  | Control the Mycroft Plasmoid<br>```"show mycroft applet / display skills page"```|
