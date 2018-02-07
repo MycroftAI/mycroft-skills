@@ -157,6 +157,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :heavy_check_mark:  | [Number Generator](https://github.com/angry-frog/number-generator-skill#readme) | Mycroft will pick a random number<br>```pick a number``` |
 | :heavy_check_mark:  | [Bitcoin price](https://github.com/dmp1ce/mycroft-bitcoinprice-skill#readme)    | Check the price of bitcoin<br>```what is the bitcoin price?``` |
 | :heavy_check_mark:  | [ESP8266](https://github.com/Dark5ide/esp8266-skill.git#readme)                 | Communicate with an ESP8266 in the context of home automation.<br>```Turn on the lamp``` |
+| :heavy_check_mark:  | [Podcast Skill](https://github.com/JamesPoole/podcast-skill#readme)             | Listen to the latest episodes of your favourite podcasts.<br>  ```play the latest episode of the reply-all podcast``` |
 | :construction:      | [Brain](../../wiki/SKILL-brain)                                                 | Chain intents and provide some services                                                 |
 | :construction:      | [Calculator](https://github.com/TREE-Edu/calculator-skill.git)                  | Conversation-based calculator.<br>```Do some math```
 | :construction:      | [DeepDream](../../wiki/SKILL-deepdream)                                         | Add Deepdreaming image converstion to Mycroft       |
