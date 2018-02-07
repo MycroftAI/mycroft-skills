@@ -442,10 +442,21 @@
 [submodule "carstena-mosquito-speak"]
 	path = carstena-mosquito-speak
 	url = https://github.com/CarstenAgerskov/skill-mosquito-speak
+[submodule "skill-federal-closings"]
+	path = skill-federal-closings
+	url = https://github.com/mason88/skill-federal-closings
 [submodule "matthew-kickstarter-tracker"]
 	path = matthew-kickstarter-tracker
 	url = https://github.com/MatthewScholefield/skill-kickstarter-tracker
 [submodule "podcast-skill"]
 	path = podcast-skill
 	url = https://github.com/JamesPoole/podcast-skill
-
+[submodule "tjoen-better-jokes"]
+	path = tjoen-better-jokes
+	url = https://github.com/tjoen/skill-better-jokes
+[submodule "CryptoSkill"]
+	path = CryptoSkill
+	url = https://github.com/Gobbenobber/skill-CryptoSkill
+[submodule "mycroft-persona-fallback"]
+	path = mycroft-persona-fallback
+	url = https://github.com/MycroftAI/skill-fallback-persona.git
