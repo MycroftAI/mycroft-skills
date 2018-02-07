@@ -454,3 +454,6 @@
 [submodule "CryptoSkill"]
 	path = CryptoSkill
 	url = https://github.com/Gobbenobber/skill-CryptoSkill
+[submodule "mycroft-persona-fallback"]
+	path = mycroft-persona-fallback
+	url = https://github.com/MycroftAI/skill-fallback-persona.git
