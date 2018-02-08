@@ -160,23 +160,16 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :heavy_check_mark:  | [Podcast Skill](https://github.com/JamesPoole/podcast-skill#readme)             | Listen to the latest episodes of your favourite podcasts.<br>  ```play the latest episode of the reply-all podcast``` |
 | :construction:      | [Brain](../../wiki/SKILL-brain)                                                 | Chain intents and provide some services                                                 |
 | :construction:      | [Calculator](https://github.com/TREE-Edu/calculator-skill.git)                  | Conversation-based calculator.<br>```Do some math```
-| :construction:      | [DeepDream](../../wiki/SKILL-deepdream)                                         | Add Deepdreaming image converstion to Mycroft       |
 | :construction:      | [Dice roll](../../wiki/SKILL-dice)                                              | Roll dice spoken in RPG notation.                                                       |
-| :construction:      | [Facebook](../../wiki/SKILL-facebook)                                           | Generate posts for Facebook                  |
 | :construction:      | [Facebook marketing](../../wiki/SKILL-facebook-marketing)                       | Work with Facebook Marketing API                                                        |
 | :construction:      | [GPIO example](../../wiki/SKILL-gpio-example)                                   | Example of using the GPIO pins on the Raspberry Pi to blink an LED                                         |    
 | :construction:      | [MiLight](../../wiki/SKILL-milight)                                             | Lighting control using MiLight                                                           |  
 | :construction:      | [Mopidy and BT lights](../../wiki/SKILL-mopidy-and-bt-lights)                   | Remote control of BT lights and Mopidy music playback                                    |  
 | :construction:      | [Mosquito speak](https://github.com/CarstenAgerskov/skill-mosquito-speak)       | Allow Mycroft to notify you on events, by speaking text received on a mqtt bus.                                    |  
-| :construction:      | [Objective](../../wiki/SKILL-objective)                                         | Register objectives almost the same has an intent would be registered with ObjectiveBuilder class              |
 | :construction:      |	[OpenHAB](../../wiki/SKILL-Openhab)			                        | Add Openhab support to Mycroft |
-| :construction:      | [Read article](../../wiki/SKILL-read-article)                                   | Scrapes text from online articles and reads them to you.   |
-| :construction:      | [Sentiment analysis](../../wiki/SKILL-sentiment-analysis)                       | Sentiment analysis              |
 | :construction:      | [The Cows Lists](https://github.com/CarstenAgerskov/skill-the-cows-lists#readme)| Interact with "Remember The Milk" list and task management ecosystem.<br>```"add milk to my grocery list"```    |
-| :construction:      | [Wallpaper](../../wiki/SKILL-wallpaper)                                         | Download wallpapers from reddit and changes randomly         |
 | :construction:      | [Whats Nearby](https://github.com/AIIX/whats-nearby#readme) | Search for nearby Places for Mycroft on Plasma (Search For Resturants, Hotels, Parks etc)<br>```"search for nearby bars/pubs/parks/hospitals/etc"``` |
 | :construction:      | [Kickstarter Tracker](https://github.com/MatthewScholefield/skill-kickstarter-tracker#readme) | Track the pledge amount of a project on Kickstarter<br>```"track mycroft on kickstarter"``` |
-| :construction:      | [Wifi management](../../wiki/SKILL-wifi-management)                             | Various options for interacting with WiFi        |
 | :question:          | [Amarok media player control](https://github.com/AIIX/amarok-player-skill#readme) | Player controls for the Amarok Media Player<br>```"amarok play/stop/next/previous music"``` |
 | :question:          | [Angry Beanie podcast](https://github.com/purserj/mycroft-angrybeanie#readme)   | Query and play Angry Beanie Podcasts<br />```"Get Angry Beanie shows"``` |
 | :question:          | [Plasma audio control](https://github.com/AIIX/audio-control-plasma#readme)     | Audio control for Plasma Desktop<br>```"increase volume to maximum", "decrease microphone to minimum volume"```         |
@@ -185,13 +178,10 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [CBC news](../../wiki/SKILL-cbc-news)                                           | Fetch CBC News Podcast             |  
 | :question:          | [Clarifai image recognition](https://github.com/AIIX/clarifai-image-recognition-skill#readme) | Image recognition based on clarifai<br> ```"search image url [imagelocation]"```   |
 | :question:          | [Clementine player](../../wiki/SKILL-clementine-player)                         | Control your clementine-player localy. A fork from amarok-player.   |
-| :question:          | [Cleverbot](../../wiki/SKILL-cleverbot)                                         | Cleverbot API fallback   |
 | :question:          | [Daily Meditation](../../wiki/SKILL-daily-meditation)                           | Play your Daily Meditation from the  Meditation Podcast     |
 | :question:          | [Diagnostics](../../wiki/SKILL-diagnostics)                                     | Diagnostic tools (CPU %age, free space, etc)    |
 | :question:          | [Domoticz](../../wiki/SKILL-domoticz)                                           | Integrate Mycroft with Domoticz    |
 | :question:          | [Drive servos](../../wiki/SKILL-drive-servos)                                   | Control Hacked-Servo-Engines to make your Mycroft move around   |
-| :question:          | [Earth orbit pic](../../wiki/SKILL-earth-orbit-pic)                             | Earth orbit picture skill   |
-| :question:          | [Feedback](../../wiki/SKILL-feedback)                                           | Trigger positive feedback intent -> calls feedback method on last active skill          |  
 | :question:          | [Fox newsskill](../../wiki/SKILL-fox-news)                                      | Fetch Fox News Podcast                                                                 |
 | :question:          | [Google Calendar](../../wiki/SKILL-google-calendar)                             | Check and add google calendar events                                                     |  
 | :question:          | [Gmail](../../wiki/SKILL-google-gmail)                                          | Get email from your Gmail Inbox                                                         |  
@@ -210,26 +200,18 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [Media console control](../../wiki/SKILL-media-console-control)                 | Add media controls that are mapped to console commands                                  |  
 | :question:          | [Metal band](../../wiki/SKILL-metal-band)                                       | Recommend a metal band and gives basic information    |
 | :question:          | [Mopidy](https://github.com/forslund/mopidy_skill#readme)                       | Mopidy-based players for local music, Google Music, and Spotify                          |  
-| :question:          | [Movie recommendation-skill](../../wiki/SKILL-movie-recomentation)              | Recomend a movie  |
-| :question:          | [MPD control](../../wiki/SKILL-mpd-control)                                     | Control media players that use the MPD protocol to play found local music           |  
+| :question:          | [MPD control](../../wiki/SKILL-mpd-control)                                     | Control media players that use the MPD protocol to play found local music           |
 | :question:          | [MQTT](../../wiki/SKILL-mqtt)                                                   | Control IoT devices (home automation) using MQTT protocol     |  
-| :question:          | [Mute skill](../../wiki/SKILL-mute)                                             | Mute Mycroft until re-enabled |
-| :question:          | [NASA picture of the day](../../wiki/SKILL-nasa-pic-of-the-day)                 | NASA picture of the day from the NASA API |
 | :question:          | [Nature Sounds](https://github.com/Hasinator7/nature-sound-skill#readme)        | Play relaxing nature sounds recorded at various locations<br>```play [river/thunderstorm/songbird]``` |  
-| :question:          | [Near Earth orbit](../../wiki/SKILL-near-earth-orbit)                           | Near Earth orbit alert skill via the NASA API   |
-| :question:          | [Photolocation](../../wiki/SKILL-photolocation)                                 | Searches wikimedia for photos of location  |
 | :question:          | [Pickup line](../../wiki/SKILL-pickup-line)                                     | Responds with random nerdy pick-up lines          |
 | :question:          | [Plasma activities](https://github.com/AIIX/plasma-activities-skill#readme)     | Integrate Plasma 5 Activities with Mycroft<br>```"show activities / switch activity [name]"```|
 | :question:          | [Plasma Mycroft plasmoid control](https://github.com/AIIX/plasma-mycroftplasmoid-control#readme)  | Control the Mycroft Plasmoid<br>```"show mycroft applet / display skills page"```|
 | :question:          | [Plasma send SMS](https://github.com/AIIX/plasma-sendsms-skill#readme)          | Send SMS through KDE Plasma<br>```"send a sms"```     |
 | :question:          | [Plasma user control](https://github.com/AIIX/plasma-user-control-skill#readme) | Add Plasma User control to Mycroft, allowing switch user, logout, and lock screen<br>```"switch user/logout/lock screen"```  |
-| :question:          | [Poetry](../../wiki/SKILL-poetry)                                               | Read poetry based on Hidden Markov Models     |
-| :question:          | [Proxy scrape](../../wiki/SKILL-proxy-scrape)                                   | Scrape proxies from the internet    |
-| :question:          | [Pushbullet](../../wiki/SKILL-pushbullet)                                       | Send messsages and photos using Pushbullet                                                  |  
+| :question:          | [Pushbullet](../../wiki/SKILL-pushbullet)                                       | Send messsages and photos using Pushbullet                                                  |
 | :question:          | [Pushetta](../../wiki/SKILL-pushetta)                                           | Add push notifications |
 | :question:          | [Quodlibet](../../wiki/SKILL-quodlibet)                                         | Control Quod Libet music playback                                                        |  
-| :question:          | [Random quote](../../wiki/SKILL-random-quote)                                   | Random quotes,random facts about numbers, and your time left to live          |
-| :question:          | [RATP timetables](../../wiki/SKILL-ratp-timetables)                             | Access schedules for the RATP Network of trains and buses in Paris                       |  
+| :question:          | [RATP timetables](../../wiki/SKILL-ratp-timetables)                             | Access schedules for the RATP Network of trains and buses in Paris                       |
 | :question:          | [RSS](../../wiki/SKILL-rss)                                                     | Fetch from RSS feed   |
 | :question:          | [Spaceflight schedule](../../wiki/SKILL-spaceflight-schedule)                   | Check when the next space flight launch is scheduled                                              |
 | :question:          | [Spacelaunch](../../wiki/SKILL-spacelaunch)                                     | Check when the next space launch is scheduled                                              |
@@ -243,8 +225,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [White House Adventure](../../wiki/SKILL-white-house-adventure)                 | Play the old text adventure Zork 1                   |
 | :question:          | [Unsplash wallpaper-plasma-skill](https://github.com/AIIX/unsplash-wallpaper-plasma-skill#readme)  | Change KDE Desktop wallpaper by category type from unsplash<br>```"change wallpaper type [nature\abstract\any]"``` |
 | :question:	      | [WEMO](../../wiki/SKILL-wemo)                                                   | Control WEMO devices with Mycroft                                                   |
-| :question:          | [Wiki fact scraper](../../wiki/SKILL-wiki-fact-scraper)                         | Scrape random facts from Wikipedia and store locally    |
-| :question:          | [Youtube](https://github.com/augustnmonteiro/mycroft-youtube#readme)            | Search and listen to a Youtube video                                                        |  
+| :question:          | [Youtube](https://github.com/augustnmonteiro/mycroft-youtube#readme)            | Search and listen to a Youtube video                                                        |
 | :question:          | [Release test](../../wiki/SKILL-release-test)                                   | Test a mycroft release                                                        |  
 | :skull:             | [Enhanced Bitcoin](../../wiki/SKILL-enhanced-bitcoin)                           | Enhanced bitcoin from api.bitcoinaverage.com        |
 
