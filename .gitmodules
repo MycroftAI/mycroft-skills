@@ -397,3 +397,6 @@
 [submodule "mycroft-persona-fallback"]
 	path = mycroft-persona-fallback
 	url = https://github.com/MycroftAI/skill-fallback-persona.git
+[submodule "jarbas-dictation"]
+	path = jarbas-dictation
+	url = https://github.com/JarbasAl/skill-dictation
