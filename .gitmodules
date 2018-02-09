@@ -391,3 +391,6 @@
 [submodule "CryptoSkill"]
 	path = CryptoSkill
 	url = https://github.com/Gobbenobber/skill-CryptoSkill
+[submodule "jarbas-dictation"]
+	path = jarbas-dictation
+	url = https://github.com/JarbasAl/skill-dictation
