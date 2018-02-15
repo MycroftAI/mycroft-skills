@@ -225,4 +225,5 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [Youtube](https://github.com/augustnmonteiro/mycroft-youtube#readme)            | Search and listen to a Youtube video                                                        |
 | :question:          | [Release test](https://github.com/MycroftAI/skill-release-test#release-test)    | Test a mycroft-core release                                                        |  
 | :skull:             | [Enhanced Bitcoin](https://github.com/chrison999/mycroft-skill-bitcoin-enhanced#mycroft-skill-bitcoin-enhanced)    | Enhanced bitcoin from api.bitcoinaverage.com        |
-
+| :heavy_check_mark:   | [Farting](https://github.com/aussieW/skill-farting)                      | Fart on request or randomly    |
+| :heavy_check_mark:   | [Confucius Say](https://github.com/aussieW/skill-confucius-say)   | Get quotes from Confucius, including humorous quotes.       |
