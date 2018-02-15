@@ -397,3 +397,6 @@
 [submodule "mycroft-persona-fallback"]
 	path = mycroft-persona-fallback
 	url = https://github.com/MycroftAI/skill-fallback-persona.git
+[submodule "skill-confucius-say"]
+	path = skill-confucius-say
+	url = https://github.com/aussieW/skill-confucius-say.git
