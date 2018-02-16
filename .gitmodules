@@ -405,4 +405,4 @@
 	url = https://github.com/aussieW/skill-confucius-say.git
 [submodule "skill-knock-knock-jokes"]
 	path = skill-knock-knock-jokes
-	url = https://github.com/aussieW/mycroft-skills
+	url = https://github.com/aussieW/skill-knock-knock-jokes.git
