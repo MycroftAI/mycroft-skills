@@ -406,3 +406,6 @@
 [submodule "mycroft-google-play-desktop-player-skill"]
 	path = mycroft-google-play-desktop-player-skill
 	url = https://github.com/goroboro/mycroft-google-play-desktop-player-skill
+[submodule "skill-news"]
+	path = skill-news
+	url = https://github.com/goroboro/skill-news
