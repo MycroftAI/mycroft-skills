@@ -10,7 +10,7 @@ mycroft-volume
 
 # common
 mycroft-fallback-duck-duck-go
-fallback-aiml
+fallback-chatbot
 fallback-wolfram-alpha
 fallback-unknown
 mycroft-alarm

@@ -24,7 +24,7 @@ The official home of skills for the Mycroft ecosystem.  These skills are written
 
 |      Skill Name                                                               |                Description<br>"handled phrases"                      |                                           
 | ------------------------------------------------------------------------------| ---------------------------------------------------------------------|
-| [AIML Fallback](https://github.com/forslund/fallback-aiml#readme)             | AIML skill by JarbasAI |
+| [AIML/Chatbot Fallback](https://github.com/nielstron/fallback-aiml#readme)             | AIML skill by JarbasAI |
 | [Alarm](https://github.com/MycroftAI/skill-alarm#readme)                      | Alarm |
 | [Audio Record](https://github.com/MycroftAI/skill-audio-record#readme)        | Record and Play Audio<br>```"record"``` |
 | [Configuration](https://github.com/mycroftai/skill-configuration#readme)      | Update Mycroft configuration<br>```"configuration update"``` |
