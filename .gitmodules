@@ -217,9 +217,6 @@
 [submodule "sun-skill"]
 	path = sun-skill
 	url = https://github.com/marksev1/Mycroft-SunSkill.git
-[submodule "pickup-line-skill"]
-	path = pickup-line-skill
-	url = https://github.com/JarbasAI/mycroft---pick-up-line---skill.git
 [submodule "ping-skill"]
 	path = ping-skill
 	url = https://github.com/nogre/ping-skill.git
