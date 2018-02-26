@@ -227,3 +227,4 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :skull:             | [Enhanced Bitcoin](https://github.com/chrison999/mycroft-skill-bitcoin-enhanced#mycroft-skill-bitcoin-enhanced)    | Enhanced bitcoin from api.bitcoinaverage.com        |
 | :heavy_check_mark:   | [Farting](https://github.com/aussieW/skill-farting)                      | Fart on request or randomly    |
 | :heavy_check_mark:   | [Confucius Say](https://github.com/aussieW/skill-confucius-say)   | Get quotes from Confucius, including humorous quotes.       |
+| :construction:       | [Kansas City Streetcar](https://github.com/bw3740/nerdery-kc-streetcar)   | Get next time streetcar will arrive at specific stop and direction.       |
