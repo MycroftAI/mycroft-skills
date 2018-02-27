@@ -1,20 +1,19 @@
-# PROJECT_NAME skill
-
-This skill does ...
-
-To get this done we need
-  - This
-  - That
-  - The other thing
+To submit your skill, replace this file with text from 
+https://rawgit.com/MycroftAI/mycroft-skills/master/meta_editor.html
 
 
-## Current state
+## YOUR SKILL NAME
+One line description of the skill
 
-Working features:
- - ...
+## Description 
+A more verbose description, including any extra instructions or
+information that didn't fit in the one line.
 
-Known issues:
- - ...
+## Examples 
+* "Hello world"
+* "Greetings planet earth"
+* "Count up"
+* "Count down"
 
-TODO:
- - ...
+## Credits 
+Your name
