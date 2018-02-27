@@ -385,6 +385,9 @@
 [submodule "matthew-kickstarter-tracker"]
 	path = matthew-kickstarter-tracker
 	url = https://github.com/MatthewScholefield/skill-kickstarter-tracker
+[submodule "flight-gear-copilot"]
+	path = flight-gear-copilot
+	url = https://github.com/merspieler/flight-gear-copilot.git
 [submodule "podcast-skill"]
 	path = podcast-skill
 	url = https://github.com/JamesPoole/podcast-skill
