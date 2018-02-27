@@ -54,6 +54,8 @@ The official home of skills for the Mycroft ecosystem.  These skills are written
 | [Wink IoT](https://github.com/MycroftAI/skill-wink-iot#readme)                | Control lights via a Wink hub<br>```"turn on the lights"``` ```"dim the kitchen light"``` |
 | [Platform Patch](https://github.com/MycroftAI/skill-platform-patch#readme)    | Patch for official platforms<br>```"platform patch"``` |
 | [Mark 1 settings](https://github.com/MycroftAI/mycroft-mark-1)                | Control your Mark 1<br>```change eye color to red``` |
+| [Spotify](https://github.com/forslund/spotify-skill) | Listen to music from your Spotify Premium account<br>```play discover weekly``` |
+| [Pandora](https://github.com/ethanaward/pianobar-skill) | Listen to Pandora stations<br>```play pandora``` |
 
 
 ## How to Submit a Skill
@@ -151,7 +153,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :heavy_check_mark:  | [Home Assistant](https://github.com/btotharye/mycroft-homeassistant#readme)     | Control your devices in home-assistant<br>```"turn on office"```                                                      |  
 | :heavy_check_mark:  | [Pandora](https://github.com/ethanaward/pianobar-skill)                         | Play Pandora stations via Pianobar  |
 | :heavy_check_mark:  | [Parrot](https://github.com/JarbasAl/skill-parrot)                              | Repeat everything back to user  |
-| :heavy_check_mark:  | [Ping](https://github.com/nogre/ping-skill#mycroft-ai-ping-skill)               | Pings websites and responds with latency time       |
+| :heavy_check_mark:  | [Ping](https://github.com/nogre/ping-skill#mycroft-ai-ping-skill)               | Pings websites and responds with latency time       |  
 | :heavy_check_mark:  | [Radio RNE](https://github.com/normandmickey/skill-internet-radio/tree/3fb352430daa09082f41f20742836a996a19ff1d#internet-radio)                                     | Spanish news radio Radio Nacional de Espa?a RNE. |
 | :heavy_check_mark:  | [Timer](https://github.com/MycroftAI/mycroft-timer.git)                         | Set a timer on your device<br>```set a timer for 30 minutes```
 | :heavy_check_mark:  | [Internet Radio](https://github.com/normandmickey/skill-internet-radio#readme)  | Listen to Internet Radio<br>```internet radio``` |
@@ -159,6 +161,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :heavy_check_mark:  | [Bitcoin price](https://github.com/dmp1ce/mycroft-bitcoinprice-skill#readme)    | Check the price of bitcoin<br>```what is the bitcoin price?``` |
 | :heavy_check_mark:  | [ESP8266](https://github.com/Dark5ide/esp8266-skill.git#readme)                 | Communicate with an ESP8266 in the context of home automation.<br>```Turn on the lamp``` |
 | :heavy_check_mark:  | [Podcast Skill](https://github.com/JamesPoole/podcast-skill#readme)             | Listen to the latest episodes of your favourite podcasts.<br>  ```play the latest episode of the reply-all podcast``` |
+| :heavy_check_mark:  | [Repeat Recent](https://github.com/matthewscholefield/skill-repeat-recent#readme) | Repeat what you or Mycroft just said<br>```What did you just say?``` |
 | :construction:      | [Brain](https://github.com/skeledrew/brain-skill#brain-skill)                   | Chain intents and provide some services                                                 |
 | :construction:      | [Calculator](https://github.com/TREE-Edu/calculator-skill.git)                  | Conversation-based calculator.<br>```Do some math```
 | :construction:      | [Dice roll](https://github.com/Friday811/skill-dice#skill-dice-skill)           | Roll dice spoken in RPG notation.                                                       |
@@ -171,6 +174,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :construction:      | [The Cows Lists](https://github.com/CarstenAgerskov/skill-the-cows-lists#readme)| Interact with "Remember The Milk" list and task management ecosystem.<br>```"add milk to my grocery list"```    |
 | :construction:      | [Whats Nearby](https://github.com/AIIX/whats-nearby#readme) | Search for nearby Places for Mycroft on Plasma (Search For Resturants, Hotels, Parks etc)<br>```"search for nearby bars/pubs/parks/hospitals/etc"``` |
 | :construction:      | [Kickstarter Tracker](https://github.com/MatthewScholefield/skill-kickstarter-tracker#readme) | Track the pledge amount of a project on Kickstarter<br>```"track mycroft on kickstarter"``` |
+| :construction:      | [FlightGear Copilot](https://github.com/merspieler/flight-gear-copilot/#readme) | This skillacts as an copilot for flight gear that assists you by following your voice commands.      |
 | :question:          | [Amarok media player control](https://github.com/AIIX/amarok-player-skill#readme) | Player controls for the Amarok Media Player<br>```"amarok play/stop/next/previous music"``` |
 | :question:          | [Angry Beanie podcast](https://github.com/purserj/mycroft-angrybeanie#readme)   | Query and play Angry Beanie Podcasts<br />```"Get Angry Beanie shows"``` |
 | :question:          | [Plasma audio control](https://github.com/AIIX/audio-control-plasma#readme)     | Audio control for Plasma Desktop<br>```"increase volume to maximum", "decrease microphone to minimum volume"```         |
@@ -225,4 +229,5 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [Youtube](https://github.com/augustnmonteiro/mycroft-youtube#readme)            | Search and listen to a Youtube video                                                        |
 | :question:          | [Release test](https://github.com/MycroftAI/skill-release-test#release-test)    | Test a mycroft-core release                                                        |  
 | :skull:             | [Enhanced Bitcoin](https://github.com/chrison999/mycroft-skill-bitcoin-enhanced#mycroft-skill-bitcoin-enhanced)    | Enhanced bitcoin from api.bitcoinaverage.com        |
-
+| :heavy_check_mark:   | [Farting](https://github.com/aussieW/skill-farting)                      | Fart on request or randomly    |
+| :heavy_check_mark:   | [Confucius Say](https://github.com/aussieW/skill-confucius-say)   | Get quotes from Confucius, including humorous quotes.       |
