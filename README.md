@@ -151,6 +151,8 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :heavy_check_mark:  | [Deutschland Funk](https://github.com/ofosos/deutschlandfunk-skill)             | Listen to Deutschlandfunk and query schedule
 | :heavy_check_mark:  | [Federal Closings](https://github.com/mason88/skill-federal-closings)           | List Federal Government Closings<br>```"are there federal closings?"```
 | :heavy_check_mark:  | [Home Assistant](https://github.com/btotharye/mycroft-homeassistant#readme)     | Control your devices in home-assistant<br>```"turn on office"```                                                      |  
+| :heavy_check_mark:  | [Pandora](https://github.com/ethanaward/pianobar-skill)                         | Play Pandora stations via Pianobar  |
+| :heavy_check_mark:  | [Parrot](https://github.com/JarbasAl/skill-parrot)                              | Repeat everything back to user  |
 | :heavy_check_mark:  | [Ping](https://github.com/nogre/ping-skill#mycroft-ai-ping-skill)               | Pings websites and responds with latency time       |  
 | :heavy_check_mark:  | [Radio RNE](https://github.com/normandmickey/skill-internet-radio/tree/3fb352430daa09082f41f20742836a996a19ff1d#internet-radio)                                     | Spanish news radio Radio Nacional de Espa?a RNE. |
 | :heavy_check_mark:  | [Timer](https://github.com/MycroftAI/mycroft-timer.git)                         | Set a timer on your device<br>```set a timer for 30 minutes```
