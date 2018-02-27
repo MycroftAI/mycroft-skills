@@ -55,6 +55,7 @@ The official home of skills for the Mycroft ecosystem.  These skills are written
 | [Platform Patch](https://github.com/MycroftAI/skill-platform-patch#readme)    | Patch for official platforms<br>```"platform patch"``` |
 | [Mark 1 settings](https://github.com/MycroftAI/mycroft-mark-1)                | Control your Mark 1<br>```change eye color to red``` |
 | [Spotify](https://github.com/forslund/spotify-skill) | Listen to music from your Spotify Premium account<br>```play discover weekly``` |
+| [Pandora](https://github.com/ethanaward/pianobar-skill) | Listen to Pandora stations<br>```play pandora``` |
 
 
 ## How to Submit a Skill
@@ -150,7 +151,6 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :heavy_check_mark:  | [Deutschland Funk](https://github.com/ofosos/deutschlandfunk-skill)             | Listen to Deutschlandfunk and query schedule
 | :heavy_check_mark:  | [Federal Closings](https://github.com/mason88/skill-federal-closings)           | List Federal Government Closings<br>```"are there federal closings?"```
 | :heavy_check_mark:  | [Home Assistant](https://github.com/btotharye/mycroft-homeassistant#readme)     | Control your devices in home-assistant<br>```"turn on office"```                                                      |  
-| :heavy_check_mark:  | [Pandora](https://github.com/ethanaward/pianobar-skill)                         | Play Pandora stations via Pianobar  |
 | :heavy_check_mark:  | [Ping](https://github.com/nogre/ping-skill#mycroft-ai-ping-skill)               | Pings websites and responds with latency time       |  
 | :heavy_check_mark:  | [Radio RNE](https://github.com/normandmickey/skill-internet-radio/tree/3fb352430daa09082f41f20742836a996a19ff1d#internet-radio)                                     | Spanish news radio Radio Nacional de Espa?a RNE. |
 | :heavy_check_mark:  | [Timer](https://github.com/MycroftAI/mycroft-timer.git)                         | Set a timer on your device<br>```set a timer for 30 minutes```
