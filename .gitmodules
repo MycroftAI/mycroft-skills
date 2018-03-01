@@ -405,4 +405,4 @@
 	url = https://github.com/aussieW/skill-confucius-say.git
 [submodule "nerdery-kc-streetcar"]
 	path = nerdery-kc-streetcar
-	url = https://github.com/bw3740/mycroft-skills
+	url = https://github.com/bw3740/nerdery-kc-streetcar
