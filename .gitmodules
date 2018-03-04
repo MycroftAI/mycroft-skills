@@ -409,3 +409,6 @@
 [submodule "mycroft-spotify"]
 	path = mycroft-spotify
 	url = https://github.com/forslund/spotify-skill.git
+[submodule "animal-crossing-coffee-skill"]
+	path = animal-crossing-coffee-skill
+	url = https://github.com/WillJMurphy/mycroft-ACNLCoffeeHelper.git
