@@ -406,6 +406,9 @@
 [submodule "skill-confucius-say"]
 	path = skill-confucius-say
 	url = https://github.com/aussieW/skill-confucius-say.git
+[submodule "mycroft-spotify"]
+	path = mycroft-spotify
+	url = https://github.com/forslund/spotify-skill.git
 [submodule "skill-bouddha"]
 	path = skill-bouddha
 	url = https://github.com/EuripideH/skill-bouddha.git
