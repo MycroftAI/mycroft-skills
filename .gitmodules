@@ -38,9 +38,6 @@
 	path = skill-joke
 	url = https://github.com/MycroftAI/skill-joke.git
 [submodule "mycroft-mark-1"]
-[submodule "mycroft-spotify"]
-	path = mycroft-spotify
-	url = https://github.com/forslund/spotify-skill.git
 	path = mycroft-mark-1
 	url = https://github.com/MycroftAI/mycroft-mark-1.git
 [submodule "mycroft-mark-1-demo"]
