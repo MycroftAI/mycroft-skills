@@ -12,6 +12,9 @@ if [ "$dist"  == "\"Arch Linux\""  ]; then
 elif [[ "$dist" =~  "Ubuntu" ]] || [[ "$dist" =~ "Debian" ]]; then
     pm="apt install"
     dependencies=( ddd eee fff )
+elif [[ "$dist" =~ "SUSE" ]]; then 
+    pm="zypper install"
+    dependencies=( ggg hhh iii ) 
 fi
 
 
