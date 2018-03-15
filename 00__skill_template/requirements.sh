@@ -9,7 +9,7 @@ dist=$(lsb_release -ds)
 if [ "$dist"  == "\"Arch Linux\""  ]; then
     pm="pacman -S"
     dependencies=( aaa bbb ccc )
-elif [ "$dist" ==  "\"Ubuntu\"" ] || [ "$dist" == "\"KDE\"" ] || [ "$dist" == "\"Debian\"" ]; then
+elif [[ "$dist" =~  "Ubuntu" ]] || [[ "$dist" =~ "Debian" ]]; then
     pm="apt install"
     dependencies=( ddd eee fff )
 fi
@@ -18,6 +18,5 @@ fi
 # installing dependencies
 for dep in "${dependencies[@]}"
 do
-    #sudo $pm $dep
-    echo "$pm $dep"
+    sudo $pm $dep
 done
