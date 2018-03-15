@@ -3,13 +3,13 @@
 # in most cases.
 
 #detect distribution using lsb_release (may be replaced parsing /etc/*release)
-dist=$(lsb_release -d |awk '{print$2}')
+dist=$(lsb_release -ds)
 
 #setting dependencies and package manager in relation to the distribution
-if [ "$dist"  == "Arch"  ]; then
+if [ "$dist"  == "\"Arch Linux\""  ]; then
     pm="pacman -S"
     dependencies=( aaa bbb ccc )
-elif [ "$dist" ==  "Ubuntu" ] || [ "$dist" == "KDE" ] || [ "$dist" == "Debian" ]; then
+elif [ "$dist" ==  "\"Ubuntu\"" ] || [ "$dist" == "\"KDE\"" ] || [ "$dist" == "\"Debian\"" ]; then
     pm="apt install"
     dependencies=( ddd eee fff )
 fi
@@ -18,5 +18,6 @@ fi
 # installing dependencies
 for dep in "${dependencies[@]}"
 do
-    sudo $pm $dep
+    #sudo $pm $dep
+    echo "$pm $dep"
 done
