@@ -197,6 +197,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [Google translate](../../wiki/SKILL-google-translate)                           | Translate English phrases into other languages                                           |
 | :question:          | [Hue](../../wiki/SKILL-hue)                                                     | Control your Phillips Hue lights                                                         |  
 | :question:          | [IR Send](../../wiki/SKILL-irsend)                                              | Control devices via [lirc's](http://www.lirc.org/) [irsend](http://www.lirc.org/html/irsend.html)                                                         |
+| :construction:      | [IRC](https://github.com/merspieler/irc-skill)					| Lets you connect to a irc server and chat on channels with via voice|
 | :question:          | [JB podcasts](../../wiki/SKILL-Jupiter-Broadcasting-Podcasts)                   | Play podcasts from Jupiter Broadcasting shows                                            |  
 | :question:          | [KDE Kate control](https://github.com/AIIX/kde-kate-control#readme)             | Kate Editor control skill <br>```"new document, close document, goto next/previous tabs/views"```                  |
 | :question:          | [KDE Krunner search](https://github.com/AIIX/krunner-search-skill#readme)       | Search local KDE desktop for files, images, recent documents, bookmarks<br>```"search this computer for [any keyword]"```                  |
