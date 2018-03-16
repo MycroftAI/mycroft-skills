@@ -411,4 +411,4 @@
 	url = https://github.com/forslund/spotify-skill.git
 [submodule "sftsrc-decide"]
 	path = sftsrc-decide
-	url = https://laurieahannon@bitbucket.org/softsource/sftsrc-decide
+	url = https://github.com/lhannon/sftsrc-decide

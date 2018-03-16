@@ -164,7 +164,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :construction:      | [Podcast Skill](https://github.com/JamesPoole/podcast-skill#readme)             | Listen to the latest episodes of your favourite podcasts.<br>  ```play the latest episode of the reply-all podcast``` |
 | :construction:      | [Brain](https://github.com/skeledrew/brain-skill#brain-skill)                   | Chain intents and provide some services                                                 |
 | :construction:      | [Calculator](https://github.com/TREE-Edu/calculator-skill.git)                  | Conversation-based calculator.<br>```Do some math```
-| :construction:      | [Decide] (https://laurieahannon@bitbucket.org/softsource/sftsrc-decide.git)     | Decide randomly between two specified options.<br>``decide villanova or unc``  |
+| :construction:      | [Decide] (https://github.com/lhannon/sftsrc-decide.git)                         | Decide randomly between two specified options.<br>``decide villanova or unc``  |
 | :construction:      | [Dice roll](https://github.com/Friday811/skill-dice#skill-dice-skill)           | Roll dice spoken in RPG notation.                                                       |
 | :construction:      | [Facebook marketing](https://github.com/ProsperousHeart/mycroft-facebook-marketing#facebook-marketing-skill)                       | Work with Facebook Marketing API                                                        |
 | :construction:      | [GPIO example](https://github.com/MycroftAI/picroft_example_skill_gpio#raspberry-pi-gpio-demo)  | Example of using the GPIO pins on the Raspberry Pi to blink an LED                                         |    
