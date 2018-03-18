@@ -217,6 +217,8 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [Spaceflight schedule](https://github.com/praxeo/mycroft_spaceflightnow_skill#mycroft_spaceflightnow_skill)   | Check when the next space flight launch is scheduled                                              |
 | :question:          | [Spacelaunch](https://github.com/marksev1/Mycroft-SpaceLaunch-Skill#spacelaunch-skill)   | Check when the next space launch is scheduled                                              |
 | :question:          | [Speedtest](https://github.com/ChristopherRogers1991/mycroft-speedtest#mycroft-speedtest)  | Run a speedtest                                               |
+
+| :heavy_check_mark:  | [Subsonic Media Player](https://github.com/mycroftai/skill-subsonic-media#readme)      | Subsonic Media Skill<br>```"play something i can never have by nine inch nails```   |
 | :question:          | [Slack](https://github.com/guilhembn/Mycroft-Slack-skill#mycroft-slack-skill)   | Post and listen to Slack messages.  |
 | :question:          | [Sunspot](https://github.com/BoatrightTBC/sunspots#sunspots)                    | Answer questions on daily sunspots |
 | :question:          | [Sun](https://github.com/marksev1/Mycroft-SunSkill#sun-skill)                   | Respond with sunrise and set times        |  
