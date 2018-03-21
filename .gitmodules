@@ -412,3 +412,6 @@
 [submodule "skill-subsonic-media"]
 	path = skill-subsonic-media
 	url = https://github.com/ejstacey/skill-subsonic-media.git
+[submodule "deviloper-silly-name-maker"]
+	path = deviloper-silly-name-maker
+	url = https://github.com/RHackrid/deviloper-silly-name-maker
