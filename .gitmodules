@@ -409,3 +409,6 @@
 [submodule "mycroft-spotify"]
 	path = mycroft-spotify
 	url = https://github.com/forslund/spotify-skill.git
+[submodule "skill-nmap"]
+	path = skill-nmap
+	url = https://github.com/Nhoya/skill-nmap
