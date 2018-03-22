@@ -7,20 +7,29 @@
 dist=$(lsb_release -ds)
 
 #setting dependencies and package manager in relation to the distribution
-if [ "$dist"  == "\"Arch Linux\""  ]; then
-    pm="pacman -S"
-    dependencies=( aaa bbb ccc )
-elif [[ "$dist" =~  "Ubuntu" ]] || [[ "$dist" =~ "Debian" ]]; then
-    pm="apt install"
-    dependencies=( ddd eee fff )
-elif [[ "$dist" =~ "SUSE" ]]; then 
-    pm="zypper install"
-    dependencies=( ggg hhh iii ) 
+
+if $(hash pkcon 2>/dev/null); then
+    pm="pkcon"
+else
+    priv="sudo"
+    if [ "$dist"  == "\"Arch Linux\""  ]; then
+        pm="pacman -S"
+        dependencies=( aaa )
+    elif [[ "$dist" =~  "Ubuntu" ]] || [[ "$dist" =~ "Debian" ]] ||[[ "$dist" =~ "Raspbian" ]]; then
+        pm="apt install"
+        dependencies=( bbb)
+    elif [[ "$dist" =~ "SUSE" ]]; then 
+        pm="zypper install"
+        dependencies=( ccc )
+    fi
 fi
 
 
 # installing dependencies
-for dep in "${dependencies[@]}"
-do
-    sudo $pm $dep
-done
+if [ ! -z "$pm" ]; then
+    for dep in "${dependencies[@]}"
+    do
+        $priv $pm $dep
+    done
+fi
+
