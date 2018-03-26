@@ -1,0 +1,12 @@
+[submodule "mycroft-stop"]
+	path = mycroft-stop
+	url = https://github.com/mycroftai/skill-stop
+[submodule "mycroft-hello-world"]
+	path = mycroft-hello-world
+	url = https://github.com/mycroftai/skill-hello-world
+[submodule "mycroft-naptime"]
+	path = mycroft-naptime
+	url = https://github.com/mycroftai/skill-naptime
+[submodule "mycroft-stock"]
+	path = mycroft-stock
+	url = https://github.com/mycroftai/skill-stock
