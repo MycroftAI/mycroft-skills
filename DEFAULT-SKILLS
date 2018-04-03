@@ -14,11 +14,11 @@ mycroft-naptime
 #fallback-wolfram-alpha
 #fallback-unknown
 #mycroft-alarm
-#mycroft-audio-record
+mycroft-audio-record
 #mycroft-date-time
 mycroft-hello-world
 #mycroft-ip
-#mycroft-joke
+mycroft-joke
 #mycroft-npr-news
 #mycroft-personal
 #mycroft-reminder
