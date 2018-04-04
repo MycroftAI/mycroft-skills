@@ -418,3 +418,6 @@
 [submodule "jrwarwick-jira-agent-skill"]
 	path = jrwarwick-jira-agent-skill
 	url = https://github.com/jrwarwick/jrwarwick-jira-agent-skill.git
+[submodule "deviloper-silly-name-maker"]
+	path = deviloper-silly-name-maker
+	url = https://github.com/RHackrid/deviloper-silly-name-maker
