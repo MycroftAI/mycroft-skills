@@ -415,9 +415,15 @@
 [submodule "skill-subsonic-media"]
 	path = skill-subsonic-media
 	url = https://github.com/ejstacey/skill-subsonic-media.git
+[submodule "jrwarwick-jira-agent-skill"]
+	path = jrwarwick-jira-agent-skill
+	url = https://github.com/jrwarwick/jrwarwick-jira-agent-skill.git
 [submodule "deviloper-silly-name-maker"]
 	path = deviloper-silly-name-maker
 	url = https://github.com/RHackrid/deviloper-silly-name-maker
+[submodule "oliveralonzo-insipirational-quotes"]
+	path = oliveralonzo-insipirational-quotes
+	url = https://github.com/oliveralonzo/skill-inspirational-quotes
 [submodule "josiahdub-state-representative"]
 	path = josiahdub-state-representative
 	url = https://github.com/JosiahDub/skill-state-representative
