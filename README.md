@@ -191,8 +191,11 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [Google Calendar](https://github.com/jcasoft/GoogleCalendarSkill/tree/d26b18fe44b3c0efbfbd156731c7e48c104fdf27#googlecalendarskill-with-add-events-mycroft-new-api)                             | Check and add google calendar events                                                     |  
 | :question:          | [Gmail](https://github.com/jcasoft/GoogleGmailSkill/tree/8a79f382d958e3bddf12543640796f6d1062ecff#googlegmailskill-mycroft-new-api)                                          | Get email from your Gmail Inbox                                                         |  
 | :question:          | [Google translate](https://github.com/jcasoft/TranslateSkill#translateskill-google-translate-skill)                       | Translate English phrases into other languages                                           |
+| :question:          | [Inspirational Quotes](https://github.com/oliveralonzo/skill-inspirational-quotes)                       | Receive inspirational quotes                                           |
 | :question:          | [Hue](../../wiki/SKILL-hue)                                                     | Control your Phillips Hue lights                                                         |  
 | :question:          | [IR Send](../../wiki/SKILL-irsend)                                              | Control devices via [lirc's](http://www.lirc.org/) [irsend](http://www.lirc.org/html/irsend.html)                                                         |
+| :construction:      | [IRC](https://github.com/merspieler/irc-skill)					| Lets you connect to a irc server and chat on channels with via voice|
+| :question:          | [JIRA Agent](https://github.com/jrwarwick/jrwarwick-jira-agent-skill#readme)              | Atlassian JIRA issue inquiry and creation<br> ```"how many JIRA issues are overdue?"```<br>```"JIRA status report!"``` |
 | :question:          | [JB podcasts](../../wiki/SKILL-Jupiter-Broadcasting-Podcasts)                   | Play podcasts from Jupiter Broadcasting shows                                            |  
 | :question:          | [KDE Kate control](https://github.com/AIIX/kde-kate-control#readme)             | Kate Editor control skill <br>```"new document, close document, goto next/previous tabs/views"```                  |
 | :question:          | [KDE Krunner search](https://github.com/AIIX/krunner-search-skill#readme)       | Search local KDE desktop for files, images, recent documents, bookmarks<br>```"search this computer for [any keyword]"```                  |
@@ -217,6 +220,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [Spaceflight schedule](https://github.com/praxeo/mycroft_spaceflightnow_skill#mycroft_spaceflightnow_skill)   | Check when the next space flight launch is scheduled                                              |
 | :question:          | [Spacelaunch](https://github.com/marksev1/Mycroft-SpaceLaunch-Skill#spacelaunch-skill)   | Check when the next space launch is scheduled                                              |
 | :question:          | [Speedtest](https://github.com/ChristopherRogers1991/mycroft-speedtest#mycroft-speedtest)  | Run a speedtest                                               |
+| :heavy_check_mark:    | [Subsonic Media Player](https://github.com/mycroftai/skill-subsonic-media#readme)   | Subsonic Media Skill<br>```"play something i can never have by nine inch nails"```  |
 | :question:          | [Slack](https://github.com/guilhembn/Mycroft-Slack-skill#mycroft-slack-skill)   | Post and listen to Slack messages.  |
 | :question:          | [Sunspot](https://github.com/BoatrightTBC/sunspots#sunspots)                    | Answer questions on daily sunspots |
 | :question:          | [Sun](https://github.com/marksev1/Mycroft-SunSkill#sun-skill)                   | Respond with sunrise and set times        |  
@@ -231,3 +235,4 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :skull:             | [Enhanced Bitcoin](https://github.com/chrison999/mycroft-skill-bitcoin-enhanced#mycroft-skill-bitcoin-enhanced)    | Enhanced bitcoin from api.bitcoinaverage.com        |
 | :heavy_check_mark:   | [Farting](https://github.com/aussieW/skill-farting)                      | Fart on request or randomly    |
 | :heavy_check_mark:   | [Confucius Say](https://github.com/aussieW/skill-confucius-say)   | Get quotes from Confucius, including humorous quotes.       |
+| :heavy_check_mark:  | [Silly Name Maker](https://github.com/RHackrid/deviloper-silly-name-maker) | Returns a user's silly name by prompting the user for a favorite color and lucky number. See [Google-Dialogflow example](https://developers.google.com/actions/dialogflow/first-app).<br>```Start Silly Name Maker.``` |
