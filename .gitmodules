@@ -424,3 +424,6 @@
 [submodule "oliveralonzo-insipirational-quotes"]
 	path = oliveralonzo-insipirational-quotes
 	url = https://github.com/oliveralonzo/skill-inspirational-quotes
+[submodule "josiahdub-state-representative"]
+	path = josiahdub-state-representative
+	url = https://github.com/JosiahDub/skill-state-representative
