@@ -16,3 +16,6 @@
 [submodule "mycroft-joke"]
 	path = mycroft-joke
 	url = https://github.com/mycroftai/skill-joke.git
+[submodule "fallback-wolfram-alpha"]
+	path = fallback-wolfram-alpha
+	url = https://github.com/mycroftai/fallback-wolfram-alpha
