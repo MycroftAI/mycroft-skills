@@ -403,9 +403,6 @@
 [submodule "jarbas-parrot"]
 	path = jarbas-parrot
 	url = https://github.com/JarbasAl/skill-parrot
-[submodule "matthew-repeat-recent-skill"]
-	path = matthew-repeat-recent-skill
-	url = https://github.com/MatthewScholefield/skill-repeat-recent
 [submodule "skill-confucius-say"]
 	path = skill-confucius-say
 	url = https://github.com/aussieW/skill-confucius-say.git
@@ -427,3 +424,6 @@
 [submodule "nmap-skill"]
 	path = nmap-skill
 	url = https://github.com/Nhoya/nmap-skill
+[submodule "skill-repeat-interactions"]
+	path = skill-repeat-interactions
+	url = https://github.com/MycroftAI/skill-repeat-interactions
