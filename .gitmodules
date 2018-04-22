@@ -427,3 +427,6 @@
 [submodule "nmap-skill"]
 	path = nmap-skill
 	url = https://github.com/Nhoya/nmap-skill
+[submodule "skill-civicus-monitor"]
+	path = skill-civicus-monitor
+	url = https://github.com/DerekCaelin/skill-civicus-monitor
