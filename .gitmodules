@@ -427,3 +427,6 @@
 [submodule "nmap-skill"]
 	path = nmap-skill
 	url = https://github.com/Nhoya/nmap-skill
+[submodule "business-news"]
+	path = business-news
+	url = https://github.com/bhaveshAn/mycroft-business-news-read
