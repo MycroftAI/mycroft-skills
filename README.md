@@ -231,6 +231,8 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [Unsplash wallpaper-plasma-skill](https://github.com/AIIX/unsplash-wallpaper-plasma-skill#readme)  | Change KDE Desktop wallpaper by category type from unsplash<br>```"change wallpaper type [nature\abstract\any]"``` |
 | :question:	        | [WEMO](https://github.com/martymulligan/skill-wemo#wemo-skill)                    | Control WEMO devices with Mycroft                                                   |
 | :question:          | [Youtube](https://github.com/augustnmonteiro/mycroft-youtube#readme)            | Search and listen to a Youtube video                                                        |
+| :question:          | [Business News](https://github.com/bhaveshAn/business-news-read#readme)            | Get the Trending Business News
+
 | :question:          | [Release test](https://github.com/MycroftAI/skill-release-test#release-test)    | Test a mycroft-core release                                                        |  
 | :skull:             | [Enhanced Bitcoin](https://github.com/chrison999/mycroft-skill-bitcoin-enhanced#mycroft-skill-bitcoin-enhanced)    | Enhanced bitcoin from api.bitcoinaverage.com        |
 | :heavy_check_mark:   | [Farting](https://github.com/aussieW/skill-farting)                      | Fart on request or randomly    |
