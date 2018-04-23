@@ -19,3 +19,6 @@
 [submodule "fallback-wolfram-alpha"]
 	path = fallback-wolfram-alpha
 	url = https://github.com/mycroftai/fallback-wolfram-alpha
+[submodule "skill-personal"]
+	path = skill-personal
+	url = https://github.com/mycroftai/skill-personal
