@@ -25,3 +25,6 @@
 [submodule "skill-ip"]
 	path = skill-ip
 	url = https://github.com/mycroftai/skill-ip
+[submodule "skill-playback-control"]
+	path = skill-playback-control
+	url = https://github.com/mycroftai/skill-playback-control.git
