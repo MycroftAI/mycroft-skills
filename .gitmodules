@@ -37,3 +37,6 @@
 [submodule "mycroft-volume"]
 	path = mycroft-volume
 	url = https://github.com/mycroftai/skill-volume.git
+[submodule "mycroft-npr-news"]
+	path = mycroft-npr-news
+	url = https://github.com/mycroftai/skill-npr-news.git
