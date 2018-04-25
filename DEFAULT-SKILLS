@@ -1,6 +1,6 @@
 # core
 #mycroft-pairing
-#mycroft-configuration
+mycroft-configuration
 #mycroft-installer
 mycroft-stop
 mycroft-naptime
@@ -15,7 +15,7 @@ mycroft-naptime
 #fallback-unknown
 #mycroft-alarm
 mycroft-audio-record
-#mycroft-date-time
+mycroft-date-time
 mycroft-hello-world
 mycroft-ip
 mycroft-joke
