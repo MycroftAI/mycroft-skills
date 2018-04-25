@@ -34,3 +34,6 @@
 [submodule "mycroft-date-time"]
 	path = mycroft-date-time
 	url = https://github.com/mycroftai/skill-date-time
+[submodule "mycroft-volume"]
+	path = mycroft-volume
+	url = https://github.com/mycroftai/skill-volume.git
