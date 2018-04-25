@@ -28,3 +28,6 @@
 [submodule "mycroft-playback-control"]
 	path = mycroft-playback-control
 	url = https://github.com/mycroftai/skill-playback-control
+[submodule "mycroft-configuration"]
+	path = mycroft-configuration
+	url = https://github.com/mycroftai/skill-configuration.git
