@@ -1,2 +1,3 @@
-#This file is for any packages you need installed for your skill to run
-sudo apt-get install the-best-packages ever
+# The requirements.sh is an advanced mechanism an should rarely be needed.
+# Be aware that it won't run with root permissions and 'sudo' won't work
+# in most cases.

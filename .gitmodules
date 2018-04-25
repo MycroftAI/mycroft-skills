@@ -181,9 +181,6 @@
 [submodule "youtube-skill"]
 	path = youtube-skill
 	url = https://github.com/JarbasAI/mycroft-music-skill
-[submodule "poetry-skill"]
-	path = poetry-skill
-	url = https://github.com/JarbasAI/mycroft-poetry-skill
 [submodule "google-translate-skill"]
 	path = google-translate-skill
 	url = https://github.com/jcasoft/TranslateSkill
@@ -193,9 +190,6 @@
 [submodule "gmail-skill"]
 	path = gmail-skill
 	url = https://github.com/jcasoft/GoogleGmailSkill
-[submodule "picture-search-skill"]
-	path = google-image-search-skil
-	url = https://github.com/JarbasAI/mycroft-pictureskill
 [submodule "krunner-search-skill"]
 	path = krunner-search-skill
 	url = https://github.com/AIIX/krunner-search-skill
@@ -205,51 +199,24 @@
 [submodule "plasma-user-control-skill"]
 	path = plasma-user-control-skill
 	url = https://github.com/AIIX/plasma-user-control-skill
-[submodule "deapdream-skill"]
-	path = deapdream-skill
-	url = https://github.com/JarbasAI/mycroft-deepdream-skill
-[submodule "random-quotes-skill"]
-	path = random-quotes-skill
-	url = https://github.com/JarbasAI/mycroft---quotes---skill
 [submodule "daily-meditation-skill"]
 	path = daily-meditation-skill
 	url = https://github.com/kfezer/daily_meditation
 [submodule "pandora-skill"]
 	path = pandora-skill
 	url = https://github.com/ethanaward/pianobar-skill
-[submodule "proxy-scrape-skill"]
-	path = proxy-scrape-skill
-	url = https://github.com/JarbasAI/mycroft--proxy-scrapping---skill.git
 [submodule "mycroft-sendSMS-plasma-skill"]
 	path = plasma-sendsms-skill
 	url = https://github.com/AIIX/plasma-sendsms-skill.git
 [submodule "bioinformatics-skill"]
 	path = bioinformatics-skill
 	url = https://github.com/TicklishGiraffe/mycroft_genomics.git
-[submodule "read-article-skill"]
-	path = read-article-skill
-	url = https://github.com/JarbasAI/mycroft-articles-skill.git
-[submodule "photolocation-skill"]
-	path = photolocation-skill
-	url = https://github.com/JarbasAI/mycroft-photolocation-skill.git
-[submodule "cleverbot-skill"]
-	path = cleverbot-skill
-	url = https://github.com/JarbasAI/skill_cleverbot.git
 [submodule "spacelaunch-skill"]
 	path = spacelaunch-skill
 	url = https://github.com/marksev1/Mycroft-SpaceLaunch-Skill.git
 [submodule "sun-skill"]
 	path = sun-skill
 	url = https://github.com/marksev1/Mycroft-SunSkill.git
-[submodule "wallpaper-skill"]
-	path = wallpaper-skill
-	url = https://github.com/JarbasAI/mycroft---wallpaper---skill.git
-[submodule "pickup-line-skill"]
-	path = pickup-line-skill
-	url = https://github.com/JarbasAI/mycroft---pick-up-line---skill.git
-[submodule "wifi-management-skill"]
-	path = wifi-management-skill
-	url = https://github.com/JarbasAI/mycroft-wifi-skill.git
 [submodule "ping-skill"]
 	path = ping-skill
 	url = https://github.com/nogre/ping-skill.git
@@ -262,45 +229,18 @@
 [submodule "drive_servos"]
 	path = drive_servos
 	url = https://github.com/Nold360/mycroft_skill-drive_servos.git
-[submodule "metal-recommendation-skill"]
-	path = metal-recommendation-skill
-	url = https://github.com/JarbasAI/mycroft---metal-recomend---skill.git
-[submodule "euromillions-skill"]
-	path = euromillions-skill
-	url = https://github.com/JarbasAI/mycroft---euromillions-skill.git
-[submodule "movie-recomendation-skill"]
-	path = movie-recomendation-skill
-	url = https://github.com/JarbasAI/mycroft---movie-recommend-skill.git
-[submodule "wiki-random-fact-skill"]
-	path = wiki-random-fact-skill
-	url = https://github.com/JarbasAI/mycroft---knowledge-skill.git
-[submodule "mute-skill"]
-	path = mute-skill
-	url = https://github.com/JarbasAI/mycroft---mute-skill.git
 [submodule "pushetta-skill"]
 	path = pushetta-skill
 	url = https://github.com/marksev1/Mycroft-Pushetta-skill.git
 [submodule "sunspots-skill"]
 	path = sunspots-skill
 	url = https://github.com/BoatrightTBC/sunspots.git
-[submodule "nasa-picture-of-the-day-skill"]
-	path = nasa-picture-of-the-day-skill
-	url = https://github.com/JarbasAI/mycroft---astronomy-picture-of-teh-day.git
-[submodule "nasa-near-earth-tracker-skill"]
-	path = nasa-near-earth-tracker-skill
-	url = https://github.com/JarbasAI/mycroft---near-earth-object-tracker.git
 [submodule "youtube"]
 	path = youtube
 	url = https://github.com/augustnmonteiro/mycroft-youtube.git
 [submodule "traffic_skill"]
 	path = traffic_skill
 	url = https://github.com/BongoEADGC6/mycroft-traffic.git
-[submodule "feedback_skill"]
-	path = feedback_skill
-	url = https://github.com/JarbasAI/mycroft-feedback-skill.git
-[submodule "objectives_skill"]
-	path = objectives_skill
-	url = https://github.com/JarbasAI/mycroft---objectives-skill.git
 [submodule "rss-skill"]
 	path = rss-skill
 	url = https://github.com/forslund/rss_skill.git
@@ -316,9 +256,6 @@
 [submodule "cbc-news-skill"]
 	path = cbc-news-skill
 	url = https://github.com/chrison999/mycroft-skill-cbc-news.git
-[submodule "sentiment-analysis-skill"]
-	path = sentiment-analysis-skill
-	url = https://github.com/JarbasAI/mycroft---sentiment-analisys---skill.git
 [submodule "amarok-player-skill"]
 	path = amarok-player-skill
 	url = https://github.com/AIIX/amarok-player-skill.git
@@ -331,9 +268,6 @@
 [submodule "domoticz-skill"]
 	path = domoticz-skill
 	url = https://github.com/matleses/domoticz_skill.git
-[submodule "facebook-skill"]
-	path = facebook-skill
-	url = https://github.com/JarbasAI/mycroft-facebook-skill.git
 [submodule "facebook-marketing"]
 	path = facebook-marketing
 	url = https://github.com/ProsperousHeart/mycroft-facebook-marketing.git
@@ -442,9 +376,57 @@
 [submodule "carstena-mosquito-speak"]
 	path = carstena-mosquito-speak
 	url = https://github.com/CarstenAgerskov/skill-mosquito-speak
+[submodule "skill-federal-closings"]
+	path = skill-federal-closings
+	url = https://github.com/mason88/skill-federal-closings
 [submodule "matthew-kickstarter-tracker"]
 	path = matthew-kickstarter-tracker
 	url = https://github.com/MatthewScholefield/skill-kickstarter-tracker
+[submodule "flight-gear-copilot"]
+	path = flight-gear-copilot
+	url = https://github.com/merspieler/flight-gear-copilot.git
+[submodule "irc-skill"]
+	path = irc-skill
+	url = https://github.com/merspieler/irc-skill
+[submodule "podcast-skill"]
+	path = podcast-skill
+	url = https://github.com/JamesPoole/podcast-skill
+[submodule "tjoen-better-jokes"]
+	path = tjoen-better-jokes
+	url = https://github.com/tjoen/skill-better-jokes
+[submodule "CryptoSkill"]
+	path = CryptoSkill
+	url = https://github.com/Gobbenobber/skill-CryptoSkill
+[submodule "mycroft-persona-fallback"]
+	path = mycroft-persona-fallback
+	url = https://github.com/MycroftAI/skill-fallback-persona.git
+[submodule "jarbas-parrot"]
+	path = jarbas-parrot
+	url = https://github.com/JarbasAl/skill-parrot
+[submodule "matthew-repeat-recent-skill"]
+	path = matthew-repeat-recent-skill
+	url = https://github.com/MatthewScholefield/skill-repeat-recent
+[submodule "skill-confucius-say"]
+	path = skill-confucius-say
+	url = https://github.com/aussieW/skill-confucius-say.git
+[submodule "mycroft-spotify"]
+	path = mycroft-spotify
+	url = https://github.com/forslund/spotify-skill.git
+[submodule "skill-subsonic-media"]
+	path = skill-subsonic-media
+	url = https://github.com/ejstacey/skill-subsonic-media.git
+[submodule "jrwarwick-jira-agent-skill"]
+	path = jrwarwick-jira-agent-skill
+	url = https://github.com/jrwarwick/jrwarwick-jira-agent-skill.git
+[submodule "deviloper-silly-name-maker"]
+	path = deviloper-silly-name-maker
+	url = https://github.com/RHackrid/deviloper-silly-name-maker
+[submodule "oliveralonzo-insipirational-quotes"]
+	path = oliveralonzo-insipirational-quotes
+	url = https://github.com/oliveralonzo/skill-inspirational-quotes
+[submodule "nmap-skill"]
+	path = nmap-skill
+	url = https://github.com/Nhoya/nmap-skill
 [submodule "PFE1718-skill-listener"]
 	path = PFE1718-skill-listener
 	url = https://github.com/PFE1718/mycroft-skill-listener.git
