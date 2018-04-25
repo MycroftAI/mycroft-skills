@@ -37,3 +37,6 @@
 [submodule "mycroft-volume"]
 	path = mycroft-volume
 	url = https://github.com/mycroftai/skill-volume.git
+[submodule "mycroft-installer"]
+	path = mycroft-installer
+	url = https://github.com/mycroftai/skill-installer.git
