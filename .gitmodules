@@ -40,3 +40,6 @@
 [submodule "mycroft-installer"]
 	path = mycroft-installer
 	url = https://github.com/mycroftai/skill-installer.git
+[submodule "mycroft-npr-news"]
+	path = mycroft-npr-news
+	url = https://github.com/mycroftai/skill-npr-news.git
