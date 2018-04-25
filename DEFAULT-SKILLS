@@ -17,10 +17,10 @@ mycroft-naptime
 mycroft-audio-record
 #mycroft-date-time
 mycroft-hello-world
-#mycroft-ip
+mycroft-ip
 mycroft-joke
 #mycroft-npr-news
-#mycroft-personal
+mycroft-personal
 #mycroft-reminder
 #mycroft-singing
 #mycroft-spelling
