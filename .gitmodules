@@ -19,12 +19,12 @@
 [submodule "fallback-wolfram-alpha"]
 	path = fallback-wolfram-alpha
 	url = https://github.com/mycroftai/fallback-wolfram-alpha
-[submodule "skill-personal"]
-	path = skill-personal
-	url = https://github.com/mycroftai/skill-personal
-[submodule "skill-ip"]
-	path = skill-ip
+[submodule "mycroft-ip"]
+	path = mycroft-ip
 	url = https://github.com/mycroftai/skill-ip
-[submodule "skill-playback-control"]
-	path = skill-playback-control
-	url = https://github.com/mycroftai/skill-playback-control.git
+[submodule "mycroft-personal"]
+	path = mycroft-personal
+	url = https://github.com/mycroftai/skill-personal
+[submodule "mycroft-playback-control"]
+	path = mycroft-playback-control
+	url = https://github.com/mycroftai/skill-playback-control
