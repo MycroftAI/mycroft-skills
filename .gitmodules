@@ -427,3 +427,6 @@
 [submodule "nmap-skill"]
 	path = nmap-skill
 	url = https://github.com/Nhoya/nmap-skill
+[submodule "word-of-the-day-skill"]
+	path = word-of-the-day-skill
+	url = https://github.com/adropofilm/word-of-the-day-skill
