@@ -31,3 +31,6 @@
 [submodule "mycroft-configuration"]
 	path = mycroft-configuration
 	url = https://github.com/mycroftai/skill-configuration.git
+[submodule "mycroft-date-time"]
+	path = mycroft-date-time
+	url = https://github.com/mycroftai/skill-date-time
