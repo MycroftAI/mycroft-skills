@@ -177,6 +177,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :construction:      | [FlightGear Copilot](https://github.com/merspieler/flight-gear-copilot/#readme) | This skillacts as an copilot for flight gear that assists you by following your voice commands.      |
 | :question:          | [Amarok media player control](https://github.com/AIIX/amarok-player-skill#readme) | Player controls for the Amarok Media Player<br>```"amarok play/stop/next/previous music"``` |
 | :question:          | [Angry Beanie podcast](https://github.com/purserj/mycroft-angrybeanie#readme)   | Query and play Angry Beanie Podcasts<br />```"Get Angry Beanie shows"``` |
+| :question:          | [Automation handler](https://github.com/PFE1718/mycroft-automation-handler#readme)| Automate user habits within the [Habit automation system](https://github.com/PFE1718/mycroft-habits-automation#readme) |
 | :question:          | [Plasma audio control](https://github.com/AIIX/audio-control-plasma#readme)     | Audio control for Plasma Desktop<br>```"increase volume to maximum", "decrease microphone to minimum volume"```         |
 | :question:          | [Bioinformatics](https://github.com/TicklishGiraffe/mycroft_genomics#mycroft_bioinformatics) | Add Bio-Linux Commands to Mycroft   |  
 | :question:          | [Bitcoin](https://github.com/Red5d/mycroft_skills/tree/master/bitcoin)          | Check the price of bitcoin                                                               |  
@@ -213,21 +214,25 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [Plasma Mycroft plasmoid control](https://github.com/AIIX/plasma-mycroftplasmoid-control#readme)  | Control the Mycroft Plasmoid<br>```"show mycroft applet / display skills page"```|
 | :question:          | [Plasma send SMS](https://github.com/AIIX/plasma-sendsms-skill#readme)          | Send SMS through KDE Plasma<br>```"send a sms"```     |
 | :question:          | [Plasma user control](https://github.com/AIIX/plasma-user-control-skill#readme) | Add Plasma User control to Mycroft, allowing switch user, logout, and lock screen<br>```"switch user/logout/lock screen"```  |
-| :question:          | [Pushbullet](https://github.com/jcasoft/PushbulletSkill#pushbulletskill)        | Send messsages and photos using Pushbullet                                                  |
-| :question:          | [Pushetta](https://github.com/marksev1/Mycroft-Pushetta-skill#pushetta-skill)   | Add push notifications |
-| :question:          | [Quodlibet](https://github.com/kfarwell/mycroft-skill-quodlibet#mycroft-skill-quodlibet)  | Control Quod Libet music playback                                                        |  
-| :question:          | [RATP timetables](https://github.com/ldubost/mycroft-skills/tree/master/ratp-timetables#ratp-timetable)   | Access schedules for the RATP Network of trains and buses in Paris                       |
-| :question:          | [Spaceflight schedule](https://github.com/praxeo/mycroft_spaceflightnow_skill#mycroft_spaceflightnow_skill)   | Check when the next space flight launch is scheduled                                              |
-| :question:          | [Spacelaunch](https://github.com/marksev1/Mycroft-SpaceLaunch-Skill#spacelaunch-skill)   | Check when the next space launch is scheduled                                              |
-| :question:          | [Speedtest](https://github.com/ChristopherRogers1991/mycroft-speedtest#mycroft-speedtest)  | Run a speedtest                                               |
-| :heavy_check_mark:    | [Subsonic Media Player](https://github.com/mycroftai/skill-subsonic-media#readme)   | Subsonic Media Skill<br>```"play something i can never have by nine inch nails"```  |
-| :question:          | [Slack](https://github.com/guilhembn/Mycroft-Slack-skill#mycroft-slack-skill)   | Post and listen to Slack messages.  |
-| :question:          | [Sunspot](https://github.com/BoatrightTBC/sunspots#sunspots)                    | Answer questions on daily sunspots |
-| :question:          | [Sun](https://github.com/marksev1/Mycroft-SunSkill#sun-skill)                   | Respond with sunrise and set times        |  
-| :question:          | [System](https://github.com/CloneMMDDCVII/systemSkill-Mycroft-core-Skill-#systemskill-mycroft-core-skill-)   | System controls like shutdown and reboot   |
-| :question:          | [Take picture](https://github.com/Nold360/mycroft_skill-take_picture)           | Take pictures using the Raspberry Pi Camera          |  
-| :question:          | [Traffic](https://github.com/Nold360/mycroft_skill-take_picture)                | Commute time from Google distance matrix api         |  
-| :question:          | [White House Adventure](https://github.com/forslund/white-house-adventure)      | Play the old text adventure Zork 1                   |
+| :question:          | [Poetry](../../wiki/SKILL-poetry)                                               | Read poetry based on Hidden Markov Models     |
+| :question:          | [Proxy scrape](../../wiki/SKILL-proxy-scrape)                                   | Scrape proxies from the internet    |
+| :question:          | [Pushbullet](../../wiki/SKILL-pushbullet)                                       | Send messsages and photos using Pushbullet                                                  |  
+| :question:          | [Pushetta](../../wiki/SKILL-pushetta)                                           | Add push notifications |
+| :question:          | [Quodlibet](../../wiki/SKILL-quodlibet)                                         | Control Quod Libet music playback                                                        |  
+| :question:          | [Random quote](../../wiki/SKILL-random-quote)                                   | Random quotes,random facts about numbers, and your time left to live          |
+| :question:          | [RATP timetables](../../wiki/SKILL-ratp-timetables)                             | Access schedules for the RATP Network of trains and buses in Paris                       |  
+| :question:          | [RSS](../../wiki/SKILL-rss)                                                     | Fetch from RSS feed   |
+| :question:          | [Skill listener](https://github.com/PFE1718/mycroft-skill-listener#readme)| Log user activity locally for the [Habit automation system](https://github.com/PFE1718/mycroft-habits-automation#readme) |
+| :question:          | [Spaceflight schedule](../../wiki/SKILL-spaceflight-schedule)                   | Check when the next space flight launch is scheduled                                              |
+| :question:          | [Spacelaunch](../../wiki/SKILL-spacelaunch)                                     | Check when the next space launch is scheduled                                              |
+| :question:          | [Speedtest](../../wiki/SKILL-speedtest)                                         | Run a speedtest                                               |
+| :question:          | [Slack](../../wiki/SKILL-slack)                                                 | Post and listen to Slack messages.  |
+| :question:          | [Sunspot](../../wiki/SKILL-sunspot-skill)                                       | Answer questions on daily sunspots |
+| :question:          | [Sun](../../wiki/SKILL-sun)                                                     | Respond with sunrise and set times        |  
+| :question:          | [System](../../wiki/SKILL-system)                                               | System controls like shutdown and reboot   |
+| :question:          | [Take picture](../../wiki/SKILL-take-picture)                                   | Take pictures using the Raspberry Pi Camera          |  
+| :question:          | [Traffic](../../wiki/SKILL-traffic)                                             | Commute time from Google distance matrix api         |  
+| :question:          | [White House Adventure](../../wiki/SKILL-white-house-adventure)                 | Play the old text adventure Zork 1                   |
 | :question:          | [Unsplash wallpaper-plasma-skill](https://github.com/AIIX/unsplash-wallpaper-plasma-skill#readme)  | Change KDE Desktop wallpaper by category type from unsplash<br>```"change wallpaper type [nature\abstract\any]"``` |
 | :question:	        | [WEMO](https://github.com/martymulligan/skill-wemo#wemo-skill)                    | Control WEMO devices with Mycroft                                                   |
 | :question:          | [Youtube](https://github.com/augustnmonteiro/mycroft-youtube#readme)            | Search and listen to a Youtube video                                                        |
@@ -236,3 +241,4 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :heavy_check_mark:   | [Farting](https://github.com/aussieW/skill-farting)                      | Fart on request or randomly    |
 | :heavy_check_mark:   | [Confucius Say](https://github.com/aussieW/skill-confucius-say)   | Get quotes from Confucius, including humorous quotes.       |
 | :heavy_check_mark:  | [Silly Name Maker](https://github.com/RHackrid/deviloper-silly-name-maker) | Returns a user's silly name by prompting the user for a favorite color and lucky number. See [Google-Dialogflow example](https://developers.google.com/actions/dialogflow/first-app).<br>```Start Silly Name Maker.``` |
+| :question:          | [Habit miner](https://github.com/PFE1718/mycroft-habit-miner-skill#readme)| Detect user habits for the [Habit automation system](https://github.com/PFE1718/mycroft-habits-automation#readme) |
