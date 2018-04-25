@@ -43,3 +43,6 @@
 [submodule "mycroft-npr-news"]
 	path = mycroft-npr-news
 	url = https://github.com/mycroftai/skill-npr-news.git
+[submodule "mycroft-singing"]
+	path = mycroft-singing
+	url = https://github.com/mycroftai/skill-singing.git
