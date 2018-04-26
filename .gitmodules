@@ -73,3 +73,9 @@
 [submodule "mycroft-spelling"]
 	path = mycroft-spelling
 	url = https://github.com/mycroftai/skill-spelling
+[submodule "mycroft-version-checker"]
+	path = mycroft-version-checker
+	url = https://github.com/mycroftai/skill-version-checker.git
+[submodule "mycroft-fallback-duck-duck-go"]
+	path = mycroft-fallback-duck-duck-go
+	url = https://github.com/mycroftai/fallback-duckduckgo.git

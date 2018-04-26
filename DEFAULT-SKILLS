@@ -9,7 +9,7 @@ mycroft-speak
 mycroft-volume
 
 # common
-#mycroft-fallback-duck-duck-go
+mycroft-fallback-duck-duck-go
 #fallback-aiml
 fallback-wolfram-alpha
 fallback-unknown
@@ -21,12 +21,12 @@ mycroft-ip
 mycroft-joke
 mycroft-npr-news
 mycroft-personal
-#mycroft-reminder
+mycroft-reminder
 mycroft-singing
-#mycroft-spelling
+mycroft-spelling
 mycroft-stock
 mycroft-support-helper
 #mycroft-timer
-#mycroft-weather
+mycroft-weather
 mycroft-wiki
-#mycroft-version-checker
+mycroft-version-checker
