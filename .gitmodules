@@ -1,81 +1,81 @@
 [submodule "mycroft-stop"]
-	path = mycroft-stop
+	path = skill-stop
 	url = https://github.com/mycroftai/skill-stop
 [submodule "mycroft-hello-world"]
-	path = mycroft-hello-world
+	path = skill-hello-world
 	url = https://github.com/mycroftai/skill-hello-world
 [submodule "mycroft-naptime"]
-	path = mycroft-naptime
+	path = skill-naptime
 	url = https://github.com/mycroftai/skill-naptime
 [submodule "mycroft-stock"]
-	path = mycroft-stock
+	path = skill-stock
 	url = https://github.com/mycroftai/skill-stock
 [submodule "mycroft-audio-record"]
-	path = mycroft-audio-record
+	path = skill-audio-record
 	url = https://github.com/mycroftai/skill-audio-record.git
 [submodule "mycroft-joke"]
-	path = mycroft-joke
+	path = skill-joke
 	url = https://github.com/mycroftai/skill-joke.git
 [submodule "fallback-wolfram-alpha"]
 	path = fallback-wolfram-alpha
 	url = https://github.com/mycroftai/fallback-wolfram-alpha
 [submodule "mycroft-ip"]
-	path = mycroft-ip
+	path = skill-ip
 	url = https://github.com/mycroftai/skill-ip
 [submodule "mycroft-personal"]
-	path = mycroft-personal
+	path = skill-personal
 	url = https://github.com/mycroftai/skill-personal
 [submodule "mycroft-playback-control"]
-	path = mycroft-playback-control
+	path = skill-playback-control
 	url = https://github.com/mycroftai/skill-playback-control
 [submodule "mycroft-configuration"]
-	path = mycroft-configuration
+	path = skill-configuration
 	url = https://github.com/mycroftai/skill-configuration.git
 [submodule "mycroft-date-time"]
-	path = mycroft-date-time
+	path = skill-date-time
 	url = https://github.com/mycroftai/skill-date-time
 [submodule "mycroft-volume"]
-	path = mycroft-volume
+	path = skill-volume
 	url = https://github.com/mycroftai/skill-volume.git
 [submodule "mycroft-installer"]
-	path = mycroft-installer
+	path = skill-installer
 	url = https://github.com/mycroftai/skill-installer.git
 [submodule "mycroft-npr-news"]
-	path = mycroft-npr-news
+	path = skill-npr-news
 	url = https://github.com/mycroftai/skill-npr-news.git
 [submodule "mycroft-singing"]
-	path = mycroft-singing
+	path = skill-singing
 	url = https://github.com/mycroftai/skill-singing.git
 [submodule "fallback-unknown"]
 	path = fallback-unknown
 	url = https://github.com/mycroftai/fallback-unknown.git
 [submodule "mycroft-alarm"]
-	path = mycroft-alarm
+	path = skill-alarm
 	url = https://github.com/mycroftai/skill-alarm.git
 [submodule "mycroft-pairing"]
-	path = mycroft-pairing
+	path = skill-pairing
 	url = https://github.com/mycroftai/skill-pairing.git
 [submodule "mycroft-support-helper"]
-	path = mycroft-support
+	path = skill-support
 	url = https://github.com/mycroftai/skill-support.git
 [submodule "mycroft-wiki"]
-	path = mycroft-wiki
+	path = skill-wiki
 	url = https://github.com/mycroftai/skill-wiki
 [submodule "mycroft-release-test"]
-	path = mycroft-release-test
+	path = skill-release-test
 	url = https://github.com/mycroftai/skill-release-test
 [submodule "mycroft-reminder"]
-	path = mycroft-reminder
+	path = skill-reminder
 	url = https://github.com/mycroftai/skill-reminder.git
 [submodule "mycroft-weather"]
-	path = mycroft-weather
+	path = skill-weather
 	url = https://github.com/mycroftai/skill-weather.git
 [submodule "mycroft-spelling"]
-	path = mycroft-spelling
+	path = skill-spelling
 	url = https://github.com/mycroftai/skill-spelling
 [submodule "mycroft-version-checker"]
-	path = mycroft-version-checker
+	path = skill-version-checker
 	url = https://github.com/mycroftai/skill-version-checker.git
 [submodule "mycroft-fallback-duck-duck-go"]
-	path = mycroft-fallback-duck-duck-go
+	path = fallback-duck-duck-go
 	url = https://github.com/mycroftai/fallback-duckduckgo.git
