@@ -58,3 +58,6 @@
 [submodule "mycroft-support"]
 	path = mycroft-support
 	url = https://github.com/mycroftai/skill-support.git
+[submodule "mycroft-wiki"]
+	path = mycroft-wiki
+	url = https://github.com/mycroftai/skill-wiki
