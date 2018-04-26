@@ -64,3 +64,6 @@
 [submodule "mycroft-release-test"]
 	path = mycroft-release-test
 	url = https://github.com/mycroftai/skill-release-test
+[submodule "mycroft-reminder"]
+	path = mycroft-reminder
+	url = https://github.com/mycroftai/skill-reminder.git
