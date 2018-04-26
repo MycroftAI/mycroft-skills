@@ -67,3 +67,6 @@
 [submodule "mycroft-reminder"]
 	path = mycroft-reminder
 	url = https://github.com/mycroftai/skill-reminder.git
+[submodule "mycroft-weather"]
+	path = mycroft-weather
+	url = https://github.com/mycroftai/skill-weather.git
