@@ -79,3 +79,6 @@
 [submodule "mycroft-fallback-duck-duck-go"]
 	path = fallback-duck-duck-go
 	url = https://github.com/mycroftai/fallback-duckduckgo.git
+[submodule "mycroft-timer"]
+	path = mycroft-timer
+	url = https://github.com/mycroftai/mycroft-timer
