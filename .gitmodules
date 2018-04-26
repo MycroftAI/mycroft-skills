@@ -52,3 +52,6 @@
 [submodule "mycroft-alarm"]
 	path = mycroft-alarm
 	url = https://github.com/mycroftai/skill-alarm.git
+[submodule "mycroft-pairing"]
+	path = mycroft-pairing
+	url = https://github.com/mycroftai/skill-pairing.git
