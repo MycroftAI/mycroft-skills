@@ -427,6 +427,9 @@
 [submodule "nmap-skill"]
 	path = nmap-skill
 	url = https://github.com/Nhoya/nmap-skill
+[submodule "word-of-the-day-skill"]
+	path = word-of-the-day-skill
+	url = https://github.com/adropofilm/word-of-the-day-skill
 [submodule "PFE1718-skill-listener"]
 	path = PFE1718-skill-listener
 	url = https://github.com/PFE1718/mycroft-skill-listener.git
