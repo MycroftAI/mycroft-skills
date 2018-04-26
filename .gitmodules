@@ -46,3 +46,6 @@
 [submodule "mycroft-singing"]
 	path = mycroft-singing
 	url = https://github.com/mycroftai/skill-singing.git
+[submodule "fallback-unknown"]
+	path = fallback-unknown
+	url = https://github.com/mycroftai/fallback-unknown.git
