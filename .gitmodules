@@ -49,3 +49,6 @@
 [submodule "fallback-unknown"]
 	path = fallback-unknown
 	url = https://github.com/mycroftai/fallback-unknown.git
+[submodule "mycroft-alarm"]
+	path = mycroft-alarm
+	url = https://github.com/mycroftai/skill-alarm.git
