@@ -61,3 +61,6 @@
 [submodule "mycroft-wiki"]
 	path = mycroft-wiki
 	url = https://github.com/mycroftai/skill-wiki
+[submodule "mycroft-release-test"]
+	path = mycroft-release-test
+	url = https://github.com/mycroftai/skill-release-test
