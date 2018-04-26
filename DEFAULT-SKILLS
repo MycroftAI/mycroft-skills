@@ -1,5 +1,5 @@
 # core
-#mycroft-pairing
+mycroft-pairing
 mycroft-configuration
 mycroft-installer
 mycroft-stop
@@ -13,7 +13,7 @@ mycroft-volume
 #fallback-aiml
 fallback-wolfram-alpha
 fallback-unknown
-#mycroft-alarm
+mycroft-alarm
 mycroft-audio-record
 mycroft-date-time
 mycroft-hello-world
@@ -25,8 +25,8 @@ mycroft-personal
 mycroft-singing
 #mycroft-spelling
 mycroft-stock
-#mycroft-support-helper
+mycroft-support-helper
 #mycroft-timer
 #mycroft-weather
-#mycroft-wiki
+mycroft-wiki
 #mycroft-version-checker

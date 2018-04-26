@@ -55,7 +55,7 @@
 [submodule "mycroft-pairing"]
 	path = mycroft-pairing
 	url = https://github.com/mycroftai/skill-pairing.git
-[submodule "mycroft-support"]
+[submodule "mycroft-support-helper"]
 	path = mycroft-support
 	url = https://github.com/mycroftai/skill-support.git
 [submodule "mycroft-wiki"]
