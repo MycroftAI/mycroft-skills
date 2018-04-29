@@ -227,6 +227,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [Spacelaunch](../../wiki/SKILL-spacelaunch)                                     | Check when the next space launch is scheduled                                              |
 | :question:          | [Speedtest](../../wiki/SKILL-speedtest)                                         | Run a speedtest                                               |
 | :question:          | [Slack](../../wiki/SKILL-slack)                                                 | Post and listen to Slack messages.  |
+| :heavy_check_mark:  | [Subsonic Media Player](https://github.com/mycroftai/skill-subsonic-media#readme)   | Subsonic Media Skill<br>```"play something i can never have by nine inch nails"```  |
 | :question:          | [Sunspot](../../wiki/SKILL-sunspot-skill)                                       | Answer questions on daily sunspots |
 | :question:          | [Sun](../../wiki/SKILL-sun)                                                     | Respond with sunrise and set times        |  
 | :question:          | [System](../../wiki/SKILL-system)                                               | System controls like shutdown and reboot   |
