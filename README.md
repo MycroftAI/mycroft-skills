@@ -142,7 +142,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | Status              | Skill Name                                                                      | Description<br>```"phrase to trigger"```    |
 | ------------------- | ------------------------------------------------------------------------------- | --------------------------------------------|
 | :heavy_check_mark:  | [AVmusic](https://github.com/NeonGeckoCom/AVmusic-skill#readme)| Lets the user request playback of any music or video available. Version 1.0 <br>```"AVmusic play chopin"``` |
-| :heavy_check_mark:  | [Australian news](https://github.com/KathyReid/skill-australian-news/README.md)	| Play ABC news from Australia<br />```"Play Australian news"```|
+| :heavy_check_mark:  | [Australian news](https://github.com/KathyReid/skill-australian-news#readme)	| Play ABC news from Australia<br />```"Play Australian news"```|
 | :heavy_check_mark:  | [AutoGUI](https://github.com/eClarity/skill-autogui#skill-autogui)              | Manipulate your mouse and keyboard with Mycroft                                                  |
 | :heavy_check_mark:  | [Basic help](https://github.com/btotharye/mycroft-skill-basichelp#readme)       | Get basic Mycroft questions and help answered<br>```"where is the documentation", "how do I install from source"```         |
 | :heavy_check_mark:  | [Better jokes](https://github.com/tjoen/skill-better-jokes#readme)              | Get mycroft to make better jokes<br>```be funny``` |
@@ -227,6 +227,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :question:          | [Spacelaunch](../../wiki/SKILL-spacelaunch)                                     | Check when the next space launch is scheduled                                              |
 | :question:          | [Speedtest](../../wiki/SKILL-speedtest)                                         | Run a speedtest                                               |
 | :question:          | [Slack](../../wiki/SKILL-slack)                                                 | Post and listen to Slack messages.  |
+| :heavy_check_mark:  | [Subsonic Media Player](https://github.com/mycroftai/skill-subsonic-media#readme)   | Subsonic Media Skill<br>```"play something i can never have by nine inch nails"```  |
 | :question:          | [Sunspot](../../wiki/SKILL-sunspot-skill)                                       | Answer questions on daily sunspots |
 | :question:          | [Sun](../../wiki/SKILL-sun)                                                     | Respond with sunrise and set times        |  
 | :question:          | [System](../../wiki/SKILL-system)                                               | System controls like shutdown and reboot   |
