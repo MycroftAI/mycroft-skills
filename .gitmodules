@@ -85,3 +85,6 @@
 [submodule "spotify-skill"]
 	path = spotify-skill
 	url = https://github.com/forslund/spotify-skill
+[submodule "pandora-skill"]
+	path = pandora-skill
+	url = https://github.com/ethanaward/pianobar-skill
