@@ -82,3 +82,6 @@
 [submodule "mycroft-timer"]
 	path = mycroft-timer
 	url = https://github.com/mycroftai/mycroft-timer
+[submodule "spotify-skill"]
+	path = spotify-skill
+	url = https://github.com/forslund/spotify-skill
