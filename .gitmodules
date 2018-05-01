@@ -91,3 +91,6 @@
 [submodule "mycroft-mark-1-demo"]
 	path = skill-mark1-demo
 	url = https://github.com/mycroftai/skill-mark1-demo
+[submodule "mycroft-mark-1"]
+	path = mycroft-mark-1
+	url = https://github.com/MycroftAI/mycroft-mark-1.git
