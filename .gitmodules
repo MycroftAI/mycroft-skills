@@ -88,3 +88,6 @@
 [submodule "pandora-skill"]
 	path = pandora-skill
 	url = https://github.com/ethanaward/pianobar-skill
+[submodule "skill-mark1-demo"]
+	path = skill-mark1-demo
+	url = https://github.com/mycroftai/skill-mark1-demo
