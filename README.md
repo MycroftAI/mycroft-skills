@@ -242,6 +242,8 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :skull:             | [Enhanced Bitcoin](https://github.com/chrison999/mycroft-skill-bitcoin-enhanced#mycroft-skill-bitcoin-enhanced)    | Enhanced bitcoin from api.bitcoinaverage.com        |
 | :heavy_check_mark:   | [Farting](https://github.com/aussieW/skill-farting)                      | Fart on request or randomly    |
 | :heavy_check_mark:   | [Confucius Say](https://github.com/aussieW/skill-confucius-say)   | Get quotes from Confucius, including humorous quotes.       |
+| :heavy_check_mark:  | [Knock knock jokes](https://github.com/aussieW/skill-knock-knock-jokes)   | User interact with Mycroft to tell a Knock Knock joke |
 | :heavy_check_mark:  | [Silly Name Maker](https://github.com/RHackrid/deviloper-silly-name-maker) | Returns a user's silly name by prompting the user for a favorite color and lucky number. See [Google-Dialogflow example](https://developers.google.com/actions/dialogflow/first-app).<br>```Start Silly Name Maker.``` |
 | :heavy_check_mark:   | [Word of the Day](https://github.com/adropofilm/word-of-the-day-skill)   | Get word of the day.<br>```what is the word of the day```|
 | :question:          | [Habit miner](https://github.com/PFE1718/mycroft-habit-miner-skill#readme)| Detect user habits for the [Habit automation system](https://github.com/PFE1718/mycroft-habits-automation#readme) |
+
