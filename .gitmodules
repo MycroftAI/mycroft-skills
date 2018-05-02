@@ -94,3 +94,6 @@
 [submodule "mycroft-mark-1"]
 	path = mycroft-mark-1
 	url = https://github.com/MycroftAI/mycroft-mark-1.git
+[submodule "carstena-the-cows-lists"]
+	path = carstena-the-cows-lists
+	url = https://github.com/CarstenAgerskov/skill-the-cows-lists

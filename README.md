@@ -149,6 +149,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :heavy_check_mark:  | [Better jokes](https://github.com/tjoen/skill-better-jokes#readme)              | Get mycroft to make better jokes<br>```be funny``` |
 | :heavy_check_mark:  | [Caffeine Wiz](https://github.com/reginaneon/skill-caffeinewiz.git)             | Provides the caffeine content of various drinks on request.<br>```what's caffeine content of *drink*?``` |
 | :heavy_check_mark:  | [Coin flip](https://github.com/wligtenberg/coin-flip-skill#coin-flip)           | Flip a virtual coin   |
+| :heavy_check_mark:  | [The Cows Lists](https://github.com/CarstenAgerskov/skill-the-cows-lists#readme)| Interact with "Remember The Milk" list and task management ecosystem.<br>```"add milk to my grocery list"```    |
 | :heavy_check_mark:  | [Deutschland Funk](https://github.com/ofosos/deutschlandfunk-skill)             | Listen to Deutschlandfunk and query schedule
 | :heavy_check_mark:  | [Federal Closings](https://github.com/mason88/skill-federal-closings)           | List Federal Government Closings<br>```"are there federal closings?"```
 | :heavy_check_mark:  | [Home Assistant](https://github.com/btotharye/mycroft-homeassistant#readme)     | Control your devices in home-assistant<br>```"turn on office"```                                                      |  
@@ -172,7 +173,6 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :construction:      | [Mopidy and BT lights](https://github.com/swilso793/mycroft_third_party_skills) | Remote control of BT lights and Mopidy music playback                                    |  
 | :construction:      | [Mosquito speak](https://github.com/CarstenAgerskov/skill-mosquito-speak)       | Allow Mycroft to notify you on events, by speaking text received on a mqtt bus.                                    |  
 | :construction:      |	[OpenHAB](https://github.com/openhab/openhab-mycroft#openhab-skill-for-mycroft) | Add Openhab support to Mycroft |
-| :construction:      | [The Cows Lists](https://github.com/CarstenAgerskov/skill-the-cows-lists#readme)| Interact with "Remember The Milk" list and task management ecosystem.<br>```"add milk to my grocery list"```    |
 | :construction:      | [Whats Nearby](https://github.com/AIIX/whats-nearby#readme) | Search for nearby Places for Mycroft on Plasma (Search For Resturants, Hotels, Parks etc)<br>```"search for nearby bars/pubs/parks/hospitals/etc"``` |
 | :construction:      | [Kickstarter Tracker](https://github.com/MatthewScholefield/skill-kickstarter-tracker#readme) | Track the pledge amount of a project on Kickstarter<br>```"track mycroft on kickstarter"``` |
 | :construction:      | [FlightGear Copilot](https://github.com/merspieler/flight-gear-copilot/#readme) | This skillacts as an copilot for flight gear that assists you by following your voice commands.      |
