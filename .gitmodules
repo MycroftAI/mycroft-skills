@@ -442,3 +442,6 @@
 [submodule "PFE1718-automation-handler"]
 	path = PFE1718-automation-handler
 	url = https://github.com/PFE1718/mycroft-automation-handler.git
+[submodule "skill-civicus-monitor"]
+	path = skill-civicus-monitor
+	url = https://github.com/DerekCaelin/skill-civicus-monitor.git
