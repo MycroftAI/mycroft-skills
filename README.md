@@ -142,3 +142,4 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 
 | Status              | Skill Name                                                                      | Description<br>```"phrase to trigger"```    |
 | ------------------- | ------------------------------------------------------------------------------- | --------------------------------------------|
+| :construction:      | [skill-wrapper-aircrack](https://github.com/JonStratton/mycroft-skill-wrapper-aircrack) | A simple wrapper around a subset of aircrack-ng |

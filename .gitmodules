@@ -97,3 +97,6 @@
 [submodule "mycroft-speak"]
 	path = skill-speak
 	url = https://github.com/mycroftai/skill-speak.git
+[submodule "skill-wrapper-aircrack"]
+	path = skill-wrapper-aircrack
+	url = https://github.com/JonStratton/mycroft-skill-wrapper-aircrack
