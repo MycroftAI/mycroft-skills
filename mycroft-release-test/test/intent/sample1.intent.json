@@ -1,0 +1,8 @@
+{
+  "utterance": "Thank you",
+  "intent_type": "ThankYouIntent",
+  "intent": {
+    "ThankYouKeyword": "thank you"
+  },
+  "expected_output": "/opt/mycroft/skills/skill-hello-world/dialog/en-us/welcome.dialog"
+}
