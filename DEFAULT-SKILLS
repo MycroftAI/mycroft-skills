@@ -26,7 +26,7 @@ mycroft-singing
 mycroft-spelling
 mycroft-stock
 mycroft-support-helper
-#mycroft-timer
+mycroft-timer
 mycroft-weather
 mycroft-wiki
 mycroft-version-checker
