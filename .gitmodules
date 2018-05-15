@@ -97,3 +97,6 @@
 [submodule "mycroft-speak"]
 	path = skill-speak
 	url = https://github.com/mycroftai/skill-speak.git
+[submodule "fallback-persona"]
+	path = fallback-persona
+	url = https://github.com/MycroftAI/skill-fallback-persona.git
