@@ -142,3 +142,4 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 
 | Status              | Skill Name                                                                      | Description<br>```"phrase to trigger"```    |
 | ------------------- | ------------------------------------------------------------------------------- | --------------------------------------------|
+| :heavy_check_mark:  | [Plasma Activities Skill](https://github.com/AIIX/plasma-activities-skill#readme)| Control KDE Plasma 5 Activities with Mycroft```show/create/switch/remove activity [name]``` |
