@@ -142,3 +142,5 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 
 | Status              | Skill Name                                                                      | Description<br>```"phrase to trigger"```    |
 | ------------------- | ------------------------------------------------------------------------------- | --------------------------------------------|
+| :heavy_check_mark:  | [Amarok media player control](https://github.com/AIIX/amarok-player-skill#readme) | Player controls for the Amarok Media Player<br>```"amarok play/stop/next/previous music"``` |
+

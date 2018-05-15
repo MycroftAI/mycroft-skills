@@ -94,6 +94,10 @@
 [submodule "mycroft-mark-1"]
 	path = mycroft-mark-1
 	url = https://github.com/MycroftAI/mycroft-mark-1.git
+[submodule "amarok-player-skill"]
+	path = amarok-player-skill
+	url = https://github.com/AIIX/amarok-player-skill
+	branch = 18.02
 [submodule "mycroft-speak"]
 	path = skill-speak
 	url = https://github.com/mycroftai/skill-speak.git
