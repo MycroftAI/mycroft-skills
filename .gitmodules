@@ -97,3 +97,6 @@
 [submodule "carstena-the-cows-lists"]
 	path = carstena-the-cows-lists
 	url = https://github.com/CarstenAgerskov/skill-the-cows-lists
+[submodule "carstena-mosquito-speak"]
+	path = carstena-mosquito-speak
+	url = https://github.com/CarstenAgerskov/skill-mosquito-speak.git
