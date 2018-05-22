@@ -97,3 +97,6 @@
 [submodule "mycroft-speak"]
 	path = skill-speak
 	url = https://github.com/mycroftai/skill-speak.git
+[submodule "test_skill"]
+	path = test_skill
+	url = https://github.com/forslund/test_skill.git
