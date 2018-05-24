@@ -97,3 +97,6 @@
 [submodule "mycroft-speak"]
 	path = skill-speak
 	url = https://github.com/mycroftai/skill-speak.git
+[submodule "kickstarter-tracker"]
+	path = kickstarter-tracker
+	url = https://github.com/matthewscholefield/skill-kickstarter-tracker
