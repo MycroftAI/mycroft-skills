@@ -97,3 +97,6 @@
 [submodule "mycroft-speak"]
 	path = skill-speak
 	url = https://github.com/mycroftai/skill-speak.git
+[submodule "logical-reasoning"]
+	path = logical-reasoning
+	url = https://github.com/MatthewScholefield/logical-reasoning-skill
