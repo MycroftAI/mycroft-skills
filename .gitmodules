@@ -100,3 +100,6 @@
 [submodule "mycroft-hue"]
 	path = mycroft-hue
 	url = https://github.com/ChristopherRogers1991/mycroft-hue.git
+[submodule "openhab-mycroft"]
+	path = openhab-mycroft
+	url = https://github.com/openhab/openhab-mycroft
