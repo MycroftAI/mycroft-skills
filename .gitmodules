@@ -100,3 +100,6 @@
 [submodule "mycroft-hue"]
 	path = mycroft-hue
 	url = https://github.com/ChristopherRogers1991/mycroft-hue.git
+[submodule "mycroft-homeassistant"]
+	path = mycroft-homeassistant
+	url = https://github.com/btotharye/mycroft-homeassistant
