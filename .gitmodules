@@ -97,6 +97,10 @@
 [submodule "mycroft-speak"]
 	path = skill-speak
 	url = https://github.com/mycroftai/skill-speak.git
+[submodule "mycroft-hue"]
+	path = mycroft-hue
+	url = https://github.com/ChristopherRogers1991/mycroft-hue.git
 [submodule "deej-score"]
 	path = deej-score
 	url = https://github.com/deejcunningham/skill-score
+
