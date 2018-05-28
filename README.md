@@ -57,7 +57,7 @@ The official home of skills for the Mycroft ecosystem.  These skills are written
 | [Mark 1 settings](https://github.com/MycroftAI/mycroft-mark-1)                | Control your Mark 1<br>```change eye color to red``` |
 | [Spotify](https://github.com/forslund/spotify-skill) | Listen to music from your Spotify Premium account<br>```play discover weekly``` |
 | [Pandora](https://github.com/ethanaward/pianobar-skill) | Listen to Pandora stations<br>```play pandora``` |
-| [openHAB](https://github.com/openhab/openhab-mycroft)							| Add an AI Voice assistanto to your openHAB system<br>```"turn on Diningroom Light"``` ```"regulate Main Thermostat to 20 degrees"```  |
+| [openHAB](https://github.com/openhab/openhab-mycroft)							| Add an AI Voice assistant to your openHAB system<br>```"turn on Diningroom Light"``` ```"regulate Main Thermostat to 20 degrees"```  |
 
 
 ## How to Submit a Skill
