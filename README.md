@@ -143,5 +143,4 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | Status              | Skill Name                                                                      | Description<br>```"phrase to trigger"```    |
 | ------------------- | ------------------------------------------------------------------------------- | --------------------------------------------|
 | :heavy_check_mark:  | [mycroft-hue](https://github.com/ChristopherRogers1991/mycroft-hue/blob/master/README.md)| Control your Phillips Hue lights<br>```turn on the lights``` |
-
 | :heavy_check_mark:  | [caffeinewiz.reginaneon](https://github.com/reginaneon/caffeinewiz.reginaneon/blob/master/README.md)| Request caffeine content of selected drinks<br>```what's the caffeine content of *drink*?``` |
