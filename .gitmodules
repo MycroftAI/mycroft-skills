@@ -100,3 +100,6 @@
 [submodule "mycroft-hue"]
 	path = mycroft-hue
 	url = https://github.com/ChristopherRogers1991/mycroft-hue.git
+[submodule "pizza-orderer"]
+	path = pizza-orderer
+	url = https://github.com/MatthewScholefield/pizza-orderer-skill
