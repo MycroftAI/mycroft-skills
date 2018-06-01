@@ -144,5 +144,4 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | ------------------- | ------------------------------------------------------------------------------- | --------------------------------------------|
 | :heavy_check_mark:  | [mycroft-hue](https://github.com/ChristopherRogers1991/mycroft-hue/blob/master/README.md)| Control your Phillips Hue lights<br>```turn on the lights``` |
 | :heavy_check_mark:  | [caffeinewiz.reginaneon](https://github.com/reginaneon/caffeinewiz.reginaneon/blob/master/README.md)| Request caffeine content of selected drinks<br>```what's the caffeine content of *drink*?``` |
-| :heavy_check_mark:  | [AVmusic.reginaneon](https://github.com/reginaneon/AVmusic.reginaneon/blob/master/README.md)| Provides the video/audio playback of various music requested by the user.
-<br>```play some imagine dragons music``` |
+| :heavy_check_mark:  | [AVmusic.reginaneon](https://github.com/reginaneon/AVmusic.reginaneon/blob/master/README.md)| Provides the video/audio playback of various music requested by the user.<br>```play some imagine dragons music``` |
