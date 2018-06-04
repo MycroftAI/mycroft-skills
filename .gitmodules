@@ -100,3 +100,6 @@
 [submodule "mycroft-hue"]
 	path = mycroft-hue
 	url = https://github.com/ChristopherRogers1991/mycroft-hue.git
+[submodule "zork"]
+	path = game-zork
+	url = https://github.com/forslund/white-house-adventure.git
