@@ -100,3 +100,6 @@
 [submodule "mycroft-hue"]
 	path = mycroft-hue
 	url = https://github.com/ChristopherRogers1991/mycroft-hue.git
+[submodule "skill-wemo"]
+	path = skill-wemo
+	url = https://github.com/martymulligan/skill-wemo
