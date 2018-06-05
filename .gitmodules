@@ -97,6 +97,9 @@
 [submodule "mycroft-speak"]
 	path = skill-speak
 	url = https://github.com/mycroftai/skill-speak.git
+[submodule "mycroft-hue"]
+	path = mycroft-hue
+	url = https://github.com/ChristopherRogers1991/mycroft-hue.git
 [submodule "plasma-activities-skill"]
 	path = plasma-activities-skill
 	url = https://github.com/AIIX/plasma-activities-skill
