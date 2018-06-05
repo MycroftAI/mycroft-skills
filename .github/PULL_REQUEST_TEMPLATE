@@ -6,6 +6,7 @@
 ## Checklist:
   - [ ] Used [Meta Editor](http://rawgit.com/MycroftAI/mycroft-skills/master/meta_editor.html) to generate the skill README
   - [ ] Skill has been tested and works
+  - [ ] Read and verified approval process - https://mycroft.ai/documentation/skills/skills-acceptance-process (Can require a community member vouching for skill)
   - [ ] README.md has been updated with the following:
   ```
   +[submodule "NAME OF YOUR SKILL"]
