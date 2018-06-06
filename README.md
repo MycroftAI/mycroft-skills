@@ -143,4 +143,5 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | Status              | Skill Name                                                                      | Description<br>```"phrase to trigger"```    |
 | ------------------- | ------------------------------------------------------------------------------- | --------------------------------------------|
 | :heavy_check_mark:  | [mycroft-hue](https://github.com/ChristopherRogers1991/mycroft-hue/blob/master/README.md)| Control your Phillips Hue lights<br>```turn on the lights``` |
+| :heavy_check_mark:  | [Homeassistant](https://github.com/btotharye/mycroft-homeassistant#readme)               | Control your devices in home-assistant<br>```"turn on office"``` |
 | :heavy_check_mark:  | [Zork](https://github.com/forslund/white-house-adventure/blob/master/README.md)| Play the old school adventure game<br>```and explore the underground empire``` |
