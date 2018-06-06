@@ -115,6 +115,9 @@
 [submodule "openhab-mycroft"]
 	path = openhab-mycroft
 	url = https://github.com/openhab/openhab-mycroft
+[submodule "skill-wemo"]
+	path = skill-wemo
+	url = https://github.com/martymulligan/skill-wemo
 [submodule "zork"]
 	path = game-zork
 	url = https://github.com/forslund/white-house-adventure.git
