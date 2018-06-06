@@ -1,3 +1,6 @@
+[submodule "fallback-persona"]
+	path = fallback-persona
+	url = https://github.com/MycroftAI/skill-fallback-persona.git
 [submodule "mycroft-stop"]
 	path = skill-stop
 	url = https://github.com/mycroftai/skill-stop
