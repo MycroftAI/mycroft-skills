@@ -115,3 +115,6 @@
 [submodule "openhab-mycroft"]
 	path = openhab-mycroft
 	url = https://github.com/openhab/openhab-mycroft
+[submodule "zork"]
+	path = game-zork
+	url = https://github.com/forslund/white-house-adventure.git
