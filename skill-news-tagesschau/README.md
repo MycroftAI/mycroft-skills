@@ -6,4 +6,9 @@ latest news from https://www.tagesschau.de/export/podcast/tagesschau_https/ from
 ## Usage:
 * `Tagesschau news`
 * `news from Tagesschau`
-* `radio from Tagesschau`
+* `Tagesschau night magazine`
+* `Tagesschau daily topics`
+
+
+## TODO:
+* `100 seconds Tagesschau`
