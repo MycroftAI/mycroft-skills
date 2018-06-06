@@ -144,3 +144,5 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | ------------------- | ------------------------------------------------------------------------------- | --------------------------------------------|
 | :heavy_check_mark:  | [mycroft-hue](https://github.com/ChristopherRogers1991/mycroft-hue/blob/master/README.md)| Control your Phillips Hue lights<br>```turn on the lights``` |
 | :heavy_check_mark:  | [Homeassistant](https://github.com/btotharye/mycroft-homeassistant#readme)               | Control your devices in home-assistant<br>```"turn on office"``` |
+| :heavy_check_mark:  | [translate-skill](https://github.com/jcasoft/translate-skill/tree/84db4da986c1ae165d4c31bb5f907398feb19326#readme)               | Translate phrases into several languages<br>```"translate good morning into japanese"``` |
+
