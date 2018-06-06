@@ -1,3 +1,6 @@
+[submodule "fallback-persona"]
+	path = fallback-persona
+	url = https://github.com/MycroftAI/skill-fallback-persona.git
 [submodule "mycroft-stop"]
 	path = skill-stop
 	url = https://github.com/mycroftai/skill-stop
@@ -97,6 +100,15 @@
 [submodule "mycroft-speak"]
 	path = skill-speak
 	url = https://github.com/mycroftai/skill-speak.git
-[submodule "fallback-persona"]
-	path = fallback-persona
-	url = https://github.com/MycroftAI/skill-fallback-persona.git
+[submodule "mycroft-hue"]
+	path = mycroft-hue
+	url = https://github.com/ChristopherRogers1991/mycroft-hue.git
+[submodule "btotharye-home-assistant"]
+	path = btotharye-home-assistant
+	url = https://github.com/btotharye/mycroft-homeassistant
+[submodule "translate-skill"]
+	path = translate-skill
+	url = https://github.com/jcasoft/translate-skill
+[submodule "plasma-activities-skill"]
+	path = plasma-activities-skill
+	url = https://github.com/AIIX/plasma-activities-skill
