@@ -103,3 +103,6 @@
 [submodule "btotharye-home-assistant"]
 	path = btotharye-home-assistant
 	url = https://github.com/btotharye/mycroft-homeassistant
+[submodule "translate-skill"]
+	path = translate-skill
+	url = https://github.com/jcasoft/translate-skill
