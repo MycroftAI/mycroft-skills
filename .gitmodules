@@ -106,6 +106,9 @@
 [submodule "btotharye-home-assistant"]
 	path = btotharye-home-assistant
 	url = https://github.com/btotharye/mycroft-homeassistant
+[submodule "carstena-the-cows-lists"]
+	path = carstena-the-cows-lists
+	url = https://github.com/CarstenAgerskov/skill-the-cows-lists
 [submodule "translate-skill"]
 	path = translate-skill
 	url = https://github.com/jcasoft/translate-skill
