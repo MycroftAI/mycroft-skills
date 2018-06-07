@@ -1,3 +1,6 @@
+[submodule "fallback-persona"]
+	path = fallback-persona
+	url = https://github.com/MycroftAI/skill-fallback-persona.git
 [submodule "mycroft-stop"]
 	path = skill-stop
 	url = https://github.com/mycroftai/skill-stop
@@ -82,7 +85,7 @@
 [submodule "mycroft-timer"]
 	path = mycroft-timer
 	url = https://github.com/mycroftai/mycroft-timer
-[submodule "spotify-skill"]
+[submodule "mycroft-spotify"]
 	path = spotify-skill
 	url = https://github.com/forslund/spotify-skill
 [submodule "pandora-skill"]
@@ -94,6 +97,30 @@
 [submodule "mycroft-mark-1"]
 	path = mycroft-mark-1
 	url = https://github.com/MycroftAI/mycroft-mark-1.git
+[submodule "mycroft-speak"]
+	path = skill-speak
+	url = https://github.com/mycroftai/skill-speak.git
+[submodule "mycroft-hue"]
+	path = mycroft-hue
+	url = https://github.com/ChristopherRogers1991/mycroft-hue.git
+[submodule "btotharye-home-assistant"]
+	path = btotharye-home-assistant
+	url = https://github.com/btotharye/mycroft-homeassistant
 [submodule "carstena-the-cows-lists"]
 	path = carstena-the-cows-lists
 	url = https://github.com/CarstenAgerskov/skill-the-cows-lists
+[submodule "translate-skill"]
+	path = translate-skill
+	url = https://github.com/jcasoft/translate-skill
+[submodule "plasma-activities-skill"]
+	path = plasma-activities-skill
+	url = https://github.com/AIIX/plasma-activities-skill
+[submodule "openhab-mycroft"]
+	path = openhab-mycroft
+	url = https://github.com/openhab/openhab-mycroft
+[submodule "skill-wemo"]
+	path = skill-wemo
+	url = https://github.com/martymulligan/skill-wemo
+[submodule "zork"]
+	path = game-zork
+	url = https://github.com/forslund/white-house-adventure.git
