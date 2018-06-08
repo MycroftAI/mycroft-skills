@@ -20,7 +20,7 @@
 
 The official home of skills for the Mycroft ecosystem.  These skills are written by both the MycroftAI team and others within the Community.
 **[HTML version of this document](https://mycroftai.github.io/mycroft-skills)**
- 
+
 ## Available Skills
 
 |      Skill Name                                                               |                Description<br>"handled phrases"                      |                                           
