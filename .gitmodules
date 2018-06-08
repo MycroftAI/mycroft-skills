@@ -106,6 +106,9 @@
 [submodule "btotharye-home-assistant"]
 	path = btotharye-home-assistant
 	url = https://github.com/btotharye/mycroft-homeassistant
+[submodule "carstena-the-cows-lists"]
+	path = carstena-the-cows-lists
+	url = https://github.com/CarstenAgerskov/skill-the-cows-lists
 [submodule "translate-skill"]
 	path = translate-skill
 	url = https://github.com/jcasoft/translate-skill
@@ -115,6 +118,9 @@
 [submodule "openhab-mycroft"]
 	path = openhab-mycroft
 	url = https://github.com/openhab/openhab-mycroft
+[submodule "skill-wemo"]
+	path = skill-wemo
+	url = https://github.com/martymulligan/skill-wemo
 [submodule "zork"]
 	path = game-zork
 	url = https://github.com/forslund/white-house-adventure.git
