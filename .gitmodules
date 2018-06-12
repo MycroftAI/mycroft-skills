@@ -112,6 +112,9 @@
 [submodule "translate-skill"]
 	path = translate-skill
 	url = https://github.com/jcasoft/translate-skill
+[submodule "AVmusic"]
+	path = AVmusic
+	url = https://github.com/reginaneon/AVmusic.git
 [submodule "CaffeineWiz"]
  	path = CaffeineWiz
 	url = https://github.com/reginaneon/CaffeineWiz.git
