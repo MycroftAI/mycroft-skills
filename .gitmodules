@@ -127,3 +127,6 @@
 [submodule "zork"]
 	path = game-zork
 	url = https://github.com/forslund/white-house-adventure.git
+[submodule "deej-score"]
+	path = deej-score
+	url = https://github.com/deejcunningham/skill-score
