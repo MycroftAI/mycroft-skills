@@ -22,7 +22,7 @@ The official home of skills for the Mycroft ecosystem.  These skills are written
 **[HTML version of this document](https://mycroftai.github.io/mycroft-skills)**
 
 ## Available Skills
-
+ 
 |      Skill Name                                                               |                Description<br>"handled phrases"                      |                                           
 | ------------------------------------------------------------------------------| ---------------------------------------------------------------------|
 | [AIML Fallback](https://github.com/forslund/fallback-aiml#readme)             | AIML skill by JarbasAI |
