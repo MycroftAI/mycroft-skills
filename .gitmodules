@@ -112,6 +112,9 @@
 [submodule "translate-skill"]
 	path = translate-skill
 	url = https://github.com/jcasoft/translate-skill
+[submodule "CaffeineWiz"]
+ 	path = CaffeineWiz
+	url = https://github.com/reginaneon/CaffeineWiz.git
 [submodule "plasma-activities-skill"]
 	path = plasma-activities-skill
 	url = https://github.com/AIIX/plasma-activities-skill
