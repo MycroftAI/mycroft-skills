@@ -130,3 +130,6 @@
 [submodule "reginaneon-av-music"]
 	path = reginaneon-av-music
 	url = https://github.com/reginaneon/AVmusic.git
+[submodule "deej-score"]
+	path = deej-score
+	url = https://github.com/deejcunningham/skill-score.git
