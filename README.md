@@ -152,4 +152,6 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :heavy_check_mark:  | [Zork](https://github.com/forslund/white-house-adventure/blob/master/README.md)| Play the old school adventure game<br>```and explore the underground empire``` |
 | :heavy_check_mark:  | [person-detector](https://github.com/patilaum/mycroft-person-detect-skill/README.md) detects persons in front of webcam<br>```how many persons in front of you```|
 
+| :heavy_check_mark:  | [Score](https://github.com/deejcunningham/skill-score/blob/master/README.md)| Reports latest MLB scores<br>```what is the Royals score``` |
+
 

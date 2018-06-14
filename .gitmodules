@@ -131,3 +131,8 @@
 [submodule "mycroft-person-detect-skill"]
 	path = mycroft-person-detect-skill
 	url = https://github.com/patilaum/mycroft-person-detect-skill.git
+  
+[submodule "deej-score"]
+	path = deej-score
+	url = https://github.com/deejcunningham/skill-score
+
