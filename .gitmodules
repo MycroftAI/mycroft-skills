@@ -128,6 +128,6 @@
 	path = game-zork
 	url = https://github.com/forslund/white-house-adventure.git
 	
-[submodule "person detector"]
-	path = person-detector
+[submodule "mycroft-person-detect-skill"]
+	path = mycroft-person-detect-skill
 	url = https://github.com/patilaum/mycroft-person-detect-skill.git
