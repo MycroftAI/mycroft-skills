@@ -151,4 +151,4 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :heavy_check_mark:  | [translate-skill](https://github.com/jcasoft/translate-skill/tree/84db4da986c1ae165d4c31bb5f907398feb19326#readme)              | Translate phrases into several languages<br>```"translate good morning into japanese"``` |
 | :heavy_check_mark:  | [Zork](https://github.com/forslund/white-house-adventure/blob/master/README.md)| Play the old school adventure game<br>```and explore the underground empire``` |
 | :heavy_check_mark:  | [Score](https://github.com/deejcunningham/skill-score/blob/master/README.md)| Reports latest MLB scores<br>```what is the Royals score``` |
-| :heavy_check_mark:  | [Yelp-Finder](https://github.com/btotharye/mycroft-yelp#readme)                          | Find restaurants/bars/shops via Yelp API<br>```"sushi restaurants nearby", "comic book stores near me"``` |
+
