@@ -133,3 +133,6 @@
 [submodule "deej-score"]
 	path = deej-score
 	url = https://github.com/deejcunningham/skill-score.git
+[submodule "today-history.btotharye"]
+	path = today-history.btotharye
+	url = https://github.com/Geeked-Out-Solutions/mycroft-skill-today-in-history
