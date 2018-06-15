@@ -112,9 +112,6 @@
 [submodule "translate-skill"]
 	path = translate-skill
 	url = https://github.com/jcasoft/translate-skill
-[submodule "CaffeineWiz"]
- 	path = CaffeineWiz
-	url = https://github.com/reginaneon/CaffeineWiz.git
 [submodule "plasma-activities-skill"]
 	path = plasma-activities-skill
 	url = https://github.com/AIIX/plasma-activities-skill
@@ -127,6 +124,12 @@
 [submodule "zork"]
 	path = game-zork
 	url = https://github.com/forslund/white-house-adventure.git
+[submodule "reginaneon-caffeine-wiz"]
+	path = reginaneon-caffeine-wiz
+	url = https://github.com/reginaneon/CaffeineWiz.git
+[submodule "reginaneon-av-music"]
+	path = reginaneon-av-music
+	url = https://github.com/reginaneon/AVmusic.git
 [submodule "deej-score"]
 	path = deej-score
-	url = https://github.com/deejcunningham/skill-score
+	url = https://github.com/deejcunningham/skill-score.git
