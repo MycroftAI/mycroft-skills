@@ -133,3 +133,6 @@
 [submodule "deej-score"]
 	path = deej-score
 	url = https://github.com/deejcunningham/skill-score.git
+[submodule "routine"]
+	path = routine
+	url = https://github.com/ChristopherRogers1991/mycroft_routine_skill.git
