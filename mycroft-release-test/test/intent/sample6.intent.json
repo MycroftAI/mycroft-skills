@@ -3,5 +3,6 @@
   "intent_type": "HowAreYouIntent",
   "intent": {
     "HowAreYouKeyword": "how has your day been"
-  }
+  },
+  "expected_output": "/opt/mycroft/skills/skill-hello-world/dialog/en-us/how.are.you.dialog"
 }
