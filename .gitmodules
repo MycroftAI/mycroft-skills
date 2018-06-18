@@ -130,6 +130,9 @@
 [submodule "deej-score"]
 	path = deej-score
 	url = https://github.com/deejcunningham/skill-score
+[submodule "yelp-finder.btotharye"]
+	path = yelp-finder.btotharye
+	url = https://github.com/btotharye/mycroft-yelp
 [submodule "reginaneon-caffeine-wiz"]
 	path = reginaneon-caffeine-wiz
 	url = https://github.com/reginaneon/CaffeineWiz.git
