@@ -379,3 +379,6 @@
 [submodule "easter-eggs"]
 	path = easter-eggs
 	url = https://github.com/JarbasAI/skill_easter_eggs.git
+[submodule "charming-answers-skill"]
+	path = charming-answers-skill
+	url = https://github.com/gras64/charming-answers-skill.git
