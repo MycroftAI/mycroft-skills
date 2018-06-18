@@ -136,3 +136,6 @@
 [submodule "tree-desktop-control"]
 	path = tree-desktop-control
 	url = https://github.com/TREE-Edu/desktop-control-skill.git
+[submodule "testing-kde"]
+	path = testing-kde
+	url = https://github.com/forslund/plasma-activities-skill
