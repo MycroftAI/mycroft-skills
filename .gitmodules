@@ -124,6 +124,12 @@
 [submodule "zork"]
 	path = game-zork
 	url = https://github.com/forslund/white-house-adventure.git
+[submodule "mycroft-person-detect-skill"]
+	path = mycroft-person-detect-skill
+	url = https://github.com/patilaum/mycroft-person-detect-skill.git
+[submodule "deej-score"]
+	path = deej-score
+	url = https://github.com/deejcunningham/skill-score
 [submodule "reginaneon-caffeine-wiz"]
 	path = reginaneon-caffeine-wiz
 	url = https://github.com/reginaneon/CaffeineWiz.git
@@ -136,3 +142,6 @@
 [submodule "today-history.btotharye"]
 	path = today-history.btotharye
 	url = https://github.com/Geeked-Out-Solutions/mycroft-skill-today-in-history
+[submodule "krunner-search-skill"]
+	path = krunner-search-skill
+	url = https://github.com/AIIX/krunner-search-skill
