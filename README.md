@@ -22,7 +22,7 @@ The official home of skills for the Mycroft ecosystem.  These skills are written
 **[HTML version of this document](https://mycroftai.github.io/mycroft-skills)**
 
 ## Available Skills
-
+ 
 |      Skill Name                                                               |                Description<br>"handled phrases"                      |                                           
 | ------------------------------------------------------------------------------| ---------------------------------------------------------------------|
 | [AIML Fallback](https://github.com/forslund/fallback-aiml#readme)             | AIML skill by JarbasAI |
@@ -144,6 +144,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 
 | Status              | Skill Name                                                                      | Description<br>```"phrase to trigger"```    |
 | ------------------- | ------------------------------------------------------------------------------- | --------------------------------------------|
+| :heavy_check_mark:  | [AVmusic](https://github.com/reginaneon/AVmusic/blob/master/README.md)| Provides the playback of any music/video requested by the user. No login required. <br>```play some imagine dragons music``` |
 | :heavy_check_mark:  | [CaffeineWiz](https://github.com/reginaneon/caffeinewiz.reginaneon/blob/master/README.md)| Request caffeine content of selected drinks<br>```what's the caffeine content of *drink*?```|
 | :heavy_check_mark:  | [mycroft-hue](https://github.com/ChristopherRogers1991/mycroft-hue/blob/master/README.md)| Control your Phillips Hue lights<br>```turn on the lights``` |
 | :heavy_check_mark:  | [Homeassistant](https://github.com/btotharye/mycroft-homeassistant#readme)               | Control your devices in home-assistant<br>```"turn on office"``` |
