@@ -136,3 +136,6 @@
 [submodule "krunner-search-skill"]
 	path = krunner-search-skill
 	url = https://github.com/AIIX/krunner-search-skill
+[submodule "chatbot"]
+	path = chatbot
+	url = https://github.com/forslund/fallback-aiml.git
