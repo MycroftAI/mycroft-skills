@@ -133,3 +133,6 @@
 [submodule "deej-score"]
 	path = deej-score
 	url = https://github.com/deejcunningham/skill-score.git
+[submodule "krunner-search-skill"]
+	path = krunner-search-skill
+	url = https://github.com/AIIX/krunner-search-skill
