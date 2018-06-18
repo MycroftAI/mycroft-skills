@@ -142,6 +142,6 @@
 [submodule "deej-score"]
 	path = deej-score
 	url = https://github.com/deejcunningham/skill-score.git
-[submodule "tree-desktop-control"]
-	path = tree-desktop-control
-	url = https://github.com/TREE-Edu/desktop-control-skill.git
+[submodule "krunner-search-skill"]
+	path = krunner-search-skill
+	url = https://github.com/AIIX/krunner-search-skill
