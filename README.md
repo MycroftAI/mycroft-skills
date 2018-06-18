@@ -150,6 +150,7 @@ wiki pages.  Also please include the phrase to trigger on as well for your skill
 | :heavy_check_mark:  | [mycroft-hue](https://github.com/ChristopherRogers1991/mycroft-hue/blob/master/README.md)| Control your Phillips Hue lights<br>```turn on the lights``` |
 | :heavy_check_mark:  | [Homeassistant](https://github.com/btotharye/mycroft-homeassistant#readme)               | Control your devices in home-assistant<br>```"turn on office"``` |
 | :heavy_check_mark:  | [Plasma Activities Skill](https://github.com/AIIX/plasma-activities-skill#readme)| Control KDE Plasma 5 Activities with Mycroft```show/create/switch/remove activity [name]``` |
-| :heavy_check_mark:  | [translate-skill](https://github.com/jcasoft/translate-skill/tree/84db4da986c1ae165d4c31bb5f907398feb19326#readme)              | Translate phrases into several languages<br>```"translate good morning into japanese"``` |
+| :heavy_check_mark:  | [translate-skill](https://github.com/jcasoft/translate-skill/tree/84db4da986c1ae165d4c31bb5f907398feb19326#readme)               | Translate phrases into several languages<br>```"translate good morning into japanese"``` |
 | :heavy_check_mark:  | [Zork](https://github.com/forslund/white-house-adventure/blob/master/README.md)| Play the old school adventure game<br>```and explore the underground empire``` |
 | :heavy_check_mark:  | [Score](https://github.com/deejcunningham/skill-score/blob/master/README.md)| Reports latest MLB scores<br>```what is the Royals score``` |
+| :heavy_check_mark:  | [person-detector](https://github.com/patilaum/mycroft-person-detect-skill/README.md) detects persons in front of webcam<br>```how many persons in front of you```|
