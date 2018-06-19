@@ -3,17 +3,12 @@
 
 
 # Content
+- [Mycroft Skills Repo](#mycroft-skills-repo)
+- [Content](#content)
 - [Welcome](#welcome)
-  - [Available Skills](#available-skills)
-  - [How to Submit a Skill](#how-to-submit-a-skill)
-    - [1) Make a Repo](#1-make-a-repo)
-    - [2) Clone Repo](#2-clone-repo)
-    - [3) Generate Readme](#3-generate-readme)
-    - [4) Add Submodule](#4-add-submodule)
-    - [5) Modify Skills Repo README.md](#5-modify-skills-repo-readmemd)
-    - [6) Submit PR (Pull Request)](#6-submit-pr-pull-request)
-    - [MSM Compliance](#msm-compliance)
-  - [Community Contributed Skill List](#community-contributed-skill-list)
+  * [Available Skills](#available-skills)
+  * [How to Create and Submit a Skill to the `mycroft-skills` repo](#how-to-create-and-submit-a-skill-to-the-mycroft-skills-repo)
+  * [Community Contributed Skill List](#community-contributed-skill-list)
 
 
 # Welcome
@@ -72,7 +67,7 @@ We've recently released the [Mycroft Skills Kit](https://mycroft.ai/documentatio
 
 You might also be interested in: 
 
-* [Introduction to Developing Skills for Mycrof](https://mycroft.ai/documentation/#introduction-to-developing-skills-for-mycroft)
+* [Introduction to Developing Skills for Mycroft](https://mycroft.ai/documentation/#introduction-to-developing-skills-for-mycroft)
 * [Getting started with Mycroft Skills](https://mycroft.ai/documentation/#developing-skills-for-mycroft)
 * [Skill Settings](https://mycroft.ai/documentation/#skill-settings)
 * [Skills Acceptance Process](https://mycroft.ai/documentation/#skills-acceptance-process)
