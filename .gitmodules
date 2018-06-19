@@ -127,9 +127,6 @@
 [submodule "mycroft-person-detect-skill"]
 	path = mycroft-person-detect-skill
 	url = https://github.com/patilaum/mycroft-person-detect-skill.git
-[submodule "deej-score"]
-	path = deej-score
-	url = https://github.com/deejcunningham/skill-score
 [submodule "yelp-finder.btotharye"]
 	path = yelp-finder.btotharye
 	url = https://github.com/btotharye/mycroft-yelp
@@ -148,3 +145,6 @@
 [submodule "krunner-search-skill"]
 	path = krunner-search-skill
 	url = https://github.com/AIIX/krunner-search-skill
+[submodule "chatbot"]
+	path = chatbot
+	url = https://github.com/forslund/fallback-aiml.git
