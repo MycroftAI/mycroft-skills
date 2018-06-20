@@ -148,3 +148,6 @@
 [submodule "chatbot"]
 	path = chatbot
 	url = https://github.com/forslund/fallback-aiml.git
+[submodule "plasma-user-control-skill"]
+	path = plasma-user-control-skill
+	url = https://github.com/AIIX/plasma-user-control-skill
