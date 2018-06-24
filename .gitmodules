@@ -148,3 +148,6 @@
 [submodule "chatbot"]
 	path = chatbot
 	url = https://github.com/forslund/fallback-aiml.git
+[submodule "poole-podcast-skill"]
+	path = poole-podcast-skill
+	url = https://github.com/JamesPoole/podcast-skill/
