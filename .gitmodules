@@ -133,6 +133,18 @@
 [submodule "deej-score"]
 	path = deej-score
 	url = https://github.com/deejcunningham/skill-score.git
+[submodule "today-history.btotharye"]
+	path = today-history.btotharye
+	url = https://github.com/Geeked-Out-Solutions/mycroft-skill-today-in-history
+[submodule "krunner-search-skill"]
+	path = krunner-search-skill
+	url = https://github.com/AIIX/krunner-search-skill
+[submodule "chatbot"]
+	path = chatbot
+	url = https://github.com/forslund/fallback-aiml.git
+[submodule "plasma-user-control-skill"]
+	path = plasma-user-control-skill
+	url = https://github.com/AIIX/plasma-user-control-skill
 [submodule "routine"]
 	path = routine
 	url = https://github.com/ChristopherRogers1991/mycroft_routine_skill.git
