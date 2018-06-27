@@ -151,3 +151,6 @@
 [submodule "plasma-user-control-skill"]
 	path = plasma-user-control-skill
 	url = https://github.com/AIIX/plasma-user-control-skill
+[submodule "routine"]
+	path = routine
+	url = https://github.com/ChristopherRogers1991/mycroft_routine_skill.git
