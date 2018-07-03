@@ -154,3 +154,6 @@
 [submodule "routine"]
 	path = routine
 	url = https://github.com/ChristopherRogers1991/mycroft_routine_skill.git
+[submodule "pianobar-skill"]
+	path = pianobar-skill
+	url = https://github.com/mycroftai/pianobar-skill
