@@ -1,0 +1,3 @@
+((turn|switch) )?(?P<Action>on|off|toggle) (?P<Entity>.*)
+((turn|switch) )?(?P<Action>on|off|toggle) (?P<Entity>all|every|any) (?P<Domain>switch(s)?|light(s)?|(boolean )?input(s)?)
+((turn|switch) )?(?P<Entity>.*) (?P<Action>on|off)

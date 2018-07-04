@@ -1,0 +1,4 @@
+Currently {{dev_name}} is {{value}} {{unit}}.
+{{dev_name}} has the state: {{value}} {{unit}}.
+{{dev_name}} is {{value}} {{unit}} at the moment.
+{{dev_name}} is {{value}} {{unit}}.

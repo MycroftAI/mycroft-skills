@@ -1,0 +1,5 @@
+(?P<Action>hell|heller|runter|dunkler) (?P<Entity>.*)
+(?P<Entity>.*) (?P<Action>hell|heller|runter|dunkler)
+(schalte|mache) (?P<Entity>.*) (?P<Action>hell|heller|runter|dunkler)
+(schalte|knippse) (?P<Action>ein|aus|an) (?P<Entity>.*)
+(schalte|knippse|mache) (?P<Entity>.*) (?P<Action>ein|aus|an)

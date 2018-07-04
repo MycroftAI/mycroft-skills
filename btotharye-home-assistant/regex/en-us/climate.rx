@@ -1,0 +1,1 @@
+(set) (?P<Entity>.*) thermostat to (?P<temp>[0-9]*)

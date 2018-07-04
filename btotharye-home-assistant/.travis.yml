@@ -1,0 +1,12 @@
+language: python
+before_install:
+  - pip install pep8
+  - pip install pytest-cov
+  - pip install python-coveralls
+python:
+  - "3.6"
+script:
+ - pep8 __init__.py
+ - pytest --rootdir=unittests --cov unittests/
+after_success:
+  codecov --token=4984c911-ce8f-4767-a446-7339a16ad840

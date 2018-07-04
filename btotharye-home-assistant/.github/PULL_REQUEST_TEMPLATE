@@ -1,0 +1,9 @@
+## Description:
+
+**Related issue (if applicable):** fixes #<mycroft-homeassistant issue number goes here>
+
+
+## Checklist:
+  - [ ] Code is Python 3.x compatible
+  - [ ] Travis is passing tests **Your PR cannot be merged unless tests pass**
+  - [ ] No PEP Bot Errors or Issues

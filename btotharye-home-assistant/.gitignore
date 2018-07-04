@@ -1,0 +1,14 @@
+*.swp
+*.pyc
+.idea/misc.xml
+.idea/modules.xml
+.idea/mycroft-homeassistant.iml
+.idea/workspace.xml
+/.pydevproject
+/.project
+.idea/preferred-vcs.xml
+/.idea/vcs.xml
+/venv*
+/test/integrationtests*
+/settings.json
+/skill_developers_testrunner.py

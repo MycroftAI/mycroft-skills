@@ -1,0 +1,54 @@
+{
+  "identifier": "HomeAssistantSkill",
+  "name": "HomeAssistant",
+  "skillMetadata": {
+      "sections": [
+          {
+              "name": "Login",
+              "fields": [
+                  {
+                      "name": "host",
+                      "type": "text",
+                      "label": "Host adress",
+                      "value": ""
+                  },
+                  {
+                      "name": "password",
+                      "type": "password",
+                      "label": "Password",
+                      "value": ""
+                  },
+                  {
+                      "name": "portnum",
+                      "type": "Number",
+                      "label": "Port number",
+                      "value": "8123"
+                  }
+              ]
+          }, 
+          {
+              "name": "Options",
+              "fields": [
+                  {
+                      "name": "ssl",
+                      "type": "checkbox",
+                      "label": "Use SSL",
+                      "value": "false"
+                  },
+                  {
+                      "name": "verify",
+                      "type": "checkbox",
+                      "label": "Verify SSL Certificate",
+                      "value": "true"
+                  },
+                  {
+                      "name": "enable_fallback",
+                      "type": "checkbox",
+                      "label": "Enable conversation component as fallback",
+                      "value": "true"
+                  }
+              ]
+          }
+      ]
+  }
+}

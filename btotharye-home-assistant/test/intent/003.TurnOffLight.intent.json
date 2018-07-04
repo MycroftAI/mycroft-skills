@@ -1,0 +1,4 @@
+{
+  "utterance": "turn off kitchen",
+  "expected_dialog": "homeassistant.device.off"
+}

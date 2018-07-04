@@ -1,0 +1,4 @@
+{
+  "utterance": "what is the value of hallway thermostat",
+  "expected_dialog": "homeassistant.sensor"
+}

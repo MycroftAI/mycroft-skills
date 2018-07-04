@@ -1,0 +1,2 @@
+(set) (?:brightness of )?(?P<Entity>.*) (to) (?P<BrightnessValue>\d*)(?: percent)?
+(dim|brighten|increase|decrease) (?:brightness of )?(?P<Entity>.*?) (?:by)? (?P<BrightnessValue>\d*)?(?: percent)?

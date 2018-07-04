@@ -1,0 +1,19 @@
+[run]
+include =
+    __init__.py
+    unittests/*
+    test/*
+    ha_client.py
+
+omit =
+    # omit the test folder
+    unittests/test_ha_client.py
+    *mycroft-core/*
+    *.venv*
+    */workspace/test_ha_client.py*
+
+[report]
+omit =
+    */python?.?/*
+    *mycroft-core/*
+    */site-packages/*

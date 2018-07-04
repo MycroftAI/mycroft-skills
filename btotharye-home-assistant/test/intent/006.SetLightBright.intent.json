@@ -1,0 +1,4 @@
+{
+  "utterance": "set brightness of kitchen light to 40 percent",
+  "expected_dialog": "homeassistant.brightness.dimmed"
+}

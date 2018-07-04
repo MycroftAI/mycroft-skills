@@ -1,0 +1,2 @@
+(where is|(what is (the )?)?location of) (?P<Entity>.*)
+(?P<Entity>.*) location

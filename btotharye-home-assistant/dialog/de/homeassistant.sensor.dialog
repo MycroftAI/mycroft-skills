@@ -1,0 +1,3 @@
+Aktuell ist {{dev_name}} auf {{value}} {{unit}}
+{{dev_name}} hat den Wert: {{value}} {{unit}}
+{{dev_name}} ist {{value}} {{unit}}
