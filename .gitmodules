@@ -157,3 +157,6 @@
 [submodule "pianobar-skill"]
 	path = pianobar-skill
 	url = https://github.com/mycroftai/pianobar-skill
+[submodule "what-can-you-do"]
+	path = what-can-you-do
+	url = https://github.com/luke5sky/what-can-you-do-skill
