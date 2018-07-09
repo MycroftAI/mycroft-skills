@@ -157,3 +157,6 @@
 [submodule "pianobar-skill"]
 	path = pianobar-skill
 	url = https://github.com/mycroftai/pianobar-skill
+[submodule "espy"]
+	path = espy
+	url = https://github.com/Dark5ide/espy-skill
