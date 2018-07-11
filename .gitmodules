@@ -157,3 +157,6 @@
 [submodule "pianobar-skill"]
 	path = pianobar-skill
 	url = https://github.com/mycroftai/pianobar-skill
+[submodule "exordium-help"]
+	path = exordium-help
+	url = https://github.com/abdealikhurrum/mycroft-exordiumhelp
