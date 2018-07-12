@@ -96,3 +96,4 @@ You might also be interested in:
 | :heavy_check_mark:  | [Score](https://github.com/deejcunningham/skill-score/blob/master/README.md)| Reports latest MLB scores<br>```what is the Royals score``` |
 | :heavy_check_mark:  | [Yelp-Finder](https://github.com/btotharye/mycroft-yelp#readme)| Looks up restaurants/bars/plaes via Yelp API<br>```"sushi restaurants near me", "comic book stores near by"``` |
 | :heavy_check_mark:  | [person-detector](https://github.com/patilaum/mycroft-person-detect-skill/README.md)| detects persons in front of webcam<br>```how many persons in front of you```|
+| :construction:      | [skill-aircrack](https://github.com/JonStratton/skill-aircrack) | A simple wrapper around a subset of aircrack-ng |
