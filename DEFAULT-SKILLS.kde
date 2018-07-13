@@ -7,6 +7,9 @@ plasma-user-control-skill
 plasma-mycroftplasmoid-control
 
 # common
+mycroft-playback-control
+mycroft-speak
+mycroft-volume
 mycroft-fallback-duck-duck-go
 #fallback-aiml
 fallback-wolfram-alpha
