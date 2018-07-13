@@ -5,6 +5,9 @@ mycroft-spotify
 pandora-skill
 
 # common
+mycroft-playback-control
+mycroft-speak
+mycroft-volume
 mycroft-fallback-duck-duck-go
 #fallback-aiml
 fallback-wolfram-alpha
