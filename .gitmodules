@@ -163,3 +163,6 @@
 [submodule "what-can-you-do"]
 	path = what-can-you-do
 	url = https://github.com/luke5sky/what-can-you-do-skill
+[submodule "cocktail-recipies"]
+	path = cocktail-recipies
+	url = https://github.com/forslund/skill-cocktail.git
