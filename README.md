@@ -52,7 +52,7 @@ The official home of skills for the Mycroft ecosystem.  These skills are written
 | [Platform Patch](https://github.com/MycroftAI/skill-platform-patch#readme)    | Patch for official platforms<br>```"platform patch"``` |
 | [Mark 1 settings](https://github.com/MycroftAI/mycroft-mark-1)                | Control your Mark 1<br>```change eye color to red``` |
 | [Spotify](https://github.com/forslund/spotify-skill) | Listen to music from your Spotify Premium account<br>```play discover weekly``` |
-| [Pandora](https://github.com/ethanaward/pianobar-skill) | Listen to Pandora stations<br>```play pandora``` |
+| [Pandora](https://github.com/MycroftAI/pianobar-skill) | Listen to Pandora stations<br>```play pandora``` |
 | [openHAB](https://github.com/openhab/openhab-mycroft)							| Add an AI Voice assistant to your openHAB system<br>```"turn on Diningroom Light"``` ```"regulate Main Thermostat to 20 degrees"```  |
 
 
@@ -96,3 +96,4 @@ You might also be interested in:
 | :heavy_check_mark:  | [Score](https://github.com/deejcunningham/skill-score/blob/master/README.md)| Reports latest MLB scores<br>```what is the Royals score``` |
 | :heavy_check_mark:  | [Yelp-Finder](https://github.com/btotharye/mycroft-yelp#readme)| Looks up restaurants/bars/plaes via Yelp API<br>```"sushi restaurants near me", "comic book stores near by"``` |
 | :heavy_check_mark:  | [person-detector](https://github.com/patilaum/mycroft-person-detect-skill/README.md)| detects persons in front of webcam<br>```how many persons in front of you```|
+| :construction:      | [skill-aircrack](https://github.com/JonStratton/skill-aircrack) | A simple wrapper around a subset of aircrack-ng |
