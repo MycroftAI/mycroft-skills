@@ -166,3 +166,6 @@
 [submodule "what-can-you-do"]
 	path = what-can-you-do
 	url = https://github.com/luke5sky/what-can-you-do-skill
+[submodule "charming-answers-skill"]
+	path = charming-answers-skill
+	url = https://github.com/gras64/charming-answers-skill
