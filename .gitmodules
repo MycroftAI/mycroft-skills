@@ -166,3 +166,6 @@
 [submodule "what-can-you-do"]
 	path = what-can-you-do
 	url = https://github.com/luke5sky/what-can-you-do-skill
+[submodule "desktop-control"]
+	path = desktop-control
+	url = https://github.com/TREE-Ind/desktop-control
