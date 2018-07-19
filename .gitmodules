@@ -154,6 +154,9 @@
 [submodule "routine"]
 	path = routine
 	url = https://github.com/ChristopherRogers1991/mycroft_routine_skill.git
+[submodule "rss-reader"]
+	path = rss-reader
+	url = https://github.com/backassward/rss-reader-skill.git
 [submodule "pianobar-skill"]
 	path = pianobar-skill
 	url = https://github.com/mycroftai/pianobar-skill
@@ -166,3 +169,5 @@
 [submodule "knock-knock-jokes-skill"]
 	path = knock-knock-jokes-skill
 	url = https://github.com/aussieW/knock-knock-jokes-skill
+[submodule "cocktails"]
+	path = cocktails
