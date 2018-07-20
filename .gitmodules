@@ -171,3 +171,4 @@
 	url = https://github.com/aussieW/knock-knock-jokes-skill
 [submodule "cocktails"]
 	path = cocktails
+        url = https://github.com/forslund/skill-cocktail.git
