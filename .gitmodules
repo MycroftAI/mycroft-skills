@@ -172,3 +172,6 @@
 [submodule "cocktails"]
 	path = cocktails
         url = https://github.com/forslund/skill-cocktail.git
+[submodule "plasma-mycroft-applet-control"]
+	path = plasma-mycroft-applet-control
+	url = https://github.com/AIIX/plasma-mycroft-applet-control
