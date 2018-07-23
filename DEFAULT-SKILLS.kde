@@ -1,15 +1,19 @@
-# desktop
-skill-autogui
-mycroft-desktop-launcher
-krunner-search-skill
-plasma-activities-skill
-plasma-user-control-skill
-plasma-mycroftplasmoid-control
-
-# common
+# core
+mycroft-pairing
+mycroft-configuration
+mycroft-installer
+mycroft-stop
+mycroft-naptime
 mycroft-playback-control
 mycroft-speak
 mycroft-volume
+
+# desktop
+krunner-search-skill
+plasma-activities-skill
+plasma-user-control-skill
+
+# common
 mycroft-fallback-duck-duck-go
 #fallback-aiml
 fallback-wolfram-alpha
@@ -25,5 +29,9 @@ mycroft-personal
 mycroft-reminder
 mycroft-singing
 mycroft-spelling
+mycroft-stock
 mycroft-support-helper
 mycroft-timer
+mycroft-weather
+mycroft-wiki
+mycroft-version-checker
