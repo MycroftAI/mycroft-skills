@@ -89,6 +89,7 @@ You might also be interested in:
 | :heavy_check_mark:  | [mycroft-hue](https://github.com/ChristopherRogers1991/mycroft-hue/blob/master/README.md)| Control your Phillips Hue lights<br>```turn on the lights``` |
 | :heavy_check_mark:  | [Homeassistant](https://github.com/btotharye/mycroft-homeassistant#readme)               | Control your devices in home-assistant<br>```"turn on office"``` |
 | :heavy_check_mark:  | [Plasma Activities Skill](https://github.com/AIIX/plasma-activities-skill#readme)| Control KDE Plasma 5 Activities with Mycroft```show/create/switch/remove activity [name]``` |
+| :heavy_check_mark:  | [Plasma Mycroft Applet Control](https://github.com/AIIX/plasma-mycroft-applet-control#readme)| Control and Navigate Plasma-Mycroft Plasmoid```"show widget", "show skills", "show installable skills"``` |
 | :heavy_check_mark:  | [Plasma User Control Skill](https://github.com/AIIX/plasma-user-control-skill#readme)| Control KDE Plasma 5 System Internals with Mycroft```lock screen/switch users/logout/control brightness/touchpad/add widgets/add and control panels``` |
 | :heavy_check_mark:  | [Today In History Skill](https://github.com/Geeked-Out-Solutions/mycroft-skill-today-in-history#readme)| Gives a random event from today in history```today in history``` |
 | :heavy_check_mark:  | [translate-skill](https://github.com/jcasoft/translate-skill/tree/84db4da986c1ae165d4c31bb5f907398feb19326#readme)               | Translate phrases into several languages<br>```"translate good morning into japanese"``` |
