@@ -1,16 +1,6 @@
 # Mycroft Skills Repo
 ![logo](https://avatars1.githubusercontent.com/u/14171097?v=4&s=200 "Logo")
 
-# Content
-
-- [Mycroft Skills Repo](#mycroft-skills-repo)
-- [Content](#content)
-- [Welcome](#welcome)
-- [Meta Editor](#meta-editor)
-- [Skills Documentation](#skills-documentation)
-- [Available Skills](#available-skills)
-- [Support](#support)
-
 # Welcome
 
 The official home of **Skills** for the Mycroft ecosystem.  These **Skills** are written by both the MycroftAI team and others within the Community.
