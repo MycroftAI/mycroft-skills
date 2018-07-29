@@ -175,3 +175,6 @@
 [submodule "desktop-control"]
 	path = desktop-control
 	url = https://github.com/TREE-Ind/desktop-control.git
+[submodule "podcast-skill"]
+	path = podcast-skill
+	url = https://github.com/JamesPoole/podcast-skill
