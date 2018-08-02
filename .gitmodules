@@ -175,3 +175,6 @@
 [submodule "desktop-control"]
 	path = desktop-control
 	url = https://github.com/TREE-Ind/desktop-control.git
+[submodule "plasma-mycroft-applet-control"]
+	path = plasma-mycroft-applet-control
+	url = https://github.com/AIIX/plasma-mycroft-applet-control
