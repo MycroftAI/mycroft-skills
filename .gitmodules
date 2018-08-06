@@ -178,3 +178,6 @@
 [submodule "plasma-mycroft-applet-control"]
 	path = plasma-mycroft-applet-control
 	url = https://github.com/AIIX/plasma-mycroft-applet-control
+[submodule "lawful"]
+	path = lawful
+	url = https://github.com/luysennarak/lawful-skill
