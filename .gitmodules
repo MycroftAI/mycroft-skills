@@ -178,3 +178,6 @@
 [submodule "plasma-mycroft-applet-control"]
 	path = plasma-mycroft-applet-control
 	url = https://github.com/AIIX/plasma-mycroft-applet-control
+[submodule "say-hello-in-vietnamese"]
+	path = say-hello-in-vietnamese
+	url = https://github.com/nguyenminhtan/say-hello-in-vietnamese-skill
