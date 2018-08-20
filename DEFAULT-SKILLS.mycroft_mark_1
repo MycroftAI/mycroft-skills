@@ -4,10 +4,17 @@ mycroft-mark-1
 mycroft-spotify
 pandora-skill
 
-# common
+# core
+mycroft-pairing
+mycroft-configuration
+mycroft-installer
+mycroft-stop
+mycroft-naptime
 mycroft-playback-control
 mycroft-speak
 mycroft-volume
+
+# common
 mycroft-fallback-duck-duck-go
 #fallback-aiml
 fallback-wolfram-alpha
