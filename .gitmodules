@@ -177,7 +177,7 @@
 	url = https://github.com/TREE-Ind/desktop-control.git
 [submodule "podcast-skill"]
 	path = podcast-skill
-	url = https://github.com/JamesPoole/podcast-skill
+	url = https://github.com/JamesPoole/podcast-skill.git
 [submodule "plasma-mycroft-applet-control"]
 	path = plasma-mycroft-applet-control
 	url = https://github.com/AIIX/plasma-mycroft-applet-control
