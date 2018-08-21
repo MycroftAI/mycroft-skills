@@ -1,0 +1,3 @@
+[submodule "mycroft-hello-world"]
+	path = skill-hello-world
+	url = https://github.com/mycroftai/skill-hello-world.git
