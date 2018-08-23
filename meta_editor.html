@@ -864,7 +864,7 @@ function initialize() {
                         </table>
                     </div>
 					<span>Go to <a href="https://fontawesome.com/cheatsheet" target="_blank">Font Awesome</a>,
-					pick a free  icon and copy its code here along with a <a href="https://mycroft.ai/colors" target="_blank">color</a>.  Alternately, provide a full URL to your 50x50 icon image (png or jpg).</span>
+					pick a free  icon and copy its name here (eg. 'paw'), along with a <a href="https://mycroft.ai/colors" target="_blank">color</a>.  Alternately, provide a full URL to your 50x50 icon image (.png or .jpg only).</span>
 				</li>
 
 				<li>
@@ -876,13 +876,13 @@ function initialize() {
 				<li>
 					<label for="long_desc">Long Description</label>
 					<textarea id="long_desc" onkeyup="adjust_textarea(this)" placeholder="Full, multi-paragraph description..."></textarea>
-					<span>Free form, multi-paragraph description of the skill. You can use <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Github markdown</a>.</span>
+					<span>Free form, multi-paragraph description of the Skill. You can use <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Github markdown</a>.</span>
 				</li>
 
 				<li>
 					<label for="ex_1">User Phrases: Hey Mycroft...</label>
 					<input class="ex" type="text" id="ex_1" maxlength="100" placeholder="Phrase 1" onkeyup="addNext(this, 'ex_')"/>
-					<span>Provide examples of phrases handled by the skill after the wakeword is spoken. The first may be highlighted and should be a prime example.<br/>Ex: "play the news", "set a 10-minute timer"</span>
+					<span>Provide examples of phrases handled by the Skill after the Wake Word is spoken. The first may be highlighted and should be a prime example.<br/>Ex: "play the news", "set a 10-minute timer"</span>
 				</li>
 
 				<li>
@@ -895,7 +895,7 @@ function initialize() {
 					<label>Supported Devices</label>
 
                         <div class="device first"><input type="radio" id="support_all" name="supported" onchange="checkAllDevices()" checked="true" value="all"/>
-                            <label for="support_all">All devices (no specfic requirements)</label></div>
+                            <label for="support_all">All Devices (no specfic requirements)</label></div>
                         
                         <div class="device first"><input type="radio" id="support_specific" name="supported" value="specific"/>
                             <label for="support_specific">Specific devices</label>
@@ -910,7 +910,7 @@ function initialize() {
                                 <label for="req_plasmoid">Platform: KDE Plasmoid</label></div>
                         </div>                        
 
-					<span>If only for specific plaforms, check one or more (blank means any platform).</span>
+					<span>If only for specific platforms, check one or more (blank means any platform).</span>
 				</li>
 
 				<li>
@@ -936,23 +936,23 @@ function initialize() {
 					<div class="category"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_Transport" value="Transport"/>
 						<label for="cat_Transport" id="for_cat_Transport"><span>Transport</span> &mdash; bus/train schedules, ride services</label></div>
 
-					<span>The first category selected will be bold as the Primary category for display, all others are secondary for searches.</span>
+					<span>The first Category selected will be bold as the Primary Category for display, all others are secondary for searches.</span>
 				</li>
                 
 				<li>
 					<label for="tag_1">Tags</label>
 					<input class="tag" type="text" id="tag_1" maxlength="100" placeholder="#Tag 1" onkeyup="addNext(this, 'tag_')" onchange="validateTag(this)"/>
-					<span>Tags are single word identifies, such as #kids, #crypto.</span>
+					<span>Tags are single word identifiers, such as #kids, #crypto and are used for searching.</span>
                 </li>
 			</ul>
             
-            For help, see the ~skills channel at <a href="https://chat.mycroft.ai">https://chat.mycroft.ai</a>.
+            For help, see the ~skills channel at <a href="https://chat.mycroft.ai/community/channels/skills">https://chat.mycroft.ai</a>.
 		</form>
 	</div>
     
     
 	<div id="page_Preview" class="tabcontent">
-		<p>Below is a preview of how the README.md will look in your skill's Github repo.</p>
+		<p>Below is a preview of how the README.md will look in your Skill's Github repo.</p>
             <iframe id="github_preview_frame" class="markdown-body">abc</iframe>
         <div id="github_preview" class="markdown-body">
         </div>
@@ -967,7 +967,7 @@ function initialize() {
                 
                 <div id="utt_small"><i class="fas fa-comment" style="color:#22a7f0;"></i>&nbsp;<span id="utt_0_small">testing</span></div>
                 
-                <div><span id="desc_small">This is a shortish description for the skill</span></div>
+                <div><span id="desc_small">This is a shortish description for the Skill</span></div>
                 
                 <div><input type="button" value="Install"/></div>
             </div>
@@ -982,8 +982,8 @@ function initialize() {
                 
                 <div id="utt_large_1"><i class="fas fa-comment" style="color:#22a7f0;"></i>&nbsp;<span id="utt_1_large">testing</span></div>
                 
-                <div><span id="desc_large">This is a shortish description for the skill</span></div>
-                <div><span id="fulldesc_large">This is a shortish description for the skill</span></div>
+                <div><span id="desc_large">This is a shortish description for the Skill</span></div>
+                <div><span id="fulldesc_large">This is a shortish description for the Skill</span></div>
                 
                 <div id="by_large">By:  <span id="author_large">By whoever (@whoever)</span></div>
             
@@ -993,7 +993,7 @@ function initialize() {
     </div>
 
 	<div id="page_README" class="tabcontent">
-		<p>Below is the basis of the README.md for your skill's Github repo.  You can safely extend the contents with a custom sections below the generated content, such as <tt>## Notes</tt> or <tt>## TODO</tt>. But refrain from changing the format or order of the generated content to ensure compatibility with parsers.</p>
+		<p>Below is the basis of the README.md for your Skill's Github repo.  You can safely extend the contents with a custom sections below the generated content, such as <tt>## Notes</tt> or <tt>## TODO</tt>. But refrain from changing the format or order of the generated content to ensure compatibility with parsers.</p>
         <p><b>README.md</b><input type="button" onclick="copyToREADMEClipboard()" value="Copy to Clipboard"><br/>
         <textarea id="output" placeholder="Fill the above form and hit Generate."></textarea>
         </P>
