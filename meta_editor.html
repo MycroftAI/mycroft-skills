@@ -210,8 +210,16 @@
     }
 
     .device {
-      /* background-color: ff0000; */
-      padding: 8px 0px 12px 10px;
+      padding-left: 20px;
+      padding-bottom: 4px;
+    }
+    .category {
+      padding-left: 20px;
+      padding-bottom: 4px;
+    }
+    
+    .first {
+      padding-top: 8px;
     }
 
     #page_README input[type="button"] {
@@ -285,6 +293,11 @@
         height: 60vh;
     }
     
+    .primary_category span {
+        color: black;
+        font-weight: 900;
+    }
+    
     tt {
         font-family: monospace;
         font-size: 0.9em;
@@ -309,11 +322,15 @@
         width: 50px;
         height: 50px;
         font-size: 50px;
-    }
     
+    }
     /**********************/
     /* Small card preview */
     /**********************/
+    #card_small_category {
+        font-size: 30px;
+        color: #FD9E66;
+    }
     
     #card_small_preview {
         width: 300px;
@@ -330,6 +347,11 @@
         width: 260px;
         padding: 5px;
         margin-bottom: 15px;
+        border-radius: 3px;
+    }
+    .utt_large {
+        background-color: #E4F1FE;
+        padding: 5px;
         border-radius: 3px;
     }
     
@@ -451,25 +473,29 @@ function generateREADME() {
   var elShortDesc = document.getElementById("short_desc");
   var elLongDesc = document.getElementById("long_desc");
 
-  elem.value = "# <img src='https://rawgithub.com/FortAwesome/Font-Awesome/master/advanced-options/raw-svg/solid/"+elIcon.value+".svg' card_color='"+elIconColor.value+"' width='50' height='50' style='vertical-align:bottom'/>";
-  elem.value += " " + elName.value + "\n";
+  if (elIcon.value.startsWith("http"))
+    icon_url = elIcon.value;
+  else
+    icon_url = "https://rawgithub.com/FortAwesome/Font-Awesome/master/advanced-options/raw-svg/solid/"+elIcon.value+".svg";
+  markdown = "# <img src='"+icon_url+" ' card_color='"+elIconColor.value+"' width='50' height='50' style='vertical-align:bottom'/>";
+  markdown += " " + elName.value + "\n";
 
-  elem.value += elShortDesc.value + "\n\n";
-  elem.value += "## About \n";
-  elem.value += elLongDesc.value + "\n\n";
+  markdown += elShortDesc.value + "\n\n";
+  markdown += "## About \n";
+  markdown += elLongDesc.value + "\n\n";
 
-  elem.value += "## Examples \n";
+  markdown += "## Examples \n";
   for (var i = 1; ; i++) {
     var ex = document.getElementById("ex_" + i);
     if (!ex) break;
-    if (ex.value != "") elem.value += '* "' + ex.value + '"\n';
+    if (ex.value != "") markdown += '* "' + ex.value + '"\n';
   }
 
-  elem.value += "\n## Credits \n";
+  markdown += "\n## Credits \n";
   for (var i = 1; ; i++) {
     var ex = document.getElementById("author_" + i);
     if (!ex) break;
-    if (ex.value != "") elem.value += ex.value + "\n";
+    if (ex.value != "") markdown += ex.value + "\n";
   }
 
   var req_mark1 = document.getElementById("req_mark1").checked;
@@ -477,110 +503,99 @@ function generateREADME() {
   var req_picroft = document.getElementById("req_picroft").checked;
   var req_plasmoid = document.getElementById("req_plasmoid").checked;
   if (req_mark1 || req_mark2 || req_picroft || req_plasmoid) {
-    elem.value += "\n## Supported Devices \n";
-    if (req_mark1) elem.value += "platform_mark1 ";
-    if (req_mark2) elem.value += "platform_mark2 ";
-    if (req_picroft) elem.value += "platform_picroft ";
-    if (req_plasmoid) elem.value += "platform_plasmoid ";
-    elem.value += "\n";
+    markdown += "\n## Supported Devices \n";
+    if (req_mark1) markdown += "platform_mark1 ";
+    if (req_mark2) markdown += "platform_mark2 ";
+    if (req_picroft) markdown += "platform_picroft ";
+    if (req_plasmoid) markdown += "platform_plasmoid ";
+    markdown += "\n";
   }
 
   var categoryEl = document.getElementsByClassName("category_section");
-  elem.value += "\n## Category" + "\n";
+  markdown += "\n## Category" + "\n";
   for (var i = 0; i < categoryEl.length; i++) {
-    if (categoryEl[i].id == "suggest") {
-      if (categoryEl[i].value !== "") {
-        elem.value += "Suggested Category: " + categoryEl[i].value + "\n";
-      }
-    } else {
-      if (categoryEl[i].checked) {
-        elem.value += categoryEl[i].name + "\n";
-      }
+    if (categoryEl[i].checked)
+    {
+        id = categoryEl[i].id;
+        category = id.substring(4);  // skip "cat_"
+        
+        if (document.getElementById("for_"+id).className.includes("primary_category"))
+            markdown += "**" + category + "**\n";
+        else
+            markdown += category + "\n";
     }
   }
-
-  //	      var excl_mark1 = document.getElementById("excl_mark1").checked;
-  //		    var excl_picroft = document.getElementById("excl_picroft").checked;
-  //		    var excl_plasmoid = document.getElementById("excl_plasmoid").checked;
-  //		    if (excl_mark1 || excl_picroft || excl_plasmoid)
-  //		    {
-  //		        elem.value += "\n## Exclude \n";
-  //			if (excl_mark1)
-  //				elem.value += "platform_mark1 ";
-  //			if (excl_picroft)
-  //				elem.value += "platform_picroft ";
-  //			if (excl_plasmoid)
-  //				elem.value += "platform_plasmoid ";
-  //			elem.value += "\n";
-  //		}
-}
-
-function load() {}
-
-function addNextExample(input) {
-  if (input.value == "") return true;
-
-  inputNext = input.cloneNode();
-  input.onkeyup = "";
-
-  // ## <input class="ex" type="text" name="ex_1" id="ex_1" maxlength="100" placeholder="example 1"...
-  num = input.name.substring(3) * 1 + 1;
-
-  inputNext.name = "ex_" + num;
-  inputNext.id = inputNext.name;
-  inputNext.value = "";
-  inputNext.placeholder = input.placeholder.substring(0, 7) + " " + num;
-
-  // Add after the last
-  input.parentElement.insertBefore(inputNext, input.nextSibling);
-}
-
-function addNextAuthor(input) {
-  if (input.value == "") return true;
-
   
-  inputNext = input.cloneNode();
+  var tagEl = document.getElementsByClassName("tag");
+  markdown += "\n## Tags\n";
+  for (var i = 1; ; i++) {
+    var tag = document.getElementById("tag_" + i);
+    if (!tag) break;
+    if (tag.value != "") markdown += tag.value + "\n";
+  }
+  
+  elem.value = markdown;
+}
+
+function addNext(input, id_prefix) {
+  if (input.value == "") return true;
+
+  inputNext = input.cloneNode(true);
   input.onkeyup = "";
 
-  // ## <input class="author" type="text" name="author_1" id="author_1" maxlength="100" placeholder="author name"></input>
-  num = input.name.substring(7) * 1 + 1;
+  // ## <input class="ex" type="text" id="ex_1" maxlength="100" placeholder="example 1"...
+  num = input.id.substring(id_prefix.length) * 1 + 1;
 
-  inputNext.name = "author_" + num;
-  inputNext.id = inputNext.name;
+  inputNext.id = id_prefix + num;
   inputNext.value = "";
-  inputNext.placeholder = input.placeholder.substring(0, 12) + " " + num;
+  
+  if (input.placeholder) {
+    placeholder_prefix = input.placeholder.substring(0, input.placeholder.length - (''+(num-1)).length)
+    inputNext.placeholder = placeholder_prefix + num;
+  }
 
   // Add after the last
   input.parentElement.insertBefore(inputNext, input.nextSibling);
 }
 
-// limits category checkboxes to only two
-function limit(classname, limit_len, cb) {
-  var elements = document.getElementsByClassName(classname);
-  var checks = 0;
-  for (var i = 0; i < elements.length; i++) {
-    if (elements[i].id === "suggest") {
-      if (elements[i].value !== "") {
-        checks++;
-      }
-    }
-
-    if (elements[i].checked) {
-      checks++;
-    }
-    if (checks > limit_len) {
-      cb.checked = false;
-      return;
-    }
-  }
+function validateTag(elem)
+{
+    if (elem.value[0] != '#')
+        elem.value = '#'+elem.value;
+    elem.value = elem.value.replace(/ /g, "");
 }
 
 function categoryClick(cb) {
-  limit("category_section", 2, cb);
-}
-
-function categorySuggest(cb) {
-  limit("category_section", 2, cb);
+  var elements = document.getElementsByClassName("category_section");
+  
+  var checks = 0;
+  var iChecked = null;
+  
+  for (var i = 0; i < elements.length; i++) {
+   
+    if (elements[i].checked) {
+      checks++;
+      iChecked = i;
+    }
+    
+    // TODO: Remove this logic?
+    if (elements[i].id === "suggest") {
+        if (elements[i].value !== "") {
+            checks++;
+        }
+    }
+  }
+  
+  if (checks <= 1) {
+        for (var i = 0; i < elements.length; i++) {
+        var label = document.getElementById("for_"+elements[i].id);
+        if (label)
+            if (i == iChecked)
+                label.className = "primary_category";
+            else
+                label.className = "";
+        }
+  }
 }
 
 function toTab(evt) {
@@ -604,8 +619,27 @@ function toTab(evt) {
     evt.currentTarget.className += " active";
 }
 
-function generatePreview3a()
+function generatePreviewCard()
 {
+  var elCategory = document.getElementById("card_small_category");
+  var categoryEl = document.getElementsByClassName("category_section");
+  var cat = "";
+  
+  for (var i = 0; i < categoryEl.length; i++) {
+    if (categoryEl[i].checked)
+    {
+        id = categoryEl[i].id;
+        category = id.substring(4);  // skip "cat_"
+        
+        if (document.getElementById("for_"+id).className.includes("primary_category")) {
+            cat = category;
+            break;
+        }
+    }
+  }
+  document.getElementById("card_small_category").innerText = cat;
+
+
   var elName = document.getElementById("name");
   document.getElementById("title_small").innerText = elName.value;
 
@@ -617,12 +651,23 @@ function generatePreview3a()
   
   // TODO: Validate icon and color
   var elIcon = document.getElementById("icon");
-  var elClr = document.getElementById("icon_color");
-  document.getElementById("icon_small").className = "fa-3x fas fa-"+elIcon.value;
-  document.getElementById("icon_small").style.color= elClr.value;
+  if (elIcon.value.startsWith("http"))
+  {
+    document.getElementById("img_icon_small").src = elIcon.value;
+    document.getElementById("img_icon_small").style.display = "inline";
+    document.getElementById("icon_small").style.display = "none";
+  }
+  else
+  {
+      var elClr = document.getElementById("icon_color");
+      document.getElementById("icon_small").className = "fa-3x fas fa-"+elIcon.value;
+      document.getElementById("icon_small").style.color= elClr.value;
+      document.getElementById("img_icon_small").style.display = "none";
+      document.getElementById("icon_small").style.display = "inline";
+  }
 }
 
-function generatePreview3b()
+function generatePreviewDetail()
 {
   var elName = document.getElementById("name");
   document.getElementById("title_large").innerText = elName.value;
@@ -637,14 +682,39 @@ function generatePreview3b()
   var elAuthor = document.getElementById("author_1");
   document.getElementById("author_large").innerText = elAuthor.value;
 
-  var elUtt0 = document.getElementById("ex_1");
-  document.getElementById("utt_1_large").innerText = elUtt0.value;
+  var phrases = "";
+  for (var i = 1; ; i++) {
+    var ex = document.getElementById("ex_" + i);
+    if (!ex) break;
+    if (ex.value) {
+        if (phrases != "")
+            phrases += "; "
+        phrases += "<span class='utt_large'>"+ex.value+"</span>";
+    }
+  }
+  document.getElementById("utt_1_large").innerHTML = phrases;
+  
   
   // TODO: Validate icon and color
   var elIcon = document.getElementById("icon");
   var elClr = document.getElementById("icon_color");
   document.getElementById("icon_large").className = "fa-3x fas fa-"+elIcon.value;
   document.getElementById("icon_large").style.color= elClr.value;
+
+  if (elIcon.value.startsWith("http"))
+  {
+    document.getElementById("img_icon_large").src = elIcon.value;
+    document.getElementById("img_icon_large").style.display = "inline";
+    document.getElementById("icon_large").style.display = "none";
+  }
+  else
+  {
+      var elClr = document.getElementById("icon_color");
+      document.getElementById("icon_large").className = "fa-3x fas fa-"+elIcon.value;
+      document.getElementById("icon_large").style.color= elClr.value;
+      document.getElementById("img_icon_large").style.display = "none";
+      document.getElementById("icon_large").style.display = "inline";
+  }
 }
 
 function generatePreview()
@@ -668,8 +738,34 @@ function generatePreview()
                             "</body></html>");
       });
     });
-    
-    
+}
+
+function checkAllDevices()
+{
+    if (document.getElementById("support_all").checked)
+    {
+        document.getElementById("req_mark1").checked = false;
+        document.getElementById("req_mark2").checked = false;
+        document.getElementById("req_picroft").checked = false;
+        document.getElementById("req_plasmoid").checked = false;
+    }
+}
+
+function checkDevices()
+{
+    if (document.getElementById("req_mark1").checked ||
+        document.getElementById("req_mark2").checked ||
+        document.getElementById("req_picroft").checked ||
+        document.getElementById("req_plasmoid").checked)
+    {
+        document.getElementById("support_all").checked = false;
+        document.getElementById("support_specific").checked = true;
+    }
+    else
+    {
+        document.getElementById("support_all").checked = true;
+        document.getElementById("support_specific").checked = false;
+    }
 }
 
 function update_icon()
@@ -678,8 +774,21 @@ function update_icon()
     var elClr = document.getElementById("icon_color");
 
     var elPreview = document.getElementById("icon_preview");
-    elPreview.className = "fa-2x fas fa-"+elIcon.value;
-    elPreview.style.color = elClr.value;
+    var elImgPreview = document.getElementById("img_preview");
+    
+    if (elIcon.value.startsWith("http"))
+    {
+        elPreview.style.display = "none";
+        elImgPreview.style.display = "block";
+        elImgPreview.src = elIcon.value;
+    }
+    else
+    {
+        elPreview.className = "fa-2x fas fa-"+elIcon.value;
+        elPreview.style.color = elClr.value;
+        elPreview.style.display = "block";
+        elImgPreview.style.display = "none";
+    }
 }
 
 function copyToREADMEClipboard()
@@ -696,6 +805,7 @@ function copyToREADMEClipboard()
 function initialize() {
     var evt = [];
     evt.currentTarget = document.getElementById("Intro");
+    evt.currentTarget = document.getElementById("Edit");
     toTab(evt);
 }
 
@@ -705,7 +815,7 @@ function initialize() {
 </head>
 
 
-<body data-gr-c-s-loaded="true" onload="initialize();">
+<body onload="initialize();">
 	<div class="topnav">
 		<img class="logo" src="mycroft.svg" height="24px" />
 		<!-- | Skills -->
@@ -715,8 +825,8 @@ function initialize() {
       <button id="Intro"     class="tablinks" onclick="toTab(event)">Intro</button>
       <button id="Edit"      class="tablinks" onclick="toTab(event)"><i class="fas fa-edit" style="color:#22a7f0;"></i> Edit</button>
       <button id="Preview"   class="tablinks" onclick="generateREADME(); generatePreview(); toTab(event)"><i class="fas fa-cogs" style="color:#40DBB0;"></i> Github Preview</button>
-      <button id="Preview3a" class="tablinks" onclick="generatePreview3a(); generatePreview(); toTab(event)"><i class="fas fa-cogs" style="color:#40DBB0;"></i> Card Preview</button>
-      <button id="Preview3b" class="tablinks" onclick="generatePreview3b(); generatePreview(); toTab(event)"><i class="fas fa-cogs" style="color:#40DBB0;"></i> Detail Card Preview</button>
+      <button id="PreviewCard" class="tablinks" onclick="generatePreviewCard(); generatePreview(); toTab(event)"><i class="fas fa-cogs" style="color:#40DBB0;"></i> Card Preview</button>
+      <button id="PreviewDetail" class="tablinks" onclick="generatePreviewDetail(); generatePreview(); toTab(event)"><i class="fas fa-cogs" style="color:#40DBB0;"></i> Details Preview</button>
       <button id="README"    class="tablinks" onclick="generateREADME(); toTab(event)"><i class="fas fa-copy" style="color:#FD9E66;"></i> README.md</button>
     </div>
     
@@ -739,8 +849,8 @@ function initialize() {
 
 				<li>
 					<label for="name">Name</label>
-					<input type="text" id="name" name="name" maxlength="100" onkeyup="generate()" value="Skill name"/>
-					<span>Enter a brief, speakable skill name. Ex: "Podcast player"</span>
+					<input type="text" id="name" maxlength="100" onkeyup="generate()" placeholder="Your skill name"/>
+					<span>Brief, speakable skill name.  Capitalize most words.  Ex: "Podcast Player".<br/>NOTE: Avoid the word "Skill" in the name.</span>
 				</li>
 
 				<li>
@@ -748,90 +858,96 @@ function initialize() {
                     <div>
                         <table width="100%" style="margin-left: 20px">
                         <tr>
-                            <td style="vertical-align:top">Preview:<br/><i id="icon_preview" class="fa-2x fas fa-robot" style="color:#40DBB0;"></i></td>
-                            <td width="70%">Font Awesome Name / URL:<input type="text" id="icon" name="icon" maxlength="50" placeholder="robot" value="robot" onkeyup="update_icon()"/></td>
-                            <td>Color:<br/><input type="text" id="icon_color" name="icon_color" maxlength="7" placeholder="#40DBB0" value="#40dbb0" onkeyup="update_icon()"/></td>
+                            <td style="vertical-align:top">Preview:<br/><i id="icon_preview" class="fa-2x fas fa-robot" style="color:#40DBB0;"></i><img id="img_preview" src="" width="41" height="41" style="display:none;"/></td>
+                            <td width="70%">Font Awesome Name / or image URL:<input type="text" id="icon" maxlength="255" placeholder="robot" value="robot" onkeyup="update_icon()"/></td>
+                            <td>Color:<br/><input type="text" id="icon_color" maxlength="7" placeholder="#40DBB0" value="#40dbb0" onkeyup="update_icon()"/></td>
                         </table>
                     </div>
 					<span>Go to <a href="https://fontawesome.com/cheatsheet" target="_blank">Font Awesome</a>,
-					pick a free  icon and copy its code here along with a <a href="https://mycroft.ai/colors" target="_blank">color</a>.  Alternately, provide a URL to your 50x50 icon image.</span>
+					pick a free  icon and copy its code here along with a <a href="https://mycroft.ai/colors" target="_blank">color</a>.  Alternately, provide a full URL to your 50x50 icon image (png or jpg).</span>
 				</li>
 
 				<li>
 					<label for="short_desc">One-line Description</label>
-					<input type="text" name="short_desc" id="short_desc" "=" maxlength="100"/>
+					<input type="text" id="short_desc" "=" maxlength="100" placeholder="Brief one line description"/>
 					<span>Enter a one-line description of your skill. Ex: "Play and subscribe to podcasts"</span>
 				</li>
 
 				<li>
 					<label for="long_desc">Long Description</label>
-					<textarea name="long_desc" id="long_desc" onkeyup="adjust_textarea(this)"></textarea>
+					<textarea id="long_desc" onkeyup="adjust_textarea(this)" placeholder="Full, multi-paragraph description..."></textarea>
 					<span>Free form, multi-paragraph description of the skill. You can use <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Github markdown</a>.</span>
 				</li>
 
 				<li>
 					<label for="ex_1">User Phrases: Hey Mycroft...</label>
-					<input class="ex" type="text" name="ex_1" id="ex_1" maxlength="100" placeholder="Phrase 1" onkeyup="addNextExample(this)"/>
+					<input class="ex" type="text" id="ex_1" maxlength="100" placeholder="Phrase 1" onkeyup="addNext(this, 'ex_')"/>
 					<span>Provide examples of phrases handled by the skill after the wakeword is spoken. The first may be highlighted and should be a prime example.<br/>Ex: "play the news", "set a 10-minute timer"</span>
 				</li>
 
 				<li>
 					<label for="author_1">Author(s)</label>
-					<input class="author" type="text" name="author_1" id="author_1" maxlength="100" placeholder="Author name (@github_handle)" onkeyup="addNextAuthor(this)"/>
-					<span>Credits for people or organizations involved (names, emails, and/or GitHub @handles).</span>
+					<input class="author" type="text" id="author_1" maxlength="100" placeholder="Author name (@github_handle) 1" onkeyup="addNext(this, 'author_')"/>
+					<span>Credits for people or organizations involved (name, email, and/or GitHub @handle).</span>
 				</li>
 
 				<li>
-					<label for="ex1">Supported Devices</label>
-					<div class="device"><input type="checkbox" id="req_mark1" name="req_mark1" value="mark1"/>
-						<label for="req_mark1">Mark I</label></div>
-					<div class="device"><input type="checkbox" id="req_mark2" name="req_mark2" value="mark2"/>
-						<label for="req_mark2">Mark II</label></div>
-					<div class="device"><input type="checkbox" id="req_picroft" name="req_picroft" value="picroft"/>
-						<label for="req_picroft">Picroft</label></div>
-					<div class="device"><input type="checkbox" id="req_plasmoid" name="req_plasmoid" value="plasmoid"/>
-						<label for="req_plasmoid">KDE Plasmoid</label></div>
+					<label>Supported Devices</label>
+
+                        <div class="device first"><input type="radio" id="support_all" name="supported" onchange="checkAllDevices()" checked="true" value="all"/>
+                            <label for="support_all">All devices (no specfic requirements)</label></div>
+                        
+                        <div class="device first"><input type="radio" id="support_specific" name="supported" value="specific"/>
+                            <label for="support_specific">Specific devices</label>
+
+                            <div class="device"><input type="checkbox" id="req_mark1" onchange="checkDevices()" value="mark1"/>
+                                <label for="req_mark1">Platform: Mark I</label></div>
+                            <div class="device"><input type="checkbox" id="req_mark2" onchange="checkDevices()" value="mark2"/>
+                                <label for="req_mark2">Platform: Mark II</label></div>
+                            <div class="device"><input type="checkbox" id="req_picroft" onchange="checkDevices()" value="picroft"/>
+                                <label for="req_picroft">Platform: Picroft</label></div>
+                            <div class="device"><input type="checkbox" id="req_plasmoid" onchange="checkDevices()" value="plasmoid"/>
+                                <label for="req_plasmoid">Platform: KDE Plasmoid</label></div>
+                        </div>                        
+
 					<span>If only for specific plaforms, check one or more (blank means any platform).</span>
 				</li>
 
-				<!-- <li>
-    <label for="ex1">Excludes</label>
-    <div><input type="checkbox" id="excl_mark1" name="excl_mark1" value="mark1">
-    <label for="excl_mark1">Mark 1</label></div>
-    <div><input type="checkbox" id="excl_picroft" name="excl_picroft" value="picroft">
-    <label for="excl_picroft">Picroft</label></div>
-    <div><input type="checkbox" id="excl_plasmoid" name="excl_plasmoid" value="plasmoid">
-    <label for="excl_plasmoid">Plasmoid</label></div>
-    <span>Check platforms that should NOT receive this by this skill.</span>
-</li> -->
-
 				<li>
-					<label for="category">Category</label>
-					<div class="device"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_music" name="Music & Audio" value="Music"/>
-						<label for="cat_music">Music & Audio</label></div>
-					<div class="device"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_iot" name="Internet of Things" value="IOT"/>
-						<label for="cat_iot">Internet of Things</label></div>
-					<div class="device"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_entertain" name="Entertainment" value="Entertainment"/>
-						<label for="cat_entertain">Entertainment</label></div>
-					<div class="device"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_productivity" name="Productivity" value="Productivity"/>
-						<label for="cat_productivity">Productivity</label></div>
-					<div class="device"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_dev" name="For Developers" value="Developers"/>
-						<label for="cat_dev">For Developers</label></div>
-					<input class="category_section" type="text" name="suggest" id="suggest" maxlength="100" placeholder="Suggest a category..." onkeyup="categorySuggest(this)"/>
-					<span>Assign 1 or 2 categories to your skill so it is easy to find in the Skill Marketplace.</span>
+					<label>Category</label>
+                    
+					<div class="category first"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_Daily" value="Daily"/>
+						<label for="cat_Daily" id="for_cat_Daily"><span>Daily</span> &mdash; time, alarms, timers, and weather</label></div>
+					<div class="category"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_Configuration" value="Configuration"/>
+						<label for="cat_Configuration" id="for_cat_Configuration"><span>Configuration</span> &mdash; query and change account or device settings</label></div>
+					<div class="category"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_Entertainment" value="Entertainment"/>
+						<label for="cat_Entertainment" id="for_cat_Entertainment"><span>Entertainment</span> &mdash; jokes, sport scores, games</label></div>
+					<div class="category"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_Information" value="Information"/>
+						<label for="cat_Information" id="for_cat_Information"><span>Information</span> &mdash; stocks, quotes, general knowledge</label></div>
+					<div class="category"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_IoT" value="IoT"/>
+						<label for="cat_IoT" id="for_cat_IoT"><span>IoT</span> &mdash; home automation, lighting controlling</label></div>
+
+                    <div class="category"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_music" value="Music"/>
+						<label for="cat_music" id="for_cat_music"><span>Music & Audio</span> &mdash; listen to streaming services</label></div>
+					<div class="category"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_Media" value="Media"/>
+						<label for="cat_Media" id="for_cat_Media"><span>Media</span> &mdash; controlling video streamer, stereo</label></div>
+					<div class="category"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_Productivity" value="Productivity"/>
+						<label for="cat_Productivity" id="for_cat_Productivity"><span>Productivity</span> &mdash; mail, calendar, Pomodoro</label></div>
+					<div class="category"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_Transport" value="Transport"/>
+						<label for="cat_Transport" id="for_cat_Transport"><span>Transport</span> &mdash; bus/train schedules, ride services</label></div>
+
+					<span>The first category selected will be bold as the Primary category for display, all others are secondary for searches.</span>
 				</li>
+                
+				<li>
+					<label for="tag_1">Tags</label>
+					<input class="tag" type="text" id="tag_1" maxlength="100" placeholder="#Tag 1" onkeyup="addNext(this, 'tag_')" onchange="validateTag(this)"/>
+					<span>Tags are single word identifies, such as #kids, #crypto.</span>
+                </li>
 			</ul>
-
+            
+            For help, see the ~skills channel at <a href="https://chat.mycroft.ai">https://chat.mycroft.ai</a>.
 		</form>
-
-
-		<div id="mcrx-pinner-root">
-			<div data-reactroot="" id="Pinners"></div>
-		</div>
-
-		<div id="mcrx-drawer-root">
-			<div data-reactroot="" id="mcrx-drawer-shadow-container" class="resolved"></div>
-		</div>
 	</div>
     
     
@@ -842,11 +958,12 @@ function initialize() {
         </div>
     </div>
     
-	<div id="page_Preview3a" class="tabcontent">
+	<div id="page_PreviewCard" class="tabcontent">
 		<p>Below is a preview of a small reference card.</p>
+        <div><span id="card_small_category">Tester</span></div>
         <div id="card_small_preview" class="card">
             <div class="card_content">
-                <div><i id="icon_small" class="fa-2x fas fa-comment" style="color:#22a7f0;"></i> <span id="title_small">Coin Flip</span></div>
+                <div><i id="icon_small" class="fa-2x fas fa-comment" style="color:#22a7f0;"></i><img id="img_icon_small" src="" width="45" height="45" style="dispaly:none"/> <span id="title_small">Coin Flip</span></div>
                 
                 <div id="utt_small"><i class="fas fa-comment" style="color:#22a7f0;"></i>&nbsp;<span id="utt_0_small">testing</span></div>
                 
@@ -857,11 +974,11 @@ function initialize() {
         </div>
     </div>
     
-	<div id="page_Preview3b" class="tabcontent">
+	<div id="page_PreviewDetail" class="tabcontent">
 		<p>Below is a preview of a large reference card.</p>
         <div id="cardb_large_preview" class="card">
             <div class="card_content">
-                <div><i id="icon_large" class="fa-2x fas fa-comment" style="color:#22a7f0;"></i> <span id="title_large">Coin Flip</span></div>
+                <div><i id="icon_large" class="fa-2x fas fa-comment" style="color:#22a7f0;"></i><img id="img_icon_large" src="" width="45" height="45" style="dispaly:none"/> <span id="title_large">Coin Flip</span></div>
                 
                 <div id="utt_large_1"><i class="fas fa-comment" style="color:#22a7f0;"></i>&nbsp;<span id="utt_1_large">testing</span></div>
                 
