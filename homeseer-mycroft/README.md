@@ -1,8 +1,10 @@
-# <img src='https://rawgithub.com/FortAwesome/Font-Awesome/master/advanced-options/raw-svg/solid/home.svg ' card_color='#004069' width='50' height='50' style='vertical-align:bottom'/> HomeSeer-Mycroft
+# <img src='https://rawgithub.com/FortAwesome/Font-Awesome/master/advanced-options/raw-svg/solid/home.svg' card_color='#004069' width='50' height='50' style='vertical-align:bottom'/> HomeSeer-Mycroft
 Connect to your HomeSeer hub and control your smart-home devices using Mycroft.
 
 ## About 
-A port of the HomeSeer functionality from Alexa to Mycroft. Allows the user to interact with smart-objects using voice control. Currently allows devices to be turned on/off, change values/percentages, lock/unlock items, and get the current status of any device. 
+A port of the HomeSeer functionality from Alexa to Mycroft. Allows the user to interact with smart-objects using voice 
+control. Currently allows devices to be turned on/off, change values/percentages, lock/unlock devices, and get the 
+current status of any device. 
 
 ## Examples 
 * "Mycroft, turn on the first floor bathroom light."
