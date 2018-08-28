@@ -44,3 +44,7 @@ Sawyer McLane (@samclane)
 #smarthome
 #smartbulb
 #smartlock
+
+[submodule "homeseer-mycroft"]
+    path = homeseer-mycroft-skill
+    url = https://github.com/samclane/homeseer-mycroft.git
