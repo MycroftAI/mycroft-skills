@@ -1,0 +1,3 @@
+[submodule "mycroft-speak"]
+	path = mycroft-speak
+	url = https://github.com/mycroftai/skill-speak.git
