@@ -1,0 +1,3 @@
+[submodule "fallback-unknown"]
+	path = fallback-unknown
+	url = https://github.com/mycroftai/fallback-unknown.git
