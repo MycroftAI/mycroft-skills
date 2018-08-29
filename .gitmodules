@@ -1,0 +1,3 @@
+[submodule "mycroft-volume"]
+	path = mycroft-volume
+	url = https://github.com/mycroftai/skill-volume.git
