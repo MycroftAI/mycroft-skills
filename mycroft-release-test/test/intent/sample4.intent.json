@@ -1,8 +1,0 @@
-{
-  "utterance": "Greetings",
-  "intent_type": "HelloWorldIntent",
-  "intent": {
-    "HelloWorldKeyword": "greetings"
-  },
-  "expected_output": "/opt/mycroft/skills/skill-hello-world/dialog/en-us/hello.world.dialog"
-}

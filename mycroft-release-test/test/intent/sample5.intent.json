@@ -1,8 +1,0 @@
-{
-  "utterance": "How are you doing",
-  "intent_type": "HowAreYouIntent",
-  "intent": {
-    "HowAreYouKeyword": "how are you"
-  },
-  "expected_output": "/opt/mycroft/skills/skill-hello-world/dialog/en-us/how.are.you.dialog"
-}
