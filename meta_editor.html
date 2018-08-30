@@ -805,7 +805,6 @@ function copyToREADMEClipboard()
 function initialize() {
     var evt = [];
     evt.currentTarget = document.getElementById("Intro");
-    evt.currentTarget = document.getElementById("Edit");
     toTab(evt);
 }
 
@@ -832,13 +831,19 @@ function initialize() {
     
 	<div id="page_Intro" class="tabcontent">
 		<h1>Mycroft Skill Readme Generator</h1>
-		<p>This tool generates a README.md for your Mycroft skill repository on GitHub. It will be machine-parsed to fill the Mycroft Skill Marketplace and will explain your skill to users in a standardized, easy to read format.</p>
+		<p>This tool generates a README.md for your Mycroft Skill repository on GitHub. It will be machine-parsed to fill the Mycroft Skill Marketplace and will explain your Skill to users in a standardized, easy to read format.</p>
 
 		<div class="instructions">
-			<h2>how it works</h2>
+			<h2>How it works</h2>
 			<i class="fas fa-edit" style="color:#22a7f0;"></i> Edit the form<br/>
 			<i class="fas fa-cogs" style="color:#40DBB0;"></i> Generate and examine previews<br/>
-			<i class="fas fa-copy" style="color:#FD9E66;"></i> Copy the output into a README.md file for your skill's repo<br/>
+			<i class="fas fa-copy" style="color:#FD9E66;"></i> Copy the output into a README.md file for your Skill's repo<br/>
+		</div>
+		
+		<div id="community-links" class="instructions">
+			<p>
+				<a href="https://mycroft.ai/documentation/">Documentation</a> is also available on writing Skills for Mycroft, and you are welcome to join the <a href="https://chat.mycroft.ai/community/channels/skills">Skills development Chat channel</a>, where you can liaise with other Skill Authors and request assistance. 
+			</p>
 		</div>
     </div>
     
