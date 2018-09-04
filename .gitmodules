@@ -100,3 +100,9 @@
 [submodule "game-zork"]
 	path = game-zork
 	url = https://github.com/forslund/white-house-adventure
+[submodule "fallback-aiml"]
+	path = fallback-aiml
+	url = https://github.com/forslund/fallback-aiml.git
+[submodule "cocktails"]
+	path = cocktails
+	url = https://github.com/forslund/skill-cocktail.git
