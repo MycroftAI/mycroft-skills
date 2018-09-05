@@ -1,4 +1,0 @@
-{
-  "utterance": "Turn off all the lights.",
-  "expected_dialog": "ToggleAll"
-}

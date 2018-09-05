@@ -178,3 +178,6 @@
 [submodule "plasma-mycroft-applet-control"]
 	path = plasma-mycroft-applet-control
 	url = https://github.com/AIIX/plasma-mycroft-applet-control
+[submodule "homeseer-mycroft"]
+	path = homeseer-mycroft
+	url = https://github.com/samclane/homeseer-mycroft.git
