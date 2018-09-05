@@ -1,4 +1,0 @@
-{
-  "utterance": "get the status of the lights",
-  "expected_dialog": "DeviceStatus"
-}

@@ -1,4 +1,0 @@
-{
-  "utterance": "Turn off the light.",
-  "expected_dialog": "ToggleSingle"
-}
