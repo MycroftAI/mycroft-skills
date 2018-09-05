@@ -1,0 +1,2 @@
+run event (?P<EventDetail>.+)
+run (?P<EventDetail>.+) event

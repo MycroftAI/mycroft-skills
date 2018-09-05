@@ -1,0 +1,1 @@
+get (status|condition) (?:of)?(?P<StatusDetail>.+)

@@ -1,0 +1,4 @@
+{
+  "utterance": "Set all the lights to 50%",
+  "expected_dialog": "SetPercentAll"
+}
