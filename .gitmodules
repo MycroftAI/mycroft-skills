@@ -106,3 +106,6 @@
 [submodule "cocktails"]
 	path = cocktails
 	url = https://github.com/forslund/skill-cocktail.git
+[submodule "krunner-search-skill"]
+	path = krunner-search-skill
+	url = https://github.com/forslund/krunner-search-skill
