@@ -144,7 +144,11 @@
 	url = https://github.com/Geeked-Out-Solutions/mycroft-skill-today-in-history.git
 [submodule "krunner-search-skill"]
 	path = krunner-search-skill
-	url = https://github.com/AIIX/krunner-search-skill.git
+
+	url = https://github.com/AIIX/krunner-search-skill
+[submodule "mycroft-person-detect-skill"]
+	path = mycroft-person-detect-skill
+  url = https://github.com/patilaum/mycroft-person-detect-skill.gi
 [submodule "chatbot"]
 	path = chatbot
 	url = https://github.com/forslund/fallback-aiml.git
@@ -181,3 +185,4 @@
 [submodule "homeseer-mycroft"]
 	path = homeseer-mycroft
 	url = https://github.com/samclane/homeseer-mycroft.git
+
