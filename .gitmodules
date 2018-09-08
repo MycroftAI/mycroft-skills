@@ -3,16 +3,16 @@
 	url = https://github.com/MycroftAI/skill-fallback-persona.git
 [submodule "mycroft-stop"]
 	path = skill-stop
-	url = https://github.com/mycroftai/skill-stop
+	url = https://github.com/mycroftai/skill-stop.git
 [submodule "mycroft-hello-world"]
 	path = skill-hello-world
-	url = https://github.com/mycroftai/skill-hello-world
+	url = https://github.com/mycroftai/skill-hello-world.git
 [submodule "mycroft-naptime"]
 	path = skill-naptime
-	url = https://github.com/mycroftai/skill-naptime
+	url = https://github.com/mycroftai/skill-naptime.git
 [submodule "mycroft-stock"]
 	path = skill-stock
-	url = https://github.com/mycroftai/skill-stock
+	url = https://github.com/mycroftai/skill-stock.git
 [submodule "mycroft-audio-record"]
 	path = skill-audio-record
 	url = https://github.com/mycroftai/skill-audio-record.git
@@ -21,22 +21,22 @@
 	url = https://github.com/mycroftai/skill-joke.git
 [submodule "fallback-wolfram-alpha"]
 	path = fallback-wolfram-alpha
-	url = https://github.com/mycroftai/fallback-wolfram-alpha
+	url = https://github.com/mycroftai/fallback-wolfram-alpha.git
 [submodule "mycroft-ip"]
 	path = skill-ip
-	url = https://github.com/mycroftai/skill-ip
+	url = https://github.com/mycroftai/skill-ip.git
 [submodule "mycroft-personal"]
 	path = skill-personal
-	url = https://github.com/mycroftai/skill-personal
+	url = https://github.com/mycroftai/skill-personal.git
 [submodule "mycroft-playback-control"]
 	path = skill-playback-control
-	url = https://github.com/mycroftai/skill-playback-control
+	url = https://github.com/mycroftai/skill-playback-control.git
 [submodule "mycroft-configuration"]
 	path = skill-configuration
 	url = https://github.com/mycroftai/skill-configuration.git
 [submodule "mycroft-date-time"]
 	path = skill-date-time
-	url = https://github.com/mycroftai/skill-date-time
+	url = https://github.com/mycroftai/skill-date-time.git
 [submodule "mycroft-volume"]
 	path = skill-volume
 	url = https://github.com/mycroftai/skill-volume.git
@@ -63,10 +63,10 @@
 	url = https://github.com/mycroftai/skill-support.git
 [submodule "mycroft-wiki"]
 	path = skill-wiki
-	url = https://github.com/mycroftai/skill-wiki
+	url = https://github.com/mycroftai/skill-wiki.git
 [submodule "mycroft-release-test"]
 	path = skill-release-test
-	url = https://github.com/mycroftai/skill-release-test
+	url = https://github.com/mycroftai/skill-release-test.git
 [submodule "mycroft-reminder"]
 	path = skill-reminder
 	url = https://github.com/mycroftai/skill-reminder.git
@@ -75,7 +75,7 @@
 	url = https://github.com/mycroftai/skill-weather.git
 [submodule "mycroft-spelling"]
 	path = skill-spelling
-	url = https://github.com/mycroftai/skill-spelling
+	url = https://github.com/mycroftai/skill-spelling.git
 [submodule "mycroft-version-checker"]
 	path = skill-version-checker
 	url = https://github.com/mycroftai/skill-version-checker.git
@@ -84,16 +84,16 @@
 	url = https://github.com/mycroftai/fallback-duckduckgo.git
 [submodule "mycroft-timer"]
 	path = mycroft-timer
-	url = https://github.com/mycroftai/mycroft-timer
+	url = https://github.com/mycroftai/mycroft-timer.git
 [submodule "mycroft-spotify"]
 	path = spotify-skill
-	url = https://github.com/forslund/spotify-skill
+	url = https://github.com/forslund/spotify-skill.git
 [submodule "pandora-skill"]
 	path = pandora-skill
-	url = https://github.com/ethanaward/pianobar-skill
+	url = https://github.com/ethanaward/pianobar-skill.git
 [submodule "mycroft-mark-1-demo"]
 	path = skill-mark1-demo
-	url = https://github.com/mycroftai/skill-mark1-demo
+	url = https://github.com/mycroftai/skill-mark1-demo.git
 [submodule "mycroft-mark-1"]
 	path = mycroft-mark-1
 	url = https://github.com/MycroftAI/mycroft-mark-1.git
@@ -105,31 +105,31 @@
 	url = https://github.com/ChristopherRogers1991/mycroft-hue.git
 [submodule "btotharye-home-assistant"]
 	path = btotharye-home-assistant
-	url = https://github.com/btotharye/mycroft-homeassistant
+	url = https://github.com/btotharye/mycroft-homeassistant.git
 [submodule "carstena-the-cows-lists"]
 	path = carstena-the-cows-lists
-	url = https://github.com/CarstenAgerskov/skill-the-cows-lists
+	url = https://github.com/CarstenAgerskov/skill-the-cows-lists.git
 [submodule "translate-skill"]
 	path = translate-skill
-	url = https://github.com/jcasoft/translate-skill
+	url = https://github.com/jcasoft/translate-skill.git
 [submodule "plasma-activities-skill"]
 	path = plasma-activities-skill
-	url = https://github.com/AIIX/plasma-activities-skill
+	url = https://github.com/AIIX/plasma-activities-skill.git
 [submodule "openhab-mycroft"]
 	path = openhab-mycroft
-	url = https://github.com/openhab/openhab-mycroft
+	url = https://github.com/openhab/openhab-mycroft.git
 [submodule "skill-wemo"]
 	path = skill-wemo
-	url = https://github.com/martymulligan/skill-wemo
+	url = https://github.com/martymulligan/skill-wemo.git
 [submodule "zork"]
 	path = game-zork
 	url = https://github.com/forslund/white-house-adventure.git
 [submodule "mycroft-person-detect-skill"]
 	path = mycroft-person-detect-skill
 	url = https://github.com/patilaum/mycroft-person-detect-skill.git
-[submodule "deej-score"]
-	path = deej-score
-	url = https://github.com/deejcunningham/skill-score
+[submodule "yelp-finder.btotharye"]
+	path = yelp-finder.btotharye
+	url = https://github.com/btotharye/mycroft-yelp.git
 [submodule "reginaneon-caffeine-wiz"]
 	path = reginaneon-caffeine-wiz
 	url = https://github.com/reginaneon/CaffeineWiz.git
@@ -139,9 +139,50 @@
 [submodule "deej-score"]
 	path = deej-score
 	url = https://github.com/deejcunningham/skill-score.git
+[submodule "today-history.btotharye"]
+	path = today-history.btotharye
+	url = https://github.com/Geeked-Out-Solutions/mycroft-skill-today-in-history.git
 [submodule "krunner-search-skill"]
 	path = krunner-search-skill
+
 	url = https://github.com/AIIX/krunner-search-skill
 [submodule "mycroft-person-detect-skill"]
 	path = mycroft-person-detect-skill
-url = https://github.com/patilaum/mycroft-person-detect-skill.git
+  url = https://github.com/patilaum/mycroft-person-detect-skill.gi
+[submodule "chatbot"]
+	path = chatbot
+	url = https://github.com/forslund/fallback-aiml.git
+[submodule "plasma-user-control-skill"]
+	path = plasma-user-control-skill
+	url = https://github.com/AIIX/plasma-user-control-skill.git
+[submodule "routine"]
+	path = routine
+	url = https://github.com/ChristopherRogers1991/mycroft_routine_skill.git
+[submodule "rss-reader"]
+	path = rss-reader
+	url = https://github.com/backassward/rss-reader-skill.git
+[submodule "pianobar-skill"]
+	path = pianobar-skill
+	url = https://github.com/mycroftai/pianobar-skill.git
+[submodule "skill-aircrack"]
+	path = skill-aircrack
+	url = https://github.com/JonStratton/skill-aircrack.git
+[submodule "what-can-you-do"]
+	path = what-can-you-do
+	url = https://github.com/luke5sky/what-can-you-do-skill.git
+[submodule "knock-knock-jokes-skill"]
+	path = knock-knock-jokes-skill
+	url = https://github.com/aussieW/knock-knock-jokes-skill.git
+[submodule "cocktails"]
+	path = cocktails
+	url = https://github.com/forslund/skill-cocktail.git
+[submodule "desktop-control"]
+	path = desktop-control
+	url = https://github.com/TREE-Ind/desktop-control.git
+[submodule "plasma-mycroft-applet-control"]
+	path = plasma-mycroft-applet-control
+	url = https://github.com/AIIX/plasma-mycroft-applet-control
+[submodule "homeseer-mycroft"]
+	path = homeseer-mycroft
+	url = https://github.com/samclane/homeseer-mycroft.git
+

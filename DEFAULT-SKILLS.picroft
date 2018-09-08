@@ -1,1 +1,33 @@
 # picroft
+# core
+mycroft-pairing
+mycroft-configuration
+mycroft-installer
+mycroft-stop
+mycroft-naptime
+mycroft-playback-control
+mycroft-speak
+mycroft-volume
+
+# common
+mycroft-fallback-duck-duck-go
+#fallback-aiml
+fallback-wolfram-alpha
+fallback-unknown
+mycroft-alarm
+mycroft-audio-record
+mycroft-date-time
+mycroft-hello-world
+mycroft-ip
+mycroft-joke
+mycroft-npr-news
+mycroft-personal
+mycroft-reminder
+mycroft-singing
+mycroft-spelling
+mycroft-stock
+mycroft-support-helper
+mycroft-timer
+mycroft-weather
+mycroft-wiki
+mycroft-version-checker
