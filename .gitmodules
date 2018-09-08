@@ -142,3 +142,6 @@
 [submodule "krunner-search-skill"]
 	path = krunner-search-skill
 	url = https://github.com/AIIX/krunner-search-skill
+[submodule "mycroft-person-detect-skill"]
+	path = mycroft-person-detect-skill
+	url = https://github.com/patilaum/mycroft-person-detect-skill.git
