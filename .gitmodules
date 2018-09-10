@@ -183,4 +183,4 @@
 	url = https://github.com/samclane/homeseer-mycroft.git
 [submodule "lifx-mycroft"]
 	path = lifx-mycroft
-	url = git@github.com:samclane/lifx-mycroft.git
+	url = https://github.com/samclane/lifx-mycroft.git
