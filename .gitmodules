@@ -181,3 +181,6 @@
 [submodule "homeseer-mycroft"]
 	path = homeseer-mycroft
 	url = https://github.com/samclane/homeseer-mycroft.git
+[submodule "email"]
+	path = email
+	url = https://github.com/linuss1/email-skill
