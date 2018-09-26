@@ -112,3 +112,6 @@
 [submodule "plasma-activities-skill"]
 	path = plasma-activities-skill
 	url = https://github.com/AIIX/plasma-activities-skill
+[submodule "email-skill"]
+	path = email-skill
+	url = https://github.com/linuss1/email-skill
