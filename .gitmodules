@@ -106,6 +106,9 @@
 [submodule "cocktails"]
 	path = cocktails
 	url = https://github.com/forslund/skill-cocktail.git
+[submodule "lifx-mycroft"]
+	path = lifx-mycroft
+	url = https://github.com/samclane/lifx-mycroft.git
 [submodule "decide-skill"]
 	path = decide-skill
 	url = https://github.com/lhannon/decide-skill.git
