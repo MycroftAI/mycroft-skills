@@ -181,6 +181,9 @@
 [submodule "homeseer-mycroft"]
 	path = homeseer-mycroft
 	url = https://github.com/samclane/homeseer-mycroft.git
+[submodule "crystal-ball"]
+	path = crystal-ball
+	url = https://github.com/Arc676/Crystal-Ball-Mycroft-Skill.git
 [submodule "number-guess-game"]
 	path = number-guess-game
 	url = https://github.com/Arc676/Number-Guess-Mycroft-Skill.git
