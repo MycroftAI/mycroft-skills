@@ -184,6 +184,9 @@
 [submodule "crystal-ball"]
 	path = crystal-ball
 	url = https://github.com/Arc676/Crystal-Ball-Mycroft-Skill.git
+[submodule "number-guess-game"]
+	path = number-guess-game
+	url = https://github.com/Arc676/Number-Guess-Mycroft-Skill.git
 [submodule "email"]
 	path = email
 	url = https://github.com/linuss1/email-skill
