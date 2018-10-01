@@ -448,9 +448,17 @@
 	<title>Mycroft Skill Readme Generator</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-
-    <script type="application/javascript" src="https://cdn.rawgit.com/jgm/commonmark.js/master/dist/commonmark.js"></script>
-    
+	<link rel='stylesheet' href='spectrum.css' />
+	<script src='spectrum.js'></script>
+    	<script type="application/javascript" src="https://cdn.rawgit.com/jgm/commonmark.js/master/dist/commonmark.js"></script>
+	<script>
+	$("#preferredHex").spectrum({
+	    preferredFormat: "hex",
+	    showInput: true,
+	    showPalette: true,
+	    palette: [["red", "rgba(0, 255, 0, .5)", "rgb(0, 0, 255)"]]
+	});
+	</script>
 	<script type="text/javascript">
 	//auto expand textarea
 function adjust_textarea(h) {
@@ -697,7 +705,7 @@ function generatePreviewDetail()
   
   // TODO: Validate icon and color
   var elIcon = document.getElementById("icon");
-  var elClr = document.getElementById("icon_color");
+  var elClr = document.getElementById("preferredHex");
   document.getElementById("icon_large").className = "fa-3x fas fa-"+elIcon.value;
   document.getElementById("icon_large").style.color= elClr.value;
 
@@ -709,7 +717,7 @@ function generatePreviewDetail()
   }
   else
   {
-      var elClr = document.getElementById("icon_color");
+      var elClr = document.getElementById("preferredHex");
       document.getElementById("icon_large").className = "fa-3x fas fa-"+elIcon.value;
       document.getElementById("icon_large").style.color= elClr.value;
       document.getElementById("img_icon_large").style.display = "none";
@@ -865,7 +873,8 @@ function initialize() {
                         <tr>
                             <td style="vertical-align:top">Preview:<br/><i id="icon_preview" class="fa-2x fas fa-robot" style="color:#40DBB0;"></i><img id="img_preview" src="" width="41" height="41" style="display:none;"/></td>
                             <td width="70%">Font Awesome Name / or image URL:<input type="text" id="icon" maxlength="255" placeholder="robot" value="robot" onkeyup="update_icon()"/></td>
-                            <td>Color:<br/><input type="text" id="icon_color" maxlength="7" placeholder="#40DBB0" value="#40dbb0" onkeyup="update_icon()"/></td>
+                            ///The initial color will be set with the color option. If you don't want to choose from colorPicker, Spectrum will allow input through hex value also.
+				<td>Color:<br/><input type="text" id="preferredHex" maxlength="7" placeholder="#40DBB0" value="#40dbb0" onkeyup="update_icon()"/></td>
                         </table>
                     </div>
 					<span>Go to <a href="https://fontawesome.com/cheatsheet" target="_blank">Font Awesome</a>,
