@@ -451,7 +451,11 @@
 
     <script type="application/javascript" src="https://cdn.rawgit.com/jgm/commonmark.js/master/dist/commonmark.js"></script>
     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pickr-widget/dist/pickr.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/pickr-widget/dist/pickr.min.js"></script>
+
 	<script type="text/javascript">
+var color_picker = null;
 	//auto expand textarea
 function adjust_textarea(h) {
   new_height = h.scrollHeight;
@@ -659,9 +663,8 @@ function generatePreviewCard()
   }
   else
   {
-      var elClr = document.getElementById("icon_color");
       document.getElementById("icon_small").className = "fa-3x fas fa-"+elIcon.value;
-      document.getElementById("icon_small").style.color= elClr.value;
+      document.getElementById("icon_small").style.color= color_picker._color.toHEX().toString();
       document.getElementById("img_icon_small").style.display = "none";
       document.getElementById("icon_small").style.display = "inline";
   }
@@ -697,9 +700,8 @@ function generatePreviewDetail()
   
   // TODO: Validate icon and color
   var elIcon = document.getElementById("icon");
-  var elClr = document.getElementById("icon_color");
   document.getElementById("icon_large").className = "fa-3x fas fa-"+elIcon.value;
-  document.getElementById("icon_large").style.color= elClr.value;
+  document.getElementById("icon_large").style.color= color_picker._color.toHEX().toString();
 
   if (elIcon.value.startsWith("http"))
   {
@@ -709,9 +711,8 @@ function generatePreviewDetail()
   }
   else
   {
-      var elClr = document.getElementById("icon_color");
       document.getElementById("icon_large").className = "fa-3x fas fa-"+elIcon.value;
-      document.getElementById("icon_large").style.color= elClr.value;
+      document.getElementById("icon_large").style.color= color_picker._color.toHEX().toString();
       document.getElementById("img_icon_large").style.display = "none";
       document.getElementById("icon_large").style.display = "inline";
   }
@@ -771,7 +772,6 @@ function checkDevices()
 function update_icon()
 {
     var elIcon = document.getElementById("icon");
-    var elClr = document.getElementById("icon_color");
 
     var elPreview = document.getElementById("icon_preview");
     var elImgPreview = document.getElementById("img_preview");
@@ -785,7 +785,7 @@ function update_icon()
     else
     {
         elPreview.className = "fa-2x fas fa-"+elIcon.value;
-        elPreview.style.color = elClr.value;
+        elPreview.style.color = color_picker._color.toHEX().toString();
         elPreview.style.display = "block";
         elImgPreview.style.display = "none";
     }
@@ -802,10 +802,37 @@ function copyToREADMEClipboard()
     elem.style.backgroundColor = "#FFF";
 }
 
+function initializeColorPicker(elSelector){
+    color_picker = new Pickr({
+        el: elSelector,
+        default: '#40DBB0',
+        components: {
+            preview: true,
+            opacity: true,
+            hue: true,
+            interaction: {
+                hex: true,
+                rgba: true,
+                hsva: true,
+                input: true,
+                clear: true,
+                save: true
+            }
+        },
+        onChange(hsva, instance) {
+            update_icon();
+        },
+        onSave(hsva, instance) {
+            update_icon();
+        }
+    });
+}
+
 function initialize() {
     var evt = [];
     evt.currentTarget = document.getElementById("Intro");
     toTab(evt);
+    initializeColorPicker('#icon_color');
 }
 
 </script>
@@ -865,7 +892,9 @@ function initialize() {
                         <tr>
                             <td style="vertical-align:top">Preview:<br/><i id="icon_preview" class="fa-2x fas fa-robot" style="color:#40DBB0;"></i><img id="img_preview" src="" width="41" height="41" style="display:none;"/></td>
                             <td width="70%">Font Awesome Name / or image URL:<input type="text" id="icon" maxlength="255" placeholder="robot" value="robot" onkeyup="update_icon()"/></td>
-                            <td>Color:<br/><input type="text" id="icon_color" maxlength="7" placeholder="#40DBB0" value="#40dbb0" onkeyup="update_icon()"/></td>
+                            <td>Color:<br/>
+                            	<div id="icon_color"></div>
+                            </td>
                         </table>
                     </div>
 					<span>Go to <a href="https://fontawesome.com/cheatsheet" target="_blank">Font Awesome</a>,
