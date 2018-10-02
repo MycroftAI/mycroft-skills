@@ -7,7 +7,11 @@ The official home of **Skills** for the Mycroft ecosystem.  These **Skills** are
 
 # Meta Editor
 
-If you are building **Skills**, please ensure that you use the [Meta Editor](https://rawgit.com/MycroftAI/mycroft-skills/18.08/meta_editor.html) for your README.md file. The **Skills** list is generated from parsing the README.md files. 
+If you are building **Skills**, please ensure that you use the [Meta Editor](https://rawgit.com/MycroftAI/mycroft-skills/18.08/meta_editor.html) for your README.md file. The **Skills** list is generated from parsing the README.md files.
+
+HTML Color Picker :
+https://www.w3schools.com/colors/colors_picker.asp?color=80ced6
+or just google ' color picker '.
 
 # Skills Documentation
 
