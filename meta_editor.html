@@ -802,10 +802,10 @@ function copyToREADMEClipboard()
     elem.style.backgroundColor = "#FFF";
 }
 
-function initializeColorPicker(elSelector){
+function initializeColorPicker(elSelector,defaultColorHex,onChangeCallback){
     color_picker = new Pickr({
         el: elSelector,
-        default: '#40DBB0',
+        default: defaultColorHex,
         components: {
             preview: true,
             opacity: true,
@@ -820,10 +820,10 @@ function initializeColorPicker(elSelector){
             }
         },
         onChange(hsva, instance) {
-            update_icon();
+            onChangeCallback();
         },
         onSave(hsva, instance) {
-            update_icon();
+            onChangeCallback();
         }
     });
 }
@@ -832,7 +832,7 @@ function initialize() {
     var evt = [];
     evt.currentTarget = document.getElementById("Intro");
     toTab(evt);
-    initializeColorPicker('#icon_color');
+    initializeColorPicker('#icon_color','#40DBB0',update_icon);
 }
 
 </script>
