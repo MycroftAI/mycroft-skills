@@ -455,7 +455,7 @@
     <script src="https://cdn.jsdelivr.net/npm/pickr-widget/dist/pickr.min.js"></script>
 
 	<script type="text/javascript">
-var color_picker = null;
+var colorPicker = null;
 	//auto expand textarea
 function adjust_textarea(h) {
   new_height = h.scrollHeight;
@@ -664,7 +664,7 @@ function generatePreviewCard()
   else
   {
       document.getElementById("icon_small").className = "fa-3x fas fa-"+elIcon.value;
-      document.getElementById("icon_small").style.color= color_picker._color.toHEX().toString();
+      document.getElementById("icon_small").style.color= colorPicker._color.toHEX().toString();
       document.getElementById("img_icon_small").style.display = "none";
       document.getElementById("icon_small").style.display = "inline";
   }
@@ -701,7 +701,7 @@ function generatePreviewDetail()
   // TODO: Validate icon and color
   var elIcon = document.getElementById("icon");
   document.getElementById("icon_large").className = "fa-3x fas fa-"+elIcon.value;
-  document.getElementById("icon_large").style.color= color_picker._color.toHEX().toString();
+  document.getElementById("icon_large").style.color= colorPicker._color.toHEX().toString();
 
   if (elIcon.value.startsWith("http"))
   {
@@ -712,7 +712,7 @@ function generatePreviewDetail()
   else
   {
       document.getElementById("icon_large").className = "fa-3x fas fa-"+elIcon.value;
-      document.getElementById("icon_large").style.color= color_picker._color.toHEX().toString();
+      document.getElementById("icon_large").style.color= colorPicker._color.toHEX().toString();
       document.getElementById("img_icon_large").style.display = "none";
       document.getElementById("icon_large").style.display = "inline";
   }
@@ -785,7 +785,7 @@ function update_icon()
     else
     {
         elPreview.className = "fa-2x fas fa-"+elIcon.value;
-        elPreview.style.color = color_picker._color.toHEX().toString();
+        elPreview.style.color = colorPicker._color.toHEX().toString();
         elPreview.style.display = "block";
         elImgPreview.style.display = "none";
     }
@@ -803,7 +803,7 @@ function copyToREADMEClipboard()
 }
 
 function initializeColorPicker(elSelector,defaultColorHex,onChangeCallback){
-    color_picker = new Pickr({
+    return new Pickr({
         el: elSelector,
         default: defaultColorHex,
         components: {
@@ -832,7 +832,7 @@ function initialize() {
     var evt = [];
     evt.currentTarget = document.getElementById("Intro");
     toTab(evt);
-    initializeColorPicker('#icon_color','#40DBB0',update_icon);
+    colorPicker = initializeColorPicker('#icon_color','#40DBB0',update_icon);
 }
 
 </script>
