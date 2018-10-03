@@ -805,17 +805,18 @@ function initializeColorPicker(elSelector,defaultColorHex,onChangeCallback){
     return new Pickr({
         el: elSelector,
         default: defaultColorHex,
+	comparison: false,
         components: {
             preview: true,
-            opacity: true,
+            opacity: false,
             hue: true,
             interaction: {
                 hex: true,
                 rgba: true,
                 hsva: true,
                 input: true,
-                clear: true,
-                save: true
+                clear: false,
+                save: false
             }
         },
         onChange(hsva, instance) {
