@@ -480,7 +480,7 @@ function generateREADME() {
     icon_url = elIcon.value;
   else
     icon_url = "https://rawgithub.com/FortAwesome/Font-Awesome/master/advanced-options/raw-svg/solid/"+elIcon.value+".svg";
-  markdown = "# <img src='"+icon_url+"' card_color='"+colorPicker._color.toHEX().toString()+"' width='50' height='50' style='vertical-align:bottom'/>";
+  markdown = "# <img src='"+icon_url+"' card_color='"+colorPicker.getColor().toHEX().toString()+"' width='50' height='50' style='vertical-align:bottom'/>";
   markdown += " " + elName.value + "\n";
 
   markdown += elShortDesc.value + "\n\n";
@@ -663,7 +663,7 @@ function generatePreviewCard()
   else
   {
       document.getElementById("icon_small").className = "fa-3x fas fa-"+elIcon.value;
-      document.getElementById("icon_small").style.color= colorPicker._color.toHEX().toString();
+      document.getElementById("icon_small").style.color= colorPicker.getColor().toHEX().toString();
       document.getElementById("img_icon_small").style.display = "none";
       document.getElementById("icon_small").style.display = "inline";
   }
@@ -700,7 +700,7 @@ function generatePreviewDetail()
   // TODO: Validate icon and color
   var elIcon = document.getElementById("icon");
   document.getElementById("icon_large").className = "fa-3x fas fa-"+elIcon.value;
-  document.getElementById("icon_large").style.color= colorPicker._color.toHEX().toString();
+  document.getElementById("icon_large").style.color= colorPicker.getColor().toHEX().toString();
 
   if (elIcon.value.startsWith("http"))
   {
@@ -711,7 +711,7 @@ function generatePreviewDetail()
   else
   {
       document.getElementById("icon_large").className = "fa-3x fas fa-"+elIcon.value;
-      document.getElementById("icon_large").style.color= colorPicker._color.toHEX().toString();
+      document.getElementById("icon_large").style.color= colorPicker.getColor().toHEX().toString();
       document.getElementById("img_icon_large").style.display = "none";
       document.getElementById("icon_large").style.display = "inline";
   }
@@ -784,7 +784,7 @@ function update_icon()
     else
     {
         elPreview.className = "fa-2x fas fa-"+elIcon.value;
-        elPreview.style.color = colorPicker._color.toHEX().toString();
+        elPreview.style.color = colorPicker.getColor().toHEX().toString();
         elPreview.style.display = "block";
         elImgPreview.style.display = "none";
     }
