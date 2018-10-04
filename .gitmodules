@@ -124,3 +124,6 @@
 [submodule "emby"]
 	path = emby
 	url = https://github.com/rickyphewitt/emby-skill
+[submodule "say-hello-to-skill"]
+	path = say-hello-to-skill
+	url = https://github.com/andlo/say-hello-to-skill.git
