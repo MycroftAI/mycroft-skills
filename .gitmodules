@@ -121,6 +121,9 @@
 [submodule "email-skill"]
 	path = email-skill
 	url = https://github.com/linuss1/email-skill
+[submodule "emby"]
+	path = emby
+	url = https://github.com/rickyphewitt/emby-skill
 [submodule "skill-number-guess"]
 	path = skill-number-guess
 	url = https://github.com/Arc676/Number-Guess-Mycroft-Skill
