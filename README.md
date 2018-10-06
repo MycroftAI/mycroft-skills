@@ -28,3 +28,4 @@ The Skills list has now moved here: [https://mycroftai.github.io/mycroft-skills/
 # Support 
 
 Join us in the [~dev channel](https://chat.mycroft.ai/community/channels/dev) or [~skills channel](https://chat.mycroft.ai/community/channels/skills) on Mycroft Chat for assistance.
+# Thanks for support 
