@@ -124,3 +124,9 @@
 [submodule "emby"]
 	path = emby
 	url = https://github.com/rickyphewitt/emby-skill
+[submodule "skill-number-guess"]
+	path = skill-number-guess
+	url = https://github.com/Arc676/Number-Guess-Mycroft-Skill
+[submodule "skill-crystal-ball"]
+	path = skill-crystal-ball
+	url = https://github.com/Arc676/Crystal-Ball-Mycroft-Skill
