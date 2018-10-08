@@ -130,3 +130,6 @@
 [submodule "skill-crystal-ball"]
 	path = skill-crystal-ball
 	url = https://github.com/Arc676/Crystal-Ball-Mycroft-Skill
+[submodule "parrot-skill"]
+	path = parrot-skill
+	url = https://github.com/JarbasAl/skill-parrot
