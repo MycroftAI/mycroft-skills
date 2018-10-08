@@ -130,3 +130,6 @@
 [submodule "skill-crystal-ball"]
 	path = skill-crystal-ball
 	url = https://github.com/Arc676/Crystal-Ball-Mycroft-Skill
+[submodule "cave-adventure"]
+	path = cave-adventure
+	url = https://github.com/JarbasAl/cave_adventure_skill.git
