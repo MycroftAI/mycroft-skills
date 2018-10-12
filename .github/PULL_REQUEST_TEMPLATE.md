@@ -2,11 +2,11 @@
 
 ## Description:
 
-**Short description of your skill and what it does**
+**Short description of your Skill and what it does**
 
 ## Checklist:
   - [ ] Used [Meta Editor](http://rawgit.com/MycroftAI/mycroft-skills/master/meta_editor.html) to generate the skill README
-  - [ ] Skill has been tested and works
+  - [ ] Skill has been tested and works 
   - [ ] Read and verified approval process - https://mycroft.ai/documentation/skills/skills-acceptance-process (Can require a community member vouching for skill)
   - [ ] .gitmodules has been updated with the following:
   
@@ -15,5 +15,3 @@
 +	path = name-of-your-skill
 +	url = URL.FOR.YOUR.SKILL.git
 ```
-
- - [ ] README.md has been updated with your skill phrase and description.
