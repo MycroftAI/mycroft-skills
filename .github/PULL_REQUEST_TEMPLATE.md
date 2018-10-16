@@ -15,3 +15,4 @@
 +	path = name-of-your-skill
 +	url = URL.FOR.YOUR.SKILL.git
 ```
+Hice traducción de una perte del código, para que otras personas lo entiendan.
