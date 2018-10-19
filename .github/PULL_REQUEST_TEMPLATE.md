@@ -14,4 +14,6 @@
 +[submodule "NAME OF YOUR SKILL"]
 +	path = name-of-your-skill
 +	url = URL.FOR.YOUR.SKILL.git
+
+My changes
 ```
