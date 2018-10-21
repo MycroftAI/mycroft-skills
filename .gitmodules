@@ -133,3 +133,6 @@
 [submodule "homeassistant"]
 	path = homeassistant
 	url = https://github.com/btotharye/mycroft-homeassistant.git
+[submodule "tesing-mctestface"]
+	path = tesing-mctestface
+	url = https://github.com/forslund/test-skill.git
