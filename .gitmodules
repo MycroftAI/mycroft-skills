@@ -133,3 +133,6 @@
 [submodule "homeassistant"]
 	path = homeassistant
 	url = https://github.com/btotharye/mycroft-homeassistant.git
+[submodule "count"]
+	path = count
+	url = https://github.com/andlo/count-skill.git
