@@ -133,3 +133,6 @@
 [submodule "homeassistant"]
 	path = homeassistant
 	url = https://github.com/btotharye/mycroft-homeassistant.git
+[submodule "testy-mctestface"]
+	path = testy-mctestface
+	url = https://github.com/forslund/picroft-google-aiy-voicekit-skill
