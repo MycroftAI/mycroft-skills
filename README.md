@@ -3,7 +3,7 @@
 
 # Welcome
 
-The official home of **Skills** for the Mycroft ecosystem.  These **Skills** are written by both the MycroftAI team and others within the Community.
+The official home of **Skills** for the Mycroft ecosystem.  These **Skills** are written by both the MycroftAI team and others within the community.
 
 # Meta Editor
 
