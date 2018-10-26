@@ -139,3 +139,6 @@
 [submodule "picroft-google-aiy-voicekit"]
 	path = picroft-google-aiy-voicekit
 	url = https://github.com/andlo/picroft-google-aiy-voicekit-skill.git
+[submodule "readytowork"]
+	path = readytowork
+	url = https://github.com/fortwally/ready-to-work-skill.git
