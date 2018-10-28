@@ -139,3 +139,6 @@
 [submodule "picroft-google-aiy-voicekit"]
 	path = picroft-google-aiy-voicekit
 	url = https://github.com/andlo/picroft-google-aiy-voicekit-skill.git
+[submodule "deckchair-cinema-skill"]
+	path = deckchair-cinema-skill
+	url = https://github.com/krisgesling/deckchair-cinema-skill
