@@ -217,7 +217,7 @@
       padding-left: 20px;
       padding-bottom: 4px;
     }
-    
+
     .first {
       padding-top: 8px;
     }
@@ -287,23 +287,23 @@
       width: 100%;
       height: 60vh;
     }
-    
+
     #github_preview_frame {
         width: 100%;
         height: 60vh;
     }
-    
+
     .primary_category span {
         color: black;
         font-weight: 900;
     }
-    
+
     tt {
         font-family: monospace;
         font-size: 0.9em;
         font-weight: 700;
     }
-    
+
     .card {
         /* Add shadows to create the "card" effect */
         box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
@@ -313,16 +313,16 @@
     .card:hover {
         box-shadow: 2px 8px 16px 2px rgba(0,0,0,0.2);
     }
-    
+
     .card_content {
         height: 100%;
     }
-    
+
     .icon {
         width: 50px;
         height: 50px;
         font-size: 50px;
-    
+
     }
     /**********************/
     /* Small card preview */
@@ -331,7 +331,7 @@
         font-size: 30px;
         color: #FD9E66;
     }
-    
+
     #card_small_preview {
         width: 300px;
         height: 330px;
@@ -354,14 +354,14 @@
         padding: 5px;
         border-radius: 3px;
     }
-    
+
     #card_small_preview input[type="button"] {
       border: none;
       padding: 12px 20px;
       /* border-bottom: 3px solid #ff0000; */
       border-radius: 3px;
       background: #cccccc;
-      
+
       width: 260px;
       position: absolute;
       bottom: 20px;
@@ -370,38 +370,38 @@
     /**********************/
     /* Large card preview */
     /**********************/
-    
+
     #cardb_large_preview {
         width: 700px;
         height: 500px;
         padding: 20px;
         position: relative;
     }
-    
+
     #cardb_large_preview input[type="button"] {
       border: none;
       padding: 12px 20px;
       /* border-bottom: 3px solid #ff0000; */
       border-radius: 3px;
       background: #cccccc;
-      
+
       width: 260px;
       position: absolute;
       bottom: 20px;
       right: 20px;
     }
-    
+
     #by_large {
       position: absolute;
       bottom: 20px;
       left: 20px;
     }
-    
+
     #title_large {
         font-size: 30px;
         margin-bottom: 5px;
     }
-    
+
     /******************/
     /* Style the tabs */
     /******************/
@@ -440,7 +440,7 @@
         padding: 6px 12px;
         xxborder: 1px solid #ccc;
         xxborder-top: none;
-    }    
+    }
 </style>
 
 <head>
@@ -450,7 +450,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
     <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/commonmark@0.28.1/dist/commonmark.js"></script>
-    
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pickr-widget/dist/pickr.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/pickr-widget/dist/pickr.min.js"></script>
 
@@ -521,14 +521,18 @@ function generateREADME() {
     {
         id = categoryEl[i].id;
         category = id.substring(4);  // skip "cat_"
-        
+
         if (document.getElementById("for_"+id).className.includes("primary_category"))
             markdown += "**" + category + "**\n";
         else
             markdown += category + "\n";
     }
   }
-  
+
+  if (!validateCategories()){
+    markdown +="WARNING: You have no Categories selected. Please ensure your Skill is assigned to at least one Category." + "\n";
+  }
+
   var tagEl = document.getElementsByClassName("tag");
   markdown += "\n## Tags\n";
   for (var i = 1; ; i++) {
@@ -536,7 +540,7 @@ function generateREADME() {
     if (!tag) break;
     if (tag.value != "") markdown += tag.value + "\n";
   }
-  
+
   elem.value = markdown;
 }
 
@@ -551,7 +555,7 @@ function addNext(input, id_prefix) {
 
   inputNext.id = id_prefix + num;
   inputNext.value = "";
-  
+
   if (input.placeholder) {
     placeholder_prefix = input.placeholder.substring(0, input.placeholder.length - (''+(num-1)).length)
     inputNext.placeholder = placeholder_prefix + num;
@@ -568,19 +572,33 @@ function validateTag(elem)
     elem.value = elem.value.replace(/ /g, "");
 }
 
+function validateCategories(){
+  var categories =document.getElementsByName('category');
+  var numOfCheckedCategories =0;
+  for(var i = 0; i < categories.length; i++) {
+    if(categories[i].checked)
+      numOfCheckedCategories++;
+  }
+  if(numOfCheckedCategories < 1)  {
+    return false;
+  }  else {
+    return true;
+  }
+}
+
 function categoryClick(cb) {
   var elements = document.getElementsByClassName("category_section");
-  
+
   var checks = 0;
   var iChecked = null;
-  
+
   for (var i = 0; i < elements.length; i++) {
-   
+
     if (elements[i].checked) {
       checks++;
       iChecked = i;
     }
-    
+
     // TODO: Remove this logic?
     if (elements[i].id === "suggest") {
         if (elements[i].value !== "") {
@@ -588,7 +606,7 @@ function categoryClick(cb) {
         }
     }
   }
-  
+
   if (checks <= 1) {
         for (var i = 0; i < elements.length; i++) {
         var label = document.getElementById("for_"+elements[i].id);
@@ -627,13 +645,13 @@ function generatePreviewCard()
   var elCategory = document.getElementById("card_small_category");
   var categoryEl = document.getElementsByClassName("category_section");
   var cat = "";
-  
+
   for (var i = 0; i < categoryEl.length; i++) {
     if (categoryEl[i].checked)
     {
         id = categoryEl[i].id;
         category = id.substring(4);  // skip "cat_"
-        
+
         if (document.getElementById("for_"+id).className.includes("primary_category")) {
             cat = category;
             break;
@@ -651,7 +669,7 @@ function generatePreviewCard()
 
   var elUtt0 = document.getElementById("ex_1");
   document.getElementById("utt_0_small").innerText = elUtt0.value;
-  
+
   // TODO: Validate icon and color
   var elIcon = document.getElementById("icon");
   if (elIcon.value.startsWith("http"))
@@ -680,7 +698,8 @@ function generatePreviewDetail()
   var elLongDesc = document.getElementById("long_desc");
   document.getElementById("fulldesc_large").innerText = elLongDesc.value;
 
-  // TODO: All authors  
+
+  // TODO: All authors
   var elAuthor = document.getElementById("author_1");
   document.getElementById("author_large").innerText = elAuthor.value;
 
@@ -695,8 +714,8 @@ function generatePreviewDetail()
     }
   }
   document.getElementById("utt_1_large").innerHTML = phrases;
-  
-  
+
+
   // TODO: Validate icon and color
   var elIcon = document.getElementById("icon");
   document.getElementById("icon_large").className = "fa-3x fas fa-"+elIcon.value;
@@ -724,7 +743,7 @@ function generatePreview()
     var reader = new commonmark.Parser();
     var writer = new commonmark.HtmlRenderer();
     var parsed = reader.parse(elem.value); // parsed is a 'Node' tree
-    
+
     // transform parsed if you like...
     var result = writer.render(parsed); // result is a String
 
@@ -774,7 +793,7 @@ function update_icon()
 
     var elPreview = document.getElementById("icon_preview");
     var elImgPreview = document.getElementById("img_preview");
-    
+
     if (elIcon.value.startsWith("http"))
     {
         elPreview.style.display = "none";
@@ -793,7 +812,7 @@ function update_icon()
 function copyToREADMEClipboard()
 {
     var elem = document.getElementById("output");
-    
+
     elem.select();
     document.execCommand('copy');
     elem.style.backgroundColor = "#000";
@@ -846,7 +865,7 @@ function initialize() {
 		<img class="logo" src="mycroft.svg" height="24px" />
 		<!-- | Skills -->
 	</div>
-    
+
     <div class="tab">
       <button id="Intro"     class="tablinks" onclick="toTab(event)">Intro</button>
       <button id="Edit"      class="tablinks" onclick="toTab(event)"><i class="fas fa-edit" style="color:#22a7f0;"></i> Edit</button>
@@ -855,7 +874,7 @@ function initialize() {
       <button id="PreviewDetail" class="tablinks" onclick="generatePreviewDetail(); generatePreview(); toTab(event)"><i class="fas fa-cogs" style="color:#40DBB0;"></i> Details Preview</button>
       <button id="README"    class="tablinks" onclick="generateREADME(); toTab(event)"><i class="fas fa-copy" style="color:#FD9E66;"></i> README.md</button>
     </div>
-    
+
 	<div id="page_Intro" class="tabcontent">
 		<h1>Mycroft Skill Readme Generator</h1>
 		<p>This tool generates a README.md for your Mycroft Skill repository on GitHub. It will be machine-parsed to fill the Mycroft Skill Marketplace and will explain your Skill to users in a standardized, easy to read format.</p>
@@ -866,14 +885,14 @@ function initialize() {
 			<i class="fas fa-cogs" style="color:#40DBB0;"></i> Generate and examine previews<br/>
 			<i class="fas fa-copy" style="color:#FD9E66;"></i> Copy the output into a README.md file for your Skill's repo<br/>
 		</div>
-		
+
 		<div id="community-links" class="instructions">
 			<p>
-				<a href="https://mycroft.ai/documentation/">Documentation</a> is also available on writing Skills for Mycroft, and you are welcome to join the <a href="https://chat.mycroft.ai/community/channels/skills">Skills development Chat channel</a>, where you can liaise with other Skill Authors and request assistance. 
+				<a href="https://mycroft.ai/documentation/">Documentation</a> is also available on writing Skills for Mycroft, and you are welcome to join the <a href="https://chat.mycroft.ai/community/channels/skills">Skills development Chat channel</a>, where you can liaise with other Skill Authors and request assistance.
 			</p>
 		</div>
     </div>
-    
+
 	<div id="page_Edit" class="tabcontent">
 
 		<form class="entry-form">
@@ -930,7 +949,7 @@ function initialize() {
 
                         <div class="device first"><input type="radio" id="support_all" name="supported" onchange="checkAllDevices()" checked="true" value="all"/>
                             <label for="support_all">All Devices (no specific requirements)</label></div>
-                        
+
                         <div class="device first"><input type="radio" id="support_specific" name="supported" value="specific"/>
                             <label for="support_specific">Specific devices</label>
 
@@ -942,14 +961,14 @@ function initialize() {
                                 <label for="req_picroft">Platform: Picroft</label></div>
                             <div class="device"><input type="checkbox" id="req_plasmoid" onchange="checkDevices()" value="plasmoid"/>
                                 <label for="req_plasmoid">Platform: KDE Plasmoid</label></div>
-                        </div>                        
+                        </div>
 
 					<span>If only for specific platforms, check one or more (blank means any platform).</span>
 				</li>
 
 				<li>
 					<label>Category</label>
-                    
+
 					<div class="category first"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_Daily" value="Daily"/>
 						<label for="cat_Daily" id="for_cat_Daily"><span>Daily</span> &mdash; time, alarms, timers, and weather</label></div>
 					<div class="category"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_Configuration" value="Configuration"/>
@@ -961,66 +980,66 @@ function initialize() {
 					<div class="category"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_IoT" value="IoT"/>
 						<label for="cat_IoT" id="for_cat_IoT"><span>IoT</span> &mdash; home automation, lighting controlling</label></div>
 
-                    <div class="category"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_Music" value="Music"/>
+                    <div class="category"><input class="category_section" type="checkbox" onclick='categoryClick(this);' name="category" id="cat_Music" value="Music"/>
 						<label for="cat_Music" id="for_cat_Music"><span>Music & Audio</span> &mdash; listen to streaming services</label></div>
-					<div class="category"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_Media" value="Media"/>
+					<div class="category"><input class="category_section" type="checkbox" onclick='categoryClick(this);' name="category" id="cat_Media" value="Media"/>
 						<label for="cat_Media" id="for_cat_Media"><span>Media</span> &mdash; controlling video streamer, stereo</label></div>
-					<div class="category"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_Productivity" value="Productivity"/>
+					<div class="category"><input class="category_section" type="checkbox" onclick='categoryClick(this);'  name="category" id="cat_Productivity" value="Productivity"/>
 						<label for="cat_Productivity" id="for_cat_Productivity"><span>Productivity</span> &mdash; mail, calendar, Pomodoro</label></div>
-					<div class="category"><input class="category_section" type="checkbox" onclick='categoryClick(this);' id="cat_Transport" value="Transport"/>
+					<div class="category"><input class="category_section" type="checkbox" onclick='categoryClick(this);'  name="category" id="cat_Transport" value="Transport"/>
 						<label for="cat_Transport" id="for_cat_Transport"><span>Transport</span> &mdash; bus/train schedules, ride services</label></div>
 
 					<span>The first Category selected will be bold as the Primary Category for display, all others are secondary for searches.</span>
 				</li>
-                
+
 				<li>
 					<label for="tag_1">Tags</label>
 					<input class="tag" type="text" id="tag_1" maxlength="100" placeholder="#Tag 1" onkeyup="addNext(this, 'tag_')" onchange="validateTag(this)"/>
 					<span>Tags are single word identifiers, such as #kids, #crypto and are used for searching.</span>
                 </li>
 			</ul>
-            
+
             For help, see the ~skills channel at <a href="https://chat.mycroft.ai/community/channels/skills">https://chat.mycroft.ai</a>.
 		</form>
 	</div>
-    
-    
+
+
 	<div id="page_Preview" class="tabcontent">
 		<p>Below is a preview of how the README.md will look in your Skill's Github repo.</p>
             <iframe id="github_preview_frame" class="markdown-body">abc</iframe>
         <div id="github_preview" class="markdown-body">
         </div>
     </div>
-    
+
 	<div id="page_PreviewCard" class="tabcontent">
 		<p>Below is a preview of a small reference card.</p>
         <div><span id="card_small_category">Tester</span></div>
         <div id="card_small_preview" class="card">
             <div class="card_content">
                 <div><i id="icon_small" class="fa-2x fas fa-comment" style="color:#22a7f0;"></i><img id="img_icon_small" src="" width="45" height="45" style="dispaly:none"/> <span id="title_small">Coin Flip</span></div>
-                
+
                 <div id="utt_small"><i class="fas fa-comment" style="color:#22a7f0;"></i>&nbsp;<span id="utt_0_small">testing</span></div>
-                
+
                 <div><span id="desc_small">This is a shortish description for the Skill</span></div>
-                
+
                 <div><input type="button" value="Install"/></div>
             </div>
         </div>
     </div>
-    
+
 	<div id="page_PreviewDetail" class="tabcontent">
 		<p>Below is a preview of a large reference card.</p>
         <div id="cardb_large_preview" class="card">
             <div class="card_content">
                 <div><i id="icon_large" class="fa-2x fas fa-comment" style="color:#22a7f0;"></i><img id="img_icon_large" src="" width="45" height="45" style="dispaly:none"/> <span id="title_large">Coin Flip</span></div>
-                
+
                 <div id="utt_large_1"><i class="fas fa-comment" style="color:#22a7f0;"></i>&nbsp;<span id="utt_1_large">testing</span></div>
-                
+
                 <div><span id="desc_large">This is a shortish description for the Skill</span></div>
                 <div><span id="fulldesc_large">This is a shortish description for the Skill</span></div>
-                
+
                 <div id="by_large">By:  <span id="author_large">By whoever (@whoever)</span></div>
-            
+
                 <div><input type="button" value="Install"/></div>
             </div>
         </div>
