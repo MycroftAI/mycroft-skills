@@ -142,3 +142,6 @@
 [submodule "skill-finished-booting"]
 	path = skill-finished-booting
 	url = https://github.com/zelmon64/skill-finished-booting.git
+[submodule "laugh"]
+	path = laugh
+	url = https://github.com/JarbasAl/skill-laugh
