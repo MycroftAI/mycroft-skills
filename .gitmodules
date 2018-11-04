@@ -139,6 +139,9 @@
 [submodule "picroft-google-aiy-voicekit"]
 	path = picroft-google-aiy-voicekit
 	url = https://github.com/andlo/picroft-google-aiy-voicekit-skill.git
+[submodule "rodent-facts"]
+	path = rodent-facts
+	url = https://github.com/btotharye/rodent-facts-skill
 [submodule "skill-finished-booting"]
 	path = skill-finished-booting
 	url = https://github.com/zelmon64/skill-finished-booting.git
