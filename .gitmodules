@@ -145,3 +145,6 @@
 [submodule "skill-finished-booting"]
 	path = skill-finished-booting
 	url = https://github.com/zelmon64/skill-finished-booting.git
+[submodule "kathypootletest"]
+	path = kathypootletest
+	url = https://github.com/KathyReid/kathy-test-for-pootle-skill-skill
