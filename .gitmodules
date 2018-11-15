@@ -147,4 +147,7 @@
 	url = https://github.com/zelmon64/skill-finished-booting.git
 [submodule "wikiquote-skill"]
 	path = wikiquote-skill
-	url = http://github.com/danielwine/wikiquote-skill
+	url = https://github.com/danielwine/wikiquote-skill
+[submodule "kathy-msk-test-skill"]
+	path = kathy-msk-test-skill
+	url = https://github.com/KathyReid/kathy-msk-test-skill
