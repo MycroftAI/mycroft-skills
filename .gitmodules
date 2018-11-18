@@ -145,6 +145,9 @@
 [submodule "skill-finished-booting"]
 	path = skill-finished-booting
 	url = https://github.com/zelmon64/skill-finished-booting.git
+[submodule "national-park"]
+	path = national-park
+	url = https://github.com/richhowley/national-parks-skill.git
 [submodule "kathy-msk-test-skill"]
 	path = kathy-msk-test-skill
 	url = https://github.com/KathyReid/kathy-msk-test-skill
