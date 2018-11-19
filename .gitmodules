@@ -190,3 +190,6 @@
 [submodule "email"]
 	path = email
 	url = https://github.com/linuss1/email-skill
+[submodule "person-height-test-skill"]
+	path = person-height-test-skill
+	url = https://github.com/MatthewScholefield/person-height-skill
