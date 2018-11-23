@@ -154,3 +154,6 @@
 [submodule "wikiquote"]
 	path = wikiquote
 	url = https://github.com/danielwine/wikiquote-skill
+[submodule "events"]
+	path = events
+	url = https://github.com/n9v9/events-skill.git
