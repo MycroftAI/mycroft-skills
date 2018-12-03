@@ -106,6 +106,51 @@
 [submodule "cocktails"]
 	path = cocktails
 	url = https://github.com/forslund/skill-cocktail.git
+[submodule "lifx-mycroft"]
+	path = lifx-mycroft
+	url = https://github.com/samclane/lifx-mycroft.git
+[submodule "decide-skill"]
+	path = decide-skill
+	url = https://github.com/lhannon/decide-skill.git
 [submodule "plasma-activities-skill"]
 	path = plasma-activities-skill
 	url = https://github.com/AIIX/plasma-activities-skill
+[submodule "carstena-the-cows-lists"]
+	path = carstena-the-cows-lists
+	url = https://github.com/CarstenAgerskov/skill-the-cows-lists.git
+[submodule "email-skill"]
+	path = email-skill
+	url = https://github.com/linuss1/email-skill
+[submodule "emby"]
+	path = emby
+	url = https://github.com/rickyphewitt/emby-skill
+[submodule "skill-number-guess"]
+	path = skill-number-guess
+	url = https://github.com/Arc676/Number-Guess-Mycroft-Skill
+[submodule "skill-crystal-ball"]
+	path = skill-crystal-ball
+	url = https://github.com/Arc676/Crystal-Ball-Mycroft-Skill
+[submodule "tronald-dump-skill"]
+	path = tronald-dump-skill
+	url = https://github.com/krisgesling/tronald-dump-skill
+[submodule "homeassistant"]
+	path = homeassistant
+	url = https://github.com/btotharye/mycroft-homeassistant.git
+[submodule "picroft-google-aiy-voicekit"]
+	path = picroft-google-aiy-voicekit
+	url = https://github.com/andlo/picroft-google-aiy-voicekit-skill.git
+[submodule "rodent-facts"]
+	path = rodent-facts
+	url = https://github.com/btotharye/rodent-facts-skill
+[submodule "skill-finished-booting"]
+	path = skill-finished-booting
+	url = https://github.com/zelmon64/skill-finished-booting.git
+[submodule "national-park"]
+	path = national-park
+	url = https://github.com/richhowley/national-parks-skill.git
+[submodule "kathy-msk-test-skill"]
+	path = kathy-msk-test-skill
+	url = https://github.com/KathyReid/kathy-msk-test-skill
+[submodule "wikiquote"]
+	path = wikiquote
+	url = https://github.com/danielwine/wikiquote-skill
