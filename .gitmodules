@@ -154,3 +154,6 @@
 [submodule "wikiquote"]
 	path = wikiquote
 	url = https://github.com/danielwine/wikiquote-skill
+[submodule "feed-splint"]
+	path = feed-splint
+	url = https://github.com/Rugnummer/FeedSplinter
