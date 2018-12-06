@@ -154,3 +154,6 @@
 [submodule "wikiquote"]
 	path = wikiquote
 	url = https://github.com/danielwine/wikiquote-skill
+[submodule "telegram"]
+	path = telegram
+	url = https://github.com/luke5sky/telegram-skill
