@@ -103,7 +103,7 @@
       max-width: 100%;
       margin: 0px auto 30px auto;
       padding: 30px 50px 50px 50px;
-      background-color: #f1f3f4;
+      background-color: #c3d8e2 ;
       border-radius: 6px;
       line-height: 2;
     }
@@ -131,7 +131,7 @@
     .entry-form li {
       display: block;
       padding: 8px 0px 0px 0px;
-      border: 2px solid #f1f3f4;
+      border: 2px solid #c3d8e2 ;
       margin-bottom: 36px;
       border-radius: 6px;
       /* font-weight: bold; */
@@ -191,12 +191,12 @@
     }
 
     .entry-form li > span {
-      background: #f1f3f4;
+      background: #c3d8e2 ;
       display: block;
       padding: 8px 10px;
       /* margin: 0 -9px -9px -9px; */
       text-align: left;
-      color: grey;
+      color: black;
       font-family: "Roboto", "Helvetica", "Arial", sans-serif;
       font-size: 13px;
     }
@@ -277,6 +277,10 @@
     textarea::placeholder {
       color: #AAAFB2;
     }
+	
+	#custom_sections {
+	    height: 200px;
+	}
 
     code {
       font-family: monospace;
@@ -333,14 +337,21 @@
     }
 
     #card_small_preview {
-        width: 300px;
-        height: 330px;
-        padding: 20px;
+        width: 320px;
+        height: 260px;
+        padding: 10px;
         position: relative;
     }
     #title_small {
         font-size: 30px;
         margin-bottom: 5px;
+		font-family: 'Roboto Mono',monospace;
+		font-weight: 700;
+		font-size: 24px;
+		text-align: center;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
     }
     #utt_small {
         background-color: #E4F1FE;
@@ -373,10 +384,20 @@
 
     #cardb_large_preview {
         width: 700px;
-        height: 500px;
+        min-height: 500px;
         padding: 20px;
         position: relative;
     }
+
+	#cardb_large_title {
+		background: #dddddd;
+		padding: 10px;
+		margin: 0;
+	}
+	
+	#desc_large {
+		margin-left: 70px;
+	}
 
     #cardb_large_preview input[type="button"] {
       border: none;
@@ -390,6 +411,10 @@
       bottom: 20px;
       right: 20px;
     }
+
+	#div_fulldesc_large {
+		margin-bottom: 50px;
+	}
 
     #by_large {
       position: absolute;
@@ -475,13 +500,15 @@ function generateREADME() {
   var elName = document.getElementById("name");
   var elShortDesc = document.getElementById("short_desc");
   var elLongDesc = document.getElementById("long_desc");
+  var elCustomSections = document.getElementById("custom_sections");
 
   if (elIcon.value.startsWith("http"))
     icon_url = elIcon.value;
   else
-    icon_url = "https://rawgithub.com/FortAwesome/Font-Awesome/master/advanced-options/raw-svg/solid/"+elIcon.value+".svg";
+    icon_url = "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/"+elIcon.value+".svg";
+
   markdown = "# <img src='"+icon_url+"' card_color='"+colorPicker.getColor().toHEX().toString()+"' width='50' height='50' style='vertical-align:bottom'/>";
-  markdown += " " + elName.value + "\n";
+  markdown += "\n " + elName.value + "\n";
 
   markdown += elShortDesc.value + "\n\n";
   markdown += "## About \n";
@@ -500,6 +527,8 @@ function generateREADME() {
     if (!ex) break;
     if (ex.value != "") markdown += ex.value + "\n";
   }
+  
+  markdown += elCustomSections.value + "\n\n";
 
   var req_mark1 = document.getElementById("req_mark1").checked;
   var req_mark2 = document.getElementById("req_mark2").checked;
@@ -997,6 +1026,17 @@ function initialize() {
 					<input class="tag" type="text" id="tag_1" maxlength="100" placeholder="#Tag 1" onkeyup="addNext(this, 'tag_')" onchange="validateTag(this)"/>
 					<span>Tags are single word identifiers, such as #kids, #crypto and are used for searching.</span>
                 </li>
+
+				<li>
+					<label for="custom_section">Custom Sections</label>
+					<textarea id="custom_sections" onkeyup="adjust_textarea(this)" placeholder=
+"## Your own section title
+Markdown text
+
+##Another section
+Yadda yadda..."></textarea>
+					<span><b>Optional:</b>  You can add one or more custom sections to be included in your readme.  These won't appear inside the Marketplace, but can describe any information another developer might be interested.  History, how to build associate hardware, references to other projects ...  just use regular </b> <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Github markdown</a>.</span>
+                </li>
 			</ul>
 
             For help, see the ~skills channel at <a href="https://chat.mycroft.ai/community/channels/skills">https://chat.mycroft.ai</a>.
@@ -1016,7 +1056,8 @@ function initialize() {
         <div><span id="card_small_category">Tester</span></div>
         <div id="card_small_preview" class="card">
             <div class="card_content">
-                <div><i id="icon_small" class="fa-2x fas fa-comment" style="color:#22a7f0;"></i><img id="img_icon_small" src="" width="45" height="45" style="dispaly:none"/> <span id="title_small">Coin Flip</span></div>
+                <div style="width: 100%;"><i id="icon_small" class="fa-2x fas fa-comment" style="color:#22a7f0; text-align: center;"></i></div>
+				<div><img id="img_icon_small" src="" width="45" height="45" style="display:none"/> <span id="title_small">Coin Flip</span></div>
 
                 <div id="utt_small"><i class="fas fa-comment" style="color:#22a7f0;"></i>&nbsp;<span id="utt_0_small">testing</span></div>
 
@@ -1031,14 +1072,16 @@ function initialize() {
 		<p>Below is a preview of a large reference card.</p>
         <div id="cardb_large_preview" class="card">
             <div class="card_content">
-                <div><i id="icon_large" class="fa-2x fas fa-comment" style="color:#22a7f0;"></i><img id="img_icon_large" src="" width="45" height="45" style="dispaly:none"/> <span id="title_large">Coin Flip</span></div>
+				<div id="cardb_large_title">
+                <div><i id="icon_large" class="fa-2x fas fa-comment" style="color:#22a7f0;"></i><img id="img_icon_large" src="" width="45" height="45" style="display:none"/> <span id="title_large">Coin Flip</span></div>
+				<span id="desc_large">This is a shortish description for the Skill</span>
+				</div>
 
                 <div id="utt_large_1"><i class="fas fa-comment" style="color:#22a7f0;"></i>&nbsp;<span id="utt_1_large">testing</span></div>
 
-                <div><span id="desc_large">This is a shortish description for the Skill</span></div>
-                <div><span id="fulldesc_large">This is a shortish description for the Skill</span></div>
+                <div id="div_fulldesc_large"><span id="fulldesc_large">This is a shortish description for the Skill</span></div>
 
-                <div id="by_large">By:  <span id="author_large">By whoever (@whoever)</span></div>
+                <div id="by_large"><b>Credits:</b><br/><span id="author_large">By whoever (@whoever)</span></div>
 
                 <div><input type="button" value="Install"/></div>
             </div>
