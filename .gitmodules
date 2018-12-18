@@ -157,3 +157,6 @@
 [submodule "cut-up-skill"]
 	path = cut-up-skill
 	url = https://github.com/JonStratton/cut-up-skill
+[submodule "testing-again"]
+	path = testing-again
+	url = https://github.com/forslund/test-skill
