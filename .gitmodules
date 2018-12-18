@@ -154,3 +154,6 @@
 [submodule "wikiquote"]
 	path = wikiquote
 	url = https://github.com/danielwine/wikiquote-skill
+[submodule "cut-up-skill"]
+	path = cut-up-skill
+	url = https://github.com/JonStratton/cut-up-skill
