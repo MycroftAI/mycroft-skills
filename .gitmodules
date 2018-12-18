@@ -154,3 +154,6 @@
 [submodule "wikiquote"]
 	path = wikiquote
 	url = https://github.com/danielwine/wikiquote-skill
+[submodule "remember"]
+	path = remember
+	url = https://github.com/luke5sky/remember-skill.git
