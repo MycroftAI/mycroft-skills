@@ -169,3 +169,6 @@
 [submodule "skill-aircrack"]
 	path = skill-aircrack
 	url = https://github.com/JonStratton/skill-aircrack
+[submodule "kodi"]
+	path = kodi
+	url = https://github.com/pcwii/kodi-skill.git
