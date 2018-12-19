@@ -154,6 +154,9 @@
 [submodule "wikiquote"]
 	path = wikiquote
 	url = https://github.com/danielwine/wikiquote-skill
+[submodule "openhab-skill"]
+	path = openhab-skill
+	url = https://github.com/openhab/openhab-mycroft
 [submodule "theia-ide"]
 	path = theia-ide
 	url = https://github.com/andlo/theia-ide-skill.git
