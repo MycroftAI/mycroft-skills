@@ -157,3 +157,15 @@
 [submodule "openhab-skill"]
 	path = openhab-skill
 	url = https://github.com/openhab/openhab-mycroft
+[submodule "theia-ide"]
+	path = theia-ide
+	url = https://github.com/andlo/theia-ide-skill.git
+[submodule "krunner-search-skill"]
+	path = krunner-search-skill
+	url = https://github.com/AIIX/krunner-search-skill.git
+[submodule "cut-up-skill"]
+	path = cut-up-skill
+	url = https://github.com/JonStratton/cut-up-skill
+[submodule "skill-aircrack"]
+	path = skill-aircrack
+	url = https://github.com/JonStratton/skill-aircrack
