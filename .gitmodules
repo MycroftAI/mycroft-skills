@@ -169,3 +169,6 @@
 [submodule "skill-aircrack"]
 	path = skill-aircrack
 	url = https://github.com/JonStratton/skill-aircrack
+[submodule "cbc-news"]
+	path = cbc-news
+	url = https://github.com/chrison999/mycroft-skill-cbc-news.git
