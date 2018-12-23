@@ -169,3 +169,6 @@
 [submodule "skill-aircrack"]
 	path = skill-aircrack
 	url = https://github.com/JonStratton/skill-aircrack
+[submodule "remember"]
+	path = remember
+	url = https://github.com/luke5sky/remember-skill.git
