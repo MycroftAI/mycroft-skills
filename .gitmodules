@@ -172,3 +172,6 @@
 [submodule "remember"]
 	path = remember
 	url = https://github.com/luke5sky/remember-skill.git
+[submodule "bedtime-stories-skill"]
+	path = bedtime-stories-skill
+	url = https://github.com/TREE-Ind/bedtime-stories-skill
