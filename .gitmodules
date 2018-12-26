@@ -172,3 +172,6 @@
 [submodule "remember"]
 	path = remember
 	url = https://github.com/luke5sky/remember-skill.git
+[submodule "count"]
+	path = count
+	url = https://github.com/andlo/count-skill.git
