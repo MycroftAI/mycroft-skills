@@ -172,3 +172,6 @@
 [submodule "remember"]
 	path = remember
 	url = https://github.com/luke5sky/remember-skill.git
+[submodule "auto-volume"]
+	path = auto-volume
+	url = https://github.com/andlo/auto-volume-skill.git
