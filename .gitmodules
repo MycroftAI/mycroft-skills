@@ -135,7 +135,7 @@
 	url = https://github.com/krisgesling/tronald-dump-skill
 [submodule "homeassistant"]
 	path = homeassistant
-	url = https://github.com/btotharye/mycroft-homeassistant.git
+	url = https://github.com/MycroftAI/mycroft-homeassistant
 [submodule "picroft-google-aiy-voicekit"]
 	path = picroft-google-aiy-voicekit
 	url = https://github.com/andlo/picroft-google-aiy-voicekit-skill.git
