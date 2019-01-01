@@ -169,3 +169,6 @@
 [submodule "remember"]
 	path = remember
 	url = https://github.com/luke5sky/remember-skill.git
+[submodule "airplay"]
+	path = airplay
+	url = https://github.com/LinusS1/airplay-skill.git
