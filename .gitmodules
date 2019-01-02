@@ -169,3 +169,6 @@
 [submodule "remember"]
 	path = remember
 	url = https://github.com/luke5sky/remember-skill.git
+[submodule "telegram"]
+	path = telegram
+	url = https://github.com/luke5sky/telegram-skill
