@@ -172,3 +172,6 @@
 [submodule "telegram"]
 	path = telegram
 	url = https://github.com/luke5sky/telegram-skill
+[submodule "count"]
+	path = count
+	url = https://github.com/andlo/count-skill.git
