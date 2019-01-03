@@ -175,3 +175,6 @@
 [submodule "count"]
 	path = count
 	url = https://github.com/andlo/count-skill.git
+[submodule "desktop-control"]
+	path = desktop-control
+	url = https://github.com/TREE-Ind/desktop-control
