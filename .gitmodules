@@ -178,3 +178,6 @@
 [submodule "count"]
 	path = count
 	url = https://github.com/andlo/count-skill.git
+[submodule "learning_skill"]
+	path = learning_skill
+	url = https://github.com/gras64/learning-skill.git
