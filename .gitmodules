@@ -178,3 +178,6 @@
 [submodule "count"]
 	path = count
 	url = https://github.com/andlo/count-skill.git
+[submodule "sasurie-skill"]
+	path = sasurie-skill
+	url = https://github.com/MyCroftSit/sasurie-skill
