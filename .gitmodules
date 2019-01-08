@@ -135,25 +135,22 @@
 	url = https://github.com/krisgesling/tronald-dump-skill
 [submodule "homeassistant"]
 	path = homeassistant
-	url = https://github.com/btotharye/mycroft-homeassistant.git
+	url = https://github.com/MycroftAI/mycroft-homeassistant
 [submodule "picroft-google-aiy-voicekit"]
 	path = picroft-google-aiy-voicekit
 	url = https://github.com/andlo/picroft-google-aiy-voicekit-skill.git
-[submodule "rodent-facts"]
-	path = rodent-facts
-	url = https://github.com/btotharye/rodent-facts-skill
 [submodule "skill-finished-booting"]
 	path = skill-finished-booting
 	url = https://github.com/zelmon64/skill-finished-booting.git
 [submodule "national-park"]
 	path = national-park
 	url = https://github.com/richhowley/national-parks-skill.git
-[submodule "kathy-msk-test-skill"]
-	path = kathy-msk-test-skill
-	url = https://github.com/KathyReid/kathy-msk-test-skill
 [submodule "wikiquote"]
 	path = wikiquote
 	url = https://github.com/danielwine/wikiquote-skill
+[submodule "dice-skill"]
+	path = dice-skill
+	url = https://github.com/Dragoncraft89/dice-skill
 [submodule "openhab-skill"]
 	path = openhab-skill
 	url = https://github.com/openhab/openhab-mycroft
@@ -175,3 +172,12 @@
 [submodule "auto-volume"]
 	path = auto-volume
 	url = https://github.com/andlo/auto-volume-skill.git
+[submodule "bedtime-stories-skill"]
+	path = bedtime-stories-skill
+	url = https://github.com/TREE-Ind/bedtime-stories-skill
+[submodule "telegram"]
+	path = telegram
+	url = https://github.com/luke5sky/telegram-skill
+[submodule "count"]
+	path = count
+	url = https://github.com/andlo/count-skill.git
