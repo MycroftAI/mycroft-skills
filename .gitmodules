@@ -184,3 +184,6 @@
 [submodule "count"]
 	path = count
 	url = https://github.com/andlo/count-skill.git
+[submodule "fairytalez"]
+	path = fairytalez
+	url = https://github.com/andlo/fairytalez-skill.git
