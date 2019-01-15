@@ -187,3 +187,6 @@
 [submodule "fairytalez"]
 	path = fairytalez
 	url = https://github.com/andlo/fairytalez-skill.git
+[submodule "picroft-home-assistance-skill"]
+	path = picroft-home-assistance-skill
+	url = https://github.com/psanwald/picroft-home-assistance-skill
