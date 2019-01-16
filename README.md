@@ -23,7 +23,7 @@ If you want to write **Skills** for Mycroft, Documentation is available:
 
 # Available Skills
 
-The Skills list has now moved here: [https://mycroftai.github.io/mycroft-skills/](https://mycroftai.github.io/mycroft-skills/)
+You can easily browse skills in this repo via the [Mycroft Marketplace](https://market.mycroft.ai).
 
 # Support 
 
