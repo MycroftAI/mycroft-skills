@@ -27,26 +27,24 @@ This means you should have done all of these things:
 * Committed all your code to Github.
 
 
-## Using MSK to submit a new skill
+## Using MSK to submit a new skill or update an existing skill
 
 Once your skill is ready for the Marketplace, submitting it for review is as
 easy as:
 ```
+cd <local-path-to-your-skill>
 mycroft-msk submit .
 ```
-
-That's it!  The currently active branch of your repo will be submitted.
-
-
-## Updating an existing skill
-
-A skill that is already in the Marketplace can easily be updated with:
+or:
 ```
-mycroft-msk update .
+mycroft-msk submit <local-path-to-your-skill>
 ```
 
-Changes to a README.md or translations will automatically be approved and
-merged.  New functionality will be re-reviewed before approval and merging.
+That's it!  The currently active branch of your repo will be submitted.  If a PR is
+already pending approval, that PR will be updated in place.
+
+By policy, changes to a README.md or translations will automatically be approved and
+merged.  New skills or new functionality will be re-reviewed before approval and merging.
 
 
 # Links to Additional Resources
