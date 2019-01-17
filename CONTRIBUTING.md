@@ -46,6 +46,9 @@ already pending approval, that PR will be updated in place.
 By policy, changes to a README.md or translations will automatically be approved and
 merged.  New skills or new functionality will be re-reviewed before approval and merging.
 
+__Note:__ If you have two-factor authentication enabled for github, you will need to generate a [personal access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) and use the `-t` flag. E.g.
+
+    mycroft-msk -t submit <local-path-to-your-skill>
 
 # Links to Additional Resources
 
