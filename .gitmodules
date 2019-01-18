@@ -187,3 +187,6 @@
 [submodule "fairytalez"]
 	path = fairytalez
 	url = https://github.com/andlo/fairytalez-skill.git
+[submodule "roomba-serial-command-skill"]
+	path = roomba-serial-command-skill
+	url = https://github.com/JonStratton/roomba-serial-command-skill
