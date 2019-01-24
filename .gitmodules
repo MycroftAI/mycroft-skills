@@ -187,3 +187,6 @@
 [submodule "fairytalez"]
 	path = fairytalez
 	url = https://github.com/andlo/fairytalez-skill.git
+[submodule "do-gooder-test"]
+	path = do-gooder-test
+	url = https://github.com/krisgesling/do-gooder-skill
