@@ -187,6 +187,9 @@
 [submodule "fairytalez"]
 	path = fairytalez
 	url = https://github.com/andlo/fairytalez-skill.git
+[submodule "speedtest"]
+	path = speedtest
+	url = https://github.com/luke5sky/speedtest-skill.git
 [submodule "pick-number"]
 	path = pick-number
 	url = https://github.com/pcwii/skill-pick-number.git
