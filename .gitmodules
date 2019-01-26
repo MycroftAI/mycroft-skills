@@ -193,3 +193,6 @@
 [submodule "pick-number"]
 	path = pick-number
 	url = https://github.com/pcwii/skill-pick-number.git
+[submodule "fallback-recommendations-skill"]
+	path = fallback-recommendations-skill
+	url = https://github.com/LinusS1/fallback-recommendations-skill
