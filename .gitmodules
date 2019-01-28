@@ -193,3 +193,6 @@
 [submodule "pick-number"]
 	path = pick-number
 	url = https://github.com/pcwii/skill-pick-number.git
+[submodule "fallback-query"]
+	path = fallback-query
+	url = https://github.com/MycroftAI/skill-query.git
