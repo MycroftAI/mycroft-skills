@@ -7,10 +7,10 @@ mycroft-naptime
 mycroft-playback-control
 mycroft-speak
 mycroft-volume
+fallback-query
 
 # common
 mycroft-fallback-duck-duck-go
-#fallback-aiml
 fallback-wolfram-alpha
 fallback-unknown
 mycroft-alarm
