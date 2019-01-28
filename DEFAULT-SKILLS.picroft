@@ -8,6 +8,7 @@ mycroft-naptime
 mycroft-playback-control
 mycroft-speak
 mycroft-volume
+fallback-query
 
 # common
 mycroft-fallback-duck-duck-go
