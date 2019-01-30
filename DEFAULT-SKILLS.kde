@@ -12,7 +12,6 @@ fallback-query
 # desktop
 krunner-search-skill
 plasma-activities-skill
-plasma-user-control-skill
 
 # common
 mycroft-fallback-duck-duck-go
