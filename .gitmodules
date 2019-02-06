@@ -196,3 +196,6 @@
 [submodule "fallback-query"]
 	path = fallback-query
 	url = https://github.com/MycroftAI/skill-query.git
+[submodule "iss-tracker"]
+	path = iss-tracker
+	url = https://github.com/andlo/iss-tracker-skill.git
