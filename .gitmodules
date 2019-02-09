@@ -199,3 +199,6 @@
 [submodule "iss-tracker"]
 	path = iss-tracker
 	url = https://github.com/andlo/iss-tracker-skill.git
+[submodule "Vlc-Skill"]
+	path = Vlc-Skill
+	url = https://github.com/Zeros80/runcommand-skill
