@@ -199,3 +199,6 @@
 [submodule "iss-tracker"]
 	path = iss-tracker
 	url = https://github.com/andlo/iss-tracker-skill.git
+[submodule "mycroft-wink-iot"]
+	path = mycroft-wink-iot
+	url = https://github.com/MycroftAI/skill-wink-iot.git
