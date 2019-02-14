@@ -202,3 +202,6 @@
 [submodule "mycroft-wink-iot"]
 	path = mycroft-wink-iot
 	url = https://github.com/MycroftAI/skill-wink-iot.git
+[submodule "fallback-recommendations-skill"]
+	path = fallback-recommendations-skill
+	url = https://github.com/linuss1/fallback-recommendations-skill.git
