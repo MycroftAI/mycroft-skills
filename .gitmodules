@@ -202,3 +202,6 @@
 [submodule "mycroft-wink-iot"]
 	path = mycroft-wink-iot
 	url = https://github.com/MycroftAI/skill-wink-iot.git
+[submodule "nurse-demo"]
+	path = nurse-demo
+	url = https://github.com/SDJohnnyAlpha/nurse-demo-skill
