@@ -178,3 +178,6 @@
 [submodule "plasma-mycroft-applet-control"]
 	path = plasma-mycroft-applet-control
 	url = https://github.com/AIIX/plasma-mycroft-applet-control
+[submodule "ul-timetable"]
+	path = ul-timetable
+	url = https://github.com/BrianArch96/Mycroft-timetable
