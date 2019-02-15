@@ -202,3 +202,6 @@
 [submodule "mycroft-wink-iot"]
 	path = mycroft-wink-iot
 	url = https://github.com/MycroftAI/skill-wink-iot.git
+[submodule "ul-timetable"]
+	path = ul-timetable
+	url = https://github.com/BrianArch96/Mycroft-timetable
