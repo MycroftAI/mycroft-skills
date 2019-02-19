@@ -202,3 +202,6 @@
 [submodule "mycroft-chat"]
 	path = mycroft-chat
 	url = https://github.com/domcross/mycroft-chat-skill.git
+[submodule "mycroft-wink-iot"]
+	path = mycroft-wink-iot
+	url = https://github.com/MycroftAI/skill-wink-iot.git
