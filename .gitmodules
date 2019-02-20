@@ -97,114 +97,12 @@
 [submodule "mycroft-release-test"]
 	path = skill-release-test
 	url = https://github.com/mycroftai/skill-release-test
-[submodule "game-zork"]
-	path = game-zork
-	url = https://github.com/forslund/white-house-adventure
-[submodule "fallback-aiml"]
-	path = fallback-aiml
-	url = https://github.com/forslund/fallback-aiml.git
-[submodule "cocktails"]
-	path = cocktails
-	url = https://github.com/forslund/skill-cocktail.git
-[submodule "lifx-mycroft"]
-	path = lifx-mycroft
-	url = https://github.com/samclane/lifx-mycroft.git
-[submodule "decide-skill"]
-	path = decide-skill
-	url = https://github.com/lhannon/decide-skill.git
-[submodule "plasma-activities-skill"]
-	path = plasma-activities-skill
-	url = https://github.com/AIIX/plasma-activities-skill
-[submodule "carstena-the-cows-lists"]
-	path = carstena-the-cows-lists
-	url = https://github.com/CarstenAgerskov/skill-the-cows-lists.git
-[submodule "email-skill"]
-	path = email-skill
-	url = https://github.com/linuss1/email-skill
-[submodule "emby"]
-	path = emby
-	url = https://github.com/rickyphewitt/emby-skill
-[submodule "skill-number-guess"]
-	path = skill-number-guess
-	url = https://github.com/Arc676/Number-Guess-Mycroft-Skill
-[submodule "skill-crystal-ball"]
-	path = skill-crystal-ball
-	url = https://github.com/Arc676/Crystal-Ball-Mycroft-Skill
-[submodule "tronald-dump-skill"]
-	path = tronald-dump-skill
-	url = https://github.com/krisgesling/tronald-dump-skill
-[submodule "homeassistant"]
-	path = homeassistant
-	url = https://github.com/MycroftAI/mycroft-homeassistant
-[submodule "picroft-google-aiy-voicekit"]
-	path = picroft-google-aiy-voicekit
-	url = https://github.com/andlo/picroft-google-aiy-voicekit-skill.git
 [submodule "skill-finished-booting"]
 	path = skill-finished-booting
 	url = https://github.com/zelmon64/skill-finished-booting.git
-[submodule "national-park"]
-	path = national-park
-	url = https://github.com/richhowley/national-parks-skill.git
-[submodule "wikiquote"]
-	path = wikiquote
-	url = https://github.com/danielwine/wikiquote-skill
-[submodule "dice-skill"]
-	path = dice-skill
-	url = https://github.com/Dragoncraft89/dice-skill
-[submodule "openhab-skill"]
-	path = openhab-skill
-	url = https://github.com/openhab/openhab-mycroft
-[submodule "theia-ide"]
-	path = theia-ide
-	url = https://github.com/andlo/theia-ide-skill.git
-[submodule "krunner-search-skill"]
-	path = krunner-search-skill
-	url = https://github.com/AIIX/krunner-search-skill.git
-[submodule "cut-up-skill"]
-	path = cut-up-skill
-	url = https://github.com/JonStratton/cut-up-skill
-[submodule "skill-aircrack"]
-	path = skill-aircrack
-	url = https://github.com/JonStratton/skill-aircrack
-[submodule "remember"]
-	path = remember
-	url = https://github.com/luke5sky/remember-skill.git
-[submodule "laugh"]
-	path = laugh
-	url = https://github.com/JarbasAl/skill-laugh.git
-[submodule "auto-volume"]
-	path = auto-volume
-	url = https://github.com/andlo/auto-volume-skill.git
-[submodule "bedtime-stories-skill"]
-	path = bedtime-stories-skill
-	url = https://github.com/TREE-Ind/bedtime-stories-skill
-[submodule "telegram"]
-	path = telegram
-	url = https://github.com/luke5sky/telegram-skill
-[submodule "count"]
-	path = count
-	url = https://github.com/andlo/count-skill.git
-[submodule "fairytalez"]
-	path = fairytalez
-	url = https://github.com/andlo/fairytalez-skill.git
-[submodule "speedtest"]
-	path = speedtest
-	url = https://github.com/luke5sky/speedtest-skill.git
-[submodule "pick-number"]
-	path = pick-number
-	url = https://github.com/pcwii/skill-pick-number.git
 [submodule "fallback-query"]
 	path = fallback-query
 	url = https://github.com/MycroftAI/skill-query.git
-[submodule "iss-tracker"]
-	path = iss-tracker
-	url = https://github.com/andlo/iss-tracker-skill.git
-[submodule "mycroft-chat"]
-	path = mycroft-chat
-	url = https://github.com/domcross/mycroft-chat-skill.git
 [submodule "mycroft-wink-iot"]
 	path = mycroft-wink-iot
 	url = https://github.com/MycroftAI/skill-wink-iot.git
-[submodule "fallback-recommendations-skill"]
-	path = fallback-recommendations-skill
-	url = https://github.com/linuss1/fallback-recommendations-skill.git
