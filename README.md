@@ -7,7 +7,7 @@ The official home of **Skills** for the Mycroft ecosystem.  These **Skills** are
 
 # Meta Editor
 
-If you are building **Skills**, please ensure that you use the [Meta Editor](https://raw.githack.com/MycroftAI/mycroft-skills/18.08/meta_editor.html) for your README.md file. The **Skills** list is generated from parsing the README.md files. 
+If you are building **Skills**, please ensure that you use the [Meta Editor](https://raw.githack.com/MycroftAI/mycroft-skills/19.02/meta_editor.html) for your README.md file. The **Skills** list is generated from parsing the README.md files. 
 
 # Skills Documentation
 
