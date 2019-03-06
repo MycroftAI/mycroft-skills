@@ -202,3 +202,6 @@
 [submodule "fallback-recommendations-skill"]
 	path = fallback-recommendations-skill
 	url = https://github.com/linuss1/fallback-recommendations-skill.git
+[submodule "dice-skill"]
+	path = dice-skill
+	url = https://github.com/Dragoncraft89/dice-skill
