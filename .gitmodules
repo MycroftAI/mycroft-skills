@@ -205,3 +205,6 @@
 [submodule "dice-skill"]
 	path = dice-skill
 	url = https://github.com/Dragoncraft89/dice-skill
+[submodule "carstena-the-cows-lists"]
+	path = carstena-the-cows-lists
+	url = https://github.com/CarstenAgerskov/skill-the-cows-lists.git
