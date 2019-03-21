@@ -208,3 +208,6 @@
 [submodule "carstena-the-cows-lists"]
 	path = carstena-the-cows-lists
 	url = https://github.com/CarstenAgerskov/skill-the-cows-lists.git
+[submodule "first-skill-test"]
+	path = first-skill-test
+	url = https://github.com/nsevinc/first-skill-test-skill
