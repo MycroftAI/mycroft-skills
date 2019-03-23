@@ -208,3 +208,6 @@
 [submodule "carstena-the-cows-lists"]
 	path = carstena-the-cows-lists
 	url = https://github.com/CarstenAgerskov/skill-the-cows-lists.git
+[submodule "pokemon-skill"]
+	path = pokemon-skill
+	url = https://github.com/retrodaredevil/pokemon-skill.git
