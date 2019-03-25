@@ -211,3 +211,6 @@
 [submodule "pokemon-skill"]
 	path = pokemon-skill
 	url = https://github.com/retrodaredevil/pokemon-skill.git
+[submodule "pokemon"]
+	path = pokemon
+	url = https://github.com/retrodaredevil/pokemon-skill.git
