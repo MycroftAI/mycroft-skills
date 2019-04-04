@@ -231,6 +231,7 @@
       color: #2c3e50;
       float:right;
       margin-bottom: 5px;
+      margin-left: 5px;
     }
 
     #page_README input[type="button"]:hover {
@@ -287,7 +288,7 @@
       /* display: none; */
     }
 
-    #output {
+    #rawREADME {
       width: 100%;
       height: 60vh;
     }
@@ -515,9 +516,13 @@ String.prototype.replaceAll = function(search, replace)
 ///////////////////////////////////////////////////////////////////////////////
 // README.md -> form
 
-function parseREADME(elem) {
+function showREADMEImport() {
+  document.getElementById("btnImportREADME").style.display = "block";
+}
+
+function parseREADME() {
   // Take a README and populate the appropriate editor elements
-  var text = elem.value;
+  var text = document.getElementById("rawREADME").value;
   var sections = extract_sections(text);
 
   // Extract title, short desc and icon
@@ -719,7 +724,7 @@ function extract_sections(text)
 function generateREADME() {
   // Convert the filled-out form to a markdown description (README.md) for
   // the mycroft-skill on Github
-  var elem = document.getElementById("output");
+  var elem = document.getElementById("rawREADME");
   var elIcon = document.getElementById("icon");
   var elName = document.getElementById("name");
   var elShortDesc = document.getElementById("short_desc");
@@ -990,7 +995,7 @@ function generatePreviewDetail()
 
 function generatePreview()
 {
-    var elem = document.getElementById("output");
+    var elem = document.getElementById("rawREADME");
 
     var reader = new commonmark.Parser();
     var writer = new commonmark.HtmlRenderer();
@@ -1063,7 +1068,7 @@ function update_icon()
 
 function copyToREADMEClipboard()
 {
-    var elem = document.getElementById("output");
+    var elem = document.getElementById("rawREADME");
 
     elem.select();
     document.execCommand('copy');
@@ -1313,9 +1318,11 @@ Yadda yadda..."></textarea>
 
 	<div id="page_README" class="tabcontent">
 		<p>Below is the basis of the README.md for your Skill's Github repo.  You can safely extend the contents with a custom sections below the generated content, such as <tt>## Notes</tt> or <tt>## TODO</tt>. But refrain from changing the format or order of the generated content to ensure compatibility with parsers.</p>
-        <p><b>README.md</b><input type="button" onclick="copyToREADMEClipboard()" value="Copy to Clipboard"><br/>
-        <textarea id="output" placeholder="Fill the above form and hit Generate." onchange="parseREADME(this)"></textarea>
-        </P>
+        <p><b>README.md</b>
+          <input type="button" onclick="copyToREADMEClipboard()" value="Copy to Clipboard">
+          <input type="button" id="btnImportREADME" style="display: none" onclick="parseREADME()" value="Update from README"><br/>
+          <textarea id="rawREADME" placeholder="Fill the above form and hit Generate." oninput="showREADMEImport()"></textarea>
+        </p>
     </div>
 </body>
 
