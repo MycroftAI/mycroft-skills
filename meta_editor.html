@@ -231,12 +231,24 @@
       color: #2c3e50;
       float:right;
       margin-bottom: 5px;
+      margin-left: 5px;
+    }
+
+    #msgImportedREADME {
+      color: rebeccapurple;
+      float: right;
+      padding-top: 6px;
     }
 
     #page_README input[type="button"]:hover {
       background: #fd9e66;
       cursor: pointer;
       color: #2c3e50;
+    }
+
+    #lblREADMENote {
+      font-size: 75%;
+      color: #22a7f0;
     }
 
     .entry-form .noborder {
@@ -277,7 +289,7 @@
     textarea::placeholder {
       color: #AAAFB2;
     }
-	
+
 	#custom_sections {
 	    height: 200px;
 	}
@@ -287,7 +299,7 @@
       /* display: none; */
     }
 
-    #output {
+    #rawREADME {
       width: 100%;
       height: 60vh;
     }
@@ -320,6 +332,7 @@
 
     .card_content {
         height: 100%;
+	overflow: hidden;
     }
 
     .icon {
@@ -393,8 +406,9 @@
 		background: #dddddd;
 		padding: 10px;
 		margin: 0;
+    margin-bottom: 10px;
 	}
-	
+
 	#desc_large {
 		margin-left: 70px;
 	}
@@ -413,6 +427,7 @@
     }
 
 	#div_fulldesc_large {
+    margin-top: 15px;
 		margin-bottom: 50px;
 	}
 
@@ -469,17 +484,18 @@
 </style>
 
 <head>
-	<meta http-equiv='Content-Type' content='text/html' ; charset='UTF-8'>
-	<title>Mycroft Skill Readme Generator</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <meta http-equiv='Content-Type' content='text/html' ; charset='UTF-8'>
+  <title>Mycroft Skill Readme Generator</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
-    <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/commonmark@0.28.1/dist/commonmark.js"></script>
+  <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/commonmark@0.28.1/dist/commonmark.js"></script>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pickr-widget/dist/pickr.min.css"/>
-    <script src="https://cdn.jsdelivr.net/npm/pickr-widget/dist/pickr.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pickr-widget/dist/pickr.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/pickr-widget/dist/pickr.min.js"></script>
 
-	<script type="text/javascript">
+  <script type="text/javascript">
+
 var colorPicker = null;
 	//auto expand textarea
 function adjust_textarea(h) {
@@ -491,11 +507,253 @@ function adjust_textarea(h) {
   h.style.height = new_height + "px";
 }
 
+///////////////////////////////////////////////////////////////////////////////
+// Helpers
+
+function strip(s){
+  return ( s || '' ).trim();
+}
+
+String.prototype.replaceAll = function(search, replace)
+{
+    //if replace is not sent, return original string otherwise it will
+    //replace search string with 'undefined'.
+    if (replace === undefined) {
+        return this.toString();
+    }
+
+    return this.replace(new RegExp('[' + search + ']', 'g'), replace);
+};
+
+///////////////////////////////////////////////////////////////////////////////
+// README.md -> form
+
+function showREADMEImport() {
+  document.getElementById("msgImportedREADME").style.display = "block";
+}
+
+function hideREADMEImport() {
+  document.getElementById("msgImportedREADME").style.display = "none";
+}
+
+function parseREADME() {
+  // Take a README and populate the appropriate editor elements
+  var text = document.getElementById("rawREADME").value;
+  var sections = extract_sections(text);
+
+  // Extract title, short desc and icon
+  title_info = find_title_info(sections);
+  document.getElementById("name").value = title_info[0];
+  document.getElementById("short_desc").value = title_info[1];
+
+  if (title_info[2])
+    document.getElementById("icon").value = title_info[2];
+  else {
+    if (title_info[3])
+      document.getElementById("icon").value = title_info[3];
+    if (title_info[4])
+      colorPicker.setColor(title_info[4]);
+  }
+
+  // Extract long desc
+  document.getElementById("long_desc").value = find_section("About", sections) || find_section("Description", sections);
+  adjust_textarea(document.getElementById("long_desc"));
+
+  // Extract platform
+  platform = find_section("Supported Devices", sections) || '';
+  document.getElementById("req_mark1").checked = (platform.indexOf("platform_mark1") != -1);
+  document.getElementById("req_mark2").checked = (platform.indexOf("platform_mark2") != -1);
+  document.getElementById("req_picroft").checked = (platform.indexOf("platform_picroft") != -1);
+  document.getElementById("req_plasmoid").checked = (platform.indexOf("platform_plasmoid") != -1);
+  checkDevices();
+  // Warn if platform is not found
+  leftovers = strip(platform.replace("platform_mark1", "").replace("platform_mark2", "").replace("platform_picroft", "").replace("platform_plasmoid", ""));
+  if (leftovers.length > 0)
+    alert("WARNING: Nonstandard platform ("+leftovers+") will be lost.");
+
+  // Parse Categories
+  var categories = find_section("Category", sections) || "";
+  leftovers = categories;
+  var categoryEl = document.getElementsByClassName("category_section");
+  for (var i = 0; i < categoryEl.length; i++) {
+    id = categoryEl[i].id;
+    name = id.substring(4);  // skip "cat_"
+    if (categories.indexOf(name) != -1)
+    {
+      categoryEl[i].checked = true;
+      if (categories.indexOf("**"+name+"**") != -1) {
+        document.getElementById("for_"+id).className = "primary_category";
+        leftovers.replace("**"+name+"**", "");
+      }
+      else {
+        document.getElementById("for_"+id).className = "";
+        leftovers.replace(name, "");
+      }
+    } else {
+      categoryEl[i].checked = false;
+      document.getElementById("for_"+id).className = "";
+    }
+  }
+  // Warn if category is not found
+  leftovers = strip(leftovers);
+  if (leftovers.length > 0)
+    alert("WARNING: Nonstandard category ("+leftovers+") will be lost.");
+
+  // Parse Tags
+  var tags = (find_section("Tags", sections) || "").split("\n");
+  var tagParent = document.getElementById("all_tags");
+  tagParent.innerHTML = '<label for="tag_1">Tags</label>'+
+                        '<input class="tag" type="text" id="tag_1" maxlength="100" placeholder="#Tag 1" onkeyup="addNext(this, \'tag_\')" onchange="validateTag(this)"/>'+
+					              '<span>Tags are single word identifiers, such as #kids, #crypto and are used for searching.</span>';
+  var elTag = document.getElementById("tag_1");
+  for (var i = 0; i < tags.length; i++) {
+    elTag.value = strip(tags[i].replaceAll("#", ""));
+    elTag = addNext(elTag, 'tag_');
+  }
+
+
+  // Parse Examples
+  var examples = (find_section("Examples", sections) || "").split("\n");
+  var exParent = document.getElementById("all_ex");
+  exParent.innerHTML = '<label for="ex_1">User Phrases: Hey Mycroft...</label>'+
+              				 '<input class="ex" type="text" id="ex_1" maxlength="100" placeholder="Phrase 1" onkeyup="addNext(this, \'ex_\')"/>'+
+					             '<span>Provide examples of phrases handled by the Skill after the Wake Word is spoken. The first may be highlighted and should be a prime example.<br/>Ex: "play the news", "set a 10-minute timer"</span>';
+  var elEx = document.getElementById("ex_1");
+  for (var i = 0; i < examples.length; i++) {
+    elEx.value = strip(examples[i].replaceAll('"', "").replaceAll('*', ""));
+    "".repl
+    elEx = addNext(elEx, 'ex_');
+  }
+
+  // Parse Credits
+  var credits = (find_section("Credits", sections) || "").split("\n");
+  var elCredits = document.getElementById("all_authors");
+  elCredits.innerHTML = '<label for="author_1">Author(s)</label>'+
+					              '<input class="author" type="text" id="author_1" maxlength="100" placeholder="Author name (@github_handle) 1" onkeyup="addNext(this, \'author_\')"/>'+
+					              '<span>Credits for people or organizations involved (name, email, and/or GitHub @handle).</span>';
+  var elCredit = document.getElementById("author_1");
+  for (var i = 0; i < credits.length; i++) {
+    elCredit.value = strip(credits[i]);
+    elCredit = addNext(elCredit, 'author_1');
+  }
+
+  // Deal with any custom markdown sections
+  var elCustom = document.getElementById("custom_sections");
+  elCustom.value = "";
+  for (var i=1; i < sections.length; i++)
+  {
+    title = sections[i][0];
+    if (title.indexOf("About") >= 0 || title.indexOf("Examples") >= 0 ||
+        title.indexOf("Credits") >= 0 || title.indexOf("Tags") >= 0 ||
+        title.indexOf("Supported Devices") >= 0 ||
+        title.indexOf("Category") >= 0 || title.indexOf("Tags") >= 0)
+        continue;
+
+    content = sections[1];
+    if (elCustom.value != "")
+        elCustom.value += "\n";
+
+    elCustom.value += "## "+title + "\n" + sections[i][1];
+  }
+}
+
+function find_section(name, sections)
+{
+  name = name.toLowerCase();
+  for (var i=0; i < sections.length; i++)
+  {
+    section = sections[i];
+    if (section[0].toLowerCase() == name)
+      return sections[i][1];
+  }
+
+  return null;
+}
+
+function find_title_info(sections)
+{
+  if (sections.length == 0)
+        return "";
+
+  var iTitle = 0;   // Old scheme: use first section
+  for (var i=0; i < sections.length; i++)
+  {
+    section = sections[i];
+    if (section[0].indexOf("<img") != -1)
+    {
+      iTitle = i;
+      break;
+    }
+  }
+
+  // extract icon info
+  var icon_parts = sections[iTitle][0].split("'");
+  var prev = "";
+  var url = null;
+  var name = null;
+  var color = null;
+  for (var i=0; i < icon_parts.length; i++)
+  {
+    var part = strip(icon_parts[i]);
+    if (prev.endsWith("src="))
+      url = part;
+    else if (prev.endsWith("card_color="))
+      color = part;
+
+    prev = part;
+  }
+
+  if (url && (url.startsWith("https://rawgithub.com/FortAwesome/Font-Awesome") ||
+              url.startsWith("https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/")))
+  {
+    name = url.split('/').pop().split(".")[0]
+    url = null;
+  }
+
+  title = strip(sections[iTitle][0].split("/>").pop());
+  short_desc = strip(sections[iTitle][1]);
+
+  return [title, short_desc, url, name, color];
+}
+
+function extract_sections(text)
+{
+  var lines = text.split("\n");
+  var sections = []
+
+  var section_title = "";
+  var content = "";
+  for (var i=0; i < lines.length; i++)
+  {
+    var line = strip(lines[i]);
+    if (line.startsWith("# ") || line.startsWith("## "))
+    {
+        if (section_title || content)
+            sections.push([section_title, content]);
+        section_title = strip(line.substring(2));
+        content = [];
+    }
+    else
+    {
+        if (content.length > 0)
+          content += "\n"+line;
+        else
+          content = line;
+    }
+  }
+  if (content != "")
+    sections.push([section_title, content]);
+
+  return sections;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// form -> README.md
+
 function generateREADME() {
   // Convert the filled-out form to a markdown description (README.md) for
   // the mycroft-skill on Github
-
-  var elem = document.getElementById("output");
+  var elem = document.getElementById("rawREADME");
   var elIcon = document.getElementById("icon");
   var elName = document.getElementById("name");
   var elShortDesc = document.getElementById("short_desc");
@@ -508,7 +766,7 @@ function generateREADME() {
     icon_url = "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/"+elIcon.value+".svg";
 
   markdown = "# <img src='"+icon_url+"' card_color='"+colorPicker.getColor().toHEX().toString()+"' width='50' height='50' style='vertical-align:bottom'/>";
-  markdown += "\n " + elName.value + "\n";
+  markdown += " " + elName.value + "\n";
 
   markdown += elShortDesc.value + "\n\n";
   markdown += "## About \n";
@@ -527,8 +785,6 @@ function generateREADME() {
     if (!ex) break;
     if (ex.value != "") markdown += ex.value + "\n";
   }
-  
-  markdown += elCustomSections.value + "\n\n";
 
   var req_mark1 = document.getElementById("req_mark1").checked;
   var req_mark2 = document.getElementById("req_mark2").checked;
@@ -558,23 +814,31 @@ function generateREADME() {
     }
   }
 
-  if (!validateCategories()){
-    markdown +="WARNING: You have no Categories selected. Please ensure your Skill is assigned to at least one Category." + "\n";
-  }
+  if (!validateCategories())
+      markdown +="WARNING: You have no Categories selected. Please ensure your Skill is assigned to at least one Category." + "\n";
+
 
   var tagEl = document.getElementsByClassName("tag");
   markdown += "\n## Tags\n";
   for (var i = 1; ; i++) {
-    var tag = document.getElementById("tag_" + i);
-    if (!tag) break;
-    if (tag.value != "") markdown += tag.value + "\n";
+      var tag = document.getElementById("tag_" + i);
+      if (!tag)
+          break;
+      if (tag.value != "")
+          markdown += tag.value + "\n";
   }
+
+  if (elCustomSections.value)
+      markdown += "\n\n" + elCustomSections.value;
+
+  hideREADMEImport();
 
   elem.value = markdown;
 }
 
 function addNext(input, id_prefix) {
-  if (input.value == "") return true;
+  if (input.value == "")
+    return null;
 
   inputNext = input.cloneNode(true);
   input.onkeyup = "";
@@ -592,6 +856,7 @@ function addNext(input, id_prefix) {
 
   // Add after the last
   input.parentElement.insertBefore(inputNext, input.nextSibling);
+  return inputNext;
 }
 
 function validateTag(elem)
@@ -602,17 +867,14 @@ function validateTag(elem)
 }
 
 function validateCategories(){
-  var categories =document.getElementsByName('category');
-  var numOfCheckedCategories =0;
-  for(var i = 0; i < categories.length; i++) {
-    if(categories[i].checked)
-      numOfCheckedCategories++;
+  var categories = document.getElementsByClassName('category_section');
+  var cCategories = 0;
+  for (var i = 0; i < categories.length; i++) {
+    if (categories[i].checked)
+       return true;
   }
-  if(numOfCheckedCategories < 1)  {
-    return false;
-  }  else {
-    return true;
-  }
+
+  return false;
 }
 
 function categoryClick(cb) {
@@ -736,11 +998,8 @@ function generatePreviewDetail()
   for (var i = 1; ; i++) {
     var ex = document.getElementById("ex_" + i);
     if (!ex) break;
-    if (ex.value) {
-        if (phrases != "")
-            phrases += "; "
-        phrases += "<span class='utt_large'>"+ex.value+"</span>";
-    }
+    if (ex.value)
+        phrases += "<span class='utt_large'>"+ex.value+"</span> ";
   }
   document.getElementById("utt_1_large").innerHTML = phrases;
 
@@ -767,7 +1026,7 @@ function generatePreviewDetail()
 
 function generatePreview()
 {
-    var elem = document.getElementById("output");
+    var elem = document.getElementById("rawREADME");
 
     var reader = new commonmark.Parser();
     var writer = new commonmark.HtmlRenderer();
@@ -840,7 +1099,7 @@ function update_icon()
 
 function copyToREADMEClipboard()
 {
-    var elem = document.getElementById("output");
+    var elem = document.getElementById("rawREADME");
 
     elem.select();
     document.execCommand('copy');
@@ -912,7 +1171,9 @@ function initialize() {
 			<h2>How it works</h2>
 			<i class="fas fa-edit" style="color:#22a7f0;"></i> Edit the form<br/>
 			<i class="fas fa-cogs" style="color:#40DBB0;"></i> Generate and examine previews<br/>
-			<i class="fas fa-copy" style="color:#FD9E66;"></i> Copy the output into a README.md file for your Skill's repo<br/>
+      <i class="fas fa-copy" style="color:#FD9E66;"></i> Copy the output into a README.md file for your Skill's repo<br/>
+      <h2>optionally</h2>
+			<i class="fas fa-paste" style="color:purple;"></i> Edit or Paste an existing README.md in the README tab.<br/>
 		</div>
 
 		<div id="community-links" class="instructions">
@@ -961,13 +1222,13 @@ function initialize() {
 					<span>Free form, multi-paragraph description of the Skill. You can use <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Github markdown</a>.</span>
 				</li>
 
-				<li>
+				<li id="all_ex">
 					<label for="ex_1">User Phrases: Hey Mycroft...</label>
 					<input class="ex" type="text" id="ex_1" maxlength="100" placeholder="Phrase 1" onkeyup="addNext(this, 'ex_')"/>
 					<span>Provide examples of phrases handled by the Skill after the Wake Word is spoken. The first may be highlighted and should be a prime example.<br/>Ex: "play the news", "set a 10-minute timer"</span>
 				</li>
 
-				<li>
+				<li id="all_authors">
 					<label for="author_1">Author(s)</label>
 					<input class="author" type="text" id="author_1" maxlength="100" placeholder="Author name (@github_handle) 1" onkeyup="addNext(this, 'author_')"/>
 					<span>Credits for people or organizations involved (name, email, and/or GitHub @handle).</span>
@@ -1021,11 +1282,11 @@ function initialize() {
 					<span>The first Category selected will be bold as the Primary Category for display, all others are secondary for searches.</span>
 				</li>
 
-				<li>
+				<li id="all_tags">
 					<label for="tag_1">Tags</label>
 					<input class="tag" type="text" id="tag_1" maxlength="100" placeholder="#Tag 1" onkeyup="addNext(this, 'tag_')" onchange="validateTag(this)"/>
 					<span>Tags are single word identifiers, such as #kids, #crypto and are used for searching.</span>
-                </li>
+        </li>
 
 				<li>
 					<label for="custom_section">Custom Sections</label>
@@ -1079,7 +1340,7 @@ Yadda yadda..."></textarea>
 
                 <div id="utt_large_1"><i class="fas fa-comment" style="color:#22a7f0;"></i>&nbsp;<span id="utt_1_large">testing</span></div>
 
-                <div id="div_fulldesc_large"><span id="fulldesc_large">This is a shortish description for the Skill</span></div>
+                <div id="div_fulldesc_large"><span id="fulldesc_large">This is the full description for the Skill</span></div>
 
                 <div id="by_large"><b>Credits:</b><br/><span id="author_large">By whoever (@whoever)</span></div>
 
@@ -1090,9 +1351,12 @@ Yadda yadda..."></textarea>
 
 	<div id="page_README" class="tabcontent">
 		<p>Below is the basis of the README.md for your Skill's Github repo.  You can safely extend the contents with a custom sections below the generated content, such as <tt>## Notes</tt> or <tt>## TODO</tt>. But refrain from changing the format or order of the generated content to ensure compatibility with parsers.</p>
-        <p><b>README.md</b><input type="button" onclick="copyToREADMEClipboard()" value="Copy to Clipboard"><br/>
-        <textarea id="output" placeholder="Fill the above form and hit Generate."></textarea>
-        </P>
+        <p><b>README.md</b>
+          <input type="button" onclick="copyToREADMEClipboard()" value="Copy to Clipboard">
+          <span id="msgImportedREADME" style="display: none">changes applied</span><br/>
+          <textarea id="rawREADME" placeholder="Fill the above form and hit Generate." onchange="parseREADME()" oninput="showREADMEImport()"></textarea>
+          <span id="lblREADMENote">NOTE: Edits made here will be applied back to the edit form and previews.  Be aware that non-standard README features can be lost in the round-trip after you leave this page.</span>
+        </p>
     </div>
 </body>
 
