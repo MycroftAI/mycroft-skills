@@ -234,10 +234,21 @@
       margin-left: 5px;
     }
 
+    #msgImportedREADME {
+      color: rebeccapurple;
+      float: right;
+      padding-top: 6px;
+    }
+
     #page_README input[type="button"]:hover {
       background: #fd9e66;
       cursor: pointer;
       color: #2c3e50;
+    }
+
+    #lblREADMENote {
+      font-size: 75%;
+      color: #22a7f0;
     }
 
     .entry-form .noborder {
@@ -517,7 +528,11 @@ String.prototype.replaceAll = function(search, replace)
 // README.md -> form
 
 function showREADMEImport() {
-  document.getElementById("btnImportREADME").style.display = "block";
+  document.getElementById("msgImportedREADME").style.display = "block";
+}
+
+function hideREADMEImport() {
+  document.getElementById("msgImportedREADME").style.display = "none";
 }
 
 function parseREADME() {
@@ -550,9 +565,14 @@ function parseREADME() {
   document.getElementById("req_picroft").checked = (platform.indexOf("platform_picroft") != -1);
   document.getElementById("req_plasmoid").checked = (platform.indexOf("platform_plasmoid") != -1);
   checkDevices();
+  // Warn if platform is not found
+  leftovers = strip(platform.replace("platform_mark1", "").replace("platform_mark2", "").replace("platform_picroft", "").replace("platform_plasmoid", ""));
+  if (leftovers.length > 0)
+    alert("WARNING: Nonstandard platform ("+leftovers+") will be lost.");
 
   // Parse Categories
   var categories = find_section("Category", sections) || "";
+  leftovers = categories;
   var categoryEl = document.getElementsByClassName("category_section");
   for (var i = 0; i < categoryEl.length; i++) {
     id = categoryEl[i].id;
@@ -560,15 +580,23 @@ function parseREADME() {
     if (categories.indexOf(name) != -1)
     {
       categoryEl[i].checked = true;
-      if (categories.indexOf("**"+name+"**") != -1)
+      if (categories.indexOf("**"+name+"**") != -1) {
         document.getElementById("for_"+id).className = "primary_category";
-      else
+        leftovers.replace("**"+name+"**", "");
+      }
+      else {
         document.getElementById("for_"+id).className = "";
+        leftovers.replace(name, "");
+      }
     } else {
       categoryEl[i].checked = false;
       document.getElementById("for_"+id).className = "";
     }
   }
+  // Warn if category is not found
+  leftovers = strip(leftovers);
+  if (leftovers.length > 0)
+    alert("WARNING: Nonstandard category ("+leftovers+") will be lost.");
 
   // Parse Tags
   var tags = (find_section("Tags", sections) || "").split("\n");
@@ -801,6 +829,8 @@ function generateREADME() {
 
   if (elCustomSections.value)
       markdown += "\n\n" + elCustomSections.value;
+
+  hideREADMEImport();
 
   elem.value = markdown;
 }
@@ -1140,7 +1170,9 @@ function initialize() {
 			<h2>How it works</h2>
 			<i class="fas fa-edit" style="color:#22a7f0;"></i> Edit the form<br/>
 			<i class="fas fa-cogs" style="color:#40DBB0;"></i> Generate and examine previews<br/>
-			<i class="fas fa-copy" style="color:#FD9E66;"></i> Copy the output into a README.md file for your Skill's repo<br/>
+      <i class="fas fa-copy" style="color:#FD9E66;"></i> Copy the output into a README.md file for your Skill's repo<br/>
+      <h2>optionally</h2>
+			<i class="fas fa-paste" style="color:purple;"></i> Edit or Paste an existing README.md in the README tab.<br/>
 		</div>
 
 		<div id="community-links" class="instructions">
@@ -1320,8 +1352,9 @@ Yadda yadda..."></textarea>
 		<p>Below is the basis of the README.md for your Skill's Github repo.  You can safely extend the contents with a custom sections below the generated content, such as <tt>## Notes</tt> or <tt>## TODO</tt>. But refrain from changing the format or order of the generated content to ensure compatibility with parsers.</p>
         <p><b>README.md</b>
           <input type="button" onclick="copyToREADMEClipboard()" value="Copy to Clipboard">
-          <input type="button" id="btnImportREADME" style="display: none" onclick="parseREADME()" value="Update from README"><br/>
-          <textarea id="rawREADME" placeholder="Fill the above form and hit Generate." oninput="showREADMEImport()"></textarea>
+          <span id="msgImportedREADME" style="display: none">changes applied</span><br/>
+          <textarea id="rawREADME" placeholder="Fill the above form and hit Generate." onchange="parseREADME()" oninput="showREADMEImport()"></textarea>
+          <span id="lblREADMENote">NOTE: Edits made here will be applied back to the edit form and previews.  Be aware that non-standard README features can be lost in the round-trip after you leave this page.</span>
         </p>
     </div>
 </body>
