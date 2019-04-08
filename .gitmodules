@@ -208,3 +208,6 @@
 [submodule "fallback-recommendations-skill"]
 	path = fallback-recommendations-skill
 	url = https://github.com/linuss1/fallback-recommendations-skill.git
+[submodule "localMusicPlayer"]
+	path = localMusicPlayer
+	url = https://github.com/colla69/localMusicPlayer-skill
