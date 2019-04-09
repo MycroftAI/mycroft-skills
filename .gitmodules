@@ -211,3 +211,6 @@
 [submodule "mycroft-mark-2"]
 	path = mycroft-mark-2
 	url = https://github.com/mycroftai/skill-mark-2
+[submodule "Just-testing-msk"]
+	path = Just-testing-msk
+	url = https://github.com/krisgesling/testing-msk-skill
