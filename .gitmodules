@@ -211,3 +211,6 @@
 [submodule "mycroft-mark-2"]
 	path = mycroft-mark-2
 	url = https://github.com/mycroftai/skill-mark-2
+[submodule "system-helper-skill"]
+	path = system-helper-skill
+	url = https://github.com/nsevinc/system-helper-skill
