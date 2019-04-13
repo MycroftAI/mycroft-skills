@@ -211,3 +211,6 @@
 [submodule "mycroft-mark-2"]
 	path = mycroft-mark-2
 	url = https://github.com/mycroftai/skill-mark-2
+[submodule "learning"]
+	path = learning
+	url = https://github.com/gras64/learning-skill
