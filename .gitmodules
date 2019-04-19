@@ -210,4 +210,4 @@
 	url = https://github.com/CarstenAgerskov/skill-the-cows-lists.git
 [submodule "pokemon"]
 	path = pokemon
-	url = https://github.com/retrodaredevil/pokemon-skill
+	url = https://github.com/retrodaredevil/pokemon-skill.git
