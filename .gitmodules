@@ -208,3 +208,6 @@
 [submodule "fallback-recommendations-skill"]
 	path = fallback-recommendations-skill
 	url = https://github.com/linuss1/fallback-recommendations-skill.git
+[submodule "tmdb-skill"]
+	path = tmdb-skill
+	url = https://github.com/builderjer/tmdb-skill.git
