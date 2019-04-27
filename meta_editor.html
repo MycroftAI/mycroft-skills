@@ -583,11 +583,11 @@ function parseREADME() {
       categoryEl[i].checked = true;
       if (categories.indexOf("**"+name+"**") != -1) {
         document.getElementById("for_"+id).className = "primary_category";
-        leftovers.replace("**"+name+"**", "");
+        leftovers = leftovers.replace("**"+name+"**", "");
       }
       else {
         document.getElementById("for_"+id).className = "";
-        leftovers.replace(name, "");
+        leftovers = leftovers.replace(name, "");
       }
     } else {
       categoryEl[i].checked = false;
@@ -607,7 +607,7 @@ function parseREADME() {
 					              '<span>Tags are single word identifiers, such as #kids, #crypto and are used for searching.</span>';
   var elTag = document.getElementById("tag_1");
   for (var i = 0; i < tags.length; i++) {
-    elTag.value = strip(tags[i].replaceAll("#", ""));
+    elTag.value = strip(tags[i]);
     elTag = addNext(elTag, 'tag_');
   }
 
@@ -769,17 +769,17 @@ function generateREADME() {
   markdown += " " + elName.value + "\n";
 
   markdown += elShortDesc.value + "\n\n";
-  markdown += "## About \n";
+  markdown += "## About\n";
   markdown += elLongDesc.value + "\n\n";
 
-  markdown += "## Examples \n";
+  markdown += "## Examples\n";
   for (var i = 1; ; i++) {
     var ex = document.getElementById("ex_" + i);
     if (!ex) break;
     if (ex.value != "") markdown += '* "' + ex.value + '"\n';
   }
 
-  markdown += "\n## Credits \n";
+  markdown += "\n## Credits\n";
   for (var i = 1; ; i++) {
     var ex = document.getElementById("author_" + i);
     if (!ex) break;
@@ -800,7 +800,7 @@ function generateREADME() {
   }
 
   var categoryEl = document.getElementsByClassName("category_section");
-  markdown += "\n## Category" + "\n";
+  markdown += "\n## Category\n";
   for (var i = 0; i < categoryEl.length; i++) {
     if (categoryEl[i].checked)
     {
