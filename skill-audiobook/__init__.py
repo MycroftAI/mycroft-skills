@@ -48,7 +48,7 @@ class AudiobookSkill(MycroftSkill):
     def handle_count_intent(self, message):
         utterance = message.data.get('utterance')
         repeat = re.sub('^.*?' + message.data['Audiobook'], '', utterance)
-        self.speak_dialog("loading.audiobook", data={title: repeat})
+        self.speak_dialog("loading.audiobook", data={title: repeat.strip()})
 
     # The "stop" method defines what Mycroft does when told to stop during
     # the skill's execution. In this case, since the skill's functionality
