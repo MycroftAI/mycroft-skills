@@ -47,7 +47,7 @@ class AudiobookSkill(MycroftSkill):
     @intent_handler(IntentBuilder("").require("Play").require("Audiobook"))
     def handle_count_intent(self, message):
         utterance = message.data.get('utterance')
-        self.speak_dialog('loading.audiobook', data={title: utterance})
+        self.speak_dialog("loading.audiobook", data={title: utterance})
 
     # The "stop" method defines what Mycroft does when told to stop during
     # the skill's execution. In this case, since the skill's functionality
