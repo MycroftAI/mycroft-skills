@@ -50,7 +50,7 @@ class AudiobookSkill(MycroftSkill):
         utterance = message.data.get('utterance')
         repeat = re.sub('^.*?' + message.data['Audiobook'], '', utterance)
         # Read title if audiobook is found
-        self.speak_dialog("loading.audiobook", wait=True)
+        self.speak_dialog("loading.audiobook")
         self.speak(repeat.split())
         
 
