@@ -1,0 +1,3 @@
+read (?P<Words>.*)
+play (?P<Words>.*)
+open (?P<Words>.*)

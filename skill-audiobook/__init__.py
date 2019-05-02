@@ -29,7 +29,7 @@ from requests import Session
 # from the MycroftSkill class.  You extend this class as shown below.
 
 # Audiobook Skill, based on this feature request on github: https://github.com/MycroftAI/mycroft-skills/issues/47
-# Used the NPR News skill as a base.
+# Used the Speak skill as a base.
 
 class AudiobookSkill(MycroftSkill):
 
@@ -44,14 +44,15 @@ class AudiobookSkill(MycroftSkill):
     # Idea: Will save the audiobook zip file, then extract it, before
     # it can be played
 
-    @intent_handler(IntentBuilder("").require("Play").require("Audiobook"))
-    def handle_count_intent(self, message):
+    @intent_handler(IntentBuilder("").require("Read").require("Audiobook"))
+    def handle_read_intent(self, message):
         # Get audiobook title from utterance
         utterance = message.data.get('utterance')
-        repeat = re.sub('^.*?' + message.data['Audiobook'], '', utterance)
-        book_title = str(repeat.split())
+        repeat = re.sub('^.*?' + message.data['Read'], '', utterance)
+        book_title = {'title': repeat}
         # Read title if audiobook is found
-        self.speak_dialog("loading.audiobook")
+        #self.speak_dialog("loading.audiobook", data=book_title)
+        self.speak(repeat.split())
         
 
     # The "stop" method defines what Mycroft does when told to stop during
