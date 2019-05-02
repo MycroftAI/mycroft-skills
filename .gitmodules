@@ -211,3 +211,6 @@
 [submodule "mycroft-mark-2"]
 	path = mycroft-mark-2
 	url = https://github.com/mycroftai/skill-mark-2
+[submodule "event-tracking"]
+	path = event-tracking
+	url = https://github.com/viru128918/klasen
