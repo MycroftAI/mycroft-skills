@@ -48,11 +48,11 @@ class AudiobookSkill(MycroftSkill):
     def handle_read_intent(self, message):
         # Get audiobook title from utterance
         utterance = message.data.get('utterance')
-        repeat = re.sub('^.*?' + message.data['Read'], '', utterance)
+        repeat = re.sub('^.*?' + message.data['Audiobook'], '', utterance)
         book_title = {'title': repeat}
         # Read title if audiobook is found
         #self.speak_dialog("loading.audiobook", data=book_title)
-        self.speak(repeat.split())
+        self.speak(repeat.split()[0])
         
 
     # The "stop" method defines what Mycroft does when told to stop during
