@@ -1,7 +1,0 @@
-{
-  "utterance": "What is the subject of the lecture",
-  "intent_type": "LectureIntent",
-  "intent": {
-    "SubjectKeyword": "Subject"
-  }
-}
