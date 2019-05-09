@@ -214,3 +214,6 @@
 [submodule "mycroft-mark-2"]
 	path = mycroft-mark-2
 	url = https://github.com/mycroftai/skill-mark-2
+[submodule "lecture-skill"]
+	path = lecture-skill
+	url = https://github.com/Habanossi/lecture-skill
