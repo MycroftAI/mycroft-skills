@@ -214,6 +214,9 @@
 [submodule "mycroft-mark-2"]
 	path = mycroft-mark-2
 	url = https://github.com/mycroftai/skill-mark-2
+[submodule "list-manager"]
+	path = list-manager
+	url = https://github.com/lb803/list-manager-skill.git
 [submodule "Gui-Examples"]
 	path = Gui-Examples
 	url = https://github.com/AIIX/Skill-Gui-Examples
