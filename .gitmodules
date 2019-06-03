@@ -220,3 +220,6 @@
 [submodule "Gui-Examples"]
 	path = Gui-Examples
 	url = https://github.com/AIIX/Skill-Gui-Examples
+[submodule "Soundcloud-Player"]
+	path = Soundcloud-Player
+	url = https://github.com/AIIX/soundcloud-audio-player
