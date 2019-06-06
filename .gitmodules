@@ -220,3 +220,6 @@
 [submodule "Gui-Examples"]
 	path = Gui-Examples
 	url = https://github.com/AIIX/Skill-Gui-Examples
+[submodule "moviemaster"]
+	path = moviemaster
+	url = https://github.com/builderjer/moviemaster
