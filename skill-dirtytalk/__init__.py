@@ -42,6 +42,18 @@ class DirtySkill(MycroftSkill):
         #    dialogs/en-us/dirty.talk.dialog
         self.speak_dialog("dirty.talk")
 
+    @intent_handler(IntentBuilder("").require("Filthy"))
+    def handle_talk_filthy_intent(self, message):
+        self.speak_dialog("filthy.talk")
+
+    @intent_handler(IntentBuilder("").require("Nasty"))
+    def handle_talk_nasty_intent(self, message):
+        self.speak_dialog("nasty.talk")
+
+    @intent_handler(IntentBuilder("").require("Dirty").require("Joke"))
+    def handle_talk_joke_intent(self, message):
+        self.speak_dialog("dirty.joke")
+
     # The "stop" method defines what Mycroft does when told to stop during
     # the skill's execution. In this case, since the skill's functionality
     # is extremely simple, there is no need to override it.  If you DO
