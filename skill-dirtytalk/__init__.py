@@ -50,7 +50,7 @@ class DirtySkill(MycroftSkill):
     def handle_talk_nasty_intent(self, message):
         self.speak_dialog("nasty.talk")
 
-    @intent_handler(IntentBuilder("").require("Dirty").require("Joke"))
+    @intent_handler(IntentBuilder("").require("Filthy").require("Joke"))
     def handle_talk_joke_intent(self, message):
         self.speak_dialog("dirty.joke")
 

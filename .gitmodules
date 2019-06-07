@@ -220,3 +220,6 @@
 [submodule "Gui-Examples"]
 	path = Gui-Examples
 	url = https://github.com/AIIX/Skill-Gui-Examples
+[submodule "skill-dirtytalk/mycroft-skill-dirtytalk"]
+	path = skill-dirtytalk/mycroft-skill-dirtytalk
+	url = https://github.com/maxpivo/mycroft-skill-dirtytalk

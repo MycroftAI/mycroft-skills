@@ -1,19 +1,11 @@
-To submit your skill, replace this file with text from 
-https://rawgit.com/MycroftAI/mycroft-skills/master/meta_editor.html
-
-
-## YOUR SKILL NAME
-One line description of the skill
+## Dirty Talk
+Dirty, Filthy, and Nasty talk. Dirty Jokes too!
 
 ## Description 
-A more verbose description, including any extra instructions or
-information that didn't fit in the one line.
-
-## Examples 
-* "Hello world"
-* "Greetings planet earth"
-* "Count up"
-* "Count down"
+* "Talk Dirty" - Run of the mill dirty talk
+* "Filthy" - A little more X rated
+* "Nasty" - X Rated and intended to be offensive
+* "Filthy Joke" - Will tell you a one-liner
 
 ## Credits 
-Your name
+maxpivo # mycroft-skill-dirtytalk

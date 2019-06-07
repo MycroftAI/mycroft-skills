@@ -1,0 +1,3 @@
+[submodule "mycroft-skill-dirtytalk"]
+	path = mycroft-skill-dirtytalk
+	url = https://github.com/maxpivo/mycroft-skill-dirtytalk
