@@ -223,3 +223,6 @@
 [submodule "moviemaster"]
 	path = moviemaster
 	url = https://github.com/builderjer/moviemaster
+[submodule "food-wizard"]
+	path = food-wizard
+	url = https://github.com/AIIX/food-wizard
