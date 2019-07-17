@@ -1,0 +1,6 @@
+response = unirest.get("https://bravenewcoin-v1.p.rapidapi.com/prices?coin=etc",
+  headers={
+    "X-RapidAPI-Host": "bravenewcoin-v1.p.rapidapi.com",
+    "X-RapidAPI-Key": "038b66ef83msh8a939469b33749ep1ced8djsnfb00c1503a42"
+  }
+)
