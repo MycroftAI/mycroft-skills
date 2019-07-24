@@ -223,3 +223,6 @@
 [submodule "moviemaster"]
 	path = moviemaster
 	url = https://github.com/builderjer/moviemaster
+[submodule "skill-unitconversion"]
+	path = skill-unitconversion
+	url = https://github.com/traverseda/mycroft-skill-unitconversion.git
