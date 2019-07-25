@@ -223,3 +223,6 @@
 [submodule "moviemaster"]
 	path = moviemaster
 	url = https://github.com/builderjer/moviemaster
+[submodule "Wiktionary"]
+	path = Wiktionary
+	url = https://github.com/TREE-Ind/Wiktionary-Skill
