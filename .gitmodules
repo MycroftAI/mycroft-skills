@@ -226,3 +226,6 @@
 [submodule "Wiktionary"]
 	path = Wiktionary
 	url = https://github.com/TREE-Ind/Wiktionary-Skill
+[submodule "template-cook-recipe"]
+	path = template-cook-recipe
+	url = https://github.com/AlexandruMartin98/AlexandruMartin1998
