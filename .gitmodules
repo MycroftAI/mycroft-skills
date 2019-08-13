@@ -226,3 +226,6 @@
 [submodule "Wiktionary"]
 	path = Wiktionary
 	url = https://github.com/TREE-Ind/Wiktionary-Skill
+[submodule "communications"]
+	path = communications
+	url = https://github.com/LinusS1/communications-skill
