@@ -226,3 +226,6 @@
 [submodule "Wiktionary"]
 	path = Wiktionary
 	url = https://github.com/TREE-Ind/Wiktionary-Skill
+[submodule "bark"]
+	path = bark
+	url = https://github.com/padresb/bark-skill
