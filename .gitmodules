@@ -229,3 +229,6 @@
 [submodule "nevermind-skill"]
 	path = nevermind-skill
 	url = https://github.com/ChanceNCounter/nevermind-skill
+[submodule "bark-skill"]
+	path = bark-skill
+	url = https://github.com/padresb/bark-skill
