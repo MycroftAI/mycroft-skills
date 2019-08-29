@@ -229,3 +229,6 @@
 [submodule "nevermind-skill"]
 	path = nevermind-skill
 	url = https://github.com/ChanceNCounter/nevermind-skill
+[submodule "today-in-history"]
+	path = today-in-history
+	url = https://github.com/austin-carnahan/days-in-history-skill
