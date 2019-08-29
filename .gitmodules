@@ -226,3 +226,6 @@
 [submodule "Wiktionary"]
 	path = Wiktionary
 	url = https://github.com/TREE-Ind/Wiktionary-Skill
+[submodule "nevermind-skill"]
+	path = nevermind-skill
+	url = https://github.com/ChanceNCounter/nevermind-skill
