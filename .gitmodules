@@ -226,12 +226,12 @@
 [submodule "Wiktionary"]
 	path = Wiktionary
 	url = https://github.com/TREE-Ind/Wiktionary-Skill
-[submodule "nevermind-skill"]
-	path = nevermind-skill
-	url = https://github.com/ChanceNCounter/nevermind-skill
 [submodule "bark-skill"]
 	path = bark-skill
 	url = https://github.com/padresb/bark-skill
 [submodule "today-in-history"]
 	path = today-in-history
 	url = https://github.com/austin-carnahan/days-in-history-skill
+[submodule "dismissal-skill"]
+	path = dismissal-skill
+	url = https://github.com/ChanceNCounter/dismissal-skill.git
