@@ -232,3 +232,6 @@
 [submodule "today-in-history"]
 	path = today-in-history
 	url = https://github.com/austin-carnahan/days-in-history-skill
+[submodule "incisive"]
+	path = incisive
+	url = https://github.com/AzumoHQ/incisive-skill
