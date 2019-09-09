@@ -235,3 +235,6 @@
 [submodule "dismissal-skill"]
 	path = dismissal-skill
 	url = https://github.com/ChanceNCounter/dismissal-skill.git
+[submodule "google-calendar-skill"]
+	path = google-calendar-skill
+	url = https://github.com/forslund/gcalendar_skill
