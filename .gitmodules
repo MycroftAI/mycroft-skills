@@ -223,3 +223,6 @@
 [submodule "dismissal-skill"]
 	path = dismissal-skill
 	url = https://github.com/ChanceNCounter/dismissal-skill.git
+[submodule "helloworld"]
+	path = helloworld
+	url = https://github.com/talianahr/helloworld-skill
