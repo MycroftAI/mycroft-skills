@@ -223,3 +223,6 @@
 [submodule "dismissal-skill"]
 	path = dismissal-skill
 	url = https://github.com/ChanceNCounter/dismissal-skill.git
+[submodule "mbta-bis-tracking"]
+	path = mbta-bis-tracking
+	url = https://github.com/richhowley/mbta-bus-tracking-skill
