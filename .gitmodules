@@ -223,3 +223,6 @@
 [submodule "dismissal-skill"]
 	path = dismissal-skill
 	url = https://github.com/ChanceNCounter/dismissal-skill.git
+[submodule "Youtube-Player"]
+	path = Youtube-Player
+	url = https://github.com/AIIX/youtube-skill
