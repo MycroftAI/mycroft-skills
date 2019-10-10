@@ -223,3 +223,6 @@
 [submodule "dismissal-skill"]
 	path = dismissal-skill
 	url = https://github.com/ChanceNCounter/dismissal-skill.git
+[submodule "useridentification"]
+	path = useridentification
+	url = https://github.com/alonyomtov123/useridentification-skill
