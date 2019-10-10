@@ -223,3 +223,6 @@
 [submodule "dismissal-skill"]
 	path = dismissal-skill
 	url = https://github.com/ChanceNCounter/dismissal-skill.git
+[submodule "game-underwater-adventure"]
+	path = game-underwater-adventure
+	url = https://github.com/forslund/underwater-adventure-skill
