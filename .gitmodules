@@ -232,3 +232,6 @@
 [submodule "today-in-history"]
 	path = today-in-history
 	url = https://github.com/austin-carnahan/days-in-history-skill
+[submodule "RPi-GPIO"]
+	path = RPi-GPIO
+	url = https://github.com/drunau/Controlling_GPIO
