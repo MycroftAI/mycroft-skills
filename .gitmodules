@@ -232,3 +232,6 @@
 [submodule "fallback-recommendations-skill"]
 	path = fallback-recommendations-skill
 	url = https://github.com/linuss1/fallback-recommendations-skill
+[submodule "powerball-checker-skill"]
+	path = powerball-checker-skill
+	url = https://github.com/laurapalmerstolemyheart/powerball-checker-skill
