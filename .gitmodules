@@ -235,3 +235,6 @@
 [submodule "Youtube-Player"]
 	path = Youtube-Player
 	url = https://github.com/AIIX/youtube-skill
+[submodule "myepisodes"]
+	path = myepisodes
+	url = https://github.com/brezuicabogdan/brezicode.myepisodes.mycroftai
