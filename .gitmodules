@@ -232,3 +232,6 @@
 [submodule "fallback-recommendations-skill"]
 	path = fallback-recommendations-skill
 	url = https://github.com/linuss1/fallback-recommendations-skill
+[submodule "check-bus-skill"]
+	path = check-bus-skill
+	url = https://github.com/VilhelmGard/check-bus-skill
