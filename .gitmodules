@@ -232,3 +232,6 @@
 [submodule "fallback-recommendations-skill"]
 	path = fallback-recommendations-skill
 	url = https://github.com/linuss1/fallback-recommendations-skill
+[submodule "productivity-tracker"]
+	path = productivity-tracker
+	url = https://github.com/yog-singh/deadline-tracker-skill
