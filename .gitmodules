@@ -232,3 +232,6 @@
 [submodule "fallback-recommendations-skill"]
 	path = fallback-recommendations-skill
 	url = https://github.com/linuss1/fallback-recommendations-skill
+[submodule "listen-to-skill"]
+	path = listen-to-skill
+	url = https://github.com/mschoof00/listen-to-skill
