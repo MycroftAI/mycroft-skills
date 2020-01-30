@@ -232,3 +232,6 @@
 [submodule "fallback-recommendations-skill"]
 	path = fallback-recommendations-skill
 	url = https://github.com/linuss1/fallback-recommendations-skill
+[submodule "good-bye-skill-szd"]
+	path = good-bye-skill-szd
+	url = https://github.com/suzhidong/good-bye-skill
