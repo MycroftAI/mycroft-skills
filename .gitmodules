@@ -232,3 +232,6 @@
 [submodule "fallback-recommendations-skill"]
 	path = fallback-recommendations-skill
 	url = https://github.com/linuss1/fallback-recommendations-skill
+[submodule "mycroft-skill-allergy"]
+	path = mycroft-skill-allergy
+	url = https://github.com/mofadashi/mycroft-skill-allergy
