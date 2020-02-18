@@ -232,3 +232,6 @@
 [submodule "fallback-recommendations-skill"]
 	path = fallback-recommendations-skill
 	url = https://github.com/linuss1/fallback-recommendations-skill
+[submodule "end-listening-sound"]
+	path = end-listening-sound
+	url = https://github.com/krisgesling/end-listening-sound-skill
