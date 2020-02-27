@@ -112,9 +112,6 @@
 [submodule "fallback-aiml"]
 	path = fallback-aiml
 	url = https://github.com/forslund/fallback-aiml.git
-[submodule "lifx-mycroft"]
-	path = lifx-mycroft
-	url = https://github.com/samclane/lifx-mycroft.git
 [submodule "decide-skill"]
 	path = decide-skill
 	url = https://github.com/lhannon/decide-skill.git
@@ -145,9 +142,6 @@
 [submodule "picroft-google-aiy-voicekit"]
 	path = picroft-google-aiy-voicekit
 	url = https://github.com/andlo/picroft-google-aiy-voicekit-skill.git
-[submodule "national-park"]
-	path = national-park
-	url = https://github.com/richhowley/national-parks-skill.git
 [submodule "wikiquote"]
 	path = wikiquote
 	url = https://github.com/danielwine/wikiquote-skill
@@ -190,9 +184,6 @@
 [submodule "iss-tracker"]
 	path = iss-tracker
 	url = https://github.com/andlo/iss-tracker-skill.git
-[submodule "mycroft-chat"]
-	path = mycroft-chat
-	url = https://github.com/domcross/mycroft-chat-skill.git
 [submodule "dice-skill"]
 	path = dice-skill
 	url = https://github.com/Dragoncraft89/dice-skill
