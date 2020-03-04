@@ -226,3 +226,6 @@
 [submodule "mbta-bus-tracking"]
 	path = mbta-bus-tracking
 	url = https://github.com/richhowley/mbta-bus-tracking-skill
+[submodule "travel-time-skill"]
+	path = travel-time-skill
+	url = https://github.com/TheLastProject/travel-time-skill
