@@ -226,3 +226,6 @@
 [submodule "mbta-bus-tracking"]
 	path = mbta-bus-tracking
 	url = https://github.com/richhowley/mbta-bus-tracking-skill
+[submodule "national-parks"]
+	path = national-parks
+	url = https://github.com/richhowley/national-parks-skill
