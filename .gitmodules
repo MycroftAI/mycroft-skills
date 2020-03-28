@@ -232,3 +232,6 @@
 [submodule "lifx-mycroft"]
 	path = lifx-mycroft
 	url = https://github.com/samclane/lifx-mycroft
+[submodule "password-creator"]
+	path = password-creator
+	url = https://github.com/linuss1/password-creator-skill
