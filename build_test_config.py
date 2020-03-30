@@ -64,8 +64,12 @@ def write_test_config_file(skill_submodule_name):
         config_file.write('- ' + skill_submodule_name + '\n')
 
 
+def main():
+    args = parse_command_line()
+    pull_request_diff = get_pull_request_diff(args)
+    skill_submodule_name = get_pull_request_submodule(pull_request_diff)
+    write_test_config_file(skill_submodule_name)
+
+
 if __name__ == '__main__':
-    _args = parse_command_line()
-    _pull_request_diff = get_pull_request_diff(_args)
-    _skill_submodule_name = get_pull_request_submodule(_pull_request_diff)
-    write_test_config_file(_skill_submodule_name)
+    main()
