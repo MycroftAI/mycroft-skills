@@ -31,7 +31,7 @@ def parse_command_line():
 def get_pull_request_diff(args):
     """Get the difference between the base branch and the modified branch."""
     pr_number = int(args.pull_request.strip('PR-'))
-    g = Github(environ['GITHUB_USER'], environ['GITHUB_PASSWORD'])
+    g = Github(environ['GITHUB_API_KEY'])
     repo = g.get_repo('MycroftAI/mycroft-skills')
     pr = repo.get_pull(pr_number)
     pr_diff = requests.get(pr.diff_url)

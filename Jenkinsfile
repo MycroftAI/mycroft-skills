@@ -24,8 +24,7 @@ pipeline {
                     --build-arg platform=mycroft_mark_1 \
                     --build-arg pull_request=$BRANCH_NAME \
                     --build-arg branch_name=$CHANGE_BRANCH \
-                    --build-arg github_user=$GITHUB_USR \
-                    --build-arg github_password=$GITHUB_PSW \
+                    --build-arg github_api_key=$GITHUB_PSW \
                     --no-cache \
                     -t voight-kampff-skill:$BRANCH_NAME .'
                 echo 'Running Tests'

@@ -7,8 +7,7 @@ ARG platform
 ARG branch_name
 ARG github_user
 ARG github_password
-ENV GITHUB_USER=$github_user
-ENV GITHUB_PASSWORD=$github_password
+ENV GITHUB_API_KEY=$github_api_key
 WORKDIR /opt/mycroft/mycroft-core
 RUN msm update
 COPY test-requirements.txt skill-test-requirements.txt
