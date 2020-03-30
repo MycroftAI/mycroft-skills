@@ -10,6 +10,7 @@ ARG github_password
 ENV GITHUB_USER=$github_user
 ENV GITHUB_PASSWORD=$github_password
 WORKDIR /opt/mycroft/mycroft-core
+RUN msm update
 COPY test-requirements.txt skill-test-requirements.txt
 RUN .venv/bin/python -m pip install -r skill-test-requirements.txt
 COPY build_test_config.py .
