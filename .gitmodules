@@ -232,3 +232,6 @@
 [submodule "lifx-mycroft"]
 	path = lifx-mycroft
 	url = https://github.com/samclane/lifx-mycroft
+[submodule "TeamDeathMatch"]
+	path = TeamDeathMatch
+	url = https://github.com/ChangingJet/team-deathmatch-skill
