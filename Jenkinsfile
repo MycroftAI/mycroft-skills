@@ -70,7 +70,7 @@ pipeline {
                     echo 'Sending Failure Email'
                     emailext (
                         attachLog: true,
-                        subject: "Skills Integration Tests - Build ${BRANCH_NAME} #${BUILD_NUMBER} - SUCCESS!",
+                        subject: "FAILURE - Skills Integration Tests - Build ${BRANCH_NAME} #${BUILD_NUMBER}",
                         body: """
                             <p>
                                 One or more integration tests failed. Use the
@@ -108,7 +108,7 @@ pipeline {
                     // last failed build.
                     echo 'Sending Success Email'
                     emailext (
-                        subject: "Skills Integration Tests - Build ${BRANCH_NAME} #${BUILD_NUMBER} - SUCCESS!",
+                        subject: "SUCCESS - Skills Integration Tests - Build ${BRANCH_NAME} #${BUILD_NUMBER}",
                         body: """
                             <p>
                                 All integration tests passed.  No further action required.
