@@ -17,7 +17,7 @@ pipeline {
             }
             environment {
                 //spawns GITHUB_USR and GITHUB_PSW environment variables
-                GITHUB=credentials('38b2e4a6-167a-40b2-be6f-d69be42c8190')
+                GITHUB=credentials('c5770310-9e46-4ab1-84d4-bb17ae2b2bfb')
             }
             steps {
                 sh 'docker build \
