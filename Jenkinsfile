@@ -1,4 +1,3 @@
-// test comment
 pipeline {
     agent any
     options {
