@@ -60,8 +60,11 @@ def get_pull_request_submodule(pull_request_diff):
 def write_test_config_file(skill_submodule_name):
     """Write a YAML file for the integration test setup script"""
     with open('test_skill.yml', 'w') as config_file:
-        config_file.write('test_skills:\n')
-        config_file.write('- ' + skill_submodule_name + '\n')
+        if skill_submodule_name is not None:
+            config_file.write('test_skills:\n')
+            config_file.write('- ' + skill_submodule_name + '\n')
+        else:
+            config_file.write(' ')
 
 
 def main():
