@@ -40,7 +40,7 @@ pipeline {
                 {
                     sh 'docker run \
                         --volume "$HOME/voight-kampff/identity:/root/.mycroft/identity" \
-                        --volume "$HOME/voight-kampff/:/root/allure" \
+                        --volume "$HOME/allure/skills/:/root/allure" \
                         voight-kampff-skill:${BRANCH_ALIAS} \
                         -f allure_behave.formatter:AllureFormatter \
                         -o /root/allure/allure-result --tags ~@xfail'
@@ -51,7 +51,7 @@ pipeline {
                     echo 'Report Test Results'
                     echo 'Changing ownership...'
                     sh 'docker run \
-                        --volume "$HOME/voight-kampff/:/root/allure" \
+                        --volume "$HOME/allure/skills/:/root/allure" \
                         --entrypoint=/bin/bash \
                         voight-kampff-skill:${BRANCH_ALIAS} \
                         -x -c "chown $(id -u $USER):$(id -g $USER) \
