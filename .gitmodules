@@ -217,9 +217,6 @@
 [submodule "dismissal-skill"]
 	path = dismissal-skill
 	url = https://github.com/ChanceNCounter/dismissal-skill.git
-[submodule "mozilla-webthings-gateway-skill"]
-	path = mozilla-webthings-gateway-skill
-	url = https://github.com/mozilla-iot/mozilla-webthings-gateway-skill
 [submodule "fallback-recommendations-skill"]
 	path = fallback-recommendations-skill
 	url = https://github.com/linuss1/fallback-recommendations-skill
