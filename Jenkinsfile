@@ -43,7 +43,7 @@ pipeline {
                     echo 'Report Test Results'
                     echo 'Changing ownership...'
                     sh 'docker run \
-                        -v "$HOME/voight-kampff/:/root/allure" \
+                        --volume "$HOME/voight-kampff/:/root/allure" \
                         --entrypoint=/bin/bash \
                         voight-kampff-skill:$BRANCH_NAME \
                         -x -c "chown $(id -u $USER):$(id -g $USER) \
