@@ -41,6 +41,14 @@ pipeline {
             post {
                 always {
                     echo 'Report Test Results'
+                    echo 'Changing ownership...'
+                    sh 'docker run \
+                        --volume "$HOME/voight-kampff/:/root/allure" \
+                        --entrypoint=/bin/bash \
+                        voight-kampff-skill:$BRANCH_NAME \
+                        -x -c "chown $(id -u $USER):$(id -g $USER) \
+                        -R /root/allure/"'
+
                     sh 'mv $HOME/voight-kampff/allure-result allure-result'
                     script {
                         allure([
