@@ -111,7 +111,7 @@ pipeline {
                         subject: "SUCCESS - Skills Integration Tests - Build ${BRANCH_NAME} #${BUILD_NUMBER}",
                         body: """
                             <p>
-                                All integration tests passed.  No further action required.
+                                All integration tests passed. No further action required.
                             </p>
                             <br>
                             <p>
@@ -127,7 +127,7 @@ pipeline {
                                 </a>
                             </p>""",
                         replyTo: 'devops@mycroft.ai',
-                        to: 'devs@mycroft.ai',
+                        to: 'dev@mycroft.ai',
                         recipientProviders: [
                             [$class: 'RequesterRecipientProvider'],
                             [$class:'CulpritsRecipientProvider'],
