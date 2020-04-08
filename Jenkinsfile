@@ -17,6 +17,14 @@ pipeline {
             environment {
                 //spawns GITHUB_USR and GITHUB_PSW environment variables
                 GITHUB=credentials('38b2e4a6-167a-40b2-be6f-d69be42c8190')
+                // Some branches have a "/" in their name (e.g. feature/new-and-cool)
+                // Some commands, such as those tha deal with directories, don't
+                // play nice with this naming convention.  Define an alias for the
+                // branch name that can be used in these scenarios.
+                BRANCH_ALIAS = sh(
+                    script: 'echo $BRANCH_NAME | sed -e "s#/#_#g"',
+                    returnStdout: true
+                ).trim()
             }
             steps {
                 sh 'docker build \
@@ -26,14 +34,14 @@ pipeline {
                     --build-arg branch_name=$CHANGE_BRANCH \
                     --build-arg github_api_key=$GITHUB_PSW \
                     --no-cache \
-                    -t voight-kampff-skill:$BRANCH_NAME .'
+                    -t voight-kampff-skill:${BRANCH_ALIAS} .'
                 echo 'Running Tests'
                 timeout(time: 60, unit: 'MINUTES')
                 {
                     sh 'docker run \
                         --volume "$HOME/voight-kampff/identity:/root/.mycroft/identity" \
                         --volume "$HOME/voight-kampff/:/root/allure" \
-                        voight-kampff-skill:$BRANCH_NAME \
+                        voight-kampff-skill:${BRANCH_ALIAS} \
                         -f allure_behave.formatter:AllureFormatter \
                         -o /root/allure/allure-result --tags ~@xfail'
                 }
@@ -45,7 +53,7 @@ pipeline {
                     sh 'docker run \
                         --volume "$HOME/voight-kampff/:/root/allure" \
                         --entrypoint=/bin/bash \
-                        voight-kampff-skill:$BRANCH_NAME \
+                        voight-kampff-skill:${BRANCH_ALIAS} \
                         -x -c "chown $(id -u $USER):$(id -g $USER) \
                         -R /root/allure/"'
 
@@ -66,8 +74,8 @@ pipeline {
                         label: 'Publish Report to Web Server',
                         script: '''scp allure-report.zip root@157.245.127.234:~;
                             ssh root@157.245.127.234 "unzip -o ~/allure-report.zip";
-                            ssh root@157.245.127.234 "rm -rf /var/www/voight-kampff/skills/${BRANCH_NAME}";
-                            ssh root@157.245.127.234 "mv allure-report /var/www/voight-kampff/skills/${BRANCH_NAME}"
+                            ssh root@157.245.127.234 "rm -rf /var/www/voight-kampff/skills/${BRANCH_ALIAS]";
+                            ssh root@157.245.127.234 "mv allure-report /var/www/voight-kampff/skills/${BRANCH_ALIAS}"
                         '''
                     )
                     echo 'Report Published'
