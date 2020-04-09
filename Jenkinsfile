@@ -59,7 +59,7 @@ pipeline {
 
                     echo 'Transferring...'
                     sh 'rm -rf allure-result/*'
-                    sh 'mv $HOME/voight-kampff/allure-result allure-result'
+                    sh 'mv $HOME/allure/skills/allure-result allure-result'
                     script {
                         allure([
                             includeProperties: false,
