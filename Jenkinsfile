@@ -81,6 +81,14 @@ pipeline {
                     echo 'Report Published'
                 }
                 failure {
+                    // Send allure report to Pull request
+                    script {
+                        // Create comment for Pull Requests
+                        if (env.CHANGE_ID) {
+                            echo 'Sending PR comment'
+                            pullRequest.comment('Voight Kampff Integration Test Failed ([Results](https://reports.mycroft.ai/skills/' + env.BRANCH_ALIAS + '))')
+                        }
+                    }
                     // Send failure email containing a link to the Jenkins build
                     // the results report and the console log messages to Mycroft
                     // developers, the developers of the pull request and the
@@ -120,6 +128,13 @@ pipeline {
                     )
                 }
                 success {
+                    // Send report to Pull request
+                    script {
+                        if (env.CHANGE_ID) {
+                            echo 'Sending PR comment'
+                            pullRequest.comment('Voight Kampff Integration Test Succeeded  ([Results](https://reports.mycroft.ai/skills/' + env.BRANCH_ALIAS + '))')
+                        }
+                    }
                     // Send success email containing a link to the Jenkins build
                     // and the results report to Mycroft developers, the developers
                     // of the pull request and the developers that caused the
