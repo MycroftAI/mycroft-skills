@@ -27,11 +27,15 @@ pipeline {
                 ).trim()
             }
             steps {
+                echo "Pushing to temporary test repo..."
+                sh 'git remote add mine git+ssh://git@github.com/forslund/mycroft-skills.git || true'
+                sh 'git push -uf mine ${BRANCH_NAME}'
                 sh 'docker build \
                     --build-arg major_release=20.02 \
                     --build-arg platform=mycroft_mark_1 \
                     --build-arg pull_request=$BRANCH_NAME \
-                    --build-arg branch_name=$CHANGE_BRANCH \
+                    --build-arg branch_name=$BRANCH_NAME \
+                    --build-arg repo_url=https://github.com/forslund/mycroft-skills \
                     --build-arg github_api_key=$GITHUB_PSW \
                     --no-cache \
                     -t voight-kampff-skill:${BRANCH_ALIAS} .'
