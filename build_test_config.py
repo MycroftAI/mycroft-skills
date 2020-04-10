@@ -58,10 +58,18 @@ def get_pull_request_submodule(pull_request_diff):
 
 
 def write_test_config_file(skill_submodule_name):
-    """Write a YAML file for the integration test setup script"""
+    """Write a YAML file for the integration test setup script
+
+    Not every PR into this repository will be a change to a skill.  If no
+    skill submodule was found in the PR, just add the "hello world" skill.
+    """
+    if skill_submodule_name is None:
+        submodule = 'skill-hello-world'
+    else:
+        submodule = skill_submodule_name
     with open('test_skill.yml', 'w') as config_file:
         config_file.write('test_skills:\n')
-        config_file.write('- ' + skill_submodule_name + '\n')
+        config_file.write('- ' + submodule + '\n')
 
 
 def main():

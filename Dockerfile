@@ -6,7 +6,7 @@ ARG pull_request
 ARG platform
 ARG branch_name
 ARG github_user
-ARG github_password
+ARG github_api_key
 ENV GITHUB_API_KEY=$github_api_key
 WORKDIR /opt/mycroft/mycroft-core
 RUN msm update
