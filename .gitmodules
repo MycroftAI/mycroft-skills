@@ -229,3 +229,6 @@
 [submodule "lifx-mycroft"]
 	path = lifx-mycroft
 	url = https://github.com/samclane/lifx-mycroft
+[submodule "bitcoin-price-checker"]
+	path = bitcoin-price-checker
+	url = https://github.com/87cm1n3r/bitcoin-price-checker-skill
