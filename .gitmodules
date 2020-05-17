@@ -232,3 +232,6 @@
 [submodule "myepisodes"]
 	path = myepisodes
 	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "password-skill"]
+	path = password-skill
+	url = https://github.com/gras64/password-skill
