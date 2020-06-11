@@ -232,3 +232,6 @@
 [submodule "myepisodes"]
 	path = myepisodes
 	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "Montgomery-radiocohost-trollbot-skill"]
+	path = Montgomery-radiocohost-trollbot-skill
+	url = https://github.com/Tebrion74/Montgomery-radiocohost-trollbot-skill
