@@ -232,3 +232,6 @@
 [submodule "myepisodes"]
 	path = myepisodes
 	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "patrick-lights-on-skill.mycroft"]
+	path = patrick-lights-on-skill.mycroft
+	url = https://github.com/legend-patrick/patrick-lights-on-off-skill
