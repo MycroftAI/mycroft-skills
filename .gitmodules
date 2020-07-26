@@ -232,3 +232,6 @@
 [submodule "myepisodes"]
 	path = myepisodes
 	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "web-launcher"]
+	path = web-launcher
+	url = https://github.com/krisgesling/web-launcher-skill
