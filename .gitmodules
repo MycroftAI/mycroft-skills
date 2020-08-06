@@ -232,3 +232,6 @@
 [submodule "myepisodes"]
 	path = myepisodes
 	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "iching"]
+	path = iching
+	url = https://github.com/renayo/iching-skill
