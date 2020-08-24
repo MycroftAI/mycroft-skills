@@ -133,9 +133,6 @@
 [submodule "skill-crystal-ball"]
 	path = skill-crystal-ball
 	url = https://github.com/Arc676/Crystal-Ball-Mycroft-Skill
-[submodule "tronald-dump-skill"]
-	path = tronald-dump-skill
-	url = https://github.com/krisgesling/tronald-dump-skill
 [submodule "homeassistant"]
 	path = homeassistant
 	url = https://github.com/MycroftAI/mycroft-homeassistant
