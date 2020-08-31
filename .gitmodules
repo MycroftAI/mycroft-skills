@@ -229,3 +229,6 @@
 [submodule "myepisodes"]
 	path = myepisodes
 	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "test"]
+	path = test
+	url = https://github.com/qhrfkr/wake-word-skill
