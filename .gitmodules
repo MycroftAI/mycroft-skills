@@ -229,3 +229,6 @@
 [submodule "myepisodes"]
 	path = myepisodes
 	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "test-yes-no"]
+	path = test-yes-no
+	url = https://github.com/krisgesling/test-yes-no-skill
