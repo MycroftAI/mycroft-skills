@@ -12,7 +12,7 @@ ENV GITHUB_API_KEY=$github_api_key
 RUN msm update
 # Load updated test cases for default skills
 RUN python -m test.integrationtests.voight_kampff.test_setup \
-    --config default.yml \
+    --config test/integrationtests/voight_kampff/default.yml \
     --platform $platform
 WORKDIR /opt/mycroft/mycroft-core
 COPY test-requirements.txt skill-test-requirements.txt
@@ -31,5 +31,10 @@ RUN python -m test.integrationtests.voight_kampff.test_setup \
     --platform $platform \
     --branch $branch_name \
     --repo-url $repo_url
+
+RUN mkdir /etc/mycroft || true
+RUN echo '{"tts": {"module": "dummy"}}' > /etc/mycroft/mycroft.conf
+ENV PYTHONPATH /opt/mycroft/mycroft-core/
 # Set working directory for testing
 WORKDIR /opt/mycroft/mycroft-core/test/integrationtests/voight_kampff
+ENTRYPOINT ["./run_test_suite.sh"]
