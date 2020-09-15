@@ -229,3 +229,6 @@
 [submodule "myepisodes"]
 	path = myepisodes
 	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "test-ten"]
+	path = test-ten
+	url = https://github.com/forslund/test-ten-skill
