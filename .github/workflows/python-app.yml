@@ -33,6 +33,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Cloning Mycroft Repo
       run: | 
+         ls -a
          git clone https://github.com/damorosodaragona/mycroft-core.git 
     
     - name: Installing Mycroft 
@@ -43,13 +44,10 @@ jobs:
       
     - name: Starting Mycroft 
       run: |
-        cd /home/runner/work/mycroft-core/mycroft-core/
+        cd /home/runner/work/mycroft-skills/mycroft-skills/mycroft-core
         ls -a
         ./start-mycroft.sh all
-        # sudo groupadd -g 1001 mycroft
-        # sudo useradd -M -u 1001 -g 1001 mycroft
-        # sudo mycroft
     - name: Test with pytest
       run: |
-        cd /home/runner/work/mycroft-core/mycroft-core/
+        cd /home/runner/work/mycroft-skills/mycroft-skills/mycroft-core
         ./start-mycroft.sh vktest -t skill-to-test
