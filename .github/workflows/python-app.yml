@@ -38,6 +38,7 @@ jobs:
     - name: Installing Mycroft 
       run: |
         export TERM=xterm-256color 
+        cd mycroft-core
         bash dev_setup_pipeline.sh
       
     - name: Starting Mycroft 
