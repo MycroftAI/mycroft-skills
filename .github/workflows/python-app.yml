@@ -66,4 +66,5 @@ jobs:
     - name: Testing Skill
       run: |
         cd /home/runner/work/mycroft-skills/mycroft-skills/mycroft-core
-        ./start-mycroft.sh vktest -t fallback-unknown
+        ./start-mycroft.sh vktest -f json -o /home/runner/work/mycroft-skills/mycroft-skills/mycroft-core/result.json -t fallback-unknown
+        if grep failed result.json ; then exit 1;  fi
