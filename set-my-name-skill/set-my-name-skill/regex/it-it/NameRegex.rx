@@ -1,0 +1,2 @@
+.* about (?P<Type>.*) potatoes
+.* (make|like) (?P<Type>.*) potato
