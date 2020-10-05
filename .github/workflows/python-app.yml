@@ -23,7 +23,7 @@ jobs:
     
     - name: Copying the new skill 
       run: |
-        sudo mkdir opt/mycroft/skills
+        sudo mkdir -p opt/mycroft/skills
         sudo cp /home/runner/work/mycroft-skills/mycroft-skills/set-my-name-skill opt/mycroft/skills
 
     - name: Install dependencies
