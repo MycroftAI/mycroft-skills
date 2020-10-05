@@ -47,7 +47,10 @@ jobs:
         cd /home/runner/work/mycroft-skills/mycroft-skills/mycroft-core
         ls -a
         ./start-mycroft.sh all
-    - name: Test with pytest
+    - name: FInding Skill
       run: |
-        cd /home/runner/work/mycroft-skills/mycroft-skills/mycroft-core
-        ./start-mycroft.sh vktest -t skill-to-test
+        cd /opt/mycroft
+        ls -a
+        cd /opt/mycroft/skills
+        # cd /home/runner/work/mycroft-skills/mycroft-skills/mycroft-core
+        # ./start-mycroft.sh vktest -t skill-to-test
