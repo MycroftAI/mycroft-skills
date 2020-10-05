@@ -59,6 +59,7 @@ jobs:
     - name: Creating skill dir 
       run: |
         sudo mkdir opt/mycroft/skills
+
     - name: Copying the new skill 
       run: |
         sudo cp /home/runner/work/mycroft-skills/mycroft-skills/set-my-name-skill opt/mycroft/skills
