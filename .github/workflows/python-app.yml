@@ -43,7 +43,7 @@ jobs:
       run: |
         export TERM=xterm-256color 
         cd mycroft-core
-        bash dev_setup_pipeline.sh
+        sudo bash dev_setup_pipeline.sh
       
     - name: Starting Mycroft 
       run: |
