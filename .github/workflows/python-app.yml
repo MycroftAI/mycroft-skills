@@ -52,6 +52,12 @@ jobs:
         ./start-mycroft.sh all
     - name: FInding Skill
       run: |
+        cd /
+        ls -a
+        cd /home
+        ls -a
+        cd /home/runner
+        ls -a
         cd /home/runner/work
         ls -a
         cd /home/runner/work/mycroft-skills
