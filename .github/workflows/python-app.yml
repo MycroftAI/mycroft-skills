@@ -28,7 +28,7 @@ jobs:
         sudo mkdir mycroft
         cd mycroft
         sudo mkdir skills
-        sudo -r cp /home/runner/work/mycroft-skills/mycroft-skills/set-my-name-skill /opt/mycroft/skills
+        sudo cp -r /home/runner/work/mycroft-skills/mycroft-skills/set-my-name-skill /opt/mycroft/skills
 
     - name: Install dependencies
       run: |
