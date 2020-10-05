@@ -52,8 +52,11 @@ jobs:
         ./start-mycroft.sh all
     - name: FInding Skill
       run: |
-        cd /opt/mycroft
+        cd /home/runner/work
         ls -a
-        cd /opt/mycroft/skills
+        cd /home/runner/work/mycroft-skills
+        ls -a
+        cd /home/runner/work/mycroft-skills/mycroft-skills
+        ls -a 
         # cd /home/runner/work/mycroft-skills/mycroft-skills/mycroft-core
         # ./start-mycroft.sh vktest -t skill-to-test
