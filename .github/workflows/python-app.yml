@@ -43,7 +43,7 @@ jobs:
       run: |
         export TERM=xterm-256color 
         cd mycroft-core
-        sudo bash dev_setup_pipeline.sh
+        bash dev_setup_pipeline.sh --allow-root
       
     - name: Starting Mycroft 
       run: |
@@ -64,5 +64,6 @@ jobs:
         ls -a
         cd /home/runner/work/mycroft-skills/mycroft-skills
         ls -a 
-        # cd /home/runner/work/mycroft-skills/mycroft-skills/mycroft-core
+        cd /home/runner/work/mycroft-skills/mycroft-skills/mycroft-core
+        ls -a 
         # ./start-mycroft.sh vktest -t skill-to-test
