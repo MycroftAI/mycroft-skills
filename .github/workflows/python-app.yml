@@ -43,17 +43,24 @@ jobs:
       run: |
         export TERM=xterm-256color 
         cd mycroft-core
-        bash dev_setup_pipeline.sh
+        bash dev_setup_pipeline.sh --allow-root
       
     - name: Starting Mycroft 
       run: |
         cd /home/runner/work/mycroft-skills/mycroft-skills/mycroft-core
         ls -a
-        ./start-mycroft.sh all
-    - name: FInding Skill
+        ./start-mycroft.sh all    
+    - name: Creating skill dir 
       run: |
-        cd /opt/mycroft
-        ls -a
-        cd /opt/mycroft/skills
-        # cd /home/runner/work/mycroft-skills/mycroft-skills/mycroft-core
-        # ./start-mycroft.sh vktest -t skill-to-test
+        sudo mkdir /opt/mycroft/skills
+    - name: Copying the new skill 
+      run: |
+        sudo cp /home/runner/work/mycroft-skills/mycroft-skills/set-my-name-skill opt/mycroft/skills
+        cd /home/runner/work/mycroft-skills/mycroft-skills/mycroft-core
+        ./start-mycroft.sh all restart
+    
+        
+    - name: Testing Skill
+      run: |
+        cd /home/runner/work/mycroft-skills/mycroft-skills/mycroft-core
+        ./start-mycroft.sh vktest -t SetMyNameSkill
