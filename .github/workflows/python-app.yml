@@ -50,27 +50,17 @@ jobs:
         cd /home/runner/work/mycroft-skills/mycroft-skills/mycroft-core
         ls -a
         ./start-mycroft.sh all    
-    - name: FInding Skill
+    - name: Creating skill dir 
       run: |
-        pip install msm
-        msm install count
-    
-    - name: FInding Skill
+        sudo mkdir /opt/mycroft/skills
+    - name: Copying the new skill 
       run: |
-        cd /
-        ls -a
-        cd /opt
-        ls -a
-        cd /home
-        ls -a
-        cd /home/runner
-        ls -a
-        cd /home/runner/work
-        ls -a
-        cd /home/runner/work/mycroft-skills
-        ls -a
-        cd /home/runner/work/mycroft-skills/mycroft-skills
-        ls -a 
+        sudo cp /home/runner/work/mycroft-skills/mycroft-skills/set-my-name-skill opt/mycroft/skills
         cd /home/runner/work/mycroft-skills/mycroft-skills/mycroft-core
-        ls -a 
-        # ./start-mycroft.sh vktest -t skill-to-test
+        ./start-mycroft.sh all restart
+    
+        
+    - name: Testing Skill
+      run: |
+        cd /home/runner/work/mycroft-skills/mycroft-skills/mycroft-core
+        ./start-mycroft.sh vktest -t SetMyNameSkill
