@@ -49,10 +49,17 @@ jobs:
       run: |
         cd /home/runner/work/mycroft-skills/mycroft-skills/mycroft-core
         ls -a
-        ./start-mycroft.sh all
+        ./start-mycroft.sh all    
+    - name: FInding Skill
+      run: |
+        pip install msm
+        msm install count
+    
     - name: FInding Skill
       run: |
         cd /
+        ls -a
+        cd /opt
         ls -a
         cd /home
         ls -a
