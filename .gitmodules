@@ -229,3 +229,6 @@
 [submodule "myepisodes"]
 	path = myepisodes
 	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "openhab-connect-skill"]
+	path = openhab-connect-skill
+	url = https://github.com/Humple/openhab-connect-skill
