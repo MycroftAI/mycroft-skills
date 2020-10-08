@@ -1,0 +1,7 @@
+{
+  "utterance": "why is the sky blue",
+  "expected_data": {
+      "__type__": "query"
+  }
+}
+
