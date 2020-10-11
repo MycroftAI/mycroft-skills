@@ -229,3 +229,6 @@
 [submodule "myepisodes"]
 	path = myepisodes
 	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "mycroft-chat"]
+	path = mycroft-chat
+	url = https://github.com/domcross/mycroft-chat-skill
