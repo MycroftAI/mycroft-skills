@@ -232,3 +232,6 @@
 [submodule "myepisodes"]
 	path = myepisodes
 	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "quiet-hours"]
+	path = quiet-hours
+	url = https://github.com/brezuicabogdan/quiet-hours-skill
