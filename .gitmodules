@@ -229,3 +229,6 @@
 [submodule "myepisodes"]
 	path = myepisodes
 	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "wake-button-rpi-skill"]
+	path = wake-button-rpi-skill
+	url = https://github.com/guhl/wake-button-rpi-skill
