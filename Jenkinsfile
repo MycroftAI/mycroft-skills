@@ -6,6 +6,7 @@ pipeline {
         disableConcurrentBuilds()
         // Only keep the last 5 builds.
         buildDiscarder(logRotator(numToKeepStr: '5'))
+        lock resource: 'mycroft-skills-agent'
     }
     stages {
         stage('Run Integration Tests') {
