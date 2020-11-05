@@ -229,3 +229,6 @@
 [submodule "myepisodes"]
 	path = myepisodes
 	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "animal-sounds"]
+	path = animal-sounds
+	url = https://github.com/krisgesling/animal-sounds-skill
