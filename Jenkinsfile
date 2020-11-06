@@ -47,10 +47,11 @@ pipeline {
                 timeout(time: 60, unit: 'MINUTES')
                 {
                     sh 'mkdir -p $HOME/allure/skills/$BRANCH_ALIAS'
+                    sh 'mkdir -p $HOME/mycroft-logs/skills/$BRANCH_ALIAS'
                     sh 'docker run \
                         --volume "$HOME/voight-kampff/identity:/root/.mycroft/identity" \
                         --volume "$HOME/allure/skills/$BRANCH_ALIAS:/root/allure" \
-                        --volume "$HOME/mycroft-logs:/var/log/mycroft" \
+                        --volume "$HOME/mycroft-logs/skills/$BRANCH_ALIAS:/var/log/mycroft" \
                         --label build=${BUILD_TAG} \
                         voight-kampff-skill:${BRANCH_ALIAS} \
                         -f allure_behave.formatter:AllureFormatter \
@@ -70,7 +71,7 @@ pipeline {
                         -R /root/allure/"'
                     echo 'Changing ownership of Mycroft logs...'
                     sh 'docker run \
-                        --volume "$HOME/mycroft-logs:/var/log/mycroft" \
+                        --volume "$HOME/mycroft-logs/skills/$BRANCH_ALIAS:/var/log/mycroft" \
                         --entrypoint=/bin/bash \
                         --label build=${BUILD_TAG} \
                         voight-kampff-skill:${BRANCH_ALIAS} \
@@ -92,8 +93,8 @@ pipeline {
                         ])
                     }
                     unarchive mapping:['allure-report.zip': 'allure-report.zip']
-                    sh 'zip mycroft-logs.zip -r $HOME/mycroft-logs'
-                    sh 'rm $HOME/mycroft-logs/*'
+                    sh 'zip mycroft-logs.zip -r $HOME/mycroft-logs/skills/$BRANCH_ALIAS'
+                    sh 'rm -r $HOME/mycroft-logs/skills/$BRANCH_ALIAS'
                     sh (
                         label: 'Publish Report to Web Server',
                         script: '''scp allure-report.zip root@157.245.127.234:~;
