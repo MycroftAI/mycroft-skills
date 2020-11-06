@@ -229,3 +229,6 @@
 [submodule "myepisodes"]
 	path = myepisodes
 	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "froga-lau"]
+	path = froga-lau
+	url = https://github.com/silviaskura/froga-lau-skill
