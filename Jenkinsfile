@@ -14,6 +14,9 @@ pipeline {
                     changeRequest()
                 }
             }
+            options {
+                lock(resource: "lock_${env.JOB_NAME}")
+            }
             environment {
                 //spawns GITHUB_USR and GITHUB_PSW environment variables
                 GITHUB=credentials('38b2e4a6-167a-40b2-be6f-d69be42c8190')
