@@ -229,3 +229,6 @@
 [submodule "myepisodes"]
 	path = myepisodes
 	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "repeat-recent"]
+	path = repeat-recent
+	url = https://github.com/mycroftai/skill-repeat-interactions
