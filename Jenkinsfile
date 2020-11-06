@@ -42,9 +42,10 @@ pipeline {
                 echo 'Running Tests'
                 timeout(time: 60, unit: 'MINUTES')
                 {
+                    sh 'mkdir -p $HOME/allure/skills/$BRANCH_ALIAS'
                     sh 'docker run \
                         --volume "$HOME/voight-kampff/identity:/root/.mycroft/identity" \
-                        --volume "$HOME/allure/skills/:/root/allure" \
+                        --volume "$HOME/allure/skills/$BRANCH_ALIAS:/root/allure" \
                         --volume "$HOME/mycroft-logs:/var/log/mycroft" \
                         voight-kampff-skill:${BRANCH_ALIAS} \
                         -f allure_behave.formatter:AllureFormatter \
@@ -56,7 +57,7 @@ pipeline {
                     echo 'Report Test Results'
                     echo 'Changing ownership of allure results...'
                     sh 'docker run \
-                        --volume "$HOME/allure/skills/:/root/allure" \
+                        --volume "$HOME/allure/skills/$BRANCH_ALIAS:/root/allure" \
                         --entrypoint=/bin/bash \
                         voight-kampff-skill:${BRANCH_ALIAS} \
                         -x -c "chown $(id -u $USER):$(id -g $USER) \
@@ -71,7 +72,9 @@ pipeline {
 
                     echo 'Transferring...'
                     sh 'rm -rf allure-result/*'
-                    sh 'mv $HOME/allure/skills/allure-result allure-result'
+                    sh 'mv $HOME/allure/skills/$BRANCH_ALIAS/allure-result allure-result'
+                    // This directory should now be empty, rmdir will intentionally fail if not.
+                    sh 'rmdir $HOME/allure/skills/$BRANCH_ALIAS'
                     script {
                         allure([
                             includeProperties: false,
