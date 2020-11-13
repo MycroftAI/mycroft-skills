@@ -46,12 +46,12 @@ pipeline {
                 echo 'Running Tests'
                 timeout(time: 60, unit: 'MINUTES')
                 {
-                    sh 'mkdir -p $HOME/allure/skills/$BRANCH_ALIAS'
-                    sh 'mkdir -p $HOME/mycroft-logs/skills/$BRANCH_ALIAS'
+                    sh 'mkdir -p $HOME/skills/$BRANCH_ALIAS/allure'
+                    sh 'mkdir -p $HOME/skills/$BRANCH_ALIAS/mycroft-logs'
                     sh 'docker run \
                         --volume "$HOME/voight-kampff/identity:/root/.mycroft/identity" \
-                        --volume "$HOME/allure/skills/$BRANCH_ALIAS:/root/allure" \
-                        --volume "$HOME/mycroft-logs/skills/$BRANCH_ALIAS:/var/log/mycroft" \
+                        --volume "$HOME/skills/$BRANCH_ALIAS/allure:/root/allure" \
+                        --volume "$HOME/skills/$BRANCH_ALIAS/mycroft-logs:/var/log/mycroft" \
                         --label build=${JOB_NAME} \
                         voight-kampff-skill:${BRANCH_ALIAS} \
                         -f allure_behave.formatter:AllureFormatter \
@@ -63,7 +63,7 @@ pipeline {
                     echo 'Report Test Results'
                     echo 'Changing ownership of allure results...'
                     sh 'docker run \
-                        --volume "$HOME/allure/skills/$BRANCH_ALIAS:/root/allure" \
+                        --volume "$HOME/skills/$BRANCH_ALIAS/allure:/root/allure" \
                         --entrypoint=/bin/bash \
                         --label build=${JOB_NAME} \
                         voight-kampff-skill:${BRANCH_ALIAS} \
@@ -71,7 +71,7 @@ pipeline {
                         -R /root/allure/"'
                     echo 'Changing ownership of Mycroft logs...'
                     sh 'docker run \
-                        --volume "$HOME/mycroft-logs/skills/$BRANCH_ALIAS:/var/log/mycroft" \
+                        --volume "$HOME/skills/$BRANCH_ALIAS/mycroft-logs:/var/log/mycroft" \
                         --entrypoint=/bin/bash \
                         --label build=${JOB_NAME} \
                         voight-kampff-skill:${BRANCH_ALIAS} \
@@ -80,9 +80,9 @@ pipeline {
 
                     echo 'Transferring...'
                     sh 'rm -rf allure-result/*'
-                    sh 'mv $HOME/allure/skills/$BRANCH_ALIAS/allure-result allure-result'
+                    sh 'mv $HOME/skills/$BRANCH_ALIAS/allure/allure-result allure-result'
                     // This directory should now be empty, rmdir will intentionally fail if not.
-                    sh 'rmdir $HOME/allure/skills/$BRANCH_ALIAS'
+                    sh 'rmdir $HOME/skills/$BRANCH_ALIAS/allure'
                     script {
                         allure([
                             includeProperties: false,
@@ -93,8 +93,10 @@ pipeline {
                         ])
                     }
                     unarchive mapping:['allure-report.zip': 'allure-report.zip']
-                    sh 'zip mycroft-logs.zip -r $HOME/mycroft-logs/skills/$BRANCH_ALIAS'
-                    sh 'rm -r $HOME/mycroft-logs/skills/$BRANCH_ALIAS'
+                    sh 'zip mycroft-logs.zip -r $HOME/skills/$BRANCH_ALIAS/mycroft-logs'
+                    sh 'rm -r $HOME/skills/$BRANCH_ALIAS/mycroft-logs'
+                    // This directory should now be empty, rmdir will intentionally fail if not.
+                    sh 'rmdir $HOME/skills/$BRANCH_ALIAS'
                     sh (
                         label: 'Publish Report to Web Server',
                         script: '''scp allure-report.zip root@157.245.127.234:~;
