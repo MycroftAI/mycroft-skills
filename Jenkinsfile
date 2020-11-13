@@ -102,7 +102,7 @@ pipeline {
                             ssh root@157.245.127.234 "rm -rf /var/www/voight-kampff/skills/${BRANCH_ALIAS}";
                             ssh root@157.245.127.234 "mv allure-report /var/www/voight-kampff/skills/${BRANCH_ALIAS}"
                             scp mycroft-logs.zip root@157.245.127.234:~;
-                            ssh root@157.245.127.234 "mkdir -p /var/www/voight-kampff/core/${BRANCH_ALIAS}/logs"
+                            ssh root@157.245.127.234 "mkdir -p /var/www/voight-kampff/skills/${BRANCH_ALIAS}/logs"
                             ssh root@157.245.127.234 "unzip -oj ~/mycroft-logs.zip -d /var/www/voight-kampff/skills/${BRANCH_ALIAS}/logs/";
                         '''
                     )
