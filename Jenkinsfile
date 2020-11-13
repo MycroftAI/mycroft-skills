@@ -41,7 +41,7 @@ pipeline {
                     --build-arg repo_url=https://github.com/forslund/mycroft-skills \
                     --build-arg github_api_key=$GITHUB_PSW \
                     --no-cache \
-                    --label build=${BUILD_TAG} \
+                    --label build=${JOB_NAME} \
                     -t voight-kampff-skill:${BRANCH_ALIAS} .'
                 echo 'Running Tests'
                 timeout(time: 60, unit: 'MINUTES')
@@ -52,7 +52,7 @@ pipeline {
                         --volume "$HOME/voight-kampff/identity:/root/.mycroft/identity" \
                         --volume "$HOME/allure/skills/$BRANCH_ALIAS:/root/allure" \
                         --volume "$HOME/mycroft-logs/skills/$BRANCH_ALIAS:/var/log/mycroft" \
-                        --label build=${BUILD_TAG} \
+                        --label build=${JOB_NAME} \
                         voight-kampff-skill:${BRANCH_ALIAS} \
                         -f allure_behave.formatter:AllureFormatter \
                         -o /root/allure/allure-result --tags ~@xfail'
@@ -65,7 +65,7 @@ pipeline {
                     sh 'docker run \
                         --volume "$HOME/allure/skills/$BRANCH_ALIAS:/root/allure" \
                         --entrypoint=/bin/bash \
-                        --label build=${BUILD_TAG} \
+                        --label build=${JOB_NAME} \
                         voight-kampff-skill:${BRANCH_ALIAS} \
                         -x -c "chown $(id -u $USER):$(id -g $USER) \
                         -R /root/allure/"'
@@ -73,7 +73,7 @@ pipeline {
                     sh 'docker run \
                         --volume "$HOME/mycroft-logs/skills/$BRANCH_ALIAS:/var/log/mycroft" \
                         --entrypoint=/bin/bash \
-                        --label build=${BUILD_TAG} \
+                        --label build=${JOB_NAME} \
                         voight-kampff-skill:${BRANCH_ALIAS} \
                         -x -c "chown $(id -u $USER):$(id -g $USER) \
                         -R /var/log/mycroft/"'
@@ -224,7 +224,7 @@ pipeline {
             sh(
                 label: 'Delete Docker Image on Success',
                 script: '''
-                    docker image prune --all --force --filter label=build=${BUILD_TAG};
+                    docker image prune --all --force --filter label=build=${JOB_NAME};
                 '''
             )
         }
