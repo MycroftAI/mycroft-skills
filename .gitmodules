@@ -229,3 +229,6 @@
 [submodule "myepisodes"]
 	path = myepisodes
 	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "what3words"]
+	path = what3words
+	url = https://github.com/Kamireddy0308/what-words-locations-skill
