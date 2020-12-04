@@ -14,6 +14,9 @@ pipeline {
                     changeRequest()
                 }
             }
+            options {
+                lock(resource: "lock_${env.JOB_NAME}")
+            }
             environment {
                 //spawns GITHUB_USR and GITHUB_PSW environment variables
                 GITHUB=credentials('38b2e4a6-167a-40b2-be6f-d69be42c8190')
@@ -38,14 +41,18 @@ pipeline {
                     --build-arg repo_url=https://github.com/forslund/mycroft-skills \
                     --build-arg github_api_key=$GITHUB_PSW \
                     --no-cache \
+                    --label build=${JOB_NAME} \
                     -t voight-kampff-skill:${BRANCH_ALIAS} .'
                 echo 'Running Tests'
                 timeout(time: 60, unit: 'MINUTES')
                 {
+                    sh 'mkdir -p $HOME/skills/$BRANCH_ALIAS/allure'
+                    sh 'mkdir -p $HOME/skills/$BRANCH_ALIAS/mycroft-logs'
                     sh 'docker run \
                         --volume "$HOME/voight-kampff/identity:/root/.mycroft/identity" \
-                        --volume "$HOME/allure/skills/:/root/allure" \
-                        --volume "$HOME/mycroft-logs:/var/log/mycroft" \
+                        --volume "$HOME/skills/$BRANCH_ALIAS/allure:/root/allure" \
+                        --volume "$HOME/skills/$BRANCH_ALIAS/mycroft-logs:/var/log/mycroft" \
+                        --label build=${JOB_NAME} \
                         voight-kampff-skill:${BRANCH_ALIAS} \
                         -f allure_behave.formatter:AllureFormatter \
                         -o /root/allure/allure-result --tags ~@xfail'
@@ -56,22 +63,26 @@ pipeline {
                     echo 'Report Test Results'
                     echo 'Changing ownership of allure results...'
                     sh 'docker run \
-                        --volume "$HOME/allure/skills/:/root/allure" \
+                        --volume "$HOME/skills/$BRANCH_ALIAS/allure:/root/allure" \
                         --entrypoint=/bin/bash \
+                        --label build=${JOB_NAME} \
                         voight-kampff-skill:${BRANCH_ALIAS} \
                         -x -c "chown $(id -u $USER):$(id -g $USER) \
                         -R /root/allure/"'
                     echo 'Changing ownership of Mycroft logs...'
                     sh 'docker run \
-                        --volume "$HOME/mycroft-logs:/var/log/mycroft" \
+                        --volume "$HOME/skills/$BRANCH_ALIAS/mycroft-logs:/var/log/mycroft" \
                         --entrypoint=/bin/bash \
+                        --label build=${JOB_NAME} \
                         voight-kampff-skill:${BRANCH_ALIAS} \
                         -x -c "chown $(id -u $USER):$(id -g $USER) \
                         -R /var/log/mycroft/"'
 
                     echo 'Transferring...'
                     sh 'rm -rf allure-result/*'
-                    sh 'mv $HOME/allure/skills/allure-result allure-result'
+                    sh 'mv $HOME/skills/$BRANCH_ALIAS/allure/allure-result allure-result'
+                    // This directory should now be empty, rmdir will intentionally fail if not.
+                    sh 'rmdir $HOME/skills/$BRANCH_ALIAS/allure'
                     script {
                         allure([
                             includeProperties: false,
@@ -82,8 +93,10 @@ pipeline {
                         ])
                     }
                     unarchive mapping:['allure-report.zip': 'allure-report.zip']
-                    sh 'zip mycroft-logs.zip -r $HOME/mycroft-logs'
-                    sh 'rm $HOME/mycroft-logs/*'
+                    sh 'zip mycroft-logs.zip -r $HOME/skills/$BRANCH_ALIAS/mycroft-logs'
+                    sh 'rm -rf $HOME/skills/$BRANCH_ALIAS/mycroft-logs'
+                    // This directory should now be empty, rmdir will intentionally fail if not.
+                    sh 'rmdir $HOME/skills/$BRANCH_ALIAS'
                     sh (
                         label: 'Publish Report to Web Server',
                         script: '''scp allure-report.zip root@157.245.127.234:~;
@@ -91,7 +104,7 @@ pipeline {
                             ssh root@157.245.127.234 "rm -rf /var/www/voight-kampff/skills/${BRANCH_ALIAS}";
                             ssh root@157.245.127.234 "mv allure-report /var/www/voight-kampff/skills/${BRANCH_ALIAS}"
                             scp mycroft-logs.zip root@157.245.127.234:~;
-                            ssh root@157.245.127.234 "mkdir -p /var/www/voight-kampff/core/${BRANCH_ALIAS}/logs"
+                            ssh root@157.245.127.234 "mkdir -p /var/www/voight-kampff/skills/${BRANCH_ALIAS}/logs"
                             ssh root@157.245.127.234 "unzip -oj ~/mycroft-logs.zip -d /var/www/voight-kampff/skills/${BRANCH_ALIAS}/logs/";
                         '''
                     )
@@ -206,6 +219,17 @@ pipeline {
         }
     }
     post {
+        success {
+            // Docker images should remain upon failure for troubleshooting purposes.  However,
+            // if the stage is successful, there is no reason to look back at the Docker image.  In theory
+            // broken builds will eventually be fixed so this step should run eventually for every PR
+            sh(
+                label: 'Delete Docker Image on Success',
+                script: '''
+                    docker image prune --all --force --filter label=build=${JOB_NAME};
+                '''
+            )
+        }
         cleanup {
             sh(
                 label: 'Docker Container and Image Cleanup',
