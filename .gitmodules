@@ -229,3 +229,6 @@
 [submodule "myepisodes"]
 	path = myepisodes
 	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "knx-home-automation"]
+	path = knx-home-automation
+	url = https://github.com/AZAZ78/mycroft-knx-skill
