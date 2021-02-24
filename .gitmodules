@@ -229,3 +229,6 @@
 [submodule "myepisodes"]
 	path = myepisodes
 	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "CaffeineWiz"]
+	path = CaffeineWiz
+	url = https://github.com/neongeckocom/caffeinewiz.neon
