@@ -229,3 +229,6 @@
 [submodule "myepisodes"]
 	path = myepisodes
 	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "pandora"]
+	path = pandora
+	url = https://github.com/MycroftAI/skill-pandora
