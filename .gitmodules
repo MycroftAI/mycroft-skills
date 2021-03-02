@@ -91,9 +91,6 @@
 [submodule "mycroft-volume"]
 	path = skill-volume
 	url = https://github.com/mycroftai/skill-volume.git
-[submodule "mycroft-pandora"]
-	path = pianobar-skill
-	url = https://github.com/MycroftAI/pianobar-skill
 [submodule "mycroft-release-test"]
 	path = skill-release-test
 	url = https://github.com/mycroftai/skill-release-test
