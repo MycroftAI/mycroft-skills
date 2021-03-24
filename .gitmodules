@@ -229,3 +229,6 @@
 [submodule "pandora"]
 	path = pandora
 	url = https://github.com/MycroftAI/skill-pandora
+[submodule "Nutritionix"]
+	path = Nutritionix
+	url = https://github.com/pydev2007/nutritionix-skill
