@@ -229,3 +229,6 @@
 [submodule "pandora"]
 	path = pandora
 	url = https://github.com/MycroftAI/skill-pandora
+[submodule "system-check-skill"]
+	path = system-check-skill
+	url = https://github.com/vanvuongngo/system-check-skill
