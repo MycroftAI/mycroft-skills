@@ -229,3 +229,6 @@
 [submodule "pandora"]
 	path = pandora
 	url = https://github.com/MycroftAI/skill-pandora
+[submodule "camera"]
+	path = camera
+	url = https://github.com/MycroftAI/skill-camera
