@@ -229,3 +229,6 @@
 [submodule "pandora"]
 	path = pandora
 	url = https://github.com/MycroftAI/skill-pandora
+[submodule "sentiment-analysis"]
+	path = sentiment-analysis
+	url = https://github.com/TREE-Ind/Sentiment-Analysis-Skill
