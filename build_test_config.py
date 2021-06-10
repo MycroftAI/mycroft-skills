@@ -48,7 +48,7 @@ def get_pull_request_submodule(pull_request_diff):
         #    diff --git a/<file name> b/<file name>
         if line.startswith('diff --git a/'):
             words = line.split()
-            diff_file_name = words[2].strip('a/')
+            diff_file_name = words[2].lstrip('a/').rstrip(' b/')
         # If a file contains a subproject commit hash it represents a skill
         if line.startswith('+Subproject commit '):
             skill_submodule_name = diff_file_name
@@ -56,8 +56,19 @@ def get_pull_request_submodule(pull_request_diff):
 
     return skill_submodule_name
 
+def get_skill_author(pull_request_diff, skill_submodule_name):
+    """Get the author of the Skill repo associated with the submodule."""
+    for idx, line in enumerate(pull_request_diff):
+        if line == f'+[submodule "{skill_submodule_name}"]':
+            # The submodule definition consists of 3 lines:
+            # +[submodule "camera"]
+            # +	path = camera
+            # +	url = https://github.com/MycroftAI/skill-camera
+            skill_url = pull_request_diff[idx + 2].split(' = ')[1]
+            skill_author = skill_url.split('/')[3]
+            return skill_author
 
-def write_test_config_file(skill_submodule_name):
+def write_test_config_file(skill_submodule_name, skill_author):
     """Write a YAML file for the integration test setup script
 
     Not every PR into this repository will be a change to a skill.  If no
@@ -65,18 +76,20 @@ def write_test_config_file(skill_submodule_name):
     """
     if skill_submodule_name is None:
         submodule = 'skill-hello-world'
+        skill_author = 'MycroftAI'
     else:
         submodule = skill_submodule_name
     with open('test_skill.yml', 'w') as config_file:
         config_file.write('test_skills:\n')
-        config_file.write('- ' + submodule + '\n')
+        config_file.write(' '.join(['-', submodule, '-u', skill_author, '\n']))
 
 
 def main():
     args = parse_command_line()
     pull_request_diff = get_pull_request_diff(args)
     skill_submodule_name = get_pull_request_submodule(pull_request_diff)
-    write_test_config_file(skill_submodule_name)
+    skill_author = get_skill_author(pull_request_diff, skill_submodule_name)
+    write_test_config_file(skill_submodule_name, skill_author)
 
 
 if __name__ == '__main__':
