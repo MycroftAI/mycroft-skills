@@ -57,7 +57,7 @@ def get_pull_request_submodule(pull_request_diff):
 
     return skill_submodule_name
 
-def get_skill_author(pull_request_diff, skill_submodule_name)
+def get_skill_author(pull_request_diff, skill_submodule_name):
     """Get the author of the Skill repo associated with the submodule."""
     for idx, line in enumerate(pull_request_diff):
         if line == f'+[submodule "{skill_submodule_name}"]':
