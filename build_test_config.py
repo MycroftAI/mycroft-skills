@@ -41,36 +41,30 @@ def get_pull_request_diff(args):
 
 def get_pull_request_submodule(pull_request_diff):
     """Determine the submodule name of the skill added/modified in the PR"""
-    line_index = None
     diff_file_name = None
     skill_submodule_name = None
-    print("================================================")
-    print("================================================")
     for line in pull_request_diff:
-        print(line)
-    for idx, line in enumerate(pull_request_diff):
         #  The line indicating the file being compared looks like this:
         #    diff --git a/<file name> b/<file name>
         if line.startswith('diff --git a/'):
             words = line.split()
             diff_file_name = words[2].lstrip('a/').rstrip(' b/')
-            line_index = idx
         # If a file contains a subproject commit hash it represents a skill
         if line.startswith('+Subproject commit '):
             skill_submodule_name = diff_file_name
-            print("================================================")
-            print(line_index)
-            print(line)
-            print(pull_request_diff[line_index - 1])
-            
-            skill_url = pull_request_diff[line_index - 1].split(' = ')[1]
-            skill_author = skill_url.split('/')[3]
+            print(skill_submodule_name)
             break
-    print("================================================")
-    print("================================================")
 
-    return (skill_submodule_name, skill_author)
+    return skill_submodule_name
 
+def get_skill_author(pull_request_diff, skill_submodule_name)
+    """Get the author of the Skill repo associated with the submodule."""
+    for idx, line in enumerate(pull_request_diff):
+        if line == f'+[submodule "{skill_submodule_name}"]':
+            skill_url = pull_request_diff[idx + 2].split(' = ')[1]
+            skill_author = skill_url.split('/')[3]
+            print(skill_author)
+            return skill_author
 
 def write_test_config_file(skill_submodule_name, skill_author):
     """Write a YAML file for the integration test setup script
@@ -91,7 +85,8 @@ def write_test_config_file(skill_submodule_name, skill_author):
 def main():
     args = parse_command_line()
     pull_request_diff = get_pull_request_diff(args)
-    skill_submodule_name, skill_author = get_pull_request_submodule(pull_request_diff)
+    skill_submodule_name = get_pull_request_submodule(pull_request_diff)
+    skill_author = get_skill_author(pull_request_diff, skill_submodule_name)
     write_test_config_file(skill_submodule_name, skill_author)
 
 
