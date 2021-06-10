@@ -46,7 +46,7 @@ def get_pull_request_submodule(pull_request_diff):
     skill_submodule_name = None
     print("================================================")
     print("================================================")
-    for line in pull_request_diff
+    for line in pull_request_diff:
         print(line)
     for idx, line in enumerate(pull_request_diff):
         #  The line indicating the file being compared looks like this:
