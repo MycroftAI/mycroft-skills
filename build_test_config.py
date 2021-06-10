@@ -44,9 +44,10 @@ def get_pull_request_submodule(pull_request_diff):
     line_index = None
     diff_file_name = None
     skill_submodule_name = None
-    print("========================")
-    print("========================")
-    print(pull_request_diff)
+    print("================================================")
+    print("================================================")
+    for line in pull_request_diff
+        print(line)
     for idx, line in enumerate(pull_request_diff):
         #  The line indicating the file being compared looks like this:
         #    diff --git a/<file name> b/<file name>
@@ -57,7 +58,7 @@ def get_pull_request_submodule(pull_request_diff):
         # If a file contains a subproject commit hash it represents a skill
         if line.startswith('+Subproject commit '):
             skill_submodule_name = diff_file_name
-            print("========================")
+            print("================================================")
             print(line_index)
             print(line)
             print(pull_request_diff[line_index - 1])
@@ -65,8 +66,8 @@ def get_pull_request_submodule(pull_request_diff):
             skill_url = pull_request_diff[line_index - 1].split(' = ')[1]
             skill_author = skill_url.split('/')[3]
             break
-    print("========================")
-    print("========================")
+    print("================================================")
+    print("================================================")
 
     return (skill_submodule_name, skill_author)
 
