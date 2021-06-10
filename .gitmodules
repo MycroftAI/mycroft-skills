@@ -229,3 +229,6 @@
 [submodule "pandora"]
 	path = pandora
 	url = https://github.com/MycroftAI/skill-pandora
+[submodule "knock-knock"]
+	path = knock-knock
+	url = https://github.com/xdpirate/knock-knock-skill
