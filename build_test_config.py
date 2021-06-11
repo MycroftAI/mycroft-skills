@@ -52,7 +52,6 @@ def get_pull_request_submodule(pull_request_diff):
         # If a file contains a subproject commit hash it represents a skill
         if line.startswith('+Subproject commit '):
             skill_submodule_name = diff_file_name
-            print(skill_submodule_name)
             break
 
     return skill_submodule_name
@@ -61,9 +60,12 @@ def get_skill_author(pull_request_diff, skill_submodule_name):
     """Get the author of the Skill repo associated with the submodule."""
     for idx, line in enumerate(pull_request_diff):
         if line == f'+[submodule "{skill_submodule_name}"]':
+            # The submodule definition consists of 3 lines:
+            # +[submodule "camera"]
+            # +	path = camera
+            # +	url = https://github.com/MycroftAI/skill-camera
             skill_url = pull_request_diff[idx + 2].split(' = ')[1]
             skill_author = skill_url.split('/')[3]
-            print(skill_author)
             return skill_author
 
 def write_test_config_file(skill_submodule_name, skill_author):
