@@ -235,3 +235,6 @@
 [submodule "homescreen"]
 	path = homescreen
 	url = https://github.com/MycroftAI/skill-homescreen
+[submodule "fhhgb"]
+	path = fhhgb
+	url = https://github.com/PhilippHuebl/fhhgb-skill
