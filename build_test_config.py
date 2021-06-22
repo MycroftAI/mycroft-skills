@@ -56,17 +56,24 @@ def get_pull_request_submodule(pull_request_diff):
 
     return skill_submodule_name
 
-def get_skill_author(pull_request_diff, skill_submodule_name):
+
+def get_skill_author(skill_submodule_name):
     """Get the author of the Skill repo associated with the submodule."""
-    for idx, line in enumerate(pull_request_diff):
-        if line == f'+[submodule "{skill_submodule_name}"]':
-            # The submodule definition consists of 3 lines:
-            # +[submodule "camera"]
-            # +	path = camera
-            # +	url = https://github.com/MycroftAI/skill-camera
-            skill_url = pull_request_diff[idx + 2].split(' = ')[1]
-            skill_author = skill_url.split('/')[3]
-            return skill_author
+    with open('.gitmodules') as f:
+        for line in f:
+            if line.strip() == f'[submodule "{skill_submodule_name}"]':
+                # The submodule definition consists of 3 lines:
+                # [submodule "camera"]
+                # 	path = camera
+                # 	url = https://github.com/MycroftAI/skill-camera
+                break
+        else:
+            raise Exception(f'{skill_submodule_name} not found')
+        f.readline()  # Skip past the path line
+        skill_url = f.readline().split(' = ')[1]
+        skill_author = skill_url.split('/')[3]
+        return skill_author
+
 
 def write_test_config_file(skill_submodule_name, skill_author):
     """Write a YAML file for the integration test setup script
@@ -88,7 +95,7 @@ def main():
     args = parse_command_line()
     pull_request_diff = get_pull_request_diff(args)
     skill_submodule_name = get_pull_request_submodule(pull_request_diff)
-    skill_author = get_skill_author(pull_request_diff, skill_submodule_name)
+    skill_author = get_skill_author(skill_submodule_name)
     write_test_config_file(skill_submodule_name, skill_author)
 
 
