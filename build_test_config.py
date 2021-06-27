@@ -61,7 +61,7 @@ def get_skill_author(skill_submodule_name):
     """Get the author of the Skill repo associated with the submodule."""
     with open('.gitmodules') as f:
         for line in f:
-            if line.strip() == f'[submodule "{skill_submodule_name}"]':
+            if line.strip() == f'path = {skill_submodule_name}':
                 # The submodule definition consists of 3 lines:
                 # [submodule "camera"]
                 # 	path = camera
@@ -69,7 +69,6 @@ def get_skill_author(skill_submodule_name):
                 break
         else:
             raise Exception(f'{skill_submodule_name} not found')
-        f.readline()  # Skip past the path line
         skill_url = f.readline().split(' = ')[1]
         skill_author = skill_url.split('/')[3]
         return skill_author
