@@ -86,17 +86,8 @@ def get_skill_author(skill_submodule_path, pull_request_diff):
     return skill_author
 
 
-def write_test_config_file(skill_submodule_path, skill_author):
-    """Write a YAML file for the integration test setup script
-
-    Not every PR into this repository will be a change to a skill.  If no
-    skill submodule was found in the PR, just add the "hello world" skill.
-    """
-    if skill_submodule_path is None:
-        submodule = 'skill-hello-world'
-        skill_author = 'MycroftAI'
-    else:
-        submodule = skill_submodule_path
+def write_test_config_file(submodule, skill_author):
+    """Write a YAML file for the integration test setup script."""
     with open('test_skill.yml', 'w') as config_file:
         config_file.write('test_skills:\n')
         config_file.write(' '.join(['-', submodule, '-u', skill_author, '\n']))
@@ -106,7 +97,13 @@ def main():
     args = parse_command_line()
     pull_request_diff = get_pull_request_diff(args)
     skill_submodule_path = get_pull_request_submodule(pull_request_diff)
-    skill_author = get_skill_author(skill_submodule_path, pull_request_diff)
+    if skill_submodule_path is None:
+        # Not every PR into this repository will be a change to a skill. 
+        # If no Skill submodule was found, use the "hello world" Skill.
+        skill_submodule_path = 'skill-hello-world'
+        skill_author = 'MycroftAI'
+    else:
+        skill_author = get_skill_author(skill_submodule_path, pull_request_diff)
     write_test_config_file(skill_submodule_path, skill_author)
 
 
