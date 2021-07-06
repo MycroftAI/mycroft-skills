@@ -57,21 +57,33 @@ def get_pull_request_submodule(pull_request_diff):
     return skill_submodule_path
 
 
-def get_skill_author(skill_submodule_path):
-    """Get the author of the Skill repo associated with the submodule."""
+def get_skill_author(skill_submodule_path, pull_request_diff):
+    """Get the author of the Skill repo associated with the submodule.
+
+    This first searches the .gitmodules file and then falls back to the diff.
+
+    A submodule definition consists of 3 lines:
+        [submodule "camera"]
+            path = camera
+            url = https://github.com/MycroftAI/skill-camera
+    """
+    skill_url = None
     with open('.gitmodules') as f:
         for line in f:
             if line.strip() == f'path = {skill_submodule_path}':
-                # The submodule definition consists of 3 lines:
-                # [submodule "camera"]
-                # 	path = camera
-                # 	url = https://github.com/MycroftAI/skill-camera
+                skill_url = f.readline().split(' = ')[1]
+                break
+
+    if skill_url is None:
+        for idx, line in enumerate(pull_request_diff):
+            if line == f'+[submodule "{skill_submodule_path}"]':
+                skill_url = pull_request_diff[idx + 2].split(' = ')[1]
                 break
         else:
             raise Exception(f'{skill_submodule_path} not found')
-        skill_url = f.readline().split(' = ')[1]
-        skill_author = skill_url.split('/')[3]
-        return skill_author
+
+    skill_author = skill_url.split('/')[3]
+    return skill_author
 
 
 def write_test_config_file(skill_submodule_path, skill_author):
@@ -94,7 +106,7 @@ def main():
     args = parse_command_line()
     pull_request_diff = get_pull_request_diff(args)
     skill_submodule_path = get_pull_request_submodule(pull_request_diff)
-    skill_author = get_skill_author(skill_submodule_path)
+    skill_author = get_skill_author(skill_submodule_path, pull_request_diff)
     write_test_config_file(skill_submodule_path, skill_author)
 
 
