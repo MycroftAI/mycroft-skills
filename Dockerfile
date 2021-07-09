@@ -9,8 +9,12 @@ ARG repo_url
 ARG github_user
 ARG github_api_key
 ENV GITHUB_API_KEY=$github_api_key
-WORKDIR /opt/mycroft/mycroft-core
 RUN msm update
+# Load updated test cases for default skills
+RUN python -m test.integrationtests.voight_kampff.test_setup \
+    --config default.yml \
+    --platform $platform
+WORKDIR /opt/mycroft/mycroft-core
 COPY test-requirements.txt skill-test-requirements.txt
 RUN .venv/bin/python -m pip install -r skill-test-requirements.txt
 COPY build_test_config.py .
@@ -21,6 +25,7 @@ FROM config_builder as test_setup
 ARG platform
 ARG branch_name
 ARG repo_url
+# Load test cases for skill to test
 RUN python -m test.integrationtests.voight_kampff.test_setup \
     --config test_skill.yml \
     --platform $platform \
