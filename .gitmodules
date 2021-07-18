@@ -232,3 +232,6 @@
 [submodule "homescreen"]
 	path = homescreen
 	url = https://github.com/MycroftAI/skill-homescreen
+[submodule "play-jeopardy"]
+	path = play-jeopardy
+	url = https://github.com/BRinvelt/jeopardy-skill-D-D-D-D-D---C-C-C-C-C-C-
