@@ -44,7 +44,7 @@ pipeline {
                     --label build=${JOB_NAME} \
                     -t voight-kampff-skill:${BRANCH_ALIAS} .'
                 echo 'Running Tests'
-                timeout(time: 60, unit: 'MINUTES')
+                timeout(time: 100, unit: 'MINUTES')
                 {
                     sh 'mkdir -p $HOME/skills/$BRANCH_ALIAS/allure'
                     sh 'mkdir -p $HOME/skills/$BRANCH_ALIAS/mycroft-logs'
