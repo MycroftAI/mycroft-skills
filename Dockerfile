@@ -11,7 +11,7 @@ ARG github_api_key
 ENV GITHUB_API_KEY=$github_api_key
 RUN msm update
 # Remove mycroft-stock skill. TODO: Remove in 21.08
-RUN grep --invert-match mycroft-stock default.yml | tee default.yml
+RUN grep --invert-match mycroft-stock default.yml | tee /tmp/default.yml && mv /tmp/default.yml default.yml
 # Load updated test cases for default skills
 RUN python -m test.integrationtests.voight_kampff.test_setup \
     --config default.yml \
