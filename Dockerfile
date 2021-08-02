@@ -9,6 +9,13 @@ ARG repo_url
 ARG github_user
 ARG github_api_key
 ENV GITHUB_API_KEY=$github_api_key
+# The test_setup.py script was previously executed in the voight-kampff-mark-1 image.
+# Any changes to the naming of feature files will result in both the old and new
+# feature files being executed in the test run.  The short term fix for this is
+# to remove the feature files from the voight-kampff-mark-1 image before the
+# test_setup.py script is run again.  The long-term fix is to move the execution of
+# test_setup.py to inside run_test_suite.sh and to add a cleanup step after the tests complete.
+RUN rm /opt/mycroft/mycroft-core/test/integrationtests/voight_kampff/features/*.feature
 RUN msm update
 # Remove mycroft-stock skill. TODO: Remove in 21.08
 RUN grep --invert-match mycroft-stock default.yml | tee /tmp/default.yml && mv /tmp/default.yml default.yml
