@@ -57,40 +57,11 @@ def get_pull_request_submodule(pull_request_diff):
     return skill_submodule_path
 
 
-def get_skill_author(skill_submodule_path, pull_request_diff):
-    """Get the author of the Skill repo associated with the submodule.
-
-    This first searches the .gitmodules file and then falls back to the diff.
-
-    A submodule definition consists of 3 lines:
-        [submodule "camera"]
-            path = camera
-            url = https://github.com/MycroftAI/skill-camera
-    """
-    skill_url = None
-    with open('.gitmodules') as f:
-        for line in f:
-            if line.strip() == f'path = {skill_submodule_path}':
-                skill_url = f.readline().split(' = ')[1]
-                break
-
-    if skill_url is None:
-        for idx, line in enumerate(pull_request_diff):
-            if line == f'+[submodule "{skill_submodule_path}"]':
-                skill_url = pull_request_diff[idx + 2].split(' = ')[1]
-                break
-        else:
-            raise Exception(f'{skill_submodule_path} not found')
-
-    skill_author = skill_url.split('/')[3]
-    return skill_author
-
-
-def write_test_config_file(submodule, skill_author):
+def write_test_config_file(submodule_path):
     """Write a YAML file for the integration test setup script."""
     with open('test_skill.yml', 'w') as config_file:
         config_file.write('test_skills:\n')
-        config_file.write(' '.join(['-', submodule, '-u', skill_author, '\n']))
+        config_file.write(' '.join(['-', submodule_path, '\n']))
 
 
 def main():
@@ -101,10 +72,7 @@ def main():
         # Not every PR into this repository will be a change to a skill. 
         # If no Skill submodule was found, use the "hello world" Skill.
         skill_submodule_path = 'skill-hello-world'
-        skill_author = 'MycroftAI'
-    else:
-        skill_author = get_skill_author(skill_submodule_path, pull_request_diff)
-    write_test_config_file(skill_submodule_path, skill_author)
+    write_test_config_file(skill_submodule_path)
 
 
 if __name__ == '__main__':
