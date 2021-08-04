@@ -6,6 +6,7 @@ test and copies their feature files over to core for inclusion in the tests.
 """
 from argparse import ArgumentParser
 from os import environ
+import re
 
 import requests
 from github import Github
@@ -57,6 +58,21 @@ def get_pull_request_submodule(pull_request_diff):
     return skill_submodule_path
 
 
+def get_skill_submodule_name(skill_submodule_path):
+    """Find the skill name from a skill submodule path."""
+    with open('.gitmodules') as f:
+        for line in f:
+            name_match = re.match(r"\[submodule \"(?P<entryname>.+)\"\]", line)
+            if name_match:
+                name = name_match.groups()[0]
+            if line.strip() == f'path = {skill_submodule_path}':
+                return name
+
+    print("WARNING: The skill name couldn't be determined. "
+          "Using skill_submodule_path instead!")
+    return skill_submodule_path
+
+
 def write_test_config_file(submodule_path):
     """Write a YAML file for the integration test setup script."""
     with open('test_skill.yml', 'w') as config_file:
@@ -68,11 +84,13 @@ def main():
     args = parse_command_line()
     pull_request_diff = get_pull_request_diff(args)
     skill_submodule_path = get_pull_request_submodule(pull_request_diff)
+
     if skill_submodule_path is None:
         # Not every PR into this repository will be a change to a skill. 
         # If no Skill submodule was found, use the "hello world" Skill.
         skill_submodule_path = 'skill-hello-world'
-    write_test_config_file(skill_submodule_path)
+    skill_submodule_name = get_skill_submodule_name(skill_submodule_path)
+    write_test_config_file(skill_submodule_name)
 
 
 if __name__ == '__main__':
