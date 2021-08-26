@@ -1,3 +1,6 @@
-
 *.xml
 *.iml
+
+# Generated files
+test_skill.yml
+

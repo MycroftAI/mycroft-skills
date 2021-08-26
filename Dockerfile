@@ -10,6 +10,8 @@ ARG github_user
 ARG github_api_key
 ENV GITHUB_API_KEY=$github_api_key
 RUN msm update
+# Remove mycroft-stock skill. TODO: Remove in 21.08
+RUN grep --invert-match mycroft-stock default.yml | tee /tmp/default.yml && mv /tmp/default.yml default.yml
 # Load updated test cases for default skills
 RUN python -m test.integrationtests.voight_kampff.test_setup \
     --config default.yml \
@@ -18,6 +20,7 @@ WORKDIR /opt/mycroft/mycroft-core
 COPY test-requirements.txt skill-test-requirements.txt
 RUN .venv/bin/python -m pip install -r skill-test-requirements.txt
 COPY build_test_config.py .
+COPY .gitmodules .
 RUN .venv/bin/python build_test_config.py --pull-request $pull_request --platform $platform
 
 # Use multi-stage build to forget the GitHub credentials from the previous stage

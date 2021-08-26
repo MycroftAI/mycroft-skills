@@ -34,7 +34,7 @@ pipeline {
                 sh 'git remote add mine git+ssh://git@github.com/forslund/mycroft-skills.git || true'
                 sh 'git push -uf mine ${BRANCH_NAME}'
                 sh 'docker build \
-                    --build-arg major_release=20.08 \
+                    --build-arg major_release=21.02 \
                     --build-arg platform=mycroft_mark_1 \
                     --build-arg pull_request=$BRANCH_NAME \
                     --build-arg branch_name=$BRANCH_NAME \
@@ -44,7 +44,7 @@ pipeline {
                     --label build=${JOB_NAME} \
                     -t voight-kampff-skill:${BRANCH_ALIAS} .'
                 echo 'Running Tests'
-                timeout(time: 60, unit: 'MINUTES')
+                timeout(time: 100, unit: 'MINUTES')
                 {
                     sh 'mkdir -p $HOME/skills/$BRANCH_ALIAS/allure'
                     sh 'mkdir -p $HOME/skills/$BRANCH_ALIAS/mycroft-logs'
@@ -99,10 +99,14 @@ pipeline {
                     sh 'rmdir $HOME/skills/$BRANCH_ALIAS'
                     sh (
                         label: 'Publish Report to Web Server',
-                        script: '''scp allure-report.zip root@157.245.127.234:~;
-                            ssh root@157.245.127.234 "unzip -o ~/allure-report.zip";
+                        script: '''
+                            ssh root@157.245.127.234 "mkdir -p ~/allure-reports/skills/${BRANCH_ALIAS}";
+                            scp allure-report.zip root@157.245.127.234:~/allure-reports/skills/${BRANCH_ALIAS}/;
+                            ssh root@157.245.127.234 "unzip -o ~/allure-reports/skills/${BRANCH_ALIAS}/allure-report.zip -d ~/allure-reports/skills/${BRANCH_ALIAS}/";
                             ssh root@157.245.127.234 "rm -rf /var/www/voight-kampff/skills/${BRANCH_ALIAS}";
-                            ssh root@157.245.127.234 "mv allure-report /var/www/voight-kampff/skills/${BRANCH_ALIAS}"
+                            ssh root@157.245.127.234 "mv ~/allure-reports/skills/${BRANCH_ALIAS}/allure-report /var/www/voight-kampff/skills/${BRANCH_ALIAS}"
+                            ssh root@157.245.127.234 "rm ~/allure-reports/skills/${BRANCH_ALIAS}/allure-report.zip";
+                            ssh root@157.245.127.234 "rmdir ~/allure-reports/skills/${BRANCH_ALIAS}";
                             scp mycroft-logs.zip root@157.245.127.234:~;
                             ssh root@157.245.127.234 "mkdir -p /var/www/voight-kampff/skills/${BRANCH_ALIAS}/logs"
                             ssh root@157.245.127.234 "unzip -oj ~/mycroft-logs.zip -d /var/www/voight-kampff/skills/${BRANCH_ALIAS}/logs/";
