@@ -34,7 +34,7 @@ pipeline {
                 sh 'git remote add mine git+ssh://git@github.com/forslund/mycroft-skills.git || true'
                 sh 'git push -uf mine ${BRANCH_NAME}'
                 sh 'docker build \
-                    --build-arg major_release=21.02 \
+                    --build-arg major_release=21.2.1 \
                     --build-arg platform=mycroft_mark_1 \
                     --build-arg pull_request=$BRANCH_NAME \
                     --build-arg branch_name=$BRANCH_NAME \
