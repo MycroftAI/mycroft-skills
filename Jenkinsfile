@@ -49,7 +49,7 @@ pipeline {
                     sh 'mkdir -p $HOME/skills/$BRANCH_ALIAS/allure'
                     sh 'mkdir -p $HOME/skills/$BRANCH_ALIAS/mycroft-logs'
                     sh 'docker run \
-                        --volume "$HOME/voight-kampff/identity:/root/.mycroft/identity" \
+                        --volume "$HOME/voight-kampff/identity:/root/.config/mycroft/identity" \
                         --volume "$HOME/skills/$BRANCH_ALIAS/allure:/root/allure" \
                         --volume "$HOME/skills/$BRANCH_ALIAS/mycroft-logs:/var/log/mycroft" \
                         --label build=${JOB_NAME} \
