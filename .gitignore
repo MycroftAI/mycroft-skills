@@ -4,3 +4,5 @@
 # Generated files
 test_skill.yml
 
+# Pycharm project files
+.idea/
