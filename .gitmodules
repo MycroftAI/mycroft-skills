@@ -232,3 +232,12 @@
 [submodule "homescreen"]
 	path = homescreen
 	url = https://github.com/MycroftAI/skill-homescreen
+[submodule "skill-date"]
+	path = skill-date
+	url = https://github.com/MycroftAI/skill-date.git
+[submodule "skill-time"]
+	path = skill-time
+	url = https://github.com/MycroftAI/skill-time.git
+[submodule "skill-homescreen"]
+	path = skill-homescreen
+	url = https://github.com/MycroftAI/skill-homescreen.git
