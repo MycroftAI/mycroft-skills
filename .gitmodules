@@ -229,11 +229,11 @@
 [submodule "camera"]
 	path = camera
 	url = https://github.com/MycroftAI/skill-camera
-[submodule "skill-date"]
-	path = skill-date
+[submodule "date"]
+	path = date
 	url = https://github.com/MycroftAI/skill-date.git
-[submodule "skill-time"]
-	path = skill-time
+[submodule "time"]
+	path = time
 	url = https://github.com/MycroftAI/skill-time.git
 [submodule "homescreen"]
 	path = homescreen
