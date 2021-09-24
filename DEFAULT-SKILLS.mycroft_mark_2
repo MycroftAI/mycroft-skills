@@ -20,7 +20,7 @@ fallback-wolfram-alpha
 fallback-unknown
 mycroft-alarm
 mycroft-audio-record
-https://github.com/MycroftAI/skill-date.git
+date
 mycroft-hello-world
 mycroft-ip
 mycroft-joke
@@ -30,7 +30,7 @@ mycroft-reminder
 mycroft-singing
 mycroft-spelling
 mycroft-support-helper
-https://github.com/MycroftAI/skill-time.git
+time
 mycroft-timer
 mycroft-weather
 mycroft-wiki
