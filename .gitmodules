@@ -229,3 +229,9 @@
 [submodule "lifx-mycroft"]
 	path = lifx-mycroft
 	url = https://github.com/samclane/lifx-mycroft
+[submodule "myepisodes"]
+	path = myepisodes
+	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "notification-skill"]
+	path = notification-skill
+	url = https://github.com/gras64/notification-skill
