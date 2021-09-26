@@ -229,3 +229,9 @@
 [submodule "lifx-mycroft"]
 	path = lifx-mycroft
 	url = https://github.com/samclane/lifx-mycroft
+[submodule "myepisodes"]
+	path = myepisodes
+	url = https://github.com/brezuicabogdan/myepisodes-skill
+[submodule "linux-application-launcher"]
+	path = linux-application-launcher
+	url = https://github.com/Caton101/application-launcher-skill
