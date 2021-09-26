@@ -229,3 +229,6 @@
 [submodule "pandora"]
 	path = pandora
 	url = https://github.com/MycroftAI/skill-pandora
+[submodule "bringlist"]
+	path = bringlist
+	url = https://github.com/AZAZ78/mycroft-bringlist-skill
