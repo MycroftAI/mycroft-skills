@@ -20,7 +20,7 @@ fallback-wolfram-alpha
 fallback-unknown
 mycroft-alarm
 mycroft-audio-record
-date
+mycroft-date-time
 mycroft-hello-world
 mycroft-ip
 mycroft-joke
@@ -30,7 +30,6 @@ mycroft-reminder
 mycroft-singing
 mycroft-spelling
 mycroft-support-helper
-time
 mycroft-timer
 mycroft-weather
 mycroft-wiki
