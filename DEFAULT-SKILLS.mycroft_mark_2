@@ -2,6 +2,7 @@
 mycroft-mark-2
 homescreen
 camera
+wifi-connect
 
 # core
 mycroft-pairing

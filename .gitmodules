@@ -238,3 +238,6 @@
 [submodule "homescreen"]
 	path = homescreen
 	url = https://github.com/MycroftAI/skill-homescreen.git
+[submodule "wifi-connect"]
+	path = wifi-connect
+	url = https://github.com/mycroftAI/skill-wifi-connect
