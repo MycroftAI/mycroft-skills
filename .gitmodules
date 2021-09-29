@@ -202,6 +202,9 @@
 [submodule "mycroft-mark-2"]
 	path = mycroft-mark-2
 	url = https://github.com/mycroftai/skill-mark-2
+[submodule "learning"]
+	path = learning
+	url = https://github.com/gras64/learning-skill
 [submodule "list-manager"]
 	path = list-manager
 	url = https://github.com/lb803/list-manager-skill.git
@@ -223,3 +226,12 @@
 [submodule "dismissal-skill"]
 	path = dismissal-skill
 	url = https://github.com/ChanceNCounter/dismissal-skill.git
+[submodule "mozilla-webthings-gateway-skill"]
+	path = mozilla-webthings-gateway-skill
+	url = https://github.com/mozilla-iot/mozilla-webthings-gateway-skill
+[submodule "fallback-recommendations-skill"]
+	path = fallback-recommendations-skill
+	url = https://github.com/linuss1/fallback-recommendations-skill
+[submodule "mycroft-desktop-launcher"]
+	path = mycroft-desktop-launcher
+	url = https://github.com/mycroftai/skill-desktop-launcher
