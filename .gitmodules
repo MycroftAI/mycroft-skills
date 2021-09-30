@@ -232,3 +232,6 @@
 [submodule "homescreen"]
 	path = homescreen
 	url = https://github.com/MycroftAI/skill-homescreen
+[submodule "aesops-fables"]
+	path = aesops-fables
+	url = https://github.com/gh9st33/aesops-fables-skill
