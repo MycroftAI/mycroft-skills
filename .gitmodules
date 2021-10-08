@@ -232,3 +232,6 @@
 [submodule "homescreen"]
 	path = homescreen
 	url = https://github.com/MycroftAI/skill-homescreen
+[submodule "youtubedlp"]
+	path = youtubedlp
+	url = https://github.com/pjalsGit/youtubedlp-skill
