@@ -232,3 +232,6 @@
 [submodule "homescreen"]
 	path = homescreen
 	url = https://github.com/MycroftAI/skill-homescreen
+[submodule "game-underwater-adeventure"]
+	path = game-underwater-adeventure
+	url = https://github.com/forslund/underwater-adventure-skill
