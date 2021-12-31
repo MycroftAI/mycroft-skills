@@ -241,3 +241,6 @@
 [submodule "wifi-connect"]
 	path = wifi-connect
 	url = https://github.com/mycroftAI/skill-wifi-connect
+[submodule "skill-music-demo"]
+	path = skill-music-demo
+	url = https://github.com/MycroftAI/skill-music-demo
