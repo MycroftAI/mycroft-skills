@@ -244,3 +244,6 @@
 [submodule "skill-music-demo"]
 	path = skill-music-demo
 	url = https://github.com/MycroftAI/skill-music-demo
+[submodule "skill-change-voice"]
+	path = skill-change-voice
+	url = https://github.com/MycroftAI/skill-change-voice
