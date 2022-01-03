@@ -36,3 +36,6 @@ mycroft-weather
 mycroft-wiki
 mycroft-version-checker
 time
+
+# demo
+mycroft-music-demo
