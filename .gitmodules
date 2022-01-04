@@ -91,7 +91,7 @@
 [submodule "auto-volume"]
 	path = auto-volume
 	url = https://github.com/andlo/auto-volume-skill.git
-[submodule "mycroft-mark-2"]
+[submodule "skill-mark-2"]
 	path = skill-mark-2
 	url = https://github.com/mycroftai/skill-mark-2
 [submodule "learning"]
