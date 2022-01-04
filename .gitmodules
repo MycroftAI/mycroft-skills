@@ -13,9 +13,6 @@
 [submodule "mycroft-configuration"]
 	path = skill-configuration
 	url = https://github.com/mycroftai/skill-configuration.git
-[submodule "mycroft-date-time"]
-	path = skill-date-time
-	url = https://github.com/mycroftai/skill-date-time.git
 [submodule "mycroft-fallback-duck-duck-go"]
 	path = fallback-duckduckgo
 	url = https://github.com/mycroftai/fallback-duckduckgo.git
@@ -31,9 +28,6 @@
 [submodule "mycroft-joke"]
 	path = skill-joke
 	url = https://github.com/mycroftai/skill-joke.git
-[submodule "mycroft-mark-1-demo"]
-	path = skill-mark1-demo
-	url = https://github.com/mycroftai/skill-mark1-demo
 [submodule "mycroft-mark-1"]
 	path = mycroft-mark-1
 	url = https://github.com/MycroftAI/mycroft-mark-1.git
@@ -97,90 +91,9 @@
 [submodule "fallback-query"]
 	path = fallback-query
 	url = https://github.com/MycroftAI/skill-query.git
-[submodule "mycroft-wink-iot"]
-	path = mycroft-wink-iot
-	url = https://github.com/MycroftAI/skill-wink-iot.git
-[submodule "game-zork"]
-	path = game-zork
-	url = https://github.com/forslund/white-house-adventure
-[submodule "fallback-aiml"]
-	path = fallback-aiml
-	url = https://github.com/forslund/fallback-aiml.git
-[submodule "decide-skill"]
-	path = decide-skill
-	url = https://github.com/lhannon/decide-skill.git
-[submodule "cocktails"]
-	path = cocktails
-	url = https://github.com/forslund/skill-cocktail.git
-[submodule "plasma-activities-skill"]
-	path = plasma-activities-skill
-	url = https://github.com/AIIX/plasma-activities-skill
-[submodule "email-skill"]
-	path = email-skill
-	url = https://github.com/linuss1/email-skill
-[submodule "emby"]
-	path = emby
-	url = https://github.com/rickyphewitt/emby-skill
-[submodule "skill-number-guess"]
-	path = skill-number-guess
-	url = https://github.com/Arc676/Number-Guess-Mycroft-Skill
-[submodule "skill-crystal-ball"]
-	path = skill-crystal-ball
-	url = https://github.com/Arc676/Crystal-Ball-Mycroft-Skill
-[submodule "homeassistant"]
-	path = homeassistant
-	url = https://github.com/MycroftAI/mycroft-homeassistant
-[submodule "picroft-google-aiy-voicekit"]
-	path = picroft-google-aiy-voicekit
-	url = https://github.com/andlo/picroft-google-aiy-voicekit-skill.git
-[submodule "wikiquote"]
-	path = wikiquote
-	url = https://github.com/danielwine/wikiquote-skill
-[submodule "theia-ide"]
-	path = theia-ide
-	url = https://github.com/andlo/theia-ide-skill.git
-[submodule "krunner-search-skill"]
-	path = krunner-search-skill
-	url = https://github.com/AIIX/krunner-search-skill.git
-[submodule "cut-up-skill"]
-	path = cut-up-skill
-	url = https://github.com/JonStratton/cut-up-skill
-[submodule "skill-aircrack"]
-	path = skill-aircrack
-	url = https://github.com/JonStratton/skill-aircrack
-[submodule "remember"]
-	path = remember
-	url = https://github.com/luke5sky/remember-skill.git
-[submodule "laugh"]
-	path = laugh
-	url = https://github.com/JarbasAl/skill-laugh.git
 [submodule "auto-volume"]
 	path = auto-volume
 	url = https://github.com/andlo/auto-volume-skill.git
-[submodule "telegram"]
-	path = telegram
-	url = https://github.com/luke5sky/telegram-skill
-[submodule "count"]
-	path = count
-	url = https://github.com/andlo/count-skill.git
-[submodule "fairytalez"]
-	path = fairytalez
-	url = https://github.com/andlo/fairytalez-skill.git
-[submodule "speedtest"]
-	path = speedtest
-	url = https://github.com/luke5sky/speedtest-skill.git
-[submodule "pick-number"]
-	path = pick-number
-	url = https://github.com/pcwii/skill-pick-number.git
-[submodule "iss-tracker"]
-	path = iss-tracker
-	url = https://github.com/andlo/iss-tracker-skill.git
-[submodule "dice-skill"]
-	path = dice-skill
-	url = https://github.com/Dragoncraft89/dice-skill
-[submodule "pokemon"]
-	path = pokemon
-	url = https://github.com/retrodaredevil/pokemon-skill.git
 [submodule "mycroft-mark-2"]
 	path = mycroft-mark-2
 	url = https://github.com/mycroftai/skill-mark-2
@@ -230,10 +143,10 @@
 	path = camera
 	url = https://github.com/MycroftAI/skill-camera
 [submodule "date"]
-	path = date
+	path = skill-date
 	url = https://github.com/MycroftAI/skill-date.git
 [submodule "time"]
-	path = time
+	path = skill-time
 	url = https://github.com/MycroftAI/skill-time.git
 [submodule "homescreen"]
 	path = homescreen
