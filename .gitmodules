@@ -28,9 +28,6 @@
 [submodule "mycroft-joke"]
 	path = skill-joke
 	url = https://github.com/mycroftai/skill-joke.git
-[submodule "mycroft-mark-1"]
-	path = mycroft-mark-1
-	url = https://github.com/MycroftAI/mycroft-mark-1.git
 [submodule "mycroft-naptime"]
 	path = skill-naptime
 	url = https://github.com/mycroftai/skill-naptime.git
@@ -95,7 +92,7 @@
 	path = auto-volume
 	url = https://github.com/andlo/auto-volume-skill.git
 [submodule "mycroft-mark-2"]
-	path = mycroft-mark-2
+	path = skill-mark-2
 	url = https://github.com/mycroftai/skill-mark-2
 [submodule "learning"]
 	path = learning
