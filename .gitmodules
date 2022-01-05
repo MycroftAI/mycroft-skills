@@ -103,9 +103,6 @@
 [submodule "dismissal-skill"]
 	path = dismissal-skill
 	url = https://github.com/ChanceNCounter/dismissal-skill.git
-[submodule "fallback-recommendations-skill"]
-	path = fallback-recommendations-skill
-	url = https://github.com/linuss1/fallback-recommendations-skill
 [submodule "camera"]
 	path = camera
 	url = https://github.com/MycroftAI/skill-camera
