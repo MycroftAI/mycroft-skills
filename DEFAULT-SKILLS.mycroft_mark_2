@@ -38,5 +38,5 @@ mycroft-version-checker
 time
 
 # demo
-mycroft-music-demo
-mycroft-change-voice
+skill-music-demo
+skill-change-voice
