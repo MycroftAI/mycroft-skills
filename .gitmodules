@@ -1,105 +1,139 @@
 [submodule "fallback-unknown"]
 	path = fallback-unknown
 	url = https://github.com/mycroftai/fallback-unknown.git
+	branch = mark-ii/qa
 [submodule "fallback-wolfram-alpha"]
 	path = fallback-wolfram-alpha
 	url = https://github.com/mycroftai/fallback-wolfram-alpha.git
+	branch = mark-ii/qa
 [submodule "mycroft-alarm"]
 	path = skill-alarm
 	url = https://github.com/mycroftai/skill-alarm.git
+	branch = mark-ii/qa
 [submodule "mycroft-audio-record"]
 	path = skill-audio-record
 	url = https://github.com/mycroftai/skill-audio-record.git
+	branch = mark-ii/qa
 [submodule "mycroft-configuration"]
 	path = skill-configuration
 	url = https://github.com/mycroftai/skill-configuration.git
+	branch = mark-ii/qa
 [submodule "mycroft-fallback-duck-duck-go"]
 	path = fallback-duckduckgo
 	url = https://github.com/mycroftai/fallback-duckduckgo.git
+	branch = mark-ii/qa
 [submodule "mycroft-hello-world"]
 	path = skill-hello-world
 	url = https://github.com/mycroftai/skill-hello-world.git
+	branch = mark-ii/qa
 [submodule "mycroft-installer"]
 	path = skill-installer
 	url = https://github.com/mycroftai/skill-installer.git
+	branch = mark-ii/qa
 [submodule "mycroft-ip"]
 	path = skill-ip
 	url = https://github.com/mycroftai/skill-ip.git
+	branch = mark-ii/qa
 [submodule "mycroft-joke"]
 	path = skill-joke
 	url = https://github.com/mycroftai/skill-joke.git
+	branch = mark-ii/qa
 [submodule "mycroft-naptime"]
 	path = skill-naptime
 	url = https://github.com/mycroftai/skill-naptime.git
+	branch = mark-ii/qa
 [submodule "mycroft-npr-news"]
 	path = skill-npr-news
 	url = https://github.com/mycroftai/skill-npr-news.git
+	branch = mark-ii/qa
 [submodule "mycroft-pairing"]
 	path = skill-pairing
 	url = https://github.com/mycroftai/skill-pairing.git
+	branch = mark-ii/qa
 [submodule "mycroft-personal"]
 	path = skill-personal
 	url = https://github.com/mycroftai/skill-personal.git
+	branch = mark-ii/qa
 [submodule "mycroft-playback-control"]
 	path = skill-playback-control
 	url = https://github.com/mycroftai/skill-playback-control.git
+	branch = mark-ii/qa
 [submodule "mycroft-reminder"]
 	path = skill-reminder
 	url = https://github.com/mycroftai/skill-reminder.git
+	branch = mark-ii/qa
 [submodule "mycroft-singing"]
 	path = skill-singing
 	url = https://github.com/mycroftai/skill-singing.git
+	branch = mark-ii/qa
 [submodule "mycroft-speak"]
 	path = skill-speak
 	url = https://github.com/mycroftai/skill-speak.git
+	branch = mark-ii/qa
 [submodule "mycroft-spelling"]
 	path = skill-spelling
 	url = https://github.com/mycroftai/skill-spelling.git
+	branch = mark-ii/qa
 [submodule "mycroft-spotify"]
 	path = spotify-skill
 	url = https://github.com/forslund/spotify-skill
+	branch = mark-ii/qa
 [submodule "mycroft-stop"]
 	path = skill-stop
 	url = https://github.com/mycroftai/skill-stop.git
+	branch = mark-ii/qa
 [submodule "mycroft-support-helper"]
 	path = skill-support
 	url = https://github.com/mycroftai/skill-support.git
+	branch = mark-ii/qa
 [submodule "mycroft-timer"]
 	path = mycroft-timer
 	url = https://github.com/mycroftai/mycroft-timer.git
+	branch = mark-ii/qa
 [submodule "mycroft-weather"]
 	path = skill-weather
 	url = https://github.com/mycroftai/skill-weather.git
+	branch = mark-ii/qa
 [submodule "mycroft-version-checker"]
 	path = skill-version-checker
 	url = https://github.com/mycroftai/skill-version-checker.git
+	branch = mark-ii/qa
 [submodule "mycroft-wiki"]
 	path = skill-wiki
 	url = https://github.com/mycroftai/skill-wiki.git
+	branch = mark-ii/qa
 [submodule "mycroft-volume"]
 	path = skill-volume
 	url = https://github.com/mycroftai/skill-volume.git
+	branch = mark-ii/qa
 [submodule "mycroft-release-test"]
 	path = skill-release-test
 	url = https://github.com/mycroftai/skill-release-test
+	branch = mark-ii/qa
 [submodule "skill-finished-booting"]
 	path = skill-finished-booting
 	url = https://github.com/zelmon64/skill-finished-booting.git
+	branch = mark-ii/qa
 [submodule "fallback-query"]
 	path = fallback-query
 	url = https://github.com/MycroftAI/skill-query.git
+	branch = mark-ii/qa
 [submodule "auto-volume"]
 	path = auto-volume
 	url = https://github.com/andlo/auto-volume-skill.git
+	branch = mark-ii/qa
 [submodule "skill-mark-2"]
 	path = skill-mark-2
 	url = https://github.com/mycroftai/skill-mark-2
+	branch = mark-ii/qa
 [submodule "learning"]
 	path = learning
 	url = https://github.com/gras64/learning-skill
+	branch = mark-ii/qa
 [submodule "list-manager"]
 	path = list-manager
 	url = https://github.com/lb803/list-manager-skill.git
+	branch = mark-ii/qa
 [submodule "dismissal-skill"]
 	path = dismissal-skill
 	url = https://github.com/ChanceNCounter/dismissal-skill.git
@@ -109,18 +143,24 @@
 [submodule "date"]
 	path = skill-date
 	url = https://github.com/MycroftAI/skill-date.git
+	branch = mark-ii/qa
 [submodule "time"]
 	path = skill-time
 	url = https://github.com/MycroftAI/skill-time.git
+	branch = mark-ii/qa
 [submodule "homescreen"]
 	path = homescreen
 	url = https://github.com/MycroftAI/skill-homescreen.git
+	branch = mark-ii/qa
 [submodule "wifi-connect"]
 	path = wifi-connect
 	url = https://github.com/mycroftAI/skill-wifi-connect
+	branch = mark-ii/qa
 [submodule "skill-music-demo"]
 	path = skill-music-demo
 	url = https://github.com/MycroftAI/skill-music-demo
+	branch = mark-ii/qa
 [submodule "skill-change-voice"]
 	path = skill-change-voice
 	url = https://github.com/MycroftAI/skill-change-voice
+	branch = mark-ii/qa
