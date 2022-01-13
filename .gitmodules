@@ -1,53 +1,53 @@
 [submodule "fallback-unknown"]
-	path = fallback-unknown
+	path = fallback-unknown.mycroftai
 	url = https://github.com/mycroftai/fallback-unknown.git
 	branch = mark-ii/qa
 [submodule "fallback-wolfram-alpha"]
-	path = fallback-wolfram-alpha
+	path = fallback-wolfram-alpha.mycroftai
 	url = https://github.com/mycroftai/fallback-wolfram-alpha.git
 	branch = mark-ii/qa
 [submodule "mycroft-alarm"]
-	path = skill-alarm
+	path = mycroft-alarm.mycroftai
 	url = https://github.com/mycroftai/skill-alarm.git
 	branch = mark-ii/qa
 [submodule "mycroft-audio-record"]
-	path = skill-audio-record
+	path = mycroft-audio-record.mycroftai
 	url = https://github.com/mycroftai/skill-audio-record.git
 	branch = mark-ii/qa
 [submodule "mycroft-configuration"]
-	path = skill-configuration
+	path = mycroft-configuration.mycroftai
 	url = https://github.com/mycroftai/skill-configuration.git
 	branch = mark-ii/qa
 [submodule "mycroft-fallback-duck-duck-go"]
-	path = fallback-duckduckgo
+	path = mycroft-fallback-duck-duck-go.mycroftai
 	url = https://github.com/mycroftai/fallback-duckduckgo.git
 	branch = mark-ii/qa
 [submodule "mycroft-hello-world"]
-	path = skill-hello-world
+	path = mycroft-hello-world.mycroftai
 	url = https://github.com/mycroftai/skill-hello-world.git
 	branch = mark-ii/qa
 [submodule "mycroft-installer"]
-	path = skill-installer
+	path = mycroft-installer.mycroftai
 	url = https://github.com/mycroftai/skill-installer.git
 	branch = mark-ii/qa
 [submodule "mycroft-ip"]
-	path = skill-ip
+	path = mycroft-ip.mycroftai
 	url = https://github.com/mycroftai/skill-ip.git
 	branch = mark-ii/qa
 [submodule "mycroft-joke"]
-	path = skill-joke
+	path = mycroft-joke.mycroftai
 	url = https://github.com/mycroftai/skill-joke.git
 	branch = mark-ii/qa
 [submodule "mycroft-naptime"]
-	path = skill-naptime
+	path = mycroft-naptime.mycroftai
 	url = https://github.com/mycroftai/skill-naptime.git
 	branch = mark-ii/qa
 [submodule "mycroft-npr-news"]
-	path = skill-npr-news
+	path = mycroft-npr-news.mycroftai
 	url = https://github.com/mycroftai/skill-npr-news.git
 	branch = mark-ii/qa
 [submodule "mycroft-pairing"]
-	path = skill-pairing
+	path = mycroft-pairing.mycroftai
 	url = https://github.com/mycroftai/skill-pairing.git
 	branch = mark-ii/qa
 [submodule "mycroft-personal"]
@@ -55,23 +55,23 @@
 	url = https://github.com/mycroftai/skill-personal.git
 	branch = mark-ii/qa
 [submodule "mycroft-playback-control"]
-	path = skill-playback-control
+	path = mycroft-playback-control.mycroftai
 	url = https://github.com/mycroftai/skill-playback-control.git
 	branch = mark-ii/qa
 [submodule "mycroft-reminder"]
-	path = skill-reminder
+	path = mycroft-reminder.mycroftai
 	url = https://github.com/mycroftai/skill-reminder.git
 	branch = mark-ii/qa
 [submodule "mycroft-singing"]
-	path = skill-singing
+	path = mycroft-singing.mycroftai
 	url = https://github.com/mycroftai/skill-singing.git
 	branch = mark-ii/qa
 [submodule "mycroft-speak"]
-	path = skill-speak
+	path = mycroft-speak.mycroftai
 	url = https://github.com/mycroftai/skill-speak.git
 	branch = mark-ii/qa
 [submodule "mycroft-spelling"]
-	path = skill-spelling
+	path = mycroft-spelling.mycroftai
 	url = https://github.com/mycroftai/skill-spelling.git
 	branch = mark-ii/qa
 [submodule "mycroft-spotify"]
@@ -79,31 +79,31 @@
 	url = https://github.com/forslund/spotify-skill
 	branch = mark-ii/qa
 [submodule "mycroft-stop"]
-	path = skill-stop
+	path = mycroft-stop.mycroftai
 	url = https://github.com/mycroftai/skill-stop.git
 	branch = mark-ii/qa
 [submodule "mycroft-support-helper"]
-	path = skill-support
+	path = mycroft-support-helper.mycroftai
 	url = https://github.com/mycroftai/skill-support.git
 	branch = mark-ii/qa
 [submodule "mycroft-timer"]
-	path = mycroft-timer
+	path = mycroft-timer.mycroftai
 	url = https://github.com/mycroftai/mycroft-timer.git
 	branch = mark-ii/qa
 [submodule "mycroft-weather"]
-	path = skill-weather
+	path = mycroft-weather.mycroftai
 	url = https://github.com/mycroftai/skill-weather.git
 	branch = mark-ii/qa
 [submodule "mycroft-version-checker"]
-	path = skill-version-checker
+	path = mycroft-version-checker.mycroftai
 	url = https://github.com/mycroftai/skill-version-checker.git
 	branch = mark-ii/qa
 [submodule "mycroft-wiki"]
-	path = skill-wiki
+	path = mycroft-wiki.mycroftai
 	url = https://github.com/mycroftai/skill-wiki.git
 	branch = mark-ii/qa
 [submodule "mycroft-volume"]
-	path = skill-volume
+	path = mycroft-volume.mycroftai
 	url = https://github.com/mycroftai/skill-volume.git
 	branch = mark-ii/qa
 [submodule "mycroft-release-test"]
@@ -115,7 +115,7 @@
 	url = https://github.com/zelmon64/skill-finished-booting.git
 	branch = mark-ii/qa
 [submodule "fallback-query"]
-	path = fallback-query
+	path = fallback-query.mycroftai
 	url = https://github.com/MycroftAI/skill-query.git
 	branch = mark-ii/qa
 [submodule "auto-volume"]
@@ -138,29 +138,32 @@
 	path = dismissal-skill
 	url = https://github.com/ChanceNCounter/dismissal-skill.git
 [submodule "camera"]
-	path = camera
+	path = camera.mycroftai
 	url = https://github.com/MycroftAI/skill-camera
 [submodule "date"]
-	path = skill-date
+	path = date.mycroftai
 	url = https://github.com/MycroftAI/skill-date.git
 	branch = mark-ii/qa
 [submodule "time"]
-	path = skill-time
+	path = time.mycroftai
 	url = https://github.com/MycroftAI/skill-time.git
 	branch = mark-ii/qa
 [submodule "homescreen"]
-	path = homescreen
+	path = homescreen.mycroftai
 	url = https://github.com/MycroftAI/skill-homescreen.git
 	branch = mark-ii/qa
 [submodule "wifi-connect"]
-	path = wifi-connect
+	path = wifi-connect.mycroftai
 	url = https://github.com/mycroftAI/skill-wifi-connect
 	branch = mark-ii/qa
 [submodule "skill-music-demo"]
-	path = skill-music-demo
+	path = skill-music-demo.mycroftai
 	url = https://github.com/MycroftAI/skill-music-demo
 	branch = mark-ii/qa
 [submodule "skill-change-voice"]
-	path = skill-change-voice
+	path = skill-change-voice.mycroftai
 	url = https://github.com/MycroftAI/skill-change-voice
 	branch = mark-ii/qa
+[submodule "mycroft-personal.mycroftai"]
+	path = mycroft-personal.mycroftai
+	url = https://github.com/mycroftAI/skill-personal
