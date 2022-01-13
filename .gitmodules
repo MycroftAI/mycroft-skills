@@ -137,9 +137,11 @@
 [submodule "dismissal-skill"]
 	path = dismissal-skill
 	url = https://github.com/ChanceNCounter/dismissal-skill.git
+	branch = master
 [submodule "camera"]
 	path = camera.mycroftai
 	url = https://github.com/MycroftAI/skill-camera
+	branch = 21.02
 [submodule "date"]
 	path = date.mycroftai
 	url = https://github.com/MycroftAI/skill-date.git
@@ -167,3 +169,4 @@
 [submodule "mycroft-personal.mycroftai"]
 	path = mycroft-personal.mycroftai
 	url = https://github.com/mycroftAI/skill-personal
+	branch = 21.02
