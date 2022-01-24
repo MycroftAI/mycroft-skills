@@ -232,3 +232,6 @@
 [submodule "homescreen"]
 	path = homescreen
 	url = https://github.com/MycroftAI/skill-homescreen
+[submodule "respeaker-mic-array-two-leds-skill"]
+	path = respeaker-mic-array-two-leds-skill
+	url = https://github.com/blue1stone/respeaker-mic-array-two-leds-skill
