@@ -232,3 +232,6 @@
 [submodule "homescreen"]
 	path = homescreen
 	url = https://github.com/MycroftAI/skill-homescreen
+[submodule "raspberry-pi-skill"]
+	path = raspberry-pi-skill
+	url = https://github.com/ddurdin/piskill
