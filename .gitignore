@@ -6,3 +6,5 @@ test_skill.yml
 
 # Pycharm project files
 .idea/
+.wh.*
+.msm
