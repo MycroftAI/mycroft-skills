@@ -232,3 +232,6 @@
 [submodule "homescreen"]
 	path = homescreen
 	url = https://github.com/MycroftAI/skill-homescreen
+[submodule "bring-shopping-lists"]
+	path = bring-shopping-lists
+	url = https://github.com/blue1stone/bring-shopping-lists-skill
