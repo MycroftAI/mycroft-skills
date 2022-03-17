@@ -126,22 +126,6 @@
 	path = skill-mark-2
 	url = https://github.com/mycroftai/skill-mark-2
 	branch = mark-ii/qa
-[submodule "learning"]
-	path = learning
-	url = https://github.com/gras64/learning-skill
-	branch = mark-ii/qa
-[submodule "list-manager"]
-	path = list-manager
-	url = https://github.com/lb803/list-manager-skill.git
-	branch = mark-ii/qa
-[submodule "dismissal-skill"]
-	path = dismissal-skill
-	url = https://github.com/ChanceNCounter/dismissal-skill.git
-	branch = master
-[submodule "camera"]
-	path = camera.mycroftai
-	url = https://github.com/MycroftAI/skill-camera
-	branch = 21.02
 [submodule "date"]
 	path = date.mycroftai
 	url = https://github.com/MycroftAI/skill-date.git
@@ -163,10 +147,6 @@
 	url = https://github.com/MycroftAI/skill-music-demo
 	branch = mark-ii/qa
 [submodule "skill-change-voice"]
-	path = skill-change-voice.mycroftai
-	url = https://github.com/MycroftAI/skill-change-voice
+	path = skill-change-voice
+	url = https://github.com/mycroftAI/skill-change-voice
 	branch = mark-ii/qa
-[submodule "mycroft-personal.mycroftai"]
-	path = mycroft-personal.mycroftai
-	url = https://github.com/mycroftAI/skill-personal
-	branch = 21.02
