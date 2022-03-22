@@ -19,7 +19,7 @@ pipeline {
             }
             environment {
                 //spawns GITHUB_USR and GITHUB_PSW environment variables
-                GITHUB=credentials('38b2e4a6-167a-40b2-be6f-d69be42c8190')
+                GITHUB=credentials('devops-mycroft_mycroft-skills-vk-tests')
                 // Some branches have a "/" in their name (e.g. feature/new-and-cool)
                 // Some commands, such as those tha deal with directories, don't
                 // play nice with this naming convention.  Define an alias for the
