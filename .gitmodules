@@ -150,3 +150,6 @@
 	path = skill-change-voice
 	url = https://github.com/mycroftAI/skill-change-voice
 	branch = mark-ii/qa
+[submodule "mycroft-radio"]
+	path = mycroft-radio
+	url = https://github.com/MycroftAI/skill-mycroft-radio
