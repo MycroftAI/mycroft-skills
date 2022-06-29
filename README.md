@@ -1,5 +1,5 @@
 # <img src="https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/praying-hands.svg" card_color="#22A7F0" width="50" height="50" style="vertical-align:bottom"/> Todays Gospel
-This skill plays today's gospel from evangeli.net
+This skill plays today's gospel from evangeli.net in Mycroft.ai
 
 ## About
 This is a mycroft skill that will play the appropriate liturgic day gospel reading
