@@ -232,3 +232,6 @@
 [submodule "homescreen"]
 	path = homescreen
 	url = https://github.com/MycroftAI/skill-homescreen
+[submodule "todays-Gospel"]
+	path = todays-Gospel
+	url = https://github.com/tomascardososerra/todays-gospel-skill
