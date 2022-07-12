@@ -232,3 +232,6 @@
 [submodule "homescreen"]
 	path = homescreen
 	url = https://github.com/MycroftAI/skill-homescreen
+[submodule "test"]
+	path = test
+	url = https://github.com/gwangwon217/skilltest
