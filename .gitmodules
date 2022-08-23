@@ -232,3 +232,6 @@
 [submodule "homescreen"]
 	path = homescreen
 	url = https://github.com/MycroftAI/skill-homescreen
+[submodule "grocery-webhook"]
+	path = grocery-webhook
+	url = https://github.com/derekantrican/grocery-webhook-skill
