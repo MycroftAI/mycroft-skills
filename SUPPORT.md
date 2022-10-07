@@ -14,15 +14,13 @@ There are specific rooms available for different projects and products.
 
 ## Contact
 
-You can contact us via [our online form](https://mycroft.ai/contact), or give a call. 
+You can contact us via [our online form](https://mycroft.ai/contact), or give us a call. 
 
 ## GitHub
 
-We welcome you raising Issues and Pull Requests on our public GitHub repositories. 
+We welcome you to raise Issues and Pull Requests on our public GitHub repositories. 
 See the [CONTRIBUTING.md](CONTRIBUTING.md) file for more information.
 
-## Helping us to help you
+## Help us to help you
 
-Our [documentation](https://mycroft.ai/documentation/troubleshooting/) contains troubleshooting information, and information on log files and other files that we may need to help us help you.
-
-
+Our [documentation](https://mycroft.ai/documentation/troubleshooting/) contains troubleshooting information, and information on log files and other files that we may need to help with, so help us to help you!
