@@ -232,3 +232,6 @@
 [submodule "homescreen"]
 	path = homescreen
 	url = https://github.com/MycroftAI/skill-homescreen
+[submodule "tv-remote-control"]
+	path = tv-remote-control
+	url = https://github.com/devvmh/tv-remote-control-mycroft-skill
