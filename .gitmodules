@@ -232,3 +232,6 @@
 [submodule "homescreen"]
 	path = homescreen
 	url = https://github.com/MycroftAI/skill-homescreen
+[submodule "rhythmbox-skill"]
+	path = rhythmbox-skill
+	url = https://github.com/dwfalk/rhythmbox-skill
