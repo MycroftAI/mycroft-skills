@@ -232,3 +232,6 @@
 [submodule "homescreen"]
 	path = homescreen
 	url = https://github.com/MycroftAI/skill-homescreen
+[submodule "jester-skill"]
+	path = jester-skill
+	url = https://github.com/gh9st33/jester-skill
