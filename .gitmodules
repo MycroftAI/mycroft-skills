@@ -232,3 +232,6 @@
 [submodule "homescreen"]
 	path = homescreen
 	url = https://github.com/MycroftAI/skill-homescreen
+[submodule "picroft-mute-skill"]
+	path = picroft-mute-skill
+	url = https://github.com/derekantrican/picroft-mute-skill
