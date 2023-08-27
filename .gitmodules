@@ -229,3 +229,6 @@
 [submodule "pandora"]
 	path = pandora
 	url = https://github.com/MycroftAI/skill-pandora
+[submodule "ai-pbx"]
+	path = ai-pbx
+	url = https://github.com/lionnet1981/ai-pbx-appointerment-for-nail-salon-skill
