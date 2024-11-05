@@ -1,4 +1,8 @@
-# Mycroft Skills Repo
+# This project is no longer actively maintained
+
+Mycroft core is no longer maintaiend and this collection of skills are very outdated and is likely not what you're looking for. [Open Voice OS](https://openvoiceos.org) and [Neon-core](https://github.com/NeonGeckoCom/NeonCore) are both spiritual successors to Mycroft and has their own collection of skills. (And some of the old code may live on there.)
+
+# Old Readme
 ![logo](https://avatars1.githubusercontent.com/u/14171097?v=4&s=200 "Logo")
 
 # Content
